@@ -47,4 +47,48 @@ final class HomePresenter extends Nette\Application\UI\Presenter
     function renderDefault(){
 
     }
+
+    protected function createComponentAddContactForm(): UI\Form
+    {
+        $form = new UI\Form;
+
+        $form->addText('name', 'Zadejte jméno:')
+            ->setHtmlAttribute('class', 'form-control')
+            ->setHtmlAttribute('id', 'pasteNameForm')
+            ->setRequired('Zadejte jméno.');
+
+        $form->addText('email', 'Zadejte email:')
+            ->setHtmlAttribute('class', 'form-control')
+            ->setRequired('Zadejte email.');
+
+        $form->addTextArea('message', 'Zadejte zprávu:')
+            ->setHtmlAttribute('class', 'form-control')
+            ->setRequired('Zadejte zprávu.');
+
+        $form->addSubmit('send', 'Odeslat')
+            ->setHtmlAttribute('class', 'btn btn-outline-success');
+
+        $form->onSuccess[] = [$this, 'addContactSucceeded'];
+        return $form;
+    }
+
+    public function addContactSucceeded(UI\Form $form, \stdClass $values): void
+    {
+        $mail = new Message;
+        $mail->setFrom($this->sender)
+            ->addTo('petr.plachy@cefip.cz')
+            ->setSubject('Byl jste kontaktován')
+            ->setHTMLBody("<b>Formulář vyplněn</b>, pan/paní - ".$values->name."<br/> s emailem - <a href='".$values->email."'>".$values->email."</a><br/> Napsal zprávu:<br/>".$values->message);
+        
+
+        $mailer = new Nette\Mail\SmtpMailer(
+            host: $this->SMTP_SERVER,
+            username: $this->SMTP_EMAIL,
+            password: $this->SMTP_PASSWORD,
+            encryption: 'ssl'
+        );
+        
+        $mailer->send($mail);
+        $this->flashMessage('Úspěšně kontaktováno!', 'success');
+    }
 }
