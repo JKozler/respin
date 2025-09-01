@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReSpin Team s.r.o. - Opravy vřeten, výklopných hlav a revolverů</title>
+    <link rel="icon" type="image/x-icon" href="{$basePath}/favicon.ico">
+    <meta name="description" content="Specializujeme se na opravy vřeten, výklopných hlav a revolverových hlav obráběcích strojů. Profesionální servis v Ostravě.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        :root {
+            --light-blue: rgb(91, 155, 213);
+            --dark-blue: rgb(68, 114, 196);
+            --white: #ffffff;
+            --light-gray: #f8f9fa;
+            --dark-gray: #666;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+            color: var(--white);
+            padding: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 20px rgba(68, 114, 196, 0.2);
+        }
+        
+        .header.scrolled {
+            padding: 0;
+            box-shadow: 0 2px 20px rgba(68, 114, 196, 0.3);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: var(--white);
+        }
+        
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--white);
+            border-radius: 50%;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dark-blue);
+            font-weight: bold;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .nav-item {
+            margin: 0 15px;
+        }
+        
+        .nav-link {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-link:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: var(--white);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 15px;
+            border-radius: 25px;
+            margin-left: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-info span {
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 5px;
+        }
+        
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--white);
+            margin: 3px 0;
+            transition: 0.3s;
+            border-radius: 2px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+            color: var(--white);
+            padding: 120px 0 80px;
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            opacity: 0.5;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .btn-primary {
+            background: var(--white);
+            color: var(--dark-blue);
+        }
+        
+        .btn-primary:hover {
+            background: rgba(255, 255, 255, 0.9);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--white);
+            color: var(--dark-blue);
+            transform: translateY(-2px);
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--dark-blue);
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: var(--light-blue);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--dark-gray);
+            margin-bottom: 60px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: var(--white);
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: left;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(68, 114, 196, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--light-blue), var(--dark-blue));
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover::before {
+            transform: translateX(0);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(68, 114, 196, 0.15);
+        }
+        
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--light-blue), var(--dark-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--white);
+            font-size: 24px;
+        }
+        
+        .service-card h3 {
+            font-size: 1.4rem;
+            color: var(--dark-blue);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .service-card p {
+            color: var(--dark-gray);
+            line-height: 1.6;
+        }
+        
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: var(--light-gray);
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .about-text h2 {
+            font-size: 2.5rem;
+            color: var(--dark-blue);
+            margin-bottom: 30px;
+        }
+        
+        .about-text p {
+            font-size: 1.1rem;
+            color: var(--dark-gray);
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 20px;
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--dark-blue);
+            display: block;
+        }
+        
+        .stat-label {
+            color: var(--dark-gray);
+            font-size: 0.9rem;
+        }
+        
+        /* Brands Section */
+        .brands {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        
+        .brands-container {
+            text-align: center;
+        }
+        
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .brand-category {
+            background: var(--light-gray);
+            padding: 30px 20px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .brand-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .brand-category h3 {
+            color: var(--dark-blue);
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .brand-list {
+            font-size: 0.9rem;
+            color: var(--dark-gray);
+            line-height: 1.8;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+            color: var(--white);
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        
+        .contact-info-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+        
+        .contact-details h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .contact-details p {
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: var(--white);
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .footer p {
+            opacity: 0.8;
+        }
+        
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: flex;
+            }
+            
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--dark-blue);
+                flex-direction: column;
+                padding: 20px;
+            }
+            
+            .nav-menu.active {
+                display: flex;
+            }
+            
+            .nav-item {
+                margin: 10px 0;
+            }
+            
+            .contact-info {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero {
+                padding: 100px 0 60px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .service-card {
+                padding: 30px 20px;
+            }
+            
+            .brands-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Loading animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--dark-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid var(--white);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon"><img style="width: 100%;" src="{$basePath}/respinLogo.png" alt="respinLogo"/></div>
+                ReSpin Team
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Úvod</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Služby pro vás</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Kdo jsme</a></li>
+                <li class="nav-item"><a href="#brands" class="nav-link">Zvládneme pro vás</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontakty</a></li>
+            </nav>
+            
+            <div class="contact-info">
+                <span>📞 736 127 540</span>
+                <span>✉ priprava@respinteam.cz</span>
+            </div>
+            
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        {include content}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ReSpin Team s.r.o. Všechna práva vyhrazena. | IČ: 08504024</p>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener('load', function() {
+            const loading = document.getElementById('loading');
+            setTimeout(() => {
+                loading.classList.add('hidden');
+            }, 1000);
+        });
+
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileMenuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            
+            // Animate hamburger menu
+            const spans = this.querySelectorAll('span');
+            spans[0].style.transform = navMenu.classList.contains('active') ? 'rotate(45deg) translate(5px, 5px)' : '';
+            spans[1].style.opacity = navMenu.classList.contains('active') ? '0' : '1';
+            spans[2].style.transform = navMenu.classList.contains('active') ? 'rotate(-45deg) translate(7px, -6px)' : '';
+        });
+
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const spans = mobileMenuToggle.querySelectorAll('span');
+                spans[0].style.transform = '';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = '';
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerHeight = document.getElementById('header').offsetHeight;
+                    const targetPosition = target.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animate elements on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.service-card, .stat, .brand-category');
+            
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        // Initialize animation styles
+        document.querySelectorAll('.service-card, .stat, .brand-category').forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(30px)';
+            element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+</html>
