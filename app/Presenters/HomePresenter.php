@@ -48,6 +48,26 @@ final class HomePresenter extends Nette\Application\UI\Presenter
 
     }
 
+    function renderServices(){
+
+    }
+
+    function renderAbout(){
+
+    }
+
+    function renderSupport(){
+
+    }
+
+    function renderContacts(){
+
+    }
+
+    function renderGallery(){
+
+    }
+
     protected function createComponentAddContactForm(): UI\Form
     {
         $form = new UI\Form;

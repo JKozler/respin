@@ -13,6 +13,290 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+        .gallery {
+    padding: 80px 0;
+    background: var(--light-gray);
+}
+
+.gallery-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.filter-btn {
+    padding: 10px 25px;
+    border: 2px solid var(--light-blue);
+    background: transparent;
+    color: var(--dark-blue);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--light-blue);
+    color: var(--white);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(91, 155, 213, 0.3);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transform: scale(1);
+}
+
+.gallery-item.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+.gallery-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(68, 114, 196, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(68, 114, 196, 0.9));
+    color: var(--white);
+    padding: 30px 20px 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    transform: translateY(0);
+}
+
+.gallery-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.gallery-content p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+/* Gallery Modal */
+.gallery-modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+}
+
+.gallery-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.modal-image {
+    width: 100%;
+    max-width: 800px;
+    max-height: 60vh;
+    object-fit: contain;
+    display: block;
+}
+
+.modal-info {
+    padding: 20px;
+    text-align: center;
+    background: var(--white);
+}
+
+.modal-info h3 {
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.modal-info p {
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+    z-index: 10001;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    pointer-events: none;
+}
+
+.modal-prev,
+.modal-next {
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-prev:hover,
+.modal-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+
+/* Responsive Gallery */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    
+    .gallery-item img {
+        height: 200px;
+    }
+    
+    .gallery-filters {
+        gap: 10px;
+    }
+    
+    .filter-btn {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+    
+    .modal-content {
+        max-width: 95vw;
+        max-height: 95vh;
+        margin: 10px;
+    }
+    
+    .modal-info {
+        padding: 15px;
+    }
+    
+    .modal-nav {
+        padding: 0 10px;
+    }
+    
+    .modal-prev,
+    .modal-next {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .gallery-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filter-btn {
+        width: 200px;
+    }
+}
         
         body {
             font-family: 'Calibri', Arial, sans-serif;
@@ -722,6 +1006,100 @@
     transform: translateY(-2px);
 }
     </style>
+    <style>
+/* Dropdown Menu Styling */
+.nav-item {
+    position: relative;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--white);
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+.nav-item:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-item {
+    padding: 12px 20px;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-link {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    padding: 4px 0;
+}
+
+.dropdown-link:hover {
+    color: var(--dark-blue);
+}
+
+/* Mobile dropdown adjustments */
+@media (max-width: 768px) {
+    .dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 10px;
+        border-radius: 8px;
+        display: none;
+    }
+
+    .dropdown.show {
+        display: block;
+    }
+
+    .dropdown-link {
+        color: rgba(255, 255, 255, 0.9);
+        padding: 8px 12px;
+    }
+
+    .dropdown-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+</style>
 </head>
 <body>
     <div class="loading" id="loading">
@@ -729,32 +1107,80 @@
     </div>
 
     <header class="header" id="header">
-        <div class="nav-container">
-            <a href="#home" class="logo">
-                <div class="logo-icon"><img style="width: 100%;" src="{$basePath}/respinLogo.png" alt="respinLogo"/></div>
-                ReSpin Team
-            </a>
-            
-            <nav class="nav-menu" id="navMenu">
-                <li class="nav-item"><a href="#home" class="nav-link">Úvod</a></li>
-                <li class="nav-item"><a href="#services" class="nav-link">Služby pro vás</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">Kdo jsme</a></li>
-                <li class="nav-item"><a href="#brands" class="nav-link">Zvládneme pro vás</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Kontakty</a></li>
-            </nav>
-            
-            <div class="contact-info">
-                <span>📞 736 127 540</span>
-                <span>✉ priprava@respinteam.cz</span>
+    <div class="nav-container">
+        <a n:href="Home:" class="logo">
+            <div class="logo-icon">
+                <img style="width: 100%;" src="{$basePath}/respinLogo.png" alt="respinLogo"/>
             </div>
+            ReSpin Team
+        </a>
+        
+        <nav class="nav-menu" id="navMenu">
+            <!-- Služby pro Vás - s dropdown menu -->
+            <li class="nav-item">
+                <a n:href="Home:services" class="nav-link">Služby pro Vás</a>
+                <div class="dropdown">
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#vretena" class="dropdown-link">Vřetena</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#revolverove" class="dropdown-link">Revolverové hlavy</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#vyklopne" class="dropdown-link">Otočné a výklopné hlavy</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#hotel" class="dropdown-link">Vřetenový hotel</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#brouseni" class="dropdown-link">Broušení</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#servis" class="dropdown-link">Servis CNC strojů</a>
+                    </div>
+                </div>
+            </li>
             
-            <div class="mobile-menu-toggle" id="mobileMenuToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <!-- Podpora - s dropdown menu -->
+            <li class="nav-item">
+                <a n:href="Home:support" class="nav-link">Podpora</a>
+                <div class="dropdown">
+                    <div class="dropdown-item">
+                        <a n:href="Home:support#faq" class="dropdown-link">FAQ</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:support#reseni" class="dropdown-link">Řešení potíží</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:support#udrzba" class="dropdown-link">Tipy na údržbu</a>
+                    </div>
+                </div>
+            </li>
+            
+            <!-- Ostatní položky bez dropdown -->
+            <li class="nav-item">
+                <a n:href="Home:gallery" class="nav-link">Galerie</a>
+            </li>
+            <li class="nav-item">
+                <a n:href="Home:about" class="nav-link">O nás</a>
+            </li>
+            <li class="nav-item">
+                <a n:href="Home:contacts" class="nav-link">Kontakt</a>
+            </li>
+        </nav>
+        
+        <div class="contact-info">
+            <span>📞 <a style="color: white;text-decoration: none !important;" href="tel:+420736127540">736 127 540</a></span>
+            <span>✉ <a style="color: white;text-decoration: none !important;" href="mailto:priprava@respinteam.cz">priprava@respinteam.cz</a></span>
         </div>
-    </header>
+        
+        <div class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
 
     <main>
         {include content}
@@ -849,5 +1275,155 @@
         window.addEventListener('scroll', animateOnScroll);
         window.addEventListener('load', animateOnScroll);
     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Gallery filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            this.classList.add('active');
+            
+            const filter = this.getAttribute('data-filter');
+            
+            galleryItems.forEach(item => {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+        });
+    });
+    
+    // Gallery modal functionality
+    const modal = document.getElementById('galleryModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalClose = document.querySelector('.modal-close');
+    const modalPrev = document.getElementById('modalPrev');
+    const modalNext = document.getElementById('modalNext');
+    
+    let currentImageIndex = 0;
+    let visibleImages = [];
+    
+    function updateVisibleImages() {
+        visibleImages = Array.from(galleryItems).filter(item => !item.classList.contains('hidden'));
+    }
+    
+    function openModal(index) {
+        updateVisibleImages();
+        currentImageIndex = index;
+        const item = visibleImages[currentImageIndex];
+        const img = item.querySelector('img');
+        const title = item.querySelector('h3').textContent;
+        const description = item.querySelector('p').textContent;
+        
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+        modalTitle.textContent = title;
+        modalDescription.textContent = description;
+        
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    function showPrevImage() {
+        updateVisibleImages();
+        currentImageIndex = (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
+        openModal(currentImageIndex);
+    }
+    
+    function showNextImage() {
+        updateVisibleImages();
+        currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
+        openModal(currentImageIndex);
+    }
+    
+    // Add click events to gallery items
+    galleryItems.forEach((item, index) => {
+        item.addEventListener('click', function() {
+            updateVisibleImages();
+            const visibleIndex = visibleImages.indexOf(item);
+            if (visibleIndex !== -1) {
+                openModal(visibleIndex);
+            }
+        });
+    });
+    
+    // Modal controls
+    modalClose.addEventListener('click', closeModal);
+    modalPrev.addEventListener('click', showPrevImage);
+    modalNext.addEventListener('click', showNextImage);
+    
+    // Close modal when clicking outside
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (modal.classList.contains('active')) {
+            switch(e.key) {
+                case 'Escape':
+                    closeModal();
+                    break;
+                case 'ArrowLeft':
+                    showPrevImage();
+                    break;
+                case 'ArrowRight':
+                    showNextImage();
+                    break;
+            }
+        }
+    });
+    
+    // Touch gestures for mobile
+    let startX = 0;
+    let startY = 0;
+    
+    modalImage.addEventListener('touchstart', function(e) {
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+    });
+    
+    modalImage.addEventListener('touchend', function(e) {
+        if (!startX || !startY) return;
+        
+        const endX = e.changedTouches[0].clientX;
+        const endY = e.changedTouches[0].clientY;
+        
+        const diffX = startX - endX;
+        const diffY = startY - endY;
+        
+        // Only trigger swipe if horizontal movement is greater than vertical
+        if (Math.abs(diffX) > Math.abs(diffY)) {
+            if (Math.abs(diffX) > 50) { // Minimum swipe distance
+                if (diffX > 0) {
+                    showNextImage(); // Swipe left - next image
+                } else {
+                    showPrevImage(); // Swipe right - previous image
+                }
+            }
+        }
+        
+        startX = 0;
+        startY = 0;
+    });
+});
+</script>
 </body>
 </html>
