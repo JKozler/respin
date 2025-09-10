@@ -1,0 +1,46 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Přidat kategorii</h1>
+    <a n:href="Admin:categories" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Zpět
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                {form categoryForm}
+                    <div class="mb-3">
+                        {label name  /}
+                        {input name }
+                    </div>
+                    <div class="mb-3">
+                        {label slug  /}
+                        {input slug }
+                        <div class="form-text">URL identifikátor kategorie (např. vretena)</div>
+                    </div>
+                    <div class="mb-3">
+                        {label description  /}
+                        {input description }
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            {label sort_order  /}
+                            {input sort_order }
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check mt-4">
+                                {input active}
+                                {label active /}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {input save}
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+</div>

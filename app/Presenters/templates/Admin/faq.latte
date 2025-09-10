@@ -1,0 +1,28 @@
+{block content}
+<h2>Seznam FAQ</h2>
+
+<p><a n:href="addFaq" class="btn btn-primary">+ Přidat FAQ</a></p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Otázka</th>
+            <th>Odpověď</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        {foreach $faqs as $faq}
+            <tr>
+                <td>{$faq->id}</td>
+                <td>{$faq->question|truncate:60}</td>
+                <td>{$faq->answer|truncate:80}</td>
+                <td>
+                    <a n:href="editFaq $faq->id">✏️ Upravit</a> | 
+                    <a n:href="deleteFaq $faq->id" onclick="return confirm('Opravdu smazat?')">🗑️ Smazat</a>
+                </td>
+            </tr>
+        {/foreach}
+    </tbody>
+</table>

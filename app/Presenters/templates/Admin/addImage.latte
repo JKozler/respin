@@ -1,0 +1,107 @@
+{block content}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Přidat obrázek</h1>
+    <a n:href="Admin:images" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Zpět
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                {form imageForm}
+                    <div class="mb-3">
+                        {label category_id  /}
+                        {input category_id  value => $selectedCategoryId ?? null}
+                    </div>
+                    <div class="mb-3">
+                        {label title  /}
+                        {input title }
+                    </div>
+                    <div class="mb-3">
+                        {label description  /}
+                        {input description }
+                    </div>
+                    <div class="mb-3">
+                        {label alt_text  /}
+                        {input alt_text }
+                        <div class="form-text">Text pro čtečky obrazovky a SEO</div>
+                    </div>
+                    <div class="mb-3">
+                        {label image  /}
+                        {input image }
+                        <div class="form-text">Maximální velikost: 5 MB. Povolené formáty: JPG, PNG, GIF</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            {label sort_order  /}
+                            {input sort_order }
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check mt-4">
+                                {input active }
+                                {label active /}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {input save }
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+// Automatické generování slug z názvu kategorie nebo souboru
+document.addEventListener('DOMContentLoaded', function() {
+    const nameInput = document.getElementById('category-name');
+    const slugInput = document.getElementById('category-slug');
+    
+    if (nameInput && slugInput) {
+        nameInput.addEventListener('input', function() {
+            if (slugInput.dataset.manual !== 'true') {
+                slugInput.value = createSlugWithExt(this.value);
+            }
+        });
+        
+        slugInput.addEventListener('input', function() {
+            this.dataset.manual = 'true';
+            this.value = createSlugWithExt(this.value);
+        });
+    }
+    
+    function createSlugWithExt(text) {
+        const parts = text.split('.');
+        if (parts.length > 1) {
+            const ext = parts.pop().toLowerCase();
+            const name = parts.join('.');
+            return createSlug(name) + '.' + ext;
+        }
+        return createSlug(text);
+    }
+
+    function createSlug(text) {
+        const replacements = {
+            'á': 'a','č': 'c','ď': 'd','é': 'e','ě': 'e',
+            'í': 'i','ň': 'n','ó': 'o','ř': 'r','š': 's',
+            'ť': 't','ú': 'u','ů': 'u','ý': 'y','ž': 'z',
+            'Á': 'a','Č': 'c','Ď': 'd','É': 'e','Ě': 'e',
+            'Í': 'i','Ň': 'n','Ó': 'o','Ř': 'r','Š': 's',
+            'Ť': 't','Ú': 'u','Ů': 'u','Ý': 'y','Ž': 'z'
+        };
+        
+        let slug = text;
+        for (const [czech, ascii] of Object.entries(replacements)) {
+            slug = slug.replace(new RegExp(czech, 'g'), ascii);
+        }
+        
+        return slug
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    }
+});
+</script>

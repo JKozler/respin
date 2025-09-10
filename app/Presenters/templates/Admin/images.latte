@@ -1,0 +1,102 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">
+        Správa obrázků
+        {if isset($currentCategory)} - {$currentCategory->name}{/if}
+    </h1>
+    <div>
+        <a n:href="Admin:addImage" class="btn btn-primary me-2">
+            <i class="fas fa-plus"></i> Přidat obrázek
+        </a>
+        {if isset($currentCategory)}
+            <a n:href="Admin:images" class="btn btn-secondary">Zobrazit všechny</a>
+        {/if}
+    </div>
+</div>
+
+{if count($categories) > 1}
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h6>Filtrovat podle kategorie:</h6>
+                <div class="btn-group" role="group">
+                    <a n:href="Admin:images" class="btn btn-outline-secondary {if !isset($currentCategory)}active{/if}">
+                        Všechny
+                    </a>
+                    <a n:foreach="$categories as $cat" 
+                       n:href="Admin:images, categoryId => $cat->id" 
+                       class="btn btn-outline-secondary {if isset($currentCategory) && $currentCategory->id == $cat->id}active{/if}">
+                        {$cat->name}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/if}
+
+<div class="card">
+    <div class="card-body">
+        {if count($images) == 0}
+            <div class="text-center py-5">
+                <i class="fas fa-images fa-4x text-muted mb-3"></i>
+                <h4>Žádné obrázky</h4>
+                <p class="text-muted">V této kategorii zatím nejsou žádné obrázky.</p>
+                <a n:href="Admin:addImage" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Přidat první obrázek
+                </a>
+            </div>
+        {else}
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Náhled</th>
+                            <th>Název</th>
+                            <th>Kategorie</th>
+                            <th>Pořadí</th>
+                            <th>Stav</th>
+                            <th>Akce</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr n:foreach="$images as $image">
+                            <td>
+                                <img src="/uploads/gallery/{$image->filename}" 
+                                     alt="{$image->alt_text}" 
+                                     class="image-thumbnail rounded">
+                            </td>
+                            <td>
+                                <strong>{$image->title}</strong>
+                                {if $image->description}
+                                    <br><small class="text-muted">{$image->description|truncate:50}</small>
+                                {/if}
+                            </td>
+                            <td>
+                               
+                            </td>
+                            <td>{$image->sort_order}</td>
+                            <td>
+                                <span class="badge bg-{$image->active ? 'success' : 'secondary'}">
+                                    {$image->active ? 'Aktivní' : 'Neaktivní'}
+                                </span>
+                            </td>
+                            <td>
+                                <a n:href="Admin:editImage, id => $image->id" 
+                                   class="btn btn-sm btn-outline-primary btn-action">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+                                <a n:href="Admin:deleteImage, id => $image->id" 
+                                   class="btn btn-sm btn-outline-danger btn-action"
+                                   onclick="return confirm('Opravdu smazat tento obrázek?')">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        {/if}
+    </div>
+</div>

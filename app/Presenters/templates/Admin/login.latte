@@ -1,0 +1,28 @@
+{block content}
+
+<div class="card login-card">
+    <div class="card-body p-5">
+        <div class="text-center mb-4">
+            <h3>Přihlášení</h3>
+            <p class="text-muted">Administrace galerie</p>
+        </div>
+        
+        <div n:foreach="$flashes as $flash" class="alert alert-{$flash->type}" role="alert">
+            {$flash->message}
+        </div>
+        
+        {form loginForm}
+            <div class="mb-3">
+                {label username /}
+                {input username}
+            </div>
+            <div class="mb-4">
+                {label password /}<br/>
+                {input password }
+            </div>
+            <div class="d-grid">
+                {input login }
+            </div>
+        {/form}
+    </div>
+</div>

@@ -26,57 +26,20 @@
             <!-- FAQ Tab -->
             <div class="tab-content active" id="faq">
                 <div class="faq-container">
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3>Jak často by se měla provádět preventivní údržba vřetena?</h3>
-                            <span class="faq-toggle">+</span>
+                    {foreach $faqs as $faq}
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>{$faq->question}</h3>
+                                <span class="faq-toggle">+</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>{$faq->answer}</p>
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            <p>Preventivní údržba by se měla provádět podle provozních hodin a doporučení výrobce. Obecně doporučujeme kontrolu každých 2000-3000 provozních hodin, nebo minimálně jednou ročně při intenzivním provozu.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3>Jaké jsou příznaky poškození vřetena?</h3>
-                            <span class="faq-toggle">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Mezi hlavní příznaky patří: zvýšené vibrace, hluk během provozu, zahřívání vřetena, snížená přesnost obrábění, problémy s upínáním nástrojů nebo nestabilní otáčky.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3>Jak dlouho trvá standardní oprava vřetena?</h3>
-                            <span class="faq-toggle">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Doba opravy závisí na rozsahu poškození. Standardní oprava trvá 7-14 dní. Komplexní rekonstrukce může trvat až 3 týdny. Po diagnostice vám poskytneme přesný časový harmonogram.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3>Poskytujete záruku na opravy?</h3>
-                            <span class="faq-toggle">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Ano, na všechny naše opravy poskytujeme záruku. Délka záruky závisí na typu opravy a použitých komponentech. Detaily záruky jsou vždy specifikovány v nabídce a smlouvě.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <h3>Můžete opravit vřetena všech výrobců?</h3>
-                            <span class="faq-toggle">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Máme zkušenosti s širokým spektrem výrobců. U některých méně běžných značek je nutná předběžná konzultace. Vždy se snažíme najít řešení i pro nestandardní případy.</p>
-                        </div>
-                    </div>
+                    {/foreach}
                 </div>
             </div>
+
             
             <!-- Maintenance Tab -->
             <div class="tab-content" id="maintenance">

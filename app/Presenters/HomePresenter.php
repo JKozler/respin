@@ -29,6 +29,7 @@ final class HomePresenter extends Nette\Application\UI\Presenter
 
     private $sender = "Informace <info@info.cz>";
 
+    //Seznam -> SMTP -> nastavit
     public $SMTP_SERVER = 'smtp.forpsi.com';
 
     public $SMTP_EMAIL = 'info@info.cz';
@@ -45,7 +46,20 @@ final class HomePresenter extends Nette\Application\UI\Presenter
     }
 
     function renderDefault(){
+        $this->template->categories = $this->database->query('
+        SELECT * FROM gallery_categories 
+        WHERE active = 1 
+        ORDER BY sort_order ASC, name ASC
+    ')->fetchAll();
 
+    // Načtení všech aktivních obrázků s jejich kategoriemi
+    $this->template->images = $this->database->query('
+        SELECT gi.*, gc.name as category_name, gc.slug as category_slug 
+        FROM gallery_images gi 
+        JOIN gallery_categories gc ON gi.category_id = gc.id 
+        WHERE gi.active = 1 AND gc.active = 1 
+        ORDER BY gi.sort_order ASC, gi.created_at DESC
+    ')->fetchAll();
     }
 
     function renderServices(){
@@ -57,7 +71,7 @@ final class HomePresenter extends Nette\Application\UI\Presenter
     }
 
     function renderSupport(){
-
+        $this->template->faqs = $this->database->table('faq')->fetchAll();
     }
 
     function renderContacts(){
@@ -65,7 +79,20 @@ final class HomePresenter extends Nette\Application\UI\Presenter
     }
 
     function renderGallery(){
+        $this->template->categories = $this->database->query('
+            SELECT * FROM gallery_categories 
+            WHERE active = 1 
+            ORDER BY sort_order ASC, name ASC
+        ')->fetchAll();
 
+        // Načtení všech aktivních obrázků s jejich kategoriemi
+        $this->template->images = $this->database->query('
+            SELECT gi.*, gc.name as category_name, gc.slug as category_slug 
+            FROM gallery_images gi 
+            JOIN gallery_categories gc ON gi.category_id = gc.id 
+            WHERE gi.active = 1 AND gc.active = 1 
+            ORDER BY gi.sort_order ASC, gi.created_at DESC
+        ')->fetchAll();
     }
 
     protected function createComponentAddContactForm(): UI\Form
@@ -94,6 +121,13 @@ final class HomePresenter extends Nette\Application\UI\Presenter
 
     public function addContactSucceeded(UI\Form $form, \stdClass $values): void
     {
+        $this->database->table('contacts')->insert([
+            'name' => $values->name,
+            'email' => $values->email,
+            'message' => $values->message,
+            'created_at' => new \DateTime(),
+        ]);
+        
         $mail = new Message;
         $mail->setFrom($this->sender)
             ->addTo('petr.plachy@cefip.cz')

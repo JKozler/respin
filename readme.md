@@ -53,119 +53,76 @@ this [minimal skeleton](https://github.com/nette/web-project/tree/minimal).
 
 
 
-For JS code implemented in Shoptet:
-----------------
-`<script>
-document.addEventListener("DOMContentLoaded", (event) => {
-		if(sessionStorage.setItem("clickViewProduct") == "1"){
-    	sessionStorage.setItem("clickViewProduct", "0");
-      if(shoptet.customer.guid != null){
-        let priceBefore = document.getElementsByClassName("price-final-holder")[0].innerText;
-        if(document.getElementsByClassName("price-standard")[0] != null)
-            priceBefore = document.getElementsByClassName("price-standard")[0].innerText;
-    		fetch('https://www.retentionup-doplnek.cz/api/viewedproduct', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: {id: shoptet.customer.guid, item: {name: document.getElementsByClassName("p-detail-inner-header")[0].childNodes[1].innerText, price: document.getElementsByClassName("price-final-holder")[0].innerText, url: window.location.href, priceBefore: priceBefore, image: document.getElementsByClassName("p-thumbnail highlighted")[0].href } }
-        })
-        .then(response => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
-        .then(data => {
-          // Handle the response data as needed
-          console.log(data);
-        })
-        .catch(error => {
-          // Handle errors
-          console.error('Error:', error);
-        });
-      }
-    }
-    let allProducts = document.getElementsByClassName("product");
-    const productsArray = Array.from(allProducts);
+Actual DB:
+-- Tabulka pro kategorie galerie
+CREATE TABLE `gallery_categories` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `slug` varchar(100) NOT NULL,
+  `description` text,
+  `sort_order` int(11) DEFAULT 0,
+  `active` tinyint(1) DEFAULT 1,
+  `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `slug` (`slug`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_czech_ci;
 
-    // Add click event to each element
-    productsArray.forEach(product => {
-      product.addEventListener('click', function() {
-        sessionStorage.setItem("clickViewProduct", "1");
-      });
-    });
-		if(shoptet.customer.guid != null){
-    		fetch('https://www.retentionup-doplnek.cz/api/activeonsite', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: {id: shoptet.customer.guid}
-    })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      // Handle the response data as needed
-      console.log(data);
-    })
-    .catch(error => {
-      // Handle errors
-      console.error('Error:', error);
-    });
-    }
-    if (window.location.pathname.includes("/kosik") || window.location.pathname.includes("/cart")) {
-    
-    // Sample user_guid value (replace with actual value)
-    const userGuid = shoptet.customer.guid;
-    if(userGuid != null){
-    // Sample items array (replace with actual items)
-    const items = [
-      { name: "Item1", quantity: 2, price: 10.99 },
-      { name: "Item2", quantity: 1, price: 5.99 },
-      // Add more items as needed
-    ];
+-- Tabulka pro obrázky v galerii
+CREATE TABLE `gallery_images` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `category_id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `description` text,
+  `filename` varchar(255) NOT NULL,
+  `original_name` varchar(255),
+  `alt_text` varchar(200),
+  `sort_order` int(11) DEFAULT 0,
+  `active` tinyint(1) DEFAULT 1,
+  `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `category_id` (`category_id`),
+  KEY `active` (`active`),
+  CONSTRAINT `gallery_images_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `gallery_categories` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_czech_ci;
 
-    // Create the data object with parameters
-    const data = {
-      shoptet: {
-        customer: {
-          guid: userGuid
-        }
-      },
-      items: shoptet.content.initiateCheckoutData
-    };
+-- Vložení základních kategorií
+INSERT INTO `gallery_categories` (`name`, `slug`, `description`, `sort_order`) VALUES
+('Vřetena', 'vretena', 'Opravy a servis vřeten', 1),
+('Revolverové hlavy', 'revolvery', 'Opravy revolverových hlav', 2),
+('Technologie', 'technologie', 'Naše technologie a postupy', 3),
+('Dílna', 'workshop', 'Záběry z naší dílny', 4);
 
-    // Convert data object to JSON
-    const jsonData = JSON.stringify(data);
+-- Tabulka pro administrátory (pokud ještě nemáte)
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `active` tinyint(1) DEFAULT 1,
+  `created_at` timestamp DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_czech_ci;
 
-    // Send POST request
-    fetch('https://www.retentionup-doplnek.cz/api/startcheckout', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: jsonData
-    })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      // Handle the response data as needed
-      console.log(data);
-    })
-    .catch(error => {
-      // Handle errors
-      console.error('Error:', error);
-    });
-  }
-  }
-});
-</script>`
+CREATE TABLE `faq` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `question` TEXT NOT NULL,
+  `answer` TEXT NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `faq` (`question`, `answer`) VALUES
+('Jak často by se měla provádět preventivní údržba vřetena?', 'Preventivní údržba by se měla provádět podle provozních hodin a doporučení výrobce. Obecně doporučujeme kontrolu každých 2000-3000 provozních hodin, nebo minimálně jednou ročně při intenzivním provozu.'),
+('Jaké jsou příznaky poškození vřetena?', 'Mezi hlavní příznaky patří: zvýšené vibrace, hluk během provozu, zahřívání vřetena, snížená přesnost obrábění, problémy s upínáním nástrojů nebo nestabilní otáčky.'),
+('Jak dlouho trvá standardní oprava vřetena?', 'Doba opravy závisí na rozsahu poškození. Standardní oprava trvá 7-14 dní. Komplexní rekonstrukce může trvat až 3 týdny. Po diagnostice vám poskytneme přesný časový harmonogram.'),
+('Poskytujete záruku na opravy?', 'Ano, na všechny naše opravy poskytujeme záruku. Délka záruky závisí na typu opravy a použitých komponentech. Detaily záruky jsou vždy specifikovány v nabídce a smlouvě.'),
+('Můžete opravit vřetena všech výrobců?', 'Máme zkušenosti s širokým spektrem výrobců. U některých méně běžných značek je nutná předběžná konzultace. Vždy se snažíme najít řešení i pro nestandardní případy.');
+
+CREATE TABLE `contacts` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `message` TEXT NOT NULL,
+  `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

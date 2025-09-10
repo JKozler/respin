@@ -1,0 +1,101 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Upravit obrázek: {$image->title}</h1>
+    <a n:href="Admin:images" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Zpět
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                {form imageForm}
+                    {input category_id value => $image->category_id}
+                    {input title value => $image->title}
+                    {input description value => $image->description}
+                    {input alt_text value => $image->alt_text}
+                    {input sort_order value => $image->sort_order}
+                    {input active value => $image->active}
+                    
+                    <div class="mb-3">
+                        {label category_id class="form-label" /}
+                        {input category_id class="form-select"}
+                    </div>
+                    <div class="mb-3">
+                        {label title class="form-label" /}
+                        {input title class="form-control"}
+                    </div>
+                    <div class="mb-3">
+                        {label description class="form-label" /}
+                        {input description class="form-control"}
+                    </div>
+                    <div class="mb-3">
+                        {label alt_text class="form-label" /}
+                        {input alt_text class="form-control"}
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Současný obrázek:</label>
+                        <div>
+                            <img src="/uploads/gallery/{$image->filename}" 
+                                 alt="{$image->alt_text}" 
+                                 class="img-thumbnail" 
+                                 style="max-width: 200px;">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {label image class="form-label" /}
+                        {input image class="form-control"}
+                        <div class="form-text">Ponechte prázdné, pokud nechcete měnit obrázek</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            {label sort_order class="form-label" /}
+                            {input sort_order class="form-control"}
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check mt-4">
+                                {input active class="form-check-input"}
+                                {label active class="form-check-label" /}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {input save class="btn btn-primary"}
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h6>Informace o obrázku</h6>
+            </div>
+            <div class="card-body">
+                <p><strong>Název souboru:</strong> {$image->filename}</p>
+                <p><strong>Původní název:</strong> {$image->original_name}</p>
+                <p><strong>Vytvořeno:</strong> {$image->created_at|date:'d.m.Y H:i'}</p>
+            </div>
+        </div>
+    </div>
+</div>mb-3">
+                            {label sort_order class="form-label" /}
+                            {input sort_order class="form-control"}
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check mt-4">
+                                {input active class="form-check-input"}
+                                {label active class="form-check-label" /}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {input save class="btn btn-primary"}
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+</div>

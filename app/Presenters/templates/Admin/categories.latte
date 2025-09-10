@@ -1,0 +1,53 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Správa kategorií</h1>
+    <a n:href="Admin:addCategory" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Přidat kategorii
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Název</th>
+                        <th>Slug</th>
+                        <th>Pořadí</th>
+                        <th>Stav</th>
+                        <th>Obrázky</th>
+                        <th>Akce</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr n:foreach="$categories as $category">
+                        <td>{$category->name}</td>
+                        <td><code>{$category->slug}</code></td>
+                        <td>{$category->sort_order}</td>
+                        <td>
+                            <span class="badge bg-{$category->active ? 'success' : 'secondary'}">
+                                {$category->active ? 'Aktivní' : 'Neaktivní'}
+                            </span>
+                        </td>
+                        <td>
+                            <a n:href="Admin:images, categoryId => $category->id" class="btn btn-sm btn-outline-info">
+                                {$category->images_count} obrázků
+                            </a>
+                        </td>
+                        <td>
+                            <a n:href="Admin:editCategory, id => $category->id" class="btn btn-sm btn-outline-primary btn-action">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a n:href="Admin:deleteCategory, id => $category->id" 
+                               class="btn btn-sm btn-outline-danger btn-action"
+                               onclick="return confirm('Opravdu smazat tuto kategorii a všechny její obrázky?')">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

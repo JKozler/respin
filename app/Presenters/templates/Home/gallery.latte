@@ -1,105 +1,40 @@
 {block content}
 <section class="hero" id="home">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>Naše galerie</h1>
-                        <p>Podívejte se na naše práce a technologie, které používáme pro opravy vřetenových jednotek!</p>
-                    <div class="cta-buttons">
-                        <a n:href="Home:services" class="btn btn-primary">Naše služby</a>
-                        <a href="#contact" class="btn btn-secondary">Kontaktujte nás</a>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Naše galerie</h1>
+            <p>Podívejte se na naše práce a technologie, které používáme pro opravy vřetenových jednotek!</p>
+            <div class="cta-buttons">
+                <a n:href="Home:services" class="btn btn-primary">Naše služby</a>
+                <a href="#contact" class="btn btn-secondary">Kontaktujte nás</a>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-      <section class="gallery" id="gallery">
+<section class="gallery" id="gallery">
     <div class="container">
         
         <div class="gallery-filters">
             <button class="filter-btn active" data-filter="all">Vše</button>
-            <button class="filter-btn" data-filter="vretena">Vřetena</button>
-            <button class="filter-btn" data-filter="revolvery">Revolverové hlavy</button>
-            <button class="filter-btn" data-filter="technologie">Technologie</button>
-            <button class="filter-btn" data-filter="workshop">Dílna</button>
+            <button n:foreach="$categories as $category" class="filter-btn" data-filter="{$category->slug}">
+                {$category->name}
+            </button>
         </div>
         
         <div class="gallery-grid">
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Oprava+v%C5%99etena" alt="Oprava vřetena" loading="lazy">
+            <div n:foreach="$images as $image" 
+                 class="gallery-item" 
+                 data-category="{$image->category_slug}">
+                <img src="{$basePath}/uploads/gallery/{$image->filename}" 
+                     alt="{$image->alt_text ?: $image->title}" 
+                     loading="lazy">
                 <div class="gallery-overlay">
                     <div class="gallery-content">
-                        <h3>Oprava vřetena</h3>
-                        <p>Kompletní renovace vysokootáčkového vřetena</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Elektrov%C5%99eteno" alt="Elektrovřeteno" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Elektrovřeteno</h3>
-                        <p>Servis elektrovřetena s otáčkami 60 000 Ot/min</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="revolvery">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Revolverov%C3%A1+hlava" alt="Revolverová hlava" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Revolverová hlava</h3>
-                        <p>Oprava revolverové hlavy SAUTER</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="technologie">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=P%C5%99esn%C3%A9+brou%C5%A1en%C3%AD" alt="Přesné broušení" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Přesné broušení</h3>
-                        <p>Broušení s přesností v řádech mikrometrů</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="workshop">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=D%C3%ADlna" alt="Dílna" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Naše dílna</h3>
-                        <p>Moderně vybavená dílna v Ostravě</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="technologie">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Monta%C5%BE" alt="Montáž" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Montážní práce</h3>
-                        <p>Demontáž a montáž vřetenových jednotek</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Up%C3%ADnac%C3%AD+syst%C3%A9m" alt="Upínací systém" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Upínací systémy</h3>
-                        <p>Oprava upínacích systémů SK, HSK, CAPTO</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="workshop">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Kontrola+kvality" alt="Kontrola kvality" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Kontrola kvality</h3>
-                        <p>Přísná kontrola každého kroku opravy</p>
+                        <h3>{$image->title}</h3>
+                        {if $image->description}
+                            <p>{$image->description}</p>
+                        {/if}
                     </div>
                 </div>
             </div>
@@ -122,3 +57,226 @@
         </div>
     </div>
 </section>
+
+<script>
+// Gallery filtering functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const modal = document.getElementById('galleryModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalClose = document.querySelector('.modal-close');
+    const modalPrev = document.getElementById('modalPrev');
+    const modalNext = document.getElementById('modalNext');
+
+    let currentImageIndex = 0;
+    let visibleImages = [];
+
+    // Filter functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const filter = button.getAttribute('data-filter');
+            
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // Filter items
+            galleryItems.forEach(item => {
+                const category = item.getAttribute('data-category');
+                if (filter === 'all' || category === filter) {
+                    item.style.display = 'block';
+                    item.style.animation = 'fadeIn 0.5s ease-in-out';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Update visible images for modal navigation
+            updateVisibleImages();
+        });
+    });
+
+    // Modal functionality
+    function updateVisibleImages() {
+        visibleImages = Array.from(galleryItems).filter(item => 
+            item.style.display !== 'none'
+        );
+    }
+
+    function openModal(imageIndex) {
+        const image = visibleImages[imageIndex];
+        const img = image.querySelector('img');
+        const title = image.querySelector('h3').textContent;
+        const description = image.querySelector('p') ? image.querySelector('p').textContent : '';
+        
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+        modalTitle.textContent = title;
+        modalDescription.textContent = description;
+        
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+        currentImageIndex = imageIndex;
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    function showPrevious() {
+        currentImageIndex = (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
+        openModal(currentImageIndex);
+    }
+
+    function showNext() {
+        currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
+        openModal(currentImageIndex);
+    }
+
+    // Initialize visible images
+    updateVisibleImages();
+
+    // Event listeners for modal
+    galleryItems.forEach((item, index) => {
+        const img = item.querySelector('img');
+        img.addEventListener('click', () => {
+            const visibleIndex = visibleImages.indexOf(item);
+            if (visibleIndex !== -1) {
+                openModal(visibleIndex);
+            }
+        });
+    });
+
+    modalClose.addEventListener('click', closeModal);
+    modalPrev.addEventListener('click', showPrevious);
+    modalNext.addEventListener('click', showNext);
+
+    // Close modal on background click
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (modal.style.display === 'block') {
+            switch(e.key) {
+                case 'Escape':
+                    closeModal();
+                    break;
+                case 'ArrowLeft':
+                    showPrevious();
+                    break;
+                case 'ArrowRight':
+                    showNext();
+                    break;
+            }
+        }
+    });
+});
+
+// Add CSS for animations
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .gallery-modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+    }
+    
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 800px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    
+    .modal-image {
+        max-width: 100%;
+        max-height: 70vh;
+        object-fit: contain;
+    }
+    
+    .modal-info {
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .modal-info h3 {
+        margin: 10px 0;
+        font-size: 1.5rem;
+    }
+    
+    .modal-info p {
+        margin: 5px 0;
+        opacity: 0.8;
+    }
+    
+    .modal-close {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    
+    .modal-close:hover {
+        opacity: 0.7;
+    }
+    
+    .modal-nav button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255,255,255,0.2);
+        color: white;
+        border: none;
+        font-size: 24px;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .modal-prev {
+        left: 20px;
+    }
+    
+    .modal-next {
+        right: 20px;
+    }
+    
+    .modal-nav button:hover {
+        background: rgba(255,255,255,0.4);
+    }
+    
+    .gallery-item img {
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .gallery-item:hover img {
+        transform: scale(1.05);
+    }
+`;
+document.head.appendChild(style);
+</script>

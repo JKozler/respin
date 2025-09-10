@@ -1,0 +1,60 @@
+{block content}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Dashboard</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card card-stats">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-title">Kategorie</div>
+                        <h3 class="card-text">{$categoriesCount}</h3>
+                    </div>
+                    <div class="col-4 text-end">
+                        <i class="fas fa-folder fa-3x text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 mb-4">
+        <div class="card card-stats">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card-title">Obrázky</div>
+                        <h3 class="card-text">{$imagesCount}</h3>
+                    </div>
+                    <div class="col-4 text-end">
+                        <i class="fas fa-images fa-3x text-success"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Rychlé akce</h5>
+            </div>
+            <div class="card-body">
+                <a n:href="Admin:addCategory" class="btn btn-primary me-2">
+                    <i class="fas fa-plus"></i> Přidat kategorii
+                </a>
+                <a n:href="Admin:addImage" class="btn btn-success me-2">
+                    <i class="fas fa-plus"></i> Přidat obrázek
+                </a>
+                <a n:href="Home:gallery" class="btn btn-info" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Zobrazit galerii
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

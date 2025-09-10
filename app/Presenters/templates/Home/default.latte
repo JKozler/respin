@@ -118,94 +118,27 @@
 
 		<section class="gallery" id="gallery">
     <div class="container">
-        <h2 class="section-title">Galerie</h2>
-        <p class="section-subtitle">Podívejte se na naše práce a technologie, které používáme pro opravy vřetenových jednotek</p>
         
         <div class="gallery-filters">
             <button class="filter-btn active" data-filter="all">Vše</button>
-            <button class="filter-btn" data-filter="vretena">Vřetena</button>
-            <button class="filter-btn" data-filter="revolvery">Revolverové hlavy</button>
-            <button class="filter-btn" data-filter="technologie">Technologie</button>
-            <button class="filter-btn" data-filter="workshop">Dílna</button>
+            <button n:foreach="$categories as $category" class="filter-btn" data-filter="{$category->slug}">
+                {$category->name}
+            </button>
         </div>
         
         <div class="gallery-grid">
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Oprava+v%C5%99etena" alt="Oprava vřetena" loading="lazy">
+            <div n:foreach="$images as $image" 
+                 class="gallery-item" 
+                 data-category="{$image->category_slug}">
+                <img src="{$basePath}/uploads/gallery/{$image->filename}" 
+                     alt="{$image->alt_text ?: $image->title}" 
+                     loading="lazy">
                 <div class="gallery-overlay">
                     <div class="gallery-content">
-                        <h3>Oprava vřetena</h3>
-                        <p>Kompletní renovace vysokootáčkového vřetena</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Elektrov%C5%99eteno" alt="Elektrovřeteno" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Elektrovřeteno</h3>
-                        <p>Servis elektrovřetena s otáčkami 60 000 Ot/min</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="revolvery">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Revolverov%C3%A1+hlava" alt="Revolverová hlava" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Revolverová hlava</h3>
-                        <p>Oprava revolverové hlavy SAUTER</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="technologie">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=P%C5%99esn%C3%A9+brou%C5%A1en%C3%AD" alt="Přesné broušení" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Přesné broušení</h3>
-                        <p>Broušení s přesností v řádech mikrometrů</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="workshop">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=D%C3%ADlna" alt="Dílna" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Naše dílna</h3>
-                        <p>Moderně vybavená dílna v Ostravě</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="technologie">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Monta%C5%BE" alt="Montáž" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Montážní práce</h3>
-                        <p>Demontáž a montáž vřetenových jednotek</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="vretena">
-                <img src="https://via.placeholder.com/400x300/5B9BD5/FFFFFF?text=Up%C3%ADnac%C3%AD+syst%C3%A9m" alt="Upínací systém" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Upínací systémy</h3>
-                        <p>Oprava upínacích systémů SK, HSK, CAPTO</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="gallery-item" data-category="workshop">
-                <img src="https://via.placeholder.com/400x300/447BC4/FFFFFF?text=Kontrola+kvality" alt="Kontrola kvality" loading="lazy">
-                <div class="gallery-overlay">
-                    <div class="gallery-content">
-                        <h3>Kontrola kvality</h3>
-                        <p>Přísná kontrola každého kroku opravy</p>
+                        <h3>{$image->title}</h3>
+                        {if $image->description}
+                            <p>{$image->description}</p>
+                        {/if}
                     </div>
                 </div>
             </div>

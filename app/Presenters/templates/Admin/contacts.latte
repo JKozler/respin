@@ -1,0 +1,29 @@
+{block content}
+<h2>Odeslané kontakty</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Jméno</th>
+            <th>Email</th>
+            <th>Zpráva</th>
+            <th>Odesláno</th>
+            <th>Akce</th>
+        </tr>
+    </thead>
+    <tbody>
+        {foreach $contacts as $c}
+            <tr>
+                <td>{$c->id}</td>
+                <td>{$c->name}</td>
+                <td><a href="mailto:{$c->email}">{$c->email}</a></td>
+                <td>{$c->message|truncate:80}</td>
+                <td>{$c->created_at|date:'d.m.Y H:i'}</td>
+                <td>
+                    <a n:href="deleteContact $c->id" onclick="return confirm('Opravdu smazat?')">🗑️ Smazat</a>
+                </td>
+            </tr>
+        {/foreach}
+    </tbody>
+</table>
