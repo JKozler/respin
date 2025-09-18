@@ -27,14 +27,13 @@ final class HomePresenter extends Nette\Application\UI\Presenter
     private Nette\Database\Context $database;
     private $httpRequest;
 
-    private $sender = "Informace <info@info.cz>";
+    private $sender = "Obchod <obchod@respinteam.cz>";
 
-    //Seznam -> SMTP -> nastavit
-    public $SMTP_SERVER = 'smtp.forpsi.com';
+    public $SMTP_SERVER = 'smtp.seznam.cz';
 
-    public $SMTP_EMAIL = 'info@info.cz';
+    public $SMTP_EMAIL = 'obchod@respinteam.cz';
 
-    public $SMTP_PASSWORD = '.-..-';
+    public $SMTP_PASSWORD = 'so14votpavel';
 
 
 
@@ -127,22 +126,27 @@ final class HomePresenter extends Nette\Application\UI\Presenter
             'message' => $values->message,
             'created_at' => new \DateTime(),
         ]);
-        
+
         $mail = new Message;
         $mail->setFrom($this->sender)
-            ->addTo('petr.plachy@cefip.cz')
+            ->addTo('obchod@respinteam.cz')
             ->setSubject('Byl jste kontaktován')
             ->setHTMLBody("<b>Formulář vyplněn</b>, pan/paní - ".$values->name."<br/> s emailem - <a href='".$values->email."'>".$values->email."</a><br/> Napsal zprávu:<br/>".$values->message);
         
 
         $mailer = new Nette\Mail\SmtpMailer(
-            host: $this->SMTP_SERVER,
-            username: $this->SMTP_EMAIL,
-            password: $this->SMTP_PASSWORD,
-            encryption: 'ssl'
+            $this->SMTP_SERVER,
+            $this->SMTP_EMAIL,
+            $this->SMTP_PASSWORD,
+            585,
+            'tsl'
         );
-        
-        $mailer->send($mail);
+
+        try {
+            $mailer->send($mail);
+            $this->flashMessage('Úspěšně kontaktováno!', 'success');
+        } catch (\Throwable $e) {
+        }
         $this->flashMessage('Úspěšně kontaktováno!', 'success');
     }
 }
