@@ -134,19 +134,18 @@ final class HomePresenter extends Nette\Application\UI\Presenter
             ->setHTMLBody("<b>Formulář vyplněn</b>, pan/paní - ".$values->name."<br/> s emailem - <a href='".$values->email."'>".$values->email."</a><br/> Napsal zprávu:<br/>".$values->message);
         
 
-        $mailer = new Nette\Mail\SmtpMailer(
-            $this->SMTP_SERVER,
-            $this->SMTP_EMAIL,
-            $this->SMTP_PASSWORD,
-            465,
-            'ssl'
-        );
+            $mailer = new Nette\Mail\SmtpMailer(
+                'smtp.seznam.cz',
+                'obchod@respinteam.cz',
+                'so14votpavel',
+                587,
+                'tls'
+            );
 
         try {
             $mailer->send($mail);
             $this->flashMessage('Úspěšně kontaktováno!', 'success');
         } catch (\Throwable $e) {
         }
-        $this->flashMessage('Úspěšně kontaktováno!', 'success');
     }
 }
