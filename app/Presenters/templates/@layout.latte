@@ -1101,6 +1101,28 @@
 </style>
 </head>
 <body>
+{if $flashes}
+<div class="flash-messages" style="position: fixed;z-index: 999999;background: green;color: white !important;width: 100vw;padding: 10px;text-align: center;">
+    {foreach $flashes as $flash}
+        <div class="alert alert-{$flash->type}">
+            {$flash->message}
+        </div>
+    {/foreach}
+</div>
+{/if}
+<script>
+    // Po 5 sekundách zmizí flash zprávy
+    setTimeout(() => {
+        const flash = document.querySelector('.flash-messages');
+        if(flash){
+            flash.style.transition = 'opacity 0.5s ease';
+            flash.style.opacity = '0';
+            setTimeout(() => flash.remove(), 500); // odstraní element po animaci
+        }
+    }, 5000);
+</script>
+
+
     <div class="loading" id="loading">
         <div class="spinner"></div>
     </div>
@@ -1136,6 +1158,9 @@
                     </div>
                     <div class="dropdown-item">
                         <a n:href="Home:services#services" class="dropdown-link">Servis CNC strojů</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#services" class="dropdown-link">Měření na kruhoměru</a>
                     </div>
                 </div>
             </li>

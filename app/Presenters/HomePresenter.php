@@ -138,8 +138,8 @@ final class HomePresenter extends Nette\Application\UI\Presenter
             $this->SMTP_SERVER,
             $this->SMTP_EMAIL,
             $this->SMTP_PASSWORD,
-            585,
-            'tsl'
+            465,
+            'ssl'
         );
 
         try {
