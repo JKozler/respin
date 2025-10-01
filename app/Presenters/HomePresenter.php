@@ -129,7 +129,7 @@ final class HomePresenter extends Nette\Application\UI\Presenter
 
         $mail = new Message;
         $mail->setFrom($this->sender)
-            ->addTo('obchod@respinteam.cz')
+            ->addTo('vyroba@respinteam.cz')
             ->setSubject('Byl jste kontaktován')
             ->setHTMLBody("<b>Formulář vyplněn</b>, pan/paní - ".$values->name."<br/> s emailem - <a href='".$values->email."'>".$values->email."</a><br/> Napsal zprávu:<br/>".$values->message);
         
@@ -146,6 +146,7 @@ final class HomePresenter extends Nette\Application\UI\Presenter
             $mailer->send($mail);
             $this->flashMessage('Úspěšně kontaktováno!', 'success');
         } catch (\Throwable $e) {
+            $this->flashMessage('Někde nastala chyba, prosím kontaktujte nás přes email napřímo...', 'success');
         }
     }
 }
