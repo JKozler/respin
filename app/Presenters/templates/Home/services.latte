@@ -1,60 +1,526 @@
 {block content}
 <section class="hero" id="home">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>Opravy Služby pro vás</h1>
-                    <p>Nabízíme kompletní servis vřetenových jednotek a souvisejících strojních celků s důrazem na preciznost a kvalitu.</p>
-                    <div class="cta-buttons">
-                        <a href="#services" class="btn btn-primary">Naše služby</a>
-                        <a href="#contact" class="btn btn-secondary">Kontaktujte nás</a>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Služby pro vás</h1>
+            <p>Nabízíme kompletní servis vřetenových jednotek a souvisejících strojních celků s důrazem na preciznost a kvalitu.</p>
+            <div class="cta-buttons">
+                <a href="#services" class="btn btn-primary">Naše služby</a>
+                <a n:href="Home:contacts" class="btn btn-secondary">Kontaktujte nás</a>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <section class="services" id="services">
-            <div class="container">
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">⚙️</div>
-                        <h3>Opravy vřeten</h3>
-                        <p>Opravujeme vřetena mechanická i vysokootáčková elektrovřetena s rozsahem otáček do 60 000 Ot/min. Komplexní opravy v rozsahu opravy hřídele, těles pro uložení ložisek, upínacího systému nástrojů.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🔧</div>
-                        <h3>Opravy revolverových hlav</h3>
-                        <p>Opravujeme hlavy výrobců SAUTER a DUPLOMATIC. Revolverové hlavy jiných výrobců opravujeme pouze po konzultacích u zákazníka. Komplexní přístup k opravám.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🔄</div>
-                        <h3>Opravy strojní celky a výklopné hlavy</h3>
-                        <p>Realizujeme opravy těchto složitých strojních celků, které jsou součástí víceosých CNC strojů. Zaměřujeme se na přesnost a spolehlivost.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🎯</div>
-                        <h3>Opravy brousicích vřeteníků</h3>
-                        <p>Precizní vřetenové jednotky se zvýšeným požadavkem na přesnost upínacích kuželových a dosedacích ploch. Jednotky opravujeme vždy komplexně.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">🔩</div>
-                        <h3>Opravy upínacích systémů</h3>
-                        <p>Provádíme opravy a rekonstrukce běžných i nestandardních upínacích systémů, mechanických multiplikátorů a plynových patron CROMAT CAPTO.</p>
-                    </div>
-                    
-                    <div class="service-card">
-                        <div class="service-icon">📐</div>
-                        <h3>Přesné broušení</h3>
-                        <p>Doplňková služba přesného broušení kruhových dílů a rovinného broušení. Dosahujeme rozměrové přesnosti a geometrických tolerancí přesahující rámec běžného broušení.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">📐</div>
-                        <h3>Měření na Kruhoměru</h3>
-                        <p>Doplňková služba přesného měření na kruhoměru.</p>
-                    </div>
+<section class="services" id="services">
+    <div class="container">
+        
+        <!-- Oprava vřeten -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">⚙️</div>
+                <h2>Oprava vřeten – srdce CNC strojů v našich rukou</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Vřeteno je nejdůležitější částí CNC stroje. Jeho porucha znamená prostoje a ztráty. Nabízíme komplexní opravy vřeten všech běžných značek a typů – od frézovacích a soustružnických až po brusná vřetena a fortunky.</p>
+                
+                <h3>Co nabízíme</h3>
+                <ul class="service-list">
+                    <li>Diagnostiku závad moderními metodami</li>
+                    <li>Výrobu nových dílů – poškozené komponenty nahrazujeme nově vyrobenými, včetně vyhotovení výrobní dokumentace</li>
+                    <li>Částečné opravy – přeložiskování, opravy upínacích systémů, opravy válců pro uvolňování nástrojů</li>
+                    <li>Možnost vylepšení – úpravy rozsahu otáček (pokud zákazník nevyužívá celý rozsah), zvýšení dynamické únosnosti</li>
+                    <li>Opravy všech typů vřeten – motorová, řemenová, přímá pohonová, brusná vřetena, fortunky, soustružnické vřeteníky – zkrátka jakákoliv vřetena na valivých ložiscích</li>
+                    <li>Řešení složitých závad – například převíjení spálených vinutí u motorových vřeten</li>
+                    <li>Vyvážení a testování – každé vřeteno je po opravě dynamicky vyváženo a testováno v provozních otáčkách</li>
+                </ul>
+                
+                <h3>Značky vřeten, se kterými máme zkušenosti</h3>
+                <div class="brands-inline">
+                    GMN • SKF • Kessler • HSD • Weiss • Fischer • Mori Seiki • Mazak • Okuma • Doosan • Haas • Matsuura • Hurco • Kitamura • Victor Taichung • a další běžně používané značky
+                </div>
+                
+                <h3>Standardní postup opravy vřeten</h3>
+                <ol class="service-process">
+                    <li><strong>Demontáž na jednotlivé díly</strong> – vřeteno je kompletně rozebráno, aby bylo možné posoudit stav všech komponentů.</li>
+                    <li><strong>Čištění dílů</strong> – odstranění nečistot, zbytků maziv a opotřebení pro přesnou kontrolu.</li>
+                    <li><strong>Rozměrová a geometrická kontrola</strong> – měření všech dílů, včetně kontroly geometrických odchylek na kruhoměru Talyrond, pro zajištění přesnosti.</li>
+                    <li><strong>Stanovení reálného poškození</strong> – vyhodnocení stavu a vyhotovení protokolu o stavu vřetena s doporučením dalšího postupu.</li>
+                    <li><strong>Oprava nebo výroba nových dílů</strong> – poškozené komponenty jsou nahrazeny nově vyrobenými, případně opravenými.</li>
+                    <li><strong>Montáž do funkčního celku</strong> – precizní sestavení vřetena s ohledem na správné usazení všech částí.</li>
+                    <li><strong>Rozprostření maziva v nové ložiskové sadě</strong> – zajištění optimálních podmínek pro chod a životnost ložisek.</li>
+                    <li><strong>Dynamické vyvážení v celém rozsahu otáček</strong> – dosažení klidného a přesného chodu vřetena při všech provozních rychlostech.</li>
+                    <li><strong>Dokončení opravy</strong> – finální kontrola, protokolování výsledků a expedice opraveného vřetena zákazníkovi.</li>
+                </ol>
+                
+                <div class="service-why">
+                    <h3>Proč zvolit nás</h3>
+                    <ul>
+                        <li>Zkušenosti napříč značkami a technologiemi</li>
+                        <li>Komplexní přístup – od diagnostiky přes výrobu dílů až po finální testování</li>
+                        <li>Možnost zlepšení – nejen oprava, ale i zvýšení životnosti a funkčnosti</li>
+                    </ul>
+                    <p class="service-cta">👉 Naše opravy vřeten vrací vaše CNC stroje zpět do provozu – spolehlivě, přesně a s dlouhodobou jistotou.</p>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- Strojní celky a výklopné hlavy -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">🔄</div>
+                <h2>Strojní celky a výklopné hlavy</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Otočné a výklopné hlavy a speciální strojní celky patří mezi konstrukčně složité a vysoce přesné části CNC strojů. Používají se jak s přímým, tak i nepřímým pohonem a jejich správná funkce je zásadní pro přesnost obrábění i celkovou produktivitu.</p>
+                
+                <h3>Co nabízíme</h3>
+                <ul class="service-list">
+                    <li>Opravy otočných a výklopných hlav – s přímým i nepřímým pohonem</li>
+                    <li>Servis otočných stolů, převodových skříní a manipulátorů – navazující celky opravujeme ve stejném standardu</li>
+                    <li>Kontrola dílů s vysokými nároky na přesnost – rozměrová a geometrická kontrola obdobná jako u vřeten</li>
+                    <li>Komplexní přístup – od diagnostiky přes opravu až po testování v provozních podmínkách</li>
+                </ul>
+                
+                <h3>Standardní postup opravy otočných a výklopných hlav</h3>
+                <ol class="service-process">
+                    <li><strong>Demontáž na jednotlivé díly</strong> – kompletní rozebrání hlavy pro detailní posouzení všech komponentů.</li>
+                    <li><strong>Čištění dílů</strong> – odstranění nečistot, zbytků maziv a opotřebení.</li>
+                    <li><strong>Rozměrová a geometrická kontrola</strong> – měření všech dílů s vysokými nároky na přesnost, obdobně jako u vřeten.</li>
+                    <li><strong>Stanovení reálného poškození</strong> – vyhodnocení aktuálního poškození a vyhotovení protokolu o stavu zařízení.</li>
+                    <li><strong>Oprava nebo výměna poškozených dílů</strong> – využití originálních náhradních dílů. Nebo výroba nových dílů dle vlastní technické dokumentace.</li>
+                    <li><strong>Montáž do funkčního celku</strong> – precizní sestavení s ohledem na správné usazení všech částí.</li>
+                    <li><strong>Rozprostření maziva v ložiskových sadách</strong> – zajištění optimálních podmínek pro chod a životnost.</li>
+                    <li><strong>Dokončení opravy</strong> – finální kontrola, protokolování výsledků a expedice zákazníkovi.</li>
+                </ol>
+                
+                <div class="service-why">
+                    <h3>Proč zvolit nás</h3>
+                    <ul>
+                        <li>Zkušenosti s konstrukčně složitými celky – otočné a výklopné hlavy, otočné stoly, převodové skříně, manipulátory</li>
+                        <li>Důraz na přesnost – kontrola každého dílu s vysokými nároky na rozměrovou a geometrickou přesnost</li>
+                        <li>Komplexní servis – od diagnostiky až po finální testování</li>
+                    </ul>
+                    <p class="service-cta">👉 Naše opravy otočných a výklopných hlav zajišťují, že i ty nejpřesnější a nejsložitější části vašich CNC strojů budou znovu pracovat spolehlivě a s maximální přesností.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Broušení na kulato -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">📐</div>
+                <h2>Broušení na kulato – precizní kusová a malosériová výroba</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Specializujeme se na vysoce přesné broušení rotačních součástí v kusové a malosériové výrobě. Díky moderním CNC bruskám a našim dlouholetým zkušenostem nabízíme špičkovou kvalitu povrchu i dodržení nejnáročnějších tolerancí.</p>
+                
+                <h3>Vnější broušení</h3>
+                <p>Hrotové broušení hřídelí, čepů, válců a dalších rotačních dílů.</p>
+                <div class="specs-box">
+                    <h4>Rozměrové možnosti:</h4>
+                    <ul>
+                        <li>délka obrobku: do 1500 mm</li>
+                        <li>průměr obrobku: do 300 mm</li>
+                        <li>maximální hmotnost: do 150 kg</li>
+                    </ul>
+                </div>
+                
+                <h3>Vnitřní broušení</h3>
+                <p>Přesné broušení otvorů válcových i kuželových.</p>
+                <div class="specs-box">
+                    <h4>Rozměrové možnosti:</h4>
+                    <ul>
+                        <li>průměr otvoru: do 250 mm</li>
+                        <li>hloubka otvoru: do 200 mm</li>
+                    </ul>
+                </div>
+                
+                <h3>Co získáte jako zákazník?</h3>
+                <ul class="service-list">
+                    <li>Jistotu přesnosti – dodržení tolerancí v řádu mikrometrů.</li>
+                    <li>Kvalitu povrchu – dosažení hladkého povrchu, který prodlužuje životnost dílů.</li>
+                    <li>Spolehlivost výroby – kusová i malosériová produkce bez kompromisů.</li>
+                    <li>Ověřenou kvalitu – kontrola geometrických odchylek na kruhoměru Talyrond zaručuje, že díly splňují i ty nejpřísnější požadavky.</li>
+                    <li>Flexibilitu – přizpůsobíme se specifickým požadavkům a materiálům zákazníka.</li>
+                </ul>
+                
+                <p class="service-cta">👉 Naše zkušenosti a technologie vám přinášejí jistotu, že vaše díly budou přesné, spolehlivé a připravené obstát i v nejnáročnějších aplikacích.</p>
+            </div>
+        </div>
+
+        <!-- Kruhoměr Talyrond -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">🎯</div>
+                <h2>Kruhoměr Talyrond® – jistota přesnosti, která prodává</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Pokud jde o kvalitu, kompromisy nejsou na místě. Kruhoměry od Taylor Hobson patří mezi nejpřesnější měřicí přístroje na světě a pomáhají výrobcům dokazovat, že jejich produkty splňují i ty nejnáročnější požadavky. Pro opravu vřeten a kontrolu rotačních součástí jde o klíčový nástroj pro vyhodnocování odchylek.</p>
+                
+                <h3>Co všechno dokáže?</h3>
+                <ul class="service-list">
+                    <li><strong>Kruhovitost</strong> – odhalí i mikroskopické odchylky od ideálního kruhu.</li>
+                    <li><strong>Válcovitost a rovinnost</strong> – zjistí, zda jsou vaše díly dokonale přesné v každé ose.</li>
+                    <li><strong>Drsnost povrchu</strong> – změří, zda je povrch dostatečně hladký pro bezproblémový chod.</li>
+                    <li><strong>Kontura a profil</strong> – porovná skutečný tvar s výkresem a odhalí i ty nejmenší rozdíly.</li>
+                    <li><strong>Souosost a házivost</strong> – garantuje, že díly budou perfektně sedět a otáčet se bez vibrací.</li>
+                </ul>
+                
+                <h3>Kruhoměr vs. souřadnicový 3D měřicí stroj (CMM)</h3>
+                <p>Souřadnicové měřicí stroje jsou univerzální a zvládnou široké spektrum měření. Ale právě v tom se skrývá jejich slabina – univerzálnost často znamená kompromis. Kruhoměr Talyrond® je naopak specialista na rotační díly, a proto nabízí výsledky, které CMM nedokáže dosáhnout.</p>
+                
+                <div class="service-highlight">
+                    <h3>Shrnutí</h3>
+                    <p>Kruhoměr Talyrond® je nástroj, který jde do hloubky tam, kde univerzální 3D měřicí stroje nestačí. Pokud potřebujete garantovat perfektní kruhovitost, hladkost a souosost rotačních dílů, je Talyrond® jasnou volbou. CMM stroje zůstávají skvělými „všeuměly" pro široké spektrum měření, ale v kritických parametrech přesnosti a detailu se specialistovi, jakým je Talyrond®, jednoduše nevyrovnají.</p>
+                </div>
+                
+                <p class="service-cta">👉 Talyrond® – když potřebujete měřit s jistotou, že i ty nejmenší odchylky nezůstanou skryté.</p>
+                <p>Vyhodnocení a kontrolu vašich rotačních součástí můžete bez obav svěřit do našich rukou. <a n:href="Home:contacts">Kontaktujte nás</a></p>
+            </div>
+        </div>
+
+        <!-- Vřetenový hotel -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">🏨</div>
+                <h2>Vřetenový hotel</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Vřetenový hotel je služba, která umožňuje bezpečné a profesionální skladování vřeten přímo v našich prostorách. Díky tomu máte jistotu, že vaše vřetena jsou uložena v optimálních podmínkách a kdykoliv připravena k okamžitému nasazení.</p>
+                
+                <h3>Co nabízíme</h3>
+                <ul class="service-list">
+                    <li>Skladování vřeten v našich prostorách – kontrolované prostředí, stabilní teplota a ochrana proti prachu a vlhkosti.</li>
+                    <li>Zkrácený záběh (protáčení vřetene) – pravidelné opakované rozprostření maziva, které zabraňuje zatuhnutí ložisek a prodlužuje životnost.</li>
+                    <li>Evidence a monitoring – přehled o uložených vřetenech, jejich historii a připravenosti k použití.</li>
+                    <li>Okamžitá dostupnost – při poruše stroje lze ihned nasadit uložené vřeteno a minimalizovat prostoje.</li>
+                </ul>
+                
+                <h3>Přínosy pro zákazníka</h3>
+                <ul class="service-list">
+                    <li>Optimální prostředí – skladování v podmínkách, které zákazník často nemůže ve svých skladech zajistit.</li>
+                    <li>Delší skladovací doby bez rizika – i při dlouhém uložení zůstává vřeteno připravené k použití díky pravidelnému záběhu.</li>
+                    <li>Úspora nákladů při poruše – pokud má zákazník náhradní vřeteno v našem hotelu, nemusí kupovat předražené nové vřeteno od výrobce stroje. Oprava uloženého vřetena je tak výrazně rentabilnější než nákup nového.</li>
+                    <li>Bezpečnost investice – vřetena nejsou odložena „na polici", ale jsou udržována v profesionálním režimu.</li>
+                    <li>Rychlá reakce na poruchu – náhradní vřeteno je vždy po ruce.</li>
+                </ul>
+                
+                <div class="service-why">
+                    <h3>Proč zvolit nás</h3>
+                    <ul>
+                        <li>Profesionální zázemí – skladování v našich prostorách s kontrolovanými podmínkami.</li>
+                        <li>Technická péče – pravidelný zkrácený záběh pro zachování maziva a ložisek.</li>
+                        <li>Komplexní servis – od opravy vřeten až po jejich dlouhodobé skladování.</li>
+                    </ul>
+                    <p class="service-cta">👉 Vřetenový hotel je chytré řešení, které vám zajistí připravená a spolehlivá vřetena bez ohledu na délku skladování – a navíc šetří vaše náklady při nečekaných poruchách.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vyvažování (NOVÁ SLUŽBA) -->
+        <div class="service-detail-card">
+            <div class="service-header">
+                <div class="service-icon-large">⚖️</div>
+                <h2>Vyvažování</h2>
+            </div>
+            <div class="service-content">
+                <p class="service-intro">Vyvažování je klíčové pro spolehlivý a přesný chod rotačních částí. Nevyvážené rotory způsobují vibrace, které nejen zhoršují kvalitu obrábění, ale také výrazně snižují životnost ložisek a dalších součástí stroje. Proto nabízíme dvě varianty vyvažování podle typu dílce a požadavků zákazníka.</p>
+                
+                <div class="balancing-methods">
+                    <div class="balancing-method">
+                        <h3>🔧 Stacionární vyvažování – Schenck HM30BU</h3>
+                        <p><strong>Popis zařízení:</strong> Schenck HM30BU je horizontální vyvažovací stroj s vysokou přesností a univerzálním využitím. Pracuje na principu tvrdých ložisek, což umožňuje rychlé přestavby a přesné měření bez nutnosti kalibračních běhů.</p>
+                        
+                        <div class="specs-box">
+                            <h4>Možnosti:</h4>
+                            <ul>
+                                <li>Maximální délka objektu: 1300 mm</li>
+                                <li>Maximální průměr: 1200 mm</li>
+                                <li>Maximální hmotnost: 300 kg</li>
+                            </ul>
+                        </div>
+                        
+                        <h4>Výhody:</h4>
+                        <ul class="service-list">
+                            <li>Vyvažování v jedné i dvou rovinách</li>
+                            <li>Vysoká přesnost měření a rychlý cyklus</li>
+                            <li>Vhodné pro rotory, hřídele, oběžná kola, spojky a další rotační díly</li>
+                            <li>Možnost vyvažování mechanických vřetenových jednotek</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="balancing-method">
+                        <h3>⚙️ Provozní vyvažování – ADASH A4400 VA4pro</h3>
+                        <p><strong>Popis zařízení:</strong> ADASH A4400 VA4pro je moderní přenosný vibrodiagnostický analyzátor. Umožňuje měřit vibrace, fázi, otáčky a provádět vyvažování přímo na stroji v jeho provozních podmínkách.</p>
+                        
+                        <h4>Použití:</h4>
+                        <ul class="service-list">
+                            <li>Vyvažování velkých rotorů, ventilátorů, čerpadel, elektromotorů a dalších zařízení, která nelze demontovat</li>
+                            <li>Kontrola, vyvážení a dovyvážení vřeten a vřeteníků již instalovaných na stroji</li>
+                        </ul>
+                        
+                        <h4>Výhody:</h4>
+                        <ul class="service-list">
+                            <li>Eliminace potřeby demontáže a přepravy dílce</li>
+                            <li>Vyvažování v reálných provozních otáčkách a zatížení</li>
+                            <li>Rychlé odstranění vibrací a prodloužení životnosti stroje</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>Přínosy pro zákazníka</h3>
+                <ul class="service-list">
+                    <li>Flexibilita – možnost volby mezi stacionárním a provozním vyvažováním</li>
+                    <li>Úspora času a nákladů – provozní vyvažování bez nutnosti demontáže</li>
+                    <li>Zvýšení spolehlivosti strojů – snížení vibrací, menší opotřebení ložisek a delší životnost zařízení</li>
+                    <li>Profesionální vybavení – špičková technologie Schenck a ADASH</li>
+                </ul>
+                
+                <p class="service-cta">👉 Naše služba vyvažování zajišťuje, že vaše rotační díly, vřetena i celé stroje budou pracovat tiše, přesně a s maximální životností.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<style>
+/* Service Detail Cards */
+.service-detail-card {
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.service-detail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(68, 114, 196, 0.15);
+}
+
+.service-header {
+    background: linear-gradient(135deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+    color: var(--white);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.service-icon-large {
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.service-header h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.service-content {
+    padding: 40px;
+}
+
+.service-intro {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    line-height: 1.8;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(91, 155, 213, 0.05);
+    border-left: 4px solid var(--light-blue);
+    border-radius: 5px;
+}
+
+.service-content h3 {
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    margin: 30px 0 20px 0;
+    font-weight: 600;
+}
+
+.service-content h4 {
+    color: var(--dark-blue);
+    font-size: 1.2rem;
+    margin: 20px 0 15px 0;
+    font-weight: 600;
+}
+
+.service-list {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.service-list li {
+    padding: 10px 0 10px 30px;
+    position: relative;
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+.service-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--light-blue);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.service-process {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.service-process li {
+    counter-increment: step-counter;
+    padding: 15px 20px 15px 60px;
+    position: relative;
+    margin-bottom: 15px;
+    background: var(--light-gray);
+    border-radius: 10px;
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+.service-process li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: var(--light-blue);
+    color: var(--white);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.brands-inline {
+    background: var(--light-gray);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--dark-gray);
+    line-height: 1.8;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+.service-why {
+    background: linear-gradient(135deg, rgba(91, 155, 213, 0.1), rgba(68, 114, 196, 0.1));
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.service-why h3 {
+    margin-top: 0;
+}
+
+.service-cta {
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(91, 155, 213, 0.1);
+    border-radius: 8px;
+}
+
+.specs-box {
+    background: var(--light-gray);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 4px solid var(--light-blue);
+}
+
+.specs-box h4 {
+    margin-top: 0;
+    color: var(--dark-blue);
+}
+
+.specs-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.specs-box li {
+    padding: 5px 0;
+    color: var(--dark-gray);
+}
+
+.service-highlight {
+    background: rgba(91, 155, 213, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 4px solid var(--light-blue);
+}
+
+.service-highlight h3 {
+    margin-top: 0;
+}
+
+.balancing-methods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.balancing-method {
+    background: var(--light-gray);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.balancing-method h3 {
+    margin-top: 0;
+    color: var(--dark-blue);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .service-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .service-content {
+        padding: 25px 20px;
+    }
+    
+    .service-process li {
+        padding: 15px 15px 15px 55px;
+    }
+    
+    .balancing-methods {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+</style>
