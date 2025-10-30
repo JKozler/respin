@@ -1,0 +1,39 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Upravit řešení potíže</h1>
+    <a n:href="Admin:troubleshooting" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Zpět
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        <div class="card">
+            <div class="card-body">
+                {form troubleshootingForm}
+                    <div class="mb-3">
+                        {label icon /}
+                        {input icon}
+                        <div class="form-text">Použijte emoji ikonu, např: ⚠️ 🔊 ⚡</div>
+                    </div>
+                    <div class="mb-3">
+                        {label title /}
+                        {input title}
+                    </div>
+                    <div class="mb-3">
+                        {label causes /}
+                        {input causes}
+                        <div class="form-text">Popište jednotlivé možné příčiny. Každou příčinu oddělte novým řádkem.</div>
+                    </div>
+                    <div class="mb-3">
+                        {label solution /}
+                        {input solution}
+                    </div>
+                    <div class="mb-3">
+                        {input save}
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,25 +1,25 @@
 {block content}
 <section class="hero" id="home">
-            <div class="container">
-                <div class="hero-content">
-                     <h1>Podpora</h1>
-        <p >Užitečné informace, tipy a návody pro správnou údržbu a řešení problémů s vřetenovými jednotkami</p>
-        
-                    <div class="cta-buttons">
-                        <a n:href="Home:services" class="btn btn-primary">Naše služby</a>
-                        <a href="#contact" class="btn btn-secondary">Kontaktujte nás</a>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Podpora</h1>
+            <p>Užitečné informace, tipy a návody pro správnou údržbu a řešení problémů s vřetenovými jednotkami</p>
+            
+            <div class="cta-buttons">
+                <a n:href="Home:services" class="btn btn-primary">Naše služby</a>
+                <a n:href="Home:contacts" class="btn btn-secondary">Kontaktujte nás</a>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
 <section class="support" id="support">
     <div class="container">
     
         <div class="support-tabs">
             <button class="tab-btn active" data-tab="faq">FAQ</button>
-            <button class="tab-btn" data-tab="maintenance">Údržba</button>
-            <button class="tab-btn" data-tab="troubleshooting">Potíže</button>
+            <button class="tab-btn" data-tab="troubleshooting">Řešení potíží</button>
+            <button class="tab-btn" data-tab="maintenance">Tipy na údržbu</button>
         </div>
         
         <div class="support-content">
@@ -41,249 +41,34 @@
             </div>
 
             
-            <!-- Maintenance Tab -->
-            <div class="tab-content" id="maintenance">
-    <div class="maintenance-container">
-        <div class="maintenance-grid">
-            <div class="maintenance-card">
-                <div class="maintenance-icon">🛠️</div>
-                <h3>Servis a údržba</h3>
-                <ul>
-                    <li>Dodržujte plán preventivní údržby – prodlouží životnost vřetena.</li>
-                    <li>Provádějte pravidelné kontroly dle doporučení výrobce.</li>
-                </ul>
-            </div>
-
-            <div class="maintenance-card">
-                <div class="maintenance-icon">🧼</div>
-                <h3>Čištění</h3>
-                <ul>
-                    <li>Čistěte kuželové plochy držáků nástrojů a dutinu vřetena.</li>
-                    <li>Pravidelně mažte kleštinu podle návodu výrobce.</li>
-                    <li>Nedostatečná čistota vede k nesouososti, nevyváženosti a vyššímu opotřebení nástrojů.</li>
-                </ul>
-            </div>
-
-            <div class="maintenance-card">
-                <div class="maintenance-icon">🔥</div>
-                <h3>Zahřívání</h3>
-                <ul>
-                    <li>Nezatěžujte studené vřeteno – nechte jej běžet na 50 % max. otáček 10–15 minut.</li>
-                    <li>Po změně otáček proveďte krátký stabilizační cyklus.</li>
-                </ul>
-            </div>
-
-            <div class="maintenance-card">
-                <div class="maintenance-icon">⚙️</div>
-                <h3>Záběh vřetena</h3>
-                <ul>
-                    <li>Pokud bylo vřeteno skladováno déle než 6 měsíců, proveďte záběh před zatížením.</li>
-                    <li>Tím se rovnoměrně rozprostře mazivo v ložiscích.</li>
-                </ul>
-            </div>
-
-            <div class="maintenance-card">
-                <div class="maintenance-icon">❄️</div>
-                <h3>Ochlazení</h3>
-                <ul>
-                    <li>Po ukončení práce nechte chladicí systém běžet min. 10 minut.</li>
-                    <li>Zabráníte kondenzaci a vniknutí nečistot do ložisek.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-            
             <!-- Troubleshooting Tab -->
             <div class="tab-content" id="troubleshooting">
                 <div class="troubleshooting-container">
                     <div class="problem-list">
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">⚠️</div>
-            <h3>Známky blížícího se selhání vřetena</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Vibrace při chodu „naprázdno“</li>
-                    <li>Stopy po chvění na obrobených dílech</li>
-                    <li>Nelze orovnat brusný kotouč</li>
-                    <li>Nedodržení výrobních tolerancí (válcovitost, drsnost, kruhovitost)</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Při výskytu těchto jevů doporučujeme okamžitě kontaktovat servis a nechat vřeteno odborně diagnostikovat.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">🔊</div>
-            <h3>Vibrace vřetena</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Nevyvážené nástrojové držáky</li>
-                    <li>Zlomené nebo chybějící VBD</li>
-                    <li>Příliš dlouhé držáky nástrojů při vysokých otáčkách</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Zkontrolujte nástroje a držáky dle doporučení výrobce stroje, vyvažte sestavu a ověřte správnost upnutí.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">↩️</div>
-            <h3>Vřeteno se po instalaci otáčí opačně</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Přeházený sled fází po opravě/převíjení motoru</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Prohoďte libovolné dva napájecí vodiče, směr otáčení se tím srovná.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">⚡</div>
-            <h3>Vřeteno při spuštění cuká nebo padá na přetížení</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Výpadek jedné fáze na straně frekvenčního měniče</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Zkontrolujte zapojení mezi vřetenem a měničem. Proveďte diagnostiku frekvenčního měniče.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">💡</div>
-            <h3>Chyba „nadproud“ na frekvenčním měniči</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Nesprávné propojení vřetena a měniče</li>
-                    <li>Chybné parametry nastavené v měniči</li>
-                    <li>Poškozené vinutí vřetena (zkrat, špatný izolační stav)</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Ověřte zapojení a parametry. Pokud chyba přetrvává, zašlete vřeteno k diagnostice do naší firmy.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">⛔</div>
-            <h3>Vřeteno se neotáčí</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Blokace od NC systému</li>
-                    <li>Vážně poškozená ložiska</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Zkuste ručně otočit vřetenem. Pokud se volně netočí, je nutný zásah servisu.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">🌡️</div>
-            <h3>Přehřívání vřetena</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Nefunkční nebo nedostatečný chladicí systém</li>
-                    <li>Tupý nástroj nebo příliš vysoký posuv</li>
-                    <li>Poškozená ložiska</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Zkontrolujte chlazení, sledujte zatížení. Při podezření na ložiska zašlete vřeteno k diagnostice.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">💨</div>
-            <h3>Únik vzduchu kolem hřídele</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Funkční blokovací vzduch – součást ochrany ložisek</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Jedná se o normální jev. Pokud by vzduch chyběl, hrozí poškození ložisek.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="problem-item">
-        <div class="problem-header">
-            <div class="problem-icon">🔄</div>
-            <h3>Nástroj se neupíná nebo nedrží pevně</h3>
-        </div>
-        <div class="problem-content">
-            <div class="problem-causes">
-                <h4>Možné příčiny:</h4>
-                <ul>
-                    <li>Nesprávný typ tažného čepu</li>
-                    <li>Chybná logika snímačů upínání</li>
-                    <li>Poškozená nebo znečištěná kleština</li>
-                    <li>Vadná sestava tažné tyče/pružin</li>
-                </ul>
-            </div>
-            <div class="problem-solution">
-                <h4>Doporučený postup:</h4>
-                <p>Zkontrolujte správnost čepů a snímačů, očistěte kleštinu. Pokud je tažná tyč/pružiny poškozená, je nutná oprava v servisu.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
+                        {foreach $troubleshooting as $problem}
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <div>
+                                        <span class="problem-icon-inline">{$problem->icon}</span>
+                                        <h3 style="display: inline; margin-left: 10px;">{$problem->title}</h3>
+                                    </div>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                                <div class="faq-answer">
+                                    <div class="problem-content-single">
+                                        <div class="problem-section">
+                                            <h4>Možné příčiny:</h4>
+                                            <p>{$problem->causes}</p>
+                                        </div>
+                                        <div class="problem-section">
+                                            <h4>Doporučený postup:</h4>
+                                            <p>{$problem->solution}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {/foreach}
+                    </div>
                     
                     <div class="emergency-contact">
                         <div class="emergency-card">
@@ -296,9 +81,32 @@
                     </div>
                 </div>
             </div>
+            
+            <!-- Maintenance Tab -->
+            <div class="tab-content" id="maintenance">
+                <div class="maintenance-container">
+                    <div class="faq-container">
+                        {foreach $maintenance as $tip}
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <div>
+                                        <span class="problem-icon-inline">{$tip->icon}</span>
+                                        <h3 style="display: inline; margin-left: 10px;">{$tip->title}</h3>
+                                    </div>
+                                    <span class="faq-toggle">+</span>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>{$tip->description}</p>
+                                </div>
+                            </div>
+                        {/foreach}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 <style>
 /* Support Section */
 .support {
@@ -348,9 +156,9 @@
     display: block;
 }
 
-/* FAQ Styling */
+/* FAQ Styling - Unified for all sections */
 .faq-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -389,6 +197,11 @@
     font-weight: 600;
 }
 
+.problem-icon-inline {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
 .faq-toggle {
     font-size: 24px;
     font-weight: bold;
@@ -401,6 +214,7 @@
     justify-content: center;
     background: rgba(91, 155, 213, 0.1);
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .faq-item.active .faq-toggle {
@@ -418,178 +232,52 @@
 
 .faq-item.active .faq-answer {
     padding: 20px 25px;
-    max-height: 200px;
+    max-height: 1000px;
 }
 
 .faq-answer p {
     color: var(--dark-gray);
     line-height: 1.6;
+    margin: 0 0 10px 0;
+}
+
+/* Problem content styling */
+.problem-content-single {
+    margin-top: 15px;
+}
+
+.problem-section {
+    margin-bottom: 20px;
+}
+
+.problem-section:last-child {
+    margin-bottom: 0;
+}
+
+.problem-section h4 {
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.problem-section p {
+    color: var(--dark-gray);
+    line-height: 1.6;
+    background: rgba(91, 155, 213, 0.05);
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 3px solid var(--light-blue);
     margin: 0;
 }
 
 /* Maintenance Styling */
 .maintenance-container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.maintenance-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-}
-
-.maintenance-card {
-    background: var(--light-gray);
-    padding: 30px 25px;
-    border-radius: 15px;
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(68, 114, 196, 0.1);
-}
-
-.maintenance-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(68, 114, 196, 0.15);
-    background: var(--white);
-}
-
-.maintenance-icon {
-    font-size: 40px;
-    margin-bottom: 20px;
-    background: linear-gradient(135deg, var(--light-blue), var(--dark-blue));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.maintenance-card h3 {
-    color: var(--dark-blue);
-    margin-bottom: 20px;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-
-.maintenance-card ul {
-    list-style: none;
-    text-align: left;
-}
-
-.maintenance-card li {
-    color: var(--dark-gray);
-    margin-bottom: 8px;
-    padding-left: 20px;
-    position: relative;
-    line-height: 1.5;
-}
-
-.maintenance-card li::before {
-    content: '✓';
-    position: absolute;
-    left: 0;
-    color: var(--light-blue);
-    font-weight: bold;
-}
-
-/* Troubleshooting Styling */
-.troubleshooting-container {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.problem-list {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.problem-item {
-    background: var(--white);
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-}
-
-.problem-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(68, 114, 196, 0.15);
-}
-
-.problem-header {
-    background: linear-gradient(135deg, var(--light-blue), var(--dark-blue));
-    color: var(--white);
-    padding: 20px 25px;
-    display: flex;
-    align-items: center;
-}
-
-.problem-icon {
-    font-size: 28px;
-    margin-right: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 10px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.problem-header h3 {
-    font-size: 1.3rem;
-    margin: 0;
-    font-weight: 600;
-}
-
-.problem-content {
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-
-.problem-causes h4,
-.problem-solution h4 {
-    color: var(--dark-blue);
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.problem-causes ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.problem-causes li {
-    color: var(--dark-gray);
-    margin-bottom: 8px;
-    padding-left: 20px;
-    position: relative;
-    line-height: 1.5;
-}
-
-.problem-causes li::before {
-    content: '•';
-    position: absolute;
-    left: 0;
-    color: var(--light-blue);
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.problem-solution p {
-    color: var(--dark-gray);
-    line-height: 1.6;
-    background: rgba(91, 155, 213, 0.05);
-    padding: 15px;
-    border-radius: 8px;
-    border-left: 4px solid var(--light-blue);
-}
-
+/* Emergency Contact */
 .emergency-contact {
     margin-top: 40px;
     display: flex;
@@ -656,18 +344,9 @@
         width: 200px;
     }
     
-    .maintenance-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .problem-content {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
     .faq-question {
         padding: 15px 20px;
+        flex-wrap: wrap;
     }
     
     .faq-question h3 {
@@ -681,27 +360,11 @@
 
 @media (max-width: 480px) {
     .faq-question {
-        flex-direction: column;
-        align-items: flex-start;
         gap: 10px;
     }
     
-    .faq-toggle {
-        align-self: flex-end;
-    }
-    
-    .maintenance-card {
-        padding: 25px 20px;
-    }
-    
-    .problem-header {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-    
-    .problem-content {
-        padding: 20px;
+    .problem-icon-inline {
+        font-size: 20px;
     }
 }
 </style>
@@ -730,20 +393,36 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // FAQ accordion functionality
+    // Check URL hash on page load
+    const hash = window.location.hash.substring(1);
+    if (hash && ['faq', 'reseni', 'udrzba'].includes(hash)) {
+        const tabMap = {
+            'faq': 'faq',
+            'reseni': 'troubleshooting',
+            'udrzba': 'maintenance'
+        };
+        
+        const targetTab = tabMap[hash];
+        if (targetTab) {
+            // Click the corresponding tab button
+            const targetBtn = document.querySelector('[data-tab="$'+targetTab+'"]');
+            if (targetBtn) {
+                targetBtn.click();
+                // Scroll to support section
+                setTimeout(() => {
+                    document.getElementById('support').scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+    }
+    
+    // FAQ accordion functionality - Unified for all sections
     const faqItems = document.querySelectorAll('.faq-item');
     
     faqItems.forEach(item => {
         const question = item.querySelector('.faq-question');
         
         question.addEventListener('click', function() {
-            // Close other FAQ items
-            faqItems.forEach(otherItem => {
-                if (otherItem !== item) {
-                    otherItem.classList.remove('active');
-                }
-            });
-            
             // Toggle current item
             item.classList.toggle('active');
         });

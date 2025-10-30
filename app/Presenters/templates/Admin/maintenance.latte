@@ -1,0 +1,42 @@
+{block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Tipy na údržbu</h1>
+    <a n:href="Admin:addMaintenance" class="btn btn-primary">
+        <i class="fas fa-plus"></i> Přidat tip
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th style="width: 50px;">Ikona</th>
+                        <th>Název</th>
+                        <th style="width: 50%;">Popis</th>
+                        <th style="width: 150px;">Akce</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr n:foreach="$maintenance as $item">
+                        <td style="font-size: 24px;">{$item->icon}</td>
+                        <td><strong>{$item->title}</strong></td>
+                        <td>{$item->description|truncate:100}</td>
+                        <td>
+                            <a n:href="Admin:editMaintenance, id => $item->id" 
+                               class="btn btn-sm btn-outline-primary btn-action">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a n:href="Admin:deleteMaintenance, id => $item->id" 
+                               class="btn btn-sm btn-outline-danger btn-action"
+                               onclick="return confirm('Opravdu smazat tento tip?')">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

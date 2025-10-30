@@ -16,7 +16,7 @@
     <div class="container">
         
         <!-- Oprava vřeten -->
-        <div class="service-detail-card">
+        <div class="service-detail-card" id="opravy-vreten">
             <div class="service-header">
                 <div class="service-icon-large">⚙️</div>
                 <h2>Oprava vřeten – srdce CNC strojů v našich rukou</h2>
@@ -66,7 +66,7 @@
         </div>
 
         <!-- Strojní celky a výklopné hlavy -->
-        <div class="service-detail-card">
+        <div class="service-detail-card" id="strojni-celky">
             <div class="service-header">
                 <div class="service-icon-large">🔄</div>
                 <h2>Strojní celky a výklopné hlavy</h2>
@@ -107,7 +107,7 @@
         </div>
 
         <!-- Broušení na kulato -->
-        <div class="service-detail-card">
+        <div class="service-detail-card" id="brouseni">
             <div class="service-header">
                 <div class="service-icon-large">📐</div>
                 <h2>Broušení na kulato – precizní kusová a malosériová výroba</h2>
@@ -150,7 +150,7 @@
         </div>
 
         <!-- Kruhoměr Talyrond -->
-        <div class="service-detail-card">
+        <div class="service-detail-card" id="talyrond">
             <div class="service-header">
                 <div class="service-icon-large">🎯</div>
                 <h2>Kruhoměr Talyrond® – jistota přesnosti, která prodává</h2>
@@ -181,7 +181,7 @@
         </div>
 
         <!-- Vřetenový hotel -->
-        <div class="service-detail-card">
+        <div class="service-detail-card" id="hotel">
             <div class="service-header">
                 <div class="service-icon-large">🏨</div>
                 <h2>Vřetenový hotel</h2>
@@ -218,8 +218,8 @@
             </div>
         </div>
 
-        <!-- Vyvažování (NOVÁ SLUŽBA) -->
-        <div class="service-detail-card">
+        <!-- Vyvažování -->
+        <div class="service-detail-card" id="vyvazovani">
             <div class="service-header">
                 <div class="service-icon-large">⚖️</div>
                 <h2>Vyvažování</h2>
@@ -293,6 +293,7 @@
     margin-bottom: 40px;
     overflow: hidden;
     transition: all 0.3s ease;
+    scroll-margin-top: 100px; /* Pro správné umístění při skrolování na kotvu */
 }
 
 .service-detail-card:hover {

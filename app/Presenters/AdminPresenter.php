@@ -89,8 +89,15 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
         $imagesCount = $this->database->query('SELECT COUNT(*) as count FROM gallery_images WHERE active = ?', 1)
             ->fetch()->count;
         
+        $faqCount = $this->database->table('faq')->count();
+        $troubleshootingCount = $this->database->table('troubleshooting')->count();
+        $maintenanceCount = $this->database->table('maintenance')->count();
+        
         $this->template->categoriesCount = $categoriesCount;
         $this->template->imagesCount = $imagesCount;
+        $this->template->faqCount = $faqCount;
+        $this->template->troubleshootingCount = $troubleshootingCount;
+        $this->template->maintenanceCount = $maintenanceCount;
     }
 
     // KATEGORIE
@@ -189,13 +196,16 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
 
         $form->addTextArea('question', 'Otázka:')
             ->setRequired('Zadejte otázku')
-            ->setHtmlAttribute('rows', 2);
+            ->setHtmlAttribute('rows', 2)
+            ->setHtmlAttribute('class', 'form-control');
 
         $form->addTextArea('answer', 'Odpověď:')
             ->setRequired('Zadejte odpověď')
-            ->setHtmlAttribute('rows', 4);
+            ->setHtmlAttribute('rows', 6)
+            ->setHtmlAttribute('class', 'form-control');
 
-        $form->addSubmit('save', 'Uložit');
+        $form->addSubmit('save', 'Uložit')
+            ->setHtmlAttribute('class', 'btn btn-primary');
 
         $form->onSuccess[] = [$this, 'faqFormSucceeded'];
         return $form;
@@ -233,6 +243,199 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
             $this->flashMessage('FAQ bylo smazáno', 'success');
         }
         $this->redirect('Admin:faq');
+    }
+
+    // === TROUBLESHOOTING (Řešení potíží) ===
+
+    public function renderTroubleshooting()
+    {
+        $this->template->troubleshooting = $this->database->table('troubleshooting')
+            ->order('id DESC')
+            ->fetchAll();
+    }
+
+    public function renderAddTroubleshooting()
+    {
+        // prázdná šablona s formulářem
+    }
+
+    public function renderEditTroubleshooting(int $id)
+    {
+        $item = $this->database->table('troubleshooting')->get($id);
+        if (!$item) {
+            $this->error('Položka nebyla nalezena');
+        }
+        $this->template->item = $item;
+
+        $form = $this->getComponent('troubleshootingForm');
+        $form->setDefaults([
+            'icon' => $item->icon,
+            'title' => $item->title,
+            'causes' => $item->causes,
+            'solution' => $item->solution,
+        ]);
+    }
+
+    protected function createComponentTroubleshootingForm(): Form
+    {
+        $form = new Form;
+
+        $form->addText('icon', 'Ikona (emoji):')
+            ->setRequired('Zadejte ikonu')
+            ->setHtmlAttribute('class', 'form-control')
+            ->setHtmlAttribute('placeholder', '⚠️');
+
+        $form->addTextArea('title', 'Název problému:')
+            ->setRequired('Zadejte název')
+            ->setHtmlAttribute('rows', 2)
+            ->setHtmlAttribute('class', 'form-control');
+
+        $form->addTextArea('causes', 'Možné příčiny:')
+            ->setRequired('Zadejte možné příčiny')
+            ->setHtmlAttribute('rows', 4)
+            ->setHtmlAttribute('class', 'form-control')
+            ->setHtmlAttribute('placeholder', 'Popište jednotlivé možné příčiny oddělené odstavci');
+
+        $form->addTextArea('solution', 'Doporučený postup:')
+            ->setRequired('Zadejte řešení')
+            ->setHtmlAttribute('rows', 4)
+            ->setHtmlAttribute('class', 'form-control');
+
+        $form->addSubmit('save', 'Uložit')
+            ->setHtmlAttribute('class', 'btn btn-primary');
+
+        $form->onSuccess[] = [$this, 'troubleshootingFormSucceeded'];
+        return $form;
+    }
+
+    public function troubleshootingFormSucceeded(Form $form, \stdClass $values): void
+    {
+        $id = $this->getParameter('id');
+
+        if ($id) {
+            // úprava
+            $this->database->table('troubleshooting')->where('id', $id)->update([
+                'icon' => $values->icon,
+                'title' => $values->title,
+                'causes' => $values->causes,
+                'solution' => $values->solution,
+            ]);
+            $this->flashMessage('Položka byla upravena', 'success');
+        } else {
+            // přidání
+            $this->database->table('troubleshooting')->insert([
+                'icon' => $values->icon,
+                'title' => $values->title,
+                'causes' => $values->causes,
+                'solution' => $values->solution,
+                'created_at' => new \DateTime(),
+            ]);
+            $this->flashMessage('Položka byla přidána', 'success');
+        }
+
+        $this->redirect('Admin:troubleshooting');
+    }
+
+    public function renderDeleteTroubleshooting(int $id): void
+    {
+        $item = $this->database->table('troubleshooting')->get($id);
+        if ($item) {
+            $item->delete();
+            $this->flashMessage('Položka byla smazána', 'success');
+        }
+        $this->redirect('Admin:troubleshooting');
+    }
+
+    // === MAINTENANCE (Tipy na údržbu) ===
+
+    public function renderMaintenance()
+    {
+        $this->template->maintenance = $this->database->table('maintenance')
+            ->order('id DESC')
+            ->fetchAll();
+    }
+
+    public function renderAddMaintenance()
+    {
+        // prázdná šablona s formulářem
+    }
+
+    public function renderEditMaintenance(int $id)
+    {
+        $item = $this->database->table('maintenance')->get($id);
+        if (!$item) {
+            $this->error('Položka nebyla nalezena');
+        }
+        $this->template->item = $item;
+
+        $form = $this->getComponent('maintenanceForm');
+        $form->setDefaults([
+            'icon' => $item->icon,
+            'title' => $item->title,
+            'description' => $item->description,
+        ]);
+    }
+
+    protected function createComponentMaintenanceForm(): Form
+    {
+        $form = new Form;
+
+        $form->addText('icon', 'Ikona (emoji):')
+            ->setRequired('Zadejte ikonu')
+            ->setHtmlAttribute('class', 'form-control')
+            ->setHtmlAttribute('placeholder', '🛠️');
+
+        $form->addTextArea('title', 'Název tipu:')
+            ->setRequired('Zadejte název')
+            ->setHtmlAttribute('rows', 2)
+            ->setHtmlAttribute('class', 'form-control');
+
+        $form->addTextArea('description', 'Popis:')
+            ->setRequired('Zadejte popis')
+            ->setHtmlAttribute('rows', 6)
+            ->setHtmlAttribute('class', 'form-control');
+
+        $form->addSubmit('save', 'Uložit')
+            ->setHtmlAttribute('class', 'btn btn-primary');
+
+        $form->onSuccess[] = [$this, 'maintenanceFormSucceeded'];
+        return $form;
+    }
+
+    public function maintenanceFormSucceeded(Form $form, \stdClass $values): void
+    {
+        $id = $this->getParameter('id');
+
+        if ($id) {
+            // úprava
+            $this->database->table('maintenance')->where('id', $id)->update([
+                'icon' => $values->icon,
+                'title' => $values->title,
+                'description' => $values->description,
+            ]);
+            $this->flashMessage('Tip byl upraven', 'success');
+        } else {
+            // přidání
+            $this->database->table('maintenance')->insert([
+                'icon' => $values->icon,
+                'title' => $values->title,
+                'description' => $values->description,
+                'created_at' => new \DateTime(),
+            ]);
+            $this->flashMessage('Tip byl přidán', 'success');
+        }
+
+        $this->redirect('Admin:maintenance');
+    }
+
+    public function renderDeleteMaintenance(int $id): void
+    {
+        $item = $this->database->table('maintenance')->get($id);
+        if ($item) {
+            $item->delete();
+            $this->flashMessage('Tip byl smazán', 'success');
+        }
+        $this->redirect('Admin:maintenance');
     }
 
     // === KONTAKTY ===

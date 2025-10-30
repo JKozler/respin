@@ -1,1 +1,105 @@
 {block content}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Upravit kategorii: {$category->name}</h1>
+    <a n:href="Admin:categories" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Zpět
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                {form categoryForm}
+                    <div class="mb-3">
+                        {label name  /}
+                        {input name }
+                    </div>
+                    <div class="mb-3">
+                        {label slug  /}
+                        {input slug }
+                        <div class="form-text">URL identifikátor kategorie (např. vretena)</div>
+                    </div>
+                    <div class="mb-3">
+                        {label description  /}
+                        {input description }
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            {label sort_order  /}
+                            {input sort_order }
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-check mt-4">
+                                {input active }
+                                {label active  /}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        {input save }
+                    </div>
+                {/form}
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h6>Informace o kategorii</h6>
+            </div>
+            <div class="card-body">
+                <p><strong>ID kategorie:</strong> {$category->id}</p>
+                <p><strong>Vytvořeno:</strong> {$category->created_at|date:'d.m.Y H:i'}</p>
+                <p><strong>Počet obrázků:</strong> 
+                    <a n:href="Admin:images, categoryId => $category->id">
+                        Zobrazit obrázky v této kategorii
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Automatické generování slug z názvu kategorie
+document.addEventListener('DOMContentLoaded', function() {
+    const nameInput = document.getElementById('category-name');
+    const slugInput = document.getElementById('category-slug');
+    
+    if (nameInput && slugInput) {
+        nameInput.addEventListener('input', function() {
+            if (slugInput.dataset.manual !== 'true') {
+                slugInput.value = createSlug(this.value);
+            }
+        });
+        
+        slugInput.addEventListener('input', function() {
+            this.dataset.manual = 'true';
+            this.value = createSlug(this.value);
+        });
+    }
+
+    function createSlug(text) {
+        const replacements = {
+            'á': 'a','č': 'c','ď': 'd','é': 'e','ě': 'e',
+            'í': 'i','ň': 'n','ó': 'o','ř': 'r','š': 's',
+            'ť': 't','ú': 'u','ů': 'u','ý': 'y','ž': 'z',
+            'Á': 'a','Č': 'c','Ď': 'd','É': 'e','Ě': 'e',
+            'Í': 'i','Ň': 'n','Ó': 'o','Ř': 'r','Š': 's',
+            'Ť': 't','Ú': 'u','Ů': 'u','Ý': 'y','Ž': 'z'
+        };
+        
+        let slug = text;
+        for (const [czech, ascii] of Object.entries(replacements)) {
+            slug = slug.replace(new RegExp(czech, 'g'), ascii);
+        }
+        
+        return slug
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    }
+});
+</script>

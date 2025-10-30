@@ -71,6 +71,8 @@ final class HomePresenter extends Nette\Application\UI\Presenter
 
     function renderSupport(){
         $this->template->faqs = $this->database->table('faq')->fetchAll();
+        $this->template->troubleshooting = $this->database->table('troubleshooting')->fetchAll();
+        $this->template->maintenance = $this->database->table('maintenance')->fetchAll();
     }
 
     function renderContacts(){

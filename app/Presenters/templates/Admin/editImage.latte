@@ -19,23 +19,23 @@
                     {input active value => $image->active}
                     
                     <div class="mb-3">
-                        {label category_id class="form-label" /}
-                        {input category_id class="form-select"}
+                        {label category_id  /}
+                        {input category_id }
                     </div>
                     <div class="mb-3">
-                        {label title class="form-label" /}
-                        {input title class="form-control"}
+                        {label title  /}
+                        {input title }
                     </div>
                     <div class="mb-3">
-                        {label description class="form-label" /}
-                        {input description class="form-control"}
+                        {label description  /}
+                        {input description }
                     </div>
                     <div class="mb-3">
-                        {label alt_text class="form-label" /}
-                        {input alt_text class="form-control"}
+                        {label alt_text  /}
+                        {input alt_text }
                     </div>
                     <div class="mb-3">
-                        <label class="form-label">Současný obrázek:</label>
+                        <label>Současný obrázek:</label>
                         <div>
                             <img src="/uploads/gallery/{$image->filename}" 
                                  alt="{$image->alt_text}" 
@@ -44,24 +44,24 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        {label image class="form-label" /}
-                        {input image class="form-control"}
+                        {label image  /}
+                        {input image }
                         <div class="form-text">Ponechte prázdné, pokud nechcete měnit obrázek</div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            {label sort_order class="form-label" /}
-                            {input sort_order class="form-control"}
+                            {label sort_order  /}
+                            {input sort_order }
                         </div>
                         <div class="col-md-6 mb-3">
                             <div class="form-check mt-4">
-                                {input active class="form-check-input"}
-                                {label active class="form-check-label" /}
+                                {input active }
+                                {label active  /}
                             </div>
                         </div>
                     </div>
                     <div class="mb-3">
-                        {input save class="btn btn-primary"}
+                        {input save }
                     </div>
                 {/form}
             </div>
@@ -77,24 +77,6 @@
                 <p><strong>Název souboru:</strong> {$image->filename}</p>
                 <p><strong>Původní název:</strong> {$image->original_name}</p>
                 <p><strong>Vytvořeno:</strong> {$image->created_at|date:'d.m.Y H:i'}</p>
-            </div>
-        </div>
-    </div>
-</div>mb-3">
-                            {label sort_order class="form-label" /}
-                            {input sort_order class="form-control"}
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-check mt-4">
-                                {input active class="form-check-input"}
-                                {label active class="form-check-label" /}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        {input save class="btn btn-primary"}
-                    </div>
-                {/form}
             </div>
         </div>
     </div>
