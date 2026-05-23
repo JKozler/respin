@@ -437,10 +437,9 @@
         .hero {
             background: linear-gradient(135deg, var(--dark-blue) 0%, var(--light-blue) 100%);
             color: var(--white);
-            padding: 120px 0 80px;
+            padding: 110px 0 60px;
             position: relative;
             overflow: hidden;
-            min-height: 100vh;
             display: flex;
             align-items: center;
         }
@@ -828,7 +827,7 @@
             }
             
             .hero {
-                padding: 100px 0 60px;
+                padding: 85px 0 45px;
             }
             
             .cta-buttons {
@@ -1079,23 +1078,42 @@
         visibility: visible;
         transform: none;
         box-shadow: none;
-        background: rgba(255, 255, 255, 0.1);
+        background: transparent;
         margin-top: 10px;
-        border-radius: 8px;
+        border-radius: 0;
         display: none;
+        padding: 5px 0 10px 0;
     }
 
     .dropdown.show {
-        display: block;
-    }
-
-    .dropdown-link {
-        color: rgba(255, 255, 255, 0.9);
-        padding: 8px 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
     }
 
     .dropdown-item {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .dropdown-link {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 25px;
+        padding: 8px 18px;
+        font-size: 13px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .dropdown-link:hover,
+    .dropdown-link:active {
+        background: rgba(255, 255, 255, 0.3);
+        border-color: rgba(255, 255, 255, 0.6);
     }
 }
 </style>
@@ -1143,6 +1161,9 @@
                 <div class="dropdown">
                     <div class="dropdown-item">
                         <a n:href="Home:services#opravy-vreten" class="dropdown-link">Opravy vřeten</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a n:href="Home:services#skladem" class="dropdown-link">Vřetena skladem</a>
                     </div>
                     <div class="dropdown-item">
                         <a n:href="Home:services#strojni-celky" class="dropdown-link">Strojní celky a výklopné hlavy</a>
@@ -1243,10 +1264,39 @@
             spans[2].style.transform = navMenu.classList.contains('active') ? 'rotate(-45deg) translate(7px, -6px)' : '';
         });
 
-        // Close mobile menu when clicking on links
-        document.querySelectorAll('.nav-link').forEach(link => {
+        // Mobile dropdown toggle — on mobile, nav-links with a dropdown toggle bubbles instead of navigating
+        document.querySelectorAll('.nav-item').forEach(item => {
+            const link = item.querySelector('.nav-link');
+            const dropdown = item.querySelector('.dropdown');
+
+            if (dropdown) {
+                link.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        // Close other open dropdowns
+                        document.querySelectorAll('.dropdown.show').forEach(d => {
+                            if (d !== dropdown) d.classList.remove('show');
+                        });
+                        dropdown.classList.toggle('show');
+                    }
+                });
+            } else {
+                // Regular link — close the whole mobile menu
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    const spans = mobileMenuToggle.querySelectorAll('span');
+                    spans[0].style.transform = '';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = '';
+                });
+            }
+        });
+
+        // Close mobile menu when clicking dropdown links
+        document.querySelectorAll('.dropdown-link').forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
+                document.querySelectorAll('.dropdown.show').forEach(d => d.classList.remove('show'));
                 const spans = mobileMenuToggle.querySelectorAll('span');
                 spans[0].style.transform = '';
                 spans[1].style.opacity = '1';
