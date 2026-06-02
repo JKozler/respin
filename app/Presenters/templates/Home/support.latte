@@ -47,7 +47,7 @@
             <!-- Troubleshooting Tab -->
             <div class="tab-content" id="troubleshooting">
                 <div class="support-intro">
-                    <p>Vaše vřeteno je jednou ze základních částí vašeho stroje — hybatelem myšlenek. Jsme tu, abychom vám pomohli ho znovu zprovoznit a udržet v chodu. Nejedná se samozřejmě o jedinou část systému. Servopohony, regulátory a kuličkové šrouby, kvalita přívodu vzduchu a chladicí kapaliny mají zásadní vliv na stav stroje, ale i vřetene. Uvádíme nejběžnější potíže s výkladem pro pochopení, co se se strojem děje. Informace rozšiřujeme průběžně. Nenajdete-li co potřebujete, zavolejte nám do ReSpin Team na číslo <a href="tel:736127540">736 127 540</a>, pokusíme se Vám poradit.</p>
+                    <p>Vaše vřeteno je jednou ze základních částí vašeho stroje - hybatelem myšlenek. Jsme tu, abychom vám pomohli ho znovu zprovoznit a udržet v chodu. Nejedná se samozřejmě o jedinou část systému. Servopohony, regulátory a kuličkové šrouby, kvalita přívodu vzduchu a chladicí kapaliny mají zásadní vliv na stav stroje, ale i vřetene. Uvádíme nejběžnější potíže s výkladem pro pochopení, co se se strojem děje. Informace rozšiřujeme průběžně. Nenajdete-li, co potřebujete, zavolejte nám do ReSpin Team na číslo <a href="tel:736127540">736 127 540</a>, pokusíme se Vám poradit.</p>
                 </div>
                 <div class="troubleshooting-container">
                     <div class="problem-list">
@@ -90,7 +90,7 @@
             <!-- Maintenance Tab -->
             <div class="tab-content" id="maintenance">
                 <div class="support-intro">
-                    <p>Co je vhodné doplnit do plánu údržby, nebo jak se chovat ke vřeteni, abyste maximalizovali jeho životnost a udržovali v provozuschopném stavu. Rubriku průběžně rozšiřujeme dle našich rozrůstajících se zkušeností.</p>
+                    <p>Co je vhodné doplnit do plánu údržby nebo jak se chovat ke vřeteni, abyste maximalizovali jeho životnost a udržovali jej v provozuschopném stavu. Rubriku průběžně rozšiřujeme dle našich rozrůstajících se zkušeností a Vašich dotazů.</p>
                 </div>
                 <div class="maintenance-container">
                     <div class="faq-container">
@@ -418,28 +418,28 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Check URL hash on page load
-    const hash = window.location.hash.substring(1);
-    if (hash && ['faq', 'reseni', 'udrzba'].includes(hash)) {
-        const tabMap = {
-            'faq': 'faq',
-            'reseni': 'troubleshooting',
-            'udrzba': 'maintenance'
-        };
-        
-        const targetTab = tabMap[hash];
-        if (targetTab) {
-            // Click the corresponding tab button
-            const targetBtn = document.querySelector('[data-tab="'+targetTab+'"]');
+    // Switch tab by hash — used on load AND on hashchange (opakované kliknutí z dropdown)
+    const tabMap = {
+        'faq': 'faq',
+        'reseni': 'troubleshooting',
+        'udrzba': 'maintenance'
+    };
+
+    function switchTabByHash() {
+        const hash = window.location.hash.substring(1);
+        if (hash && tabMap[hash]) {
+            const targetBtn = document.querySelector('[data-tab="' + tabMap[hash] + '"]');
             if (targetBtn) {
                 targetBtn.click();
-                // Scroll to support section
                 setTimeout(() => {
                     document.getElementById('support').scrollIntoView({ behavior: 'smooth' });
                 }, 100);
             }
         }
     }
+
+    switchTabByHash();
+    window.addEventListener('hashchange', switchTabByHash);
     
     // FAQ accordion functionality - Unified for all sections
     const faqItems = document.querySelectorAll('.faq-item');
