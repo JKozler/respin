@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2018-05-04 19:37+0200\n"
+"PO-Revision-Date: 2018-05-04 19:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../elements.php:9 ../init.php:49 ../init.php:50 ../init.php:58
+#: ../init.php:59 ../init.php:66 ../mioweb_class.php:255
+msgid "Kampaně"
+msgstr "Campaigns"
+
+#: ../elements.php:16
+msgid "Nastavit odpočet relativně od vstupu návštěvníka do kampaně"
+msgstr ""
+
+#: ../elements.php:21
+msgid "Dní"
+msgstr ""
+
+#: ../elements.php:26
+msgid "Hodin"
+msgstr ""
+
+#: ../elements.php:31
+msgid "Minut"
+msgstr ""
+
+#: ../elements.php:40
+msgid "Začít odpočet od"
+msgstr ""
+
+#: ../elements.php:43
+msgid "půlnoci dne vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:44
+msgid "začátku dne vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:45
+msgid "času vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:52
+msgid "Navigace kampaně"
+msgstr "Campaign navigation"
+
+#: ../elements.php:53
+msgid ""
+"Vypíše seznam stránek s obsahem zdarma vybrané kampaně. Slouží jako navigace "
+"mezi těmito stránkami."
+msgstr ""
+"It will show the list with content of free selected campaign. It can be used "
+"as a navigation between those pages."
+
+#: ../elements.php:57 ../init.php:35
+msgid "Kampaň"
+msgstr "Campaign"
+
+#: ../elements.php:62
+msgid "Vzhled navigace"
+msgstr "Campaign design"
+
+#: ../elements.php:75 ../elements.php:137 ../elements.php:170
+msgid "Písmo"
+msgstr "Font"
+
+#: ../elements.php:86
+msgid "Barva textu aktivní položky"
+msgstr "Text colour of an active item"
+
+#: ../elements.php:93
+msgid "Počet stažení / koupení"
+msgstr "Number of downloads / purchases"
+
+#: ../elements.php:94
+msgid ""
+"Vypíše kontakty z vybraného seznamu ze SmartEmailingu. Můžete tak vypsat "
+"informaci o tom, kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+"(pokud je ukládáte do SmartEmailingu)."
+msgstr ""
+"It will show contacts from selected list from the SmartEmailing. You can "
+"show information about the fact how many people downloaded your e-book or "
+"purchased your product (if you are saving them to the SmartEmailing)."
+
+#: ../elements.php:98
+msgid "Obsah"
+msgstr "Content"
+
+#: ../elements.php:102
+msgid "Vyberte seznam, pro který chcete vypsat počet kontaktů."
+msgstr "Select a list for which you want to show number of contacts."
+
+#: ../elements.php:107
+msgid "Text před číslem"
+msgstr "Text before number"
+
+#: ../elements.php:109
+msgid "Tento ebook si stáhlo již"
+msgstr "This e-book was downloaded by"
+
+#: ../elements.php:113
+msgid "Text za číslem"
+msgstr "Text after number"
+
+#: ../elements.php:115
+msgid "lidí"
+msgstr "people"
+
+#: ../elements.php:119
+msgid "Odečítat počet kontaktů od čísla"
+msgstr "Deduct number of contacts from number"
+
+#: ../elements.php:121
+msgid ""
+"Počet kontaktů z vybraného seznamu se bude odečítat od tohoto čísla. Pokud "
+"zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se vypíše "
+"číslice 80. Pokud zde žádné číslo nezadáte, bude se zobrazovat klasicky "
+"počet kontaktů ze seznamu."
+msgstr ""
+"Number of contacts from selected list will be deducted from this number. If "
+"you will set, for example, number 100 and there is 20 contacts in the list, "
+"then it will show number 80. If you leave it blank, then usual number of "
+"contacts from the list will be shown."
+
+#: ../elements.php:125
+msgid "Po dosažení nuly přesměrovat návštěvníka na"
+msgstr "After reaching zero redirect customer to"
+
+#: ../elements.php:133
+msgid "Vzhled"
+msgstr "Design"
+
+#: ../elements.php:153
+msgid "Proměnlivé datum"
+msgstr ""
+
+#: ../elements.php:154
+msgid "Vypíše datum závislé na vstupu do kampaně."
+msgstr ""
+
+#: ../elements.php:158
+msgid "Vypsat datum posunuté o x dní od vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:164
+msgid "Čas (ve formátu hh:mm)"
+msgstr ""
+
+#: ../elements.php:166
+msgid "20:00"
+msgstr ""
+
+#: ../elements_print.php:48
+msgid ""
+"Vybraná kampaň neobsahuje žádné stránky s obsahem zdarma. Nastavte je ve "
+"správě kampaní, jinak se nebude menu zobrazovat."
+msgstr ""
+"Selected campaign does not contain any pages with free content. Set them in "
+"campaign administration or menu will not be shown."
+
+#: ../elements_print.php:51
+msgid ""
+"Kampaň neexistuje. Pravděpodobně byla smazána. Vyberte prosím jinou kampaň "
+"nebo toto menu kampaně smažte."
+msgstr ""
+"Campaign does not exist. Probably, it was deleted. Please select other "
+"campaign or delete this campaign menu."
+
+#: ../elements_print.php:93
+msgid ""
+"Není vybrán žádný SmartEmailingový seznam. Element proto nelze správně "
+"zobrazit."
+msgstr ""
+"No SmartEmailing list selected. This is why the element cannot be shown "
+"properly."
+
+#: ../elements_print.php:129
+msgid "v"
+msgstr "at"
+
+#: ../elements_print.php:133
+msgid ""
+"Pokud není datum umístěno na stránce zařazené do kampaně, nebude se odvíjet "
+"od vstupu do kampaně ale od vstupu na stránku."
+msgstr ""
+
+#: ../functions.php:27
+msgid "Vytvořit novou kampaň"
+msgstr "Create new campaign"
+
+#: ../functions.php:29
+#, php-format
+msgid ""
+"Dochází ke konfliktu stránky %s. Pravděpodobně jste tuto stránku vybrali na "
+"více místech kampaně nebo ve více kampaních. Použijte ji jen jednou, jinak "
+"nebude kampaň fungovat správně."
+msgstr ""
+"There is conflict of the page %s. Probably, this page was selected on more "
+"places in one campaign or in more campaigns. Use it only once, or your "
+"campaign will not work properly."
+
+#: ../functions.php:31
+msgid "Zadejte název nové kampaně"
+msgstr "Set name of a new campaign"
+
+#: ../functions.php:32 ../mioweb_class.php:255
+msgid "Vytvořit kampaň"
+msgstr "Create campaign"
+
+#: ../functions.php:33
+msgid "Storno"
+msgstr "Cancel"
+
+#: ../functions.php:71
+msgid ""
+"Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v záložce "
+"kampaně."
+msgstr ""
+"No campaign created. Campaign can be created in web settings in tab "
+"campaigns."
+
+#: ../init.php:22
+msgid "Kampaňové"
+msgstr "Campaign"
+
+#: ../init.php:26
+msgid "Video stránky"
+msgstr "Page video"
+
+#: ../js/js_texts.php:8
+msgid "Prosím zadejte název kampaně."
+msgstr "Please set campaign name."
+
+#: ../js/js_texts.php:9
+msgid "Opravdu chcete odstranit stránku z kampaně?"
+msgstr "Do you really want to delete page from campaign?"
+
+#: ../js/js_texts.php:10
+msgid "Opravdu chcete tuto kampaň smazat?"
+msgstr "Do you really want to delete this campaign?"
+
+#: ../js/js_texts.php:11
+msgid ""
+"Tuto stránku nelze použít. Pravděpodobně již byla použita jako stránka této "
+"nebo jiné kampaně. Zvolte jinou stránku."
+msgstr ""
+"This page cannot be used. Probably, it was already used as a page in this or "
+"other campaign. Select other page."
+
+#: ../mioweb_class.php:121 ../mioweb_class.php:138 ../mioweb_class.php:148
+msgid "Stránka s obsahem zdarma"
+msgstr "Page with free content"
+
+#: ../mioweb_class.php:129
+msgid "Stránky kampaně"
+msgstr "Campaign pages"
+
+#: ../mioweb_class.php:131
+msgid "Vstupní stránka"
+msgstr "Landing page"
+
+#: ../mioweb_class.php:149
+msgid "Pro odkázání uživatele na tuto stránku použijte odkaz:"
+msgstr "To redirect user to this page use the link:"
+
+#: ../mioweb_class.php:157
+msgid "Přidat stránku do kampaně"
+msgstr "Add page to campaign"
+
+#: ../mioweb_class.php:158
+msgid "Nastavení kampaně"
+msgstr "Campaign settings"
+
+#: ../mioweb_class.php:160
+msgid "Přístupový kód"
+msgstr "Access code"
+
+#: ../mioweb_class.php:162
+msgid ""
+"Tento kód budete používat jako hodnotu atributu setuser v URL adrese, na "
+"kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+"uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+"musí být jedinečný pro každou kampaň."
+msgstr ""
+"You will use this code as the value of attribute setuser in the URL address "
+"to which registered visitors will be redirected. Thanks to this code cookies "
+"will be saved and they will obtain access to campaign pages. Access code has "
+"to be unique for each campaign."
+
+#: ../mioweb_class.php:164
+msgid "Délka platnosti přístupu"
+msgstr "Length of access validity"
+
+#: ../mioweb_class.php:166
+msgid "dní"
+msgstr "days"
+
+#: ../mioweb_class.php:167
+msgid ""
+"Po vypršení této doby se zneplatní přístup uživatele do kampaně. Při dalším "
+"přístupu se vynulují všechny odpočty a kampaň začne od začátku. Pokud nic "
+"nevyplníte platnost se nastaví na jeden rok."
+msgstr ""
+"After this time the user access to the campaign will be invalidated. By the "
+"next access all counters will be reset and campaign will start from the "
+"beginning. If you leave it empty, validity will be set to one year."
+
+#: ../mioweb_class.php:169
+msgid "Přesměrování ze vstupní stránky"
+msgstr "Redirection from the landing page"
+
+#: ../mioweb_class.php:172
+msgid ""
+"Nepřesměrovávat uživatele ze vstupní stránky, když je v kampani přihlášený"
+msgstr "Do not redirect from the landing page, in case when there is logged in"
+
+#: ../mioweb_class.php:174
+msgid ""
+"Defaultně je každý uživatel, který má do kampaně přístup automatický "
+"přesměrován na 1. stránku s obsahem zdarma."
+msgstr ""
+"By default every user with access to the campaign is redirected to the first "
+"page with free content."
+
+#: ../mioweb_class.php:176
+msgid "Evergreen"
+msgstr "Evergreen"
+
+#: ../mioweb_class.php:180
+msgid "Aktivovat evergreen mód"
+msgstr "Activate evergreen mode"
+
+#: ../mioweb_class.php:182
+msgid ""
+"Pokud je evergreen mód u kampaně aktivní, znamená to, že každému novému "
+"návštěvníkovi, který se registruje, budou zpřístupněny pouze ty stránky, na "
+"které ho přímo odkážete (za použití výše nastaveného přístupového kódu v "
+"URL). Můžete tak stránky kampaně zpřístupňovat postupně například pomocí e-"
+"mailové kampaně, s e-maily odkazujícími na jednotlivé stránky. Pokud je "
+"evergreen mód aktivní, deaktivuje se nastavení data zveřejnění u všech "
+"stránek kampaně."
+msgstr ""
+"If the evergreen mode is active in particular campaign, then it means that "
+"each new registered user will obtain access only to those pages to which you "
+"will directly redirect him/her (using above set access code in the URL). "
+"Using this method you can make campaign pages accessible step by step, e.g. "
+"using e-mail campaign with e-mails referring to particular pages. If the "
+"evergreen mode is active, then the date of publishing will be deactivated "
+"for all campaign pages."
+
+#: ../mioweb_class.php:184 ../mioweb_class.php:185
+msgid "Smazat kampaň"
+msgstr "Delete campaign"
+
+#: ../mioweb_class.php:194
+msgid "Nastavení stránky"
+msgstr "Page settings"
+
+#: ../mioweb_class.php:197
+msgid "Nevypisovat v menu kampaně"
+msgstr "Do not show in campaign menu"
+
+#: ../mioweb_class.php:201
+msgid "Datum zveřejnění"
+msgstr "Date of publishing"
+
+#: ../mioweb_class.php:205
+msgid "Název stránky v menu"
+msgstr "Page name in menu"
+
+#: ../mioweb_class.php:209
+msgid "Název před zveřejněním"
+msgstr "Name before publishing"
+
+#: ../mioweb_class.php:213
+msgid "Náhledový obrázek v menu"
+msgstr "Preview image in menu"
+
+#: ../mioweb_class.php:217
+msgid "Náhledový obrázek před zveřejněním"
+msgstr "Preview image before publishing"
+
+#: ../mioweb_class.php:221
+msgid "Odstranit"
+msgstr "Delete"
+
+#: ../mioweb_class.php:242
+msgid "Vytvořit novou stránku"
+msgstr "Create new page"
+
+#: ../mioweb_class.php:242
+msgid "Nová stránka kampaně"
+msgstr "New campaign page"
+
+#: ../mioweb_class.php:246
+msgid "Přejít na kampaň"
+msgstr "Go to campaign"
+
+#: ../mioweb_class.php:255
+msgid "Správa kampaní"
+msgstr "Campaign administration"
+
+#: ../templates/campaign/1/config.php:147
+#: ../templates/campaign/2/config.php:131
+msgid "Přidejte se do diskuze"
+msgstr "Join the discussion"
+
+#: ../templates/campaign/1/template.php:6
+msgid "Dvousloupcová video stránka"
+msgstr "Two-column video page"
+
+#: ../templates/campaign/1/template.php:7
+msgid "Video stránka s dvousloupcovým obsahem a s menu vedle videa."
+msgstr "Video page with two-column content and with menu next to video."
+
+#: ../templates/campaign/2/template.php:6
+msgid "Jednoduchá video stránka"
+msgstr "Simple video page"
+
+#: ../templates/campaign/2/template.php:7
+msgid "Video stránka s menu nad videem."
+msgstr "Video page with menu above video."
+
+#~ msgid "Nastavit odpočet na půlnoc x dní od vstupu návštěvníka do kampaně"
+#~ msgstr "Set time limit to midnight x days since user's entry into campaign"
+
+#~ msgid "Odpočet musí být umístěn na stránce kampaně."
+#~ msgstr "Time limit must be placed on campaign page."
+
+#~ msgid "Úvodní stránka / Squeeze page"
+#~ msgstr "Home page / Squeeze page"
+
+#~ msgid "Nastavit odpočet na půlnoc X dní od vstupu návštěvníka do kampaně"
+#~ msgstr "Nastavit odpočet na půlnoc x dní od vstupu návštěvníka do kampaně"
+
+#~ msgid ""
+#~ "Vypíše kontaktů z vybraného seznamu z SmartEmailingu. Můžete tak vypsat "
+#~ "informaci o tom kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+#~ "(pokud je ukládáte do SmartEmailingu)."
+#~ msgstr ""
+#~ "Vypíše kontakty z vybraného seznamu ze SmartEmailingu. Můžete tak vypsat "
+#~ "informaci o tom, kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+#~ "(pokud je ukládáte do SmartEmailingu)."
+
+#~ msgid "Vyberte seznam, pro který chcete vypsat počet kontaktů"
+#~ msgstr "Vyberte seznam, pro který chcete vypsat počet kontaktů."
+
+#~ msgid ""
+#~ "Počet kontatů z vybraného seznamu se bude odečítat od tohoto čísla. Pokud "
+#~ "zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se "
+#~ "vypíše číslice 80. Pokud zde žádné číslo nezadáte bude se zobrazovat "
+#~ "klasicky počet kontaktů ze seznamu."
+#~ msgstr ""
+#~ "Počet kontaktů z vybraného seznamu se bude odečítat od tohoto čísla. "
+#~ "Pokud zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se "
+#~ "vypíše číslice 80. Pokud zde žádné číslo nezadáte, bude se zobrazovat "
+#~ "klasicky počet kontaktů ze seznamu."
+
+#~ msgid ""
+#~ "Není vybrán žádný SmartEmailing seznam. Element proto nelze správně "
+#~ "zobrazit."
+#~ msgstr ""
+#~ "Není vybrán žádný SmartEmailingový seznam. Element proto nelze správně "
+#~ "zobrazit."
+
+#~ msgid ""
+#~ "Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v "
+#~ "záložce kampaně"
+#~ msgstr ""
+#~ "Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v "
+#~ "záložce kampaně."
+
+#~ msgid ""
+#~ "Tento kód budete používat jako hodnotu atributu setuser v url adrese na "
+#~ "kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+#~ "uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+#~ "musí být jedinečný pro každou kampaň."
+#~ msgstr ""
+#~ "Tento kód budete používat jako hodnotu atributu setuser v URL adrese, na "
+#~ "kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+#~ "uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+#~ "musí být jedinečný pro každou kampaň."
+
+#~ msgid ""
+#~ "Pokud je evergreen mód u kampaně aktivní, znamená to že každému novému "
+#~ "návštěvníkovi, který se registruje budou zpřístupněny pouze ty stránky, "
+#~ "na které ho přímo odkážete (za použití výše nastaveného přístupového kódu "
+#~ "v url). Můžete tak stránky kampaně zpřístupňovat postupně například "
+#~ "pomocí emailové kampaně, s emaily odkazujícími na jednotlivé stránky. "
+#~ "Pokud je evergreen mód aktivní deaktivuje se nastavení data zveřejnění u "
+#~ "všech stránek kampaně."
+#~ msgstr ""
+#~ "Pokud je evergreen mód u kampaně aktivní, znamená to, že každému novému "
+#~ "návštěvníkovi, který se registruje, budou zpřístupněny pouze ty stránky, "
+#~ "na které ho přímo odkážete (za použití výše nastaveného přístupového kódu "
+#~ "v URL). Můžete tak stránky kampaně zpřístupňovat postupně například "
+#~ "pomocí e-mailové kampaně, s e-maily odkazujícími na jednotlivé stránky. "
+#~ "Pokud je evergreen mód aktivní, deaktivuje se nastavení data zveřejnění u "
+#~ "všech stránek kampaně."
+
+#~ msgid "Vytvořit Kampaň"
+#~ msgstr "Vytvořit kampaň"
+
+#~ msgid "Co se v programu dozvíte"
+#~ msgstr "Co se v programu dozvíte."
+
+#~ msgid "Chci vědět víc"
+#~ msgstr "Chci vědět víc."
+
+#~ msgid "Zadejte svůj email a registrujte se"
+#~ msgstr "Zadejte svůj e-mail a registrujte se."
+
+#~ msgid ""
+#~ "Stáhněte si jednoduchý návod jak si během chvilky vytvořit web, který "
+#~ "bude opravdu prodávat."
+#~ msgstr ""
+#~ "Stáhněte si jednoduchý návod, jak si během chvilky vytvořit web, který "
+#~ "bude opravdu prodávat."
+
+#~ msgid "Zadejte svůj email a stáhněte si návod zdarma"
+#~ msgstr "Zadejte svůj e-mail a stáhněte si návod zdarma."
+
+#~ msgid ""
+#~ "Zobrazení komentářů lze nastavit v <a target=\"_blank\" href=\"%s"
+#~ "\">nastavení blogu</a>"
+#~ msgstr "Comments <a target=\"_blank\" href=\"%s\">setting blogu</a>"

@@ -1,0 +1,511 @@
+{varType \Mioweb\Shop\Document\Document $document}
+{varType \Mioweb\Shop\InvoiceContactSettings $contactSettings}
+{var $currency = $document->getCurrency()}
+{var $exchangeRate = $document->getCurrencyExchangeRate()}
+{var $nativeCurrency = $document->getNativeCurrency()}
+{var $currencySymbol = \MwsCurrencyEnum::getSymbol($currency)}
+{var $showVat = $document->showVat()}
+{var $invoiceNote = $document->getInvoiceNote()}
+{var $spaceInvoiceNote= $invoiceNote !== '' ? '</br></br>' : '</br>'}
+{if $document->getType() !== \MwsDocumentType::Invoice}
+	{var $documentTypeCaption = \MwsDocumentType::getCaption($document->getType())}
+{elseif $showVat}
+	{capture $invoiceTitle}{_'Daňový doklad', 'mwshop'}{/capture}
+	{var $documentTypeCaption = $invoiceTitle}
+{else}
+	{var $documentTypeCaption = ''}
+{/if}
+{var ?\MwsBankAccount $bankAccount = $document->getBankAccount()}
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<style>
+		:root{
+			--light-color: #757575;
+			--blue-color:#dee5eb;
+		}
+
+		@page {
+			margin: 1cm 0 .45cm;
+			padding: 0;
+		}
+
+		html, body {
+			/*margin: 0 0;*/
+			padding: 0;
+		}
+
+		.wrapper {
+			margin: 0 14pt;
+			padding: 0 14pt;
+		}
+
+		.wrapper--sm {
+			margin: 0 9pt;
+			padding: 0 9pt;
+		}
+
+		html {
+			line-height: 1.2;
+			font-size: 9pt;
+		}
+
+		body {
+			font-family: DejaVu Sans, sans-serif;
+		}
+
+		.page-break-avoid {
+			page-break-inside: avoid;
+		}
+
+		.w-50 {
+			width: 50%;
+		}
+
+		.vertical-top {
+			vertical-align: top;
+		}
+
+		table {
+			/*border-spacing: -1px;*/
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th {
+			 color: #757575;
+			 font-weight: normal;
+		 }
+
+		/* ==== TITLE ==== */
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			padding: 0;
+			font-weight: normal;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1.375rem;
+		}
+
+		h4 {
+			font-size: 1.125rem;
+		}
+
+		h5 {
+			font-size: 1rem;
+		}
+
+		h6 {
+			font-size: 0.875rem;
+		}
+
+		.clearfix {
+			clear: both;
+		}
+
+		.vertical-top {
+			vertical-align: top
+		}
+
+		/* ==== TEXT ==== */
+		.text-left {
+			text-align: left;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.text-light {
+			color: #757575
+		}
+
+		/* ==== TABLES ==== */
+		table.table thead,
+		table.table thead,
+		table.table tbody {
+			border-bottom: 0.5pt solid #dbdbdb;
+		}
+
+		table.table tbody tr:last-child td,
+		table.table thead th {
+			padding-bottom: 12pt;
+		}
+
+		table.table thead tr th:first-child,
+		table.table tfoot tr td:first-child,
+		table.table tbody tr td:first-child {
+			padding-left: 12pt;
+		}
+
+		table.table thead tr th:last-child,
+		table.table tfoot tr td:last-child,
+		table.table tbody tr td:last-child {
+			padding-right: 12pt;
+		}
+
+		table.table tbody td,
+		table.table tfoot td {
+			padding-top: 12pt;
+		}
+
+		/* ==== HEADER ==== */
+		.header {
+			display:block;
+			margin-bottom: 21pt;
+			/*margin-top: 21pt;*/
+		}
+
+		.logo {
+			display: inline-block;
+			width: 33%;
+			vertical-align: middle;
+		}
+
+		/* ==== CONTACT ==== */
+		.mws-person,
+		.mws-company-name {
+			font-weight: bold;
+		}
+
+		.document-title {
+			display: inline-block;
+			text-align: right;
+			/*width: calc(100% - 160px);*/
+			width: 66%;
+			vertical-align: middle;
+		}
+
+		.column {
+			display: inline-block;
+			vertical-align: top;
+			padding: 14pt 0
+		}
+
+		.column:last-child {
+			padding-left: 20pt;
+		}
+
+		.contact .column:first-child {
+			width: 50%;
+			border-right: 0.5pt solid #dee5eb;
+		}
+		.contact .column:last-child {
+			width: 45%;
+			padding-left: 20pt;
+		}
+
+		.contact {
+			width: 100%;
+			border-top: 0.5pt solid #dee5eb;
+		}
+
+		.column table td.mws-company {
+			padding-right: 10pt;
+			/*padding-left: 10pt;*/
+		}
+
+		.mws-name {
+			padding-right: 10pt;
+			min-width: 110pt;
+			max-width: 110pt;
+		}
+
+		/* ==== BANK INFO ==== */
+		.bank-info {
+			width: 100%;
+			background-color: #dee5eb;
+		}
+
+		.bank-info table {
+			width: 87mm;
+		}
+
+		.bank-info table tr td:last-child {
+			text-align: right;
+		}
+
+		.bank-info .column:last-child {
+		    width: 45%;
+		}
+
+		.bank-info .column:first-child {
+			width: 50%;
+		}
+		/* ==== ITEMS ==== */
+		.items {
+			margin-top: 16pt;
+		}
+
+		/* ==== TOTAL ==== */
+		.total {
+			margin-top: 10pt;
+			margin-bottom: 10pt;
+			border-bottom: 0.5pt solid #dbdbdb;
+		}
+
+		.total .label,
+		.total .price {
+			display: inline-block;
+			width: 49.7%;
+			text-wrap: none;
+			white-space: nowrap;
+		}
+
+		.nowrap {
+			white-space: nowrap;
+		}
+
+		.total .label {
+			vertical-align: super;
+		}
+
+		.total table.table thead th {
+			padding-top: 12pt;
+		}
+
+		.total table.table thead {
+			border-top: 0.5pt solid #dbdbdb;
+		}
+
+		.total .vat-summary {
+			margin-top: 8pt;
+		}
+
+		/* ==== FOOTER ==== */
+		footer {
+			padding-top: 11pt;
+			/*padding-bottom: 9pt;*/
+			bottom: 0;
+			border-top: 0.5pt solid #dbdbdb;
+			position: fixed;
+		}
+
+		footer .page-num:before {
+			content: counter(page);
+		}
+
+		/*footer .page-count:before {*/
+		/*	content: counter(page);*/
+		/*}*/
+
+		footer .text {
+			width: 180mm;
+			display: inline-block;
+		}
+
+		footer .page {
+			width: 10mm;
+			display: inline-block;
+		}
+	</style>
+
+	<title>{$document->getName()}</title>
+</head>
+<body>
+
+{* Footer - must bet at the TOP of the body *}
+<footer class="footer text-light">
+	<div class="wrapper">
+		<span class="text">{_'Faktura byla vytvořena prodejním systémem Mioweb', 'mwshop'}</span>
+{*		<span class="page text-right">*}
+{*			<span class="page-num"></span>/<span class="page-count">*}
+{*		</span>*}
+	</div>
+</footer>
+
+{* Header *}
+<div class="wrapper header">
+	{* Logo *}
+	{var $logo = MWS()->getInvoiceLogo()}
+	{if $logo}
+		{var $imagePath = wp_get_original_image_path($logo['imageid'])}
+		{*	{var $mime = mime_content_type($imagePath)}*}
+		{if (bool) $imagePath}
+			<div class="logo">
+				<img src="{file_get_contents($imagePath)|dataStream}" alt="Logo" width="180"/>
+			</div>
+		{/if}
+	{/if}
+
+	{* Document type and number *}
+	<div class="document-title">
+		<h1>{_'Faktura', 'mwshop'} <strong>{$document->getNumber()}</strong></h1>
+		<h3 class="text-light">{$documentTypeCaption}</h3>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+{* Contact *}
+<div class="contact">
+	<div class="wrapper">
+		{* Supplier*}
+		{var $supplierContact = $document->getSupplierContact()}
+		<div class="column">
+			<div class="text-light" style="padding-bottom:10px;">{_'Dodavatel', 'mwshop'}</div>
+			{if $supplierContact !== null}
+				{$supplierContact->formatForDocument()|noescape}
+			{else}
+				<div style="height: 50pt;"></div> {* Blank space*}
+			{/if}
+		</div>
+
+		{* Customer *}
+		<div class="column">
+			{if $document->getType() !== \MwsDocumentType::SimplifiedInvoice}
+				{var $customerContact = $document->getCustomerContact()}
+				{if $customerContact !== null}
+					<div class="text-light" style="padding-bottom:10px; ">{_'Odběratel', 'mwshop'}</div>
+					{$customerContact->formatForDocument($contactSettings)|noescape}
+				{/if}
+			{/if}
+		</div>
+	</div>
+</div>
+
+{* Bank info *}
+<div class="bank-info">
+	<div class="wrapper">
+		<div class="column">
+			<table>
+				<tr>
+					<td><strong>{_'Číslo účtu', 'mwshop'}:</strong></td>
+					<td><strong>{$bankAccount?->getNumber() ?? ''}</strong></td>
+				</tr>
+				<tr>
+					<td><strong>{_'Variabilní symbol', 'mwshop'}:</strong></td>
+					<td><strong>{$document->getOrderNumber()}</strong></td>
+				</tr>
+				<tr n:if="$bankAccount?->getIban()">
+					<td>IBAN:</td>
+					<td>{$bankAccount->getIban()}</td>
+				</tr>
+				<tr n:if="$bankAccount?->getBic()">
+					<td>SWIFT:</td>
+					<td>{$bankAccount->getBic()}</td>
+				</tr>
+				<tr>
+					<td>{_'Způsob platby', 'mwshop'}:</td>
+					<td>{$document->getPaymentMethod()['name'] ?? ''}</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="column">
+			<table>
+				<tr>
+					<td>{_'Datum vystavení', 'mwshop'}:</td>
+					<td>{$document->getCreatedAt()|date:'j.n.Y'}</td>
+				</tr>
+				<tr n:if="$showVat">
+					<td>{_'Datum zdanitelného plnění', 'mwshop'}:</td>
+					<td>{$document->getTaxableSupplyAt()|date:'j.n.Y'}</td>
+				</tr>
+				<tr>
+					{if $document->isPaidWhenCreated()}
+						<td>{_'Datum přijetí platby', 'mwshop'}:</td>
+						<td>{$document->getPaidAt()|date:'j.n.Y'}</td>
+					{else}
+						<td>{_'Datum splatnosti', 'mwshop'}:</td>
+						<td>{$document->getDueDate()|date:'j.n.Y'}</td>
+					{/if}
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+{* Items *}
+<div class="items wrapper--sm">
+	<table class="table">
+		<thead>
+		<tr>
+			<th style="width: {$showVat ? 30 : 50}%" class="text-left">{_'Název položky', 'mwshop'}</th>
+			<th class="text-center">{_'Množství', 'mwshop'}</th>
+			<th class="text-right">{_'Cena za položku', 'mwshop'}</th>
+			<th class="text-right" n:if="$showVat">{_'Sazba DPH', 'mwshop'}</th>
+			<th class="text-right" n:if="$showVat">{_'DPH', 'mwshop'}</th>
+			<th class="text-right">{_'Cena celkem', 'mwshop'}</th>
+		</tr>
+		</thead>
+
+		<tbody>
+		{var array $vatPercentagePrices = []}
+		{foreach $document->getItems() as $documentItem}
+			{var $price = $documentItem->getPrice()}
+			{var $totalPrice = $documentItem->getTotalPrice()}
+			{var $totalPriceInNativeCurrency = $documentItem->getTotalPriceInCurrency($nativeCurrency)}
+			{var $vatPercentage = $totalPrice->getVatPercentage()}
+			{if !isset($vatPercentagePrices[$vatPercentage])}
+				{var $vatPercentagePrices[$vatPercentage] = [0.0, 0.0]}
+			{/if}
+			{var $vatPercentagePrices[$vatPercentage][0] += $totalPrice->asCurrency($nativeCurrency,1/$exchangeRate)->getPriceVatExcluded()}
+			{var $vatPercentagePrices[$vatPercentage][1] += $totalPrice->asCurrency($nativeCurrency,1/$exchangeRate)->getPriceVatIncluded()}
+			{var $currencySymbolTmp = \MwsCurrencyEnum::getSymbol($price->getCurrency())}
+
+			<tr>
+				<td style="width: {$showVat ? 30 : 50}%" class="text-left">{$documentItem->getName()}</td>
+				<td class="text-center">{$documentItem->getCount()}&nbsp;&times;</td>
+				<td class="text-right">{htmlPriceSimple($price->getPriceVatExcluded(), $currencySymbolTmp)|noescape}</td>
+				<td class="text-right" n:if="$showVat">{$price->getVatPercentage()}&nbsp;%</td>
+				<td class="text-right" n:if="$showVat">{htmlPriceSimple($totalPrice->getVatAmount(), $currencySymbolTmp)|noescape}</td>
+				<td class="text-right">{htmlPriceSimple($totalPrice->getPriceVatIncluded(), \MwsCurrencyEnum::getSymbol($totalPrice->getCurrency()))|noescape}</td>
+			</tr>
+		{/foreach}
+		</tbody>
+	</table>
+</div>
+
+{* TOTAL *}
+<div class="wrapper total">
+	<div class="label">
+		<div class="text-left text-light">{_'Celkem', 'mwshop'}{if $showVat} {_'s DPH', 'mwshop'}{/if}:</div>
+	</div>
+
+	<div class="price">
+		<h1 class="text-right"><strong>{htmlPriceSimple($document->getPrice()->getPriceVatIncluded(), $currencySymbol, false, null, '', '', false)|noescape}</strong></h1>
+	</div>
+</div>
+
+<div class="wrapper">
+	<table class="page-break-avoid">
+		<tr>
+			{* Notice *}
+			<td class="vertical-top">
+				<div class="invoice-notice">
+					{Nette\Utils\Html::el()->setHtml($invoiceNote)}
+					{if !$showVat}{Nette\Utils\Html::el()->setHtml($spaceInvoiceNote)}{_'Neplátce DPH', 'mwshop'}{/if}
+				</div>
+			</td>
+			<td n:if="$showVat" class="w-50 vertical-top">
+				{* VAT summary *}
+				{include 'blocks/vatSummary.latte', 'exchangeRate' => $exchangeRate, 'currency' => $currency, 'nativeCurrency' => $nativeCurrency, 'vatPercentagePrices' => $vatPercentagePrices}
+			</td>
+		</tr>
+	</table>
+</div>
+
+{* Reverse charge application *}
+<div n:if="$document->isReverseChargeApplied()" class="wrapper text-right">
+	<span class="text-light">{_'Daň odvede zákazník', 'mwshop'}</span>
+</div>
+
+</body>
+</html>

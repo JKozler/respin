@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: vi\n"
+
+msgid "Přidat komentář"
+msgstr "cho thêm bài bình luận"
+
+msgid "Komentovat jako"
+msgstr "Bình luận với tên"
+
+msgid "Odpovědět"
+msgstr "trả lời"
+
+msgid "Zrušit odpověď"
+msgstr "hủy câu trả lời"
+
+msgid "Jméno"
+msgstr "Tên "
+
+msgid "Email"
+msgstr "e-mail"
+
+msgid "Vložit komentář"
+msgstr "chèn bình luận"
+
+msgid "Nezapomeňte na povinné pole."
+msgstr "Đừng quên các trường bắt buộc"
+
+msgid "Komentář čeká na schválení"
+msgstr "Bình luận chờ sự đồng ý"
+
+msgid "Vytvořeno na platformě"
+msgstr "Tạo trên nền tảng"

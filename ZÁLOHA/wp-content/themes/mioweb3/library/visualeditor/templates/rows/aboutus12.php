@@ -1,0 +1,236 @@
+<?php
+$content = [
+	'class' => '',
+	'style' => [
+		'background_color' => [
+			'color1' => '#ffffff',
+			'rgba1' => 'rgba(255,255,255,1)',
+			'color2' => '',
+			'rgba2' => '',
+			'transparency1' => '1',
+			'transparency2' => '1',
+		],
+		'background_image' => [
+			'cover' => '1',
+			'overlay_color' => [
+				'color' => '#000000',
+				'transparency' => '0.2',
+				'rgba' => 'rgba(0, 0, 0, 0.2)',
+			],
+			'efect' => '',
+		],
+		'content_align' => 'top',
+		'link_color' => '',
+		'row_padding' => 'big',
+		'font' => [
+			'font-size' => '',
+			'font-family' => '',
+			'weight' => '',
+			'color' => '',
+		],
+		'text' => 'auto',
+		'video_type' => 'custom',
+		'row_height' => '',
+		'margin_top' => '',
+		'margin_bottom' => '',
+	],
+	'content' => [
+		'0' => [
+			'type' => 'col-one',
+			'class' => '',
+			'break' => '1',
+			'content' => [
+				'0' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '20',
+							'color' => '#878787',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p style="text-align: center;">' . __('Podnadpis', 'cms_ve') . '</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '0',
+						'max_width' => '680',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'1' => [
+					'style' => [
+						'font' => [
+							'font-size' => '40',
+							'tablet' => [
+								'font-size' => '',
+							],
+							'mobile' => [
+								'font-size' => '',
+							],
+							'color' => '',
+							'font-family' => '',
+							'weight' => '',
+							'line-height' => '1.2',
+							'letter-spacing' => '0',
+							'text-shadow' => 'none',
+						],
+						'style' => '1',
+						'border' => [
+							'size' => '1',
+							'style' => 'solid',
+							'color' => '#d5d5d5',
+						],
+						'background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'decoration-color' => '#158ebf',
+						'align' => 'center',
+						'content' => '<p style="text-align: center;">' . __('O společnosti', 'cms_ve') . '</p>',
+						'mw30' => '1',
+					],
+					'type' => 'title',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '20',
+						'max_width' => '680',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+		'1' => [
+			'type' => 'col-two',
+			'class' => '',
+			'content' => [
+				'0' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '',
+							'color' => '',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat volutpat blandit. In hac habitasse platea dictumst. Quisque ac dolor a tellus pharetra porta. In tortor felis, iaculis vel tincidunt in, pulvinar sed eros. Fusce elementum felis sapien.</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '',
+						'max_width' => '680',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+		'2' => [
+			'type' => 'col-two',
+			'class' => '',
+			'content' => [
+				'0' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '',
+							'color' => '',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat volutpat blandit. In hac habitasse platea dictumst. Quisque ac dolor a tellus pharetra porta. In tortor felis, iaculis vel tincidunt in, pulvinar sed eros. Fusce elementum felis sapien.</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '',
+						'max_width' => '680',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+	],
+];

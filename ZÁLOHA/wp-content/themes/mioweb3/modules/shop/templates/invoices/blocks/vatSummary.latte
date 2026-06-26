@@ -1,0 +1,44 @@
+{varType array $vatPercentagePrices}
+{varType string $currency}
+{varType string $nativeCurrency}
+{varType float $exchangeRate}
+{var $currencySymbol = \MwsCurrencyEnum::getSymbol($currency)}
+{var $nativeCurrencySymbol = \MwsCurrencyEnum::getSymbol($nativeCurrency)}
+
+<table class="vat-summary table">
+	<thead>
+	<tr>
+		<th></th>
+		<th class="text-right">{_'Základ', 'mwshop'}</th>
+		<th class="text-right nowrap">{_'Výše DPH', 'mwshop'}</th>
+		<th class="text-right">{_'Celkem', 'mwshop'}</th>
+	</tr>
+	</thead>
+	<tbody>
+	{foreach $vatPercentagePrices as $vatPercentage => [$priceVatExcluded, $priceVatIncluded]}
+		{continueIf (int) $priceVatExcluded === 0}
+		<tr>
+			<td class="nowrap">{$vatPercentage}&nbsp;%:</td>
+			<td class="text-right nowrap">{htmlPriceSimple($priceVatExcluded, $nativeCurrencySymbol)|noescape}</td>
+			<td class="text-right nowrap">{htmlPriceSimple($priceVatIncluded - $priceVatExcluded, $nativeCurrencySymbol)|noescape}</td>
+			<td class="text-right nowrap">{htmlPriceSimple($priceVatIncluded, $nativeCurrencySymbol)|noescape}</td>
+		</tr>
+	{/foreach}
+	</tbody>
+	<tfoot n:if="$currency !== $nativeCurrency">
+	{*	<tfoot n:if="(float) $exchangeRate !== 1.0">*}
+
+	<tr>
+		<td class="text-right" colspan="4">
+			{if $exchangeRate < 1 && $exchangeRate !== 0.0}
+				1 {$currencySymbol} = {1 / $exchangeRate} {$nativeCurrencySymbol}
+			{else}
+				1 {$nativeCurrencySymbol} = {$exchangeRate} {$currencySymbol}
+			{/if}
+		</td>
+	</tr>
+{*	<tr>*}
+{*		<td class="text-right" colspan="4">1 {$currencySymbol} = {(float) $exchangeRate !== 0.0 ?round(1 / $exchangeRate, 2) : 0} {$nativeCurrencySymbol}</td>*}
+{*	</tr>*}
+	</tfoot>
+</table>

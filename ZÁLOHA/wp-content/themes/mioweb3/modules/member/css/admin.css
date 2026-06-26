@@ -1,0 +1,166 @@
+.mw_member_setting_api_key {
+	font-size: 13px;
+}
+
+/* member levels */
+
+.member_levels_container {
+	display: none;
+}
+
+.member_levels_container {
+	margin-top: 10px;
+}
+
+.member_levels_container_v {
+	display: block;
+}
+.mw_admin_setting_container .member_level_items_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.mw_admin_setting_container .member_level_item {
+	flex: 0 0 28%;
+	padding: 5px 5% 5px 0;
+}
+
+.mw_admin_setting_container .member_level_items_list {
+	border-radius: var(--border-radius-input);
+	border: 1px solid var(--bgl-border-color);
+	padding: 15px;
+}
+
+.mw_panel_setting .member_level_items_list {
+	background: var(--input-bg-color);
+	padding: 10px;
+	color: var(--input-text-color);
+}
+.mw_panel_setting .member_level_item {
+	padding: 2px 0;
+}
+
+.mw_month_member_container select {
+	margin-right: 4px;
+	display: inline-block;
+	width: auto;
+}
+
+/* User setting
+*********************************************************************** */
+
+.mw_user_member_item {
+	margin-bottom: 15px;
+}
+.mw_user_member_item .mw_setting_box_head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mw_user_member_item .mw_setting_box_head label {
+	display: flex;
+}
+.mw_user_member_item_head_setting,
+.mw_user_member_item .mw_setting_box_content {
+	display: none;
+}
+
+.mw_user_member_hs_set {
+	margin-left: 10px;
+	max-width: 100px;
+}
+
+.mw_user_member_hs_set label {
+	display: block;
+	font-size: 12px;
+	color: var(--bgl-text-color-lighter);
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.mw_user_member_item_list_label {
+	color: var(--bgl-text-color-lighter);
+	padding-bottom: 15px;
+}
+
+.mw_user_member_list_item {
+	width: 220px;
+	display: inline-block;
+	margin: 5px 0;
+}
+
+.mw_user_member_item_list_levels {
+	margin-bottom: 20px;
+}
+
+.mw_user_member_item.checked .mw_user_member_item_head_setting {
+	display: flex;
+	flex-shrink: 0;
+}
+.mw_user_member_item.checked .mw_setting_box_content {
+	display: block;
+}
+
+/* Notification
+*********************************************************************** */
+
+.notification_atribute_list td:first-child {
+	width: 120px;
+}
+
+.member_notification_url {
+	background: #eee;
+	padding: 20px;
+	font-size: 16px;
+	margin: 5px 0 3px;
+}
+
+.member_level_notifications_url {
+	background: #f5f5f5;
+	width: 100%;
+}
+
+.member_level_notifications_url td {
+	padding: 14px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+td.mlnu_label {
+	color: #888;
+	width: 250px;
+}
+
+.member_notification {
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+	.mw_member_setting_title {
+		padding-right: 0;
+	}
+
+	.mw_member_setting_api_key {
+		position: relative;
+		right: 0;
+		top: 0;
+		margin-top: 20px;
+	}
+
+	#fapi_notification td {
+		display: block;
+	}
+
+	#fapi_notification th {
+		display: none;
+	}
+
+	.notification_atribute_list td:first-child {
+		width: auto;
+		border-bottom: 0;
+	}
+
+	.mw_notifications_log td:first-child {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+}

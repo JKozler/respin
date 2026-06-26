@@ -1,0 +1,50 @@
+{
+  "name": "fapi-cz/http-client",
+  "description": "Library for making HTTP requests.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Jan-Sebastian Fabík",
+	  "email": "honza@fabik.org"
+	},
+	{
+	  "name": "Jiří Slischka",
+	  "email": "slischkaj@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=7.1",
+	"composer/ca-bundle": "^1.1",
+	"psr/log": "^1.0",
+	"psr/http-message": "^1.0",
+	"psr/http-client": "^1.0",
+	"guzzlehttp/psr7": "^1.4",
+	"ext-json": "*",
+	"ext-curl": "*"
+  },
+  "require-dev": {
+	"nette/tester": ">=2.3",
+	"guzzlehttp/guzzle": "^6.0 | ^7.0",
+	"tracy/tracy": ">=2.7",
+	"nette/di": "^3.0",
+	"phpstan/phpstan": "^0.12.85",
+	"phpstan/phpstan-nette": "^0.12.17",
+	"react/http": "^1.3",
+	"react/child-process": "^0.6.2",
+    "phpstan/phpstan-strict-rules": "^0.12.9",
+    "orisai/coding-standard": "^1.1"
+  },
+  "suggest": {
+	"ext-curl": "to use class CurlHttpClient",
+	"guzzlehttp/guzzle": "to use class GuzzleHttpClient",
+	"tracy/tracy": "to use class LoggingHttpClient",
+	"nette/tester": "to use class CapturingHttpClient",
+	"nette/di": "to use class HttpClientExtension"
+  },
+  "autoload": {
+	"classmap": [
+	  "src/"
+	]
+  }
+}

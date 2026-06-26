@@ -1,0 +1,35 @@
+{
+  "name": "fapi-cz/fapi-client",
+  "description": "Library for accessing FAPI API.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Jiří Slischka",
+	  "email": "slischkaj@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=7.1",
+	"fapi-cz/http-client": "^0.1"
+  },
+  "require-dev": {
+	"nette/tester": ">=2.3",
+	"nette/di": "^3.0",
+	"nette/utils": "^3.1",
+	"guzzlehttp/guzzle": "^6.3 | ^7.0",
+	"tracy/tracy": ">=2.7",
+	"phpstan/phpstan-nette": "^0.12.17",
+	"phpstan/phpstan": "^0.12.85",
+    "orisai/coding-standard": "^1.1",
+    "phpstan/phpstan-strict-rules": "^0.12.9"
+  },
+  "suggest": {
+	"nette/di": "to use class FapiClientExtension"
+  },
+  "autoload": {
+	"psr-0": {
+	  "Fapi\\FapiClient\\": "src/"
+	}
+  }
+}

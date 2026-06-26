@@ -1,0 +1,107 @@
+.in_element_content_table_reservation legend {
+	display: none;
+}
+
+.in_element_content_table_reservation .rtb-booking-form fieldset {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	justify-content: space-between;
+}
+
+.in_element_content_table_reservation .rtb-booking-form fieldset > div {
+	margin-top: 0;
+	width: 30%;
+}
+
+.in_element_content_table_reservation .rtb-booking-form fieldset .add-message a,
+.in_element_content_table_reservation .rtb-booking-form .message {
+	width: 100%;
+	padding-top: 10px;
+}
+
+.in_element_content_table_reservation .rtb-booking-form fieldset .add-message a {
+	font-size: 13px;
+	display: block;
+}
+
+.in_element_content_table_reservation .rtb-booking-form label {
+	font-size: 13px;
+}
+
+.in_element_content_table_reservation.ve_form_corners_round .rtb-booking-form label {
+	padding-left: 15px;
+}
+
+.in_element_content_table_reservation .rtb-booking-form input,
+.in_element_content_table_reservation .rtb-booking-form textarea,
+.in_element_content_table_reservation .rtb-booking-form select {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	line-height: 1.3em;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-size: inherit;
+	padding: 0.7em 1em;
+}
+
+.in_element_content_table_reservation .rtb-booking-form select {
+	-webkit-appearance: none;
+	background-image: url('../../../images/select-arr-front.png');
+	background-repeat: no-repeat;
+	background-position: right 8px top 50%;
+	background-size: 8px;
+}
+
+.in_element_content_table_reservation button {
+	margin: 0 auto;
+	display: block;
+	width: auto !important;
+}
+
+.picker__list-item--disabled {
+	display: none !important;
+}
+
+.in_element_content_table_reservation .input_dark_color input,
+.in_element_content_table_reservation .input_dark_color textarea,
+.in_element_content_table_reservation .input_dark_color select {
+	color: #fff;
+}
+
+.in_element_content_table_reservation .input_dark_color select {
+	background-image: url('../../../images/select-arr-front_w.png');
+}
+
+.rtb-message {
+	background: #75bf4c;
+	padding: 20px;
+	position: relative;
+	min-height: 25px;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px) {
+	.in_element_content_table_reservation .rtb-booking-form fieldset {
+		display: block;
+		padding-bottom: 0px;
+	}
+
+	.in_element_content_table_reservation .rtb-booking-form fieldset > div {
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.in_element_content_table_reservation .rtb-booking-form fieldset .add-message a,
+	.in_element_content_table_reservation .rtb-booking-form .message {
+		padding-bottom: 10px;
+		padding-top: 0;
+	}
+}

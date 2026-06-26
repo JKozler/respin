@@ -1,0 +1,231 @@
+<?php
+$temp_layer = [
+	'0' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '',
+				'color2' => '',
+				'transparency1' => '1',
+				'rgba1' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'position' => '50% 50%',
+				'repeat' => 'no-repeat',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'efect' => '',
+				'cover' => '1',
+			],
+			'background_delay' => '3000',
+			'background_speed' => '1500',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_setting' => [
+				'is_saved' => '1',
+			],
+			'font' => [
+				'font-size' => '',
+				'font-family' => '',
+				'weight' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'padding_top' => '100',
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'margin_t' => [
+				'size' => '',
+			],
+			'margin_b' => [
+				'size' => '',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'height_setting' => [
+				'arrow_color' => '#fff',
+			],
+			'min-height' => '',
+			'css_class' => '',
+			'delay' => '',
+			'video_type' => 'custom',
+			'content_align' => 'top',
+			'arrow_color' => '#fff',
+			'row_height' => '',
+			'text' => 'auto',
+			'row_padding' => 'big',
+			'margin_top' => '',
+			'margin_bottom' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'image',
+						'style' => [
+							'image' => [
+								'image' => MW_IMAGE_LIBRARY . 'misc/bgface.jpg',
+								'imageid' => '',
+							],
+							'click_action' => 'none',
+							'alert' => '',
+							'popup' => '',
+							'link' => [
+								'page' => '',
+								'link' => '',
+							],
+							'large_image' => [
+								'image' => '',
+								'imageid' => '',
+							],
+							'align' => 'center',
+							'max-width' => '',
+							'label' => '',
+							'style' => '6',
+							'mw30' => '1',
+							'content' => '',
+							'thumb_name' => '',
+							'hover_color' => [
+								'color' => '#000000',
+								'transparency' => '0.3',
+								'rgba' => 'rgba(0,0,0,0.3)',
+							],
+						],
+						'config' => [
+							'max_width' => '300',
+							'margin_top' => '0',
+							'margin_bottom' => '35',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '45',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<p style="text-align: center;">' . __('Pavel Blogger', 'cms_ve') . '</p>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '60',
+							'max_width' => '700',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+					'2' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus posuere nibh eu aliquet. Pellentesque pulvinar elementum nibh. Curabitur sed commodo nulla, vel viverra sem. Phasellus et lobortis lectus. Nulla facilisi. Mauris suscipit nunc metus, nec tempor leo cursus vitae. Phasellus consectetur turpis quis tellus vehicula, ut efficitur sapien porttitor. Fusce auctor dolor ac erat elementum, id sollicitudin quam cursus. Nam vel metus ex. Proin eget aliquet nisl, sit amet pellentesque turpis. Fusce tempus neque ac congue malesuada.</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+];
+$page = [
+	'page' => [
+		'title' => __('O mně', 'cms_ve'),
+		'slug' => __('o-mne', 'cms_ve'),
+		'theme' => 'page/1/',
+	],
+	'setting' => [],
+	'layer' => base64_encode(serialize($temp_layer)),
+];

@@ -1,0 +1,242 @@
+<?php
+
+return [
+	'0' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '',
+				'transparency1' => '1.00',
+				'rgba1' => '',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+					'pattern' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+					'pattern' => '',
+				],
+				'cover' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.2',
+					'rgba' => 'rgba(0, 0, 0, 0.2)',
+				],
+				'efect' => '',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'iframe',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'full',
+			'min-height' => '100',
+			'arrow_color' => '#fff',
+			'content_align' => 'center',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'border-top' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'style' => [
+							'background_color' => [
+								'color1' => '#ffffff',
+								'transparency1' => '1.00',
+								'rgba1' => 'rgba(255, 255, 255, 1)',
+							],
+							'background_image' => [
+								'position' => '',
+								'image' => '',
+								'imageid' => '',
+								'pattern' => '0',
+								'cover' => '1',
+								'overlay_color' => [
+									'color' => '#158ebf',
+									'transparency' => '0',
+									'rgba' => '',
+								],
+							],
+							'border' => [
+								'size' => '0',
+								'style' => 'solid',
+								'color' => '#eeeeee',
+							],
+							'corner' => '1',
+							'padding' => [
+								'size' => '40',
+								'unit' => 'px',
+							],
+							'shadow' => '1',
+							'text' => 'auto',
+							'title' => '',
+							'title_bg' => [
+								'color1' => '',
+								'transparency1' => '1',
+								'rgba1' => '',
+							],
+							'title_border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#000000',
+								'transparency' => '0.2',
+								'rgba' => 'rgba(0,0,0,0.2)',
+							],
+							'title-font' => [
+								'font-size' => '20',
+								'color' => '',
+								'align' => 'center',
+							],
+						],
+						'type' => 'box',
+						'config' => [
+							'margin_top' => '',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '450',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+						'content' => [
+							'0' => [
+								'0' => [
+									'style' => [
+										'icon' => [
+											'icon' => 'x-circle',
+											'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/modules/visualeditor/images/icons/feather/symbol-defs.svg#icon-x-circle"></use></svg>',
+											'icon_set' => 'feather',
+											'tab' => 'icon',
+										],
+										'text' => '',
+										'link' => [
+											'page' => '',
+											'link' => '',
+										],
+										'align' => 'center',
+										'size' => '67',
+										'icon_style' => '1',
+										'color' => '#d6d6d6',
+										'style' => 'beside',
+										'font' => [
+											'font-size' => '',
+										],
+									],
+									'type' => 'icon',
+									'config' => [
+										'margin_top' => '',
+										'tablet' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'mobile' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'margin_bottom' => '20',
+										'max_width' => '',
+										'element_align' => 'center',
+										'animate' => '',
+										'id' => '',
+										'class' => '',
+										'delay' => '',
+									],
+								],
+								'1' => [
+									'style' => [
+										'font' => [
+											'font-size' => '',
+											'font-family' => '',
+											'weight' => '',
+											'line-height' => '',
+											'color' => '',
+										],
+										'style' => '1',
+										'p-background-color' => [
+											'color1' => '#e8e8e8',
+											'transparency1' => '1',
+											'rgba1' => 'rgba(232,232,232,1)',
+										],
+										'content' => $args['content_text'] ?? '',
+										'li' => '',
+									],
+									'type' => 'text',
+								],
+							],
+						],
+					],
+				],
+			],
+		],
+	],
+];

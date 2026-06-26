@@ -1,0 +1,8 @@
+20191003 08:35:08	INFO	 10985:shop	[INSTALL] MioShop not installed. Installing...
+20191003 08:35:08	INFO	 10985:shop	[INSTALL] MioShop installed as version 1.0.12
+20200608 06:48:18	INFO	 12192:member	Htaccess modified for CGI (during update member module)
+20250721 16:25:59	INFO	1953419:member	Updating installation step to "engine-posts", time: 1753107959, PID: 1953419, value: not-scalar
+20250721 16:25:59	INFO	1953419:member	Updating installation step to "engine-users", time: 1753107959, PID: 1953419, value: not-scalar
+20250721 16:25:59	INFO	1953419:member	Updating installation step to "tables", time: 1753107959, PID: 1953419, value: not-scalar
+20250721 16:25:59	INFO	1953419:member	Updating installation step to "tables-installed", time: 1753107959, PID: 1953419, value: not-scalar
+20250721 16:25:59	INFO	1953419:member	Updating installation step to "done_v2", time: 1753107959, PID: 1953419, value: not-scalar

@@ -1,0 +1,2368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2022-06-23 16:40+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cz\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../elements.php:8 ../elements.php:1324 ../elements.php:1739 ../init.php:542
+#: ../lib/Dashboard.php:37 ../lib/objects/MwMember.php:724
+#: ../member_class.php:582
+msgid "Členská sekce"
+msgstr ""
+
+#: ../elements.php:14
+msgid "Přihlašovací formulář"
+msgstr ""
+
+#: ../elements.php:16
+msgid ""
+"Formulář pomocí, kterého se mohou návštěvníci přihlašovat do vámi vytvořené "
+"členské sekce."
+msgstr ""
+
+#: ../elements.php:20 ../elements.php:141 ../elements.php:368
+#: ../elements.php:693 ../elements.php:1146 ../elements.php:1306
+#: ../elements.php:1367 ../elements.php:1553 ../elements.php:1725
+msgid "Obsah"
+msgstr ""
+
+#: ../elements.php:24
+msgid "Přihlásit do členské sekce"
+msgstr ""
+
+#: ../elements.php:27
+msgid ""
+"Pokud nevyberete žádnou členskou sekci, bude se uživatel přihlašovat do "
+"členské sekce, do které je zařazena tato stránka. Pokud členskou sekci "
+"vyberete, bude se uživatel přihlašovat do vybrané členské sekce."
+msgstr ""
+
+#: ../elements.php:36 ../elements.php:264 ../elements.php:447
+#: ../elements.php:775 ../elements.php:1226 ../elements.php:1441
+#: ../elements.php:1604 ../elements.php:1612 ../elements.php:1792
+#: ../init.php:797 ../lib/objects/MwMemberSection.php:369
+msgid "Vzhled"
+msgstr ""
+
+#: ../elements.php:44 ../elements.php:272
+msgid "Vzhled formulářových polí"
+msgstr ""
+
+#: ../elements.php:62 ../elements.php:290
+msgid "Barva formulářových polí"
+msgstr ""
+
+#: ../elements.php:72 ../elements.php:300
+msgid "Zakulacení rohů"
+msgstr ""
+
+#: ../elements.php:78 ../elements.php:306 ../elements.php:1245
+msgid "Ostré"
+msgstr ""
+
+#: ../elements.php:82 ../elements.php:310 ../elements.php:1249
+msgid "Zakulacené"
+msgstr ""
+
+#: ../elements.php:86 ../elements.php:314 ../elements.php:1253
+msgid "Kulaté"
+msgstr ""
+
+#: ../elements.php:98 ../elements.php:326
+msgid "Písmo formulářových polí"
+msgstr ""
+
+#: ../elements.php:120 ../elements.php:348
+msgid "Styl tlačítka"
+msgstr ""
+
+#: ../elements.php:135
+msgid "Registrační formulář"
+msgstr ""
+
+#: ../elements.php:137
+msgid ""
+"Formulář pomocí, kterého se mohou návštěvníci zdarma registrovat do členské "
+"sekce."
+msgstr ""
+
+#: ../elements.php:149
+msgid "Registrovat do členské sekce:"
+msgstr ""
+
+#: ../elements.php:150 ../elements.php:1581 ../init.php:634
+msgid "Členské úrovně"
+msgstr ""
+
+#: ../elements.php:154
+msgid "- Vyberte členskou sekci -"
+msgstr ""
+
+#: ../elements.php:155
+msgid ""
+"Vyberte členskou sekci (popřípadě členskou úroveň), do které se má uživatel "
+"registrovat."
+msgstr ""
+
+#: ../elements.php:162
+msgid "Registrovat na X dní"
+msgstr ""
+
+#: ../elements.php:164
+msgid ""
+"Pokud chcete registraci zdarma časově omezit, zadejte na kolik dní se má "
+"uživatel registrovat. Po vypršení této doby se přístupy zablokují."
+msgstr ""
+
+#: ../elements.php:174
+msgid "Po registraci přesměrovat na"
+msgstr ""
+
+#: ../elements.php:180
+msgid ""
+"Zadejte URL adresu stránky, na kterou chcete uživatele po registraci "
+"přesměrovat."
+msgstr ""
+
+#: ../elements.php:184
+msgid "Uložit kontakt do seznamu"
+msgstr ""
+
+#: ../elements.php:189
+msgid ""
+"Po registraci bude kontakt uložen do vybraného email marketingového seznamu."
+msgstr ""
+
+#: ../elements.php:193
+msgid "Informovat o nové registraci na e-mail"
+msgstr ""
+
+#: ../elements.php:195
+msgid ""
+"Zadejte e-mailovou adresu, na kterou chcete zaslat informaci o nové "
+"registraci. Pokud e-mail nevyplníte, nebude se informace zasílat."
+msgstr ""
+
+#: ../elements.php:207
+msgid "Skrýt jméno"
+msgstr ""
+
+#: ../elements.php:216
+msgid "Generovat heslo automaticky"
+msgstr ""
+
+#: ../elements.php:224
+msgid "Povolit i pro existující uživatele"
+msgstr ""
+
+#: ../elements.php:229
+msgid "Po registraci nezasílat členům email s přístupy"
+msgstr ""
+
+#: ../elements.php:239
+msgid "GDPR informační text pod formulářem"
+msgstr ""
+
+#: ../elements.php:240
+msgid ""
+"Vaše osobní údaje budou použity pouze pro účely vytvoření a fungování vašeho "
+"účtu zdarma."
+msgstr ""
+
+#: ../elements.php:249
+msgid "Text odkazu"
+msgstr ""
+
+#: ../elements.php:250
+msgid "Zásady zpracování osobních údajů"
+msgstr ""
+
+#: ../elements.php:252
+msgid ""
+"Odkaz na zásady zpracování osobních údajů je nutné nastavit v Nastavení -> "
+"Nastavení webu -> Ochrana osobních údajů."
+msgstr ""
+
+#: ../elements.php:362 ../templates/member/dashboard1/config.php:546
+#: ../templates/member/list1/config.php:190
+#: ../templates/member/list1/template.php:6
+msgid "Seznam lekcí"
+msgstr ""
+
+#: ../elements.php:364
+msgid ""
+"Vypíše podstránky aktuální nebo vybrané stránky jako obrázkový seznam s "
+"náhledovým obrázkem a popisem stránky. Tento element lze využít například "
+"jako seznam lekcí výukového programu."
+msgstr ""
+
+#: ../elements.php:372
+msgid "Vypsat podstránky od"
+msgstr ""
+
+#: ../elements.php:375
+msgid ""
+"Vyberte stránku, jejíž podstránky chcete vypsat jako seznam lekcí. Pokud "
+"žádnou nevyberete, vypíšou se podstránky aktuální stránky."
+msgstr ""
+
+#: ../elements.php:396
+msgid "Skrýt počet komentářů"
+msgstr ""
+
+#: ../elements.php:404 ../elements.php:723
+msgid "Skrýt popisek"
+msgstr ""
+
+#: ../elements.php:413
+msgid "Skrýt obrázek"
+msgstr ""
+
+#: ../elements.php:423 ../elements.php:732
+msgid "Skrýt ukazatel pokroku"
+msgstr ""
+
+#: ../elements.php:430 ../elements.php:757
+msgid "Maximální počet slov v popisku"
+msgstr ""
+
+#: ../elements.php:455 ../elements.php:785 ../elements.php:1486
+#: ../elements.php:1800
+msgid "Počet sloupců"
+msgstr ""
+
+#: ../elements.php:459 ../elements.php:789 ../elements.php:1490
+#: ../elements.php:1804
+msgid "Automaticky"
+msgstr ""
+
+#: ../elements.php:472 ../elements.php:802 ../elements.php:1817
+msgid "Mezery mezi sloupci"
+msgstr ""
+
+#: ../elements.php:481 ../elements.php:811 ../elements.php:1826
+msgid "Velké"
+msgstr ""
+
+#: ../elements.php:482 ../elements.php:812 ../elements.php:1827
+msgid "Malé"
+msgstr ""
+
+#: ../elements.php:483 ../elements.php:813 ../elements.php:1828
+msgid "Žádné"
+msgstr ""
+
+#: ../elements.php:496 ../elements.php:826 ../elements.php:984
+#: ../elements.php:1449 ../elements.php:1841
+msgid "Styl"
+msgstr ""
+
+#: ../elements.php:516 ../elements.php:846 ../elements.php:1001
+#: ../elements.php:1463 ../elements.php:1627 ../elements.php:1858
+msgid "Nastavení pozadí"
+msgstr ""
+
+#: ../elements.php:533 ../elements.php:863 ../elements.php:1018
+msgid "Velikost obrázku"
+msgstr ""
+
+#: ../elements.php:550 ../elements.php:1645 ../elements.php:1876
+msgid "Barva podbarvení po najetí myši"
+msgstr ""
+
+#: ../elements.php:567 ../elements.php:879 ../elements.php:1035
+#: ../elements.php:1893
+msgid "Efekt po najetí myši"
+msgstr ""
+
+#: ../elements.php:571 ../elements.php:883 ../elements.php:1039
+#: ../elements.php:1897
+msgid "Žádný"
+msgstr ""
+
+#: ../elements.php:572 ../elements.php:884 ../elements.php:1040
+#: ../elements.php:1898
+msgid "Zoom"
+msgstr ""
+
+#: ../elements.php:580 ../elements.php:892 ../elements.php:1048
+#: ../elements.php:1906
+msgid "Zobrazit obrázky v poměru:"
+msgstr ""
+
+#: ../elements.php:584 ../elements.php:896 ../elements.php:1052
+#: ../elements.php:1910
+msgid "Původní"
+msgstr ""
+
+#: ../elements.php:585 ../elements.php:897 ../elements.php:1053
+#: ../elements.php:1911
+msgid "Široký (16:9)"
+msgstr ""
+
+#: ../elements.php:586 ../elements.php:898 ../elements.php:1054
+#: ../elements.php:1912
+msgid "Základní (3:2)"
+msgstr ""
+
+#: ../elements.php:587 ../elements.php:899 ../elements.php:1055
+#: ../elements.php:1913
+msgid "Střední (4:3)"
+msgstr ""
+
+#: ../elements.php:588 ../elements.php:900 ../elements.php:1056
+#: ../elements.php:1914
+msgid "Čtverec (1:1)"
+msgstr ""
+
+#: ../elements.php:589 ../elements.php:901 ../elements.php:1057
+#: ../elements.php:1915
+msgid "Základní na výšku (2:3)"
+msgstr ""
+
+#: ../elements.php:590 ../elements.php:902 ../elements.php:1058
+#: ../elements.php:1916
+msgid "Střední na výšku (3:4)"
+msgstr ""
+
+#: ../elements.php:600
+msgid "Barva progressbaru"
+msgstr ""
+
+#: ../elements.php:617 ../elements.php:920 ../elements.php:1507
+#: ../elements.php:1955
+msgid "Formátování názvu"
+msgstr ""
+
+#: ../elements.php:636
+msgid "Formátování komentářů"
+msgstr ""
+
+#: ../elements.php:655 ../elements.php:958 ../elements.php:1115
+msgid "Formátování popisu"
+msgstr ""
+
+#: ../elements.php:673
+msgid "Defaultní obrázek"
+msgstr ""
+
+#: ../elements.php:678
+msgid ""
+"Tento obrázek se bude ve výpisu zobrazovat jako obrázek stránky v případě, "
+"že stránka nebude mít nastavený svůj obrázek."
+msgstr ""
+
+#: ../elements.php:687 ../elements.php:705
+msgid "Měsíční lekce"
+msgstr ""
+
+#: ../elements.php:689
+msgid "Vypíše seznam aktuálních a nadcházejících měsíčních lekcí."
+msgstr ""
+
+#: ../elements.php:701
+msgid "Vypsat"
+msgstr ""
+
+#: ../elements.php:706
+msgid "Aktuální lekci"
+msgstr ""
+
+#: ../elements.php:707
+msgid "Archiv měsíčních lekcí"
+msgstr ""
+
+#: ../elements.php:740
+msgid "Skrýt aktuální lekci"
+msgstr ""
+
+#: ../elements.php:939 ../elements.php:1096
+msgid "Formátování podnadpisu"
+msgstr ""
+
+#: ../elements.php:1076
+msgid "Formátování názvu stránky"
+msgstr ""
+
+#: ../elements.php:1140 ../elements.php:1193 ../init.php:195
+msgid "Seznam úkolů"
+msgstr ""
+
+#: ../elements.php:1142
+msgid ""
+"Tento element můžete umístit na stránku jako seznam úkolů. Uživatel si pak "
+"může odškrtnout ty úkoly, které už splnil."
+msgstr ""
+
+#: ../elements.php:1150
+msgid "Nadpis seznamu"
+msgstr ""
+
+#: ../elements.php:1160
+msgid "Zobrazit"
+msgstr ""
+
+#: ../elements.php:1163
+msgid "Seznam úkolů stránky"
+msgstr ""
+
+#: ../elements.php:1164
+msgid "Vlastní seznam úkolů"
+msgstr ""
+
+#: ../elements.php:1176
+msgid ""
+"Použije se seznam úkolů této stránky. Úkoly stránky můžete nastavit v "
+"Nastavení stránky -> Členská stránka. Takto vytvořený seznam úkolů se "
+"započítává do výsledku postupu v elementu Ukazatel pokroku."
+msgstr ""
+
+#: ../elements.php:1188
+msgid ""
+"Vytvořte si vlastní seznam úkolů. Tento seznam úkolů se však nebude "
+"započítávat do výsledku postupu."
+msgstr ""
+
+#: ../elements.php:1195 ../init.php:200
+msgid "Přidat úkol"
+msgstr ""
+
+#: ../elements.php:1196 ../init.php:207
+msgid "Úkol"
+msgstr ""
+
+#: ../elements.php:1204 ../elements.php:1206
+msgid "Text úkolu"
+msgstr ""
+
+#: ../elements.php:1230
+msgid "Barva splněného úkolu"
+msgstr ""
+
+#: ../elements.php:1239
+msgid "Zakulacení rohů zaškrtávatka"
+msgstr ""
+
+#: ../elements.php:1265
+msgid "Formátování nadpisu"
+msgstr ""
+
+#: ../elements.php:1282
+msgid "Formátování textu úkolu"
+msgstr ""
+
+#: ../elements.php:1300
+msgid "Ukazatel pokroku"
+msgstr ""
+
+#: ../elements.php:1302
+msgid ""
+"Ukazatel pokroku zobrazuje, kolik procent úkolů vašich lekcí uživatel "
+"splnil. Úkoly vytváříte v Nastavení stránky -> Členská stránka a jejich "
+"seznam můžete zobrazit pomocí elementu Seznamu úkolů."
+msgstr ""
+
+#: ../elements.php:1309
+msgid "Zobrazit pokrok pro"
+msgstr ""
+
+#: ../elements.php:1314
+msgid "Stránku a její podstránky"
+msgstr ""
+
+#: ../elements.php:1315
+msgid "Celou členskou sekci"
+msgstr ""
+
+#: ../elements.php:1331
+msgid ""
+"Do výsledku se budou započítávat seznamy úkolů všech stránek vybrané členské "
+"sekce. Pokud nevyberete žádnou členskou sekci, tak se bude brát členská "
+"sekce, do které je zařazená aktuální stránka"
+msgstr ""
+
+#: ../elements.php:1335
+msgid "Stránka"
+msgstr ""
+
+#: ../elements.php:1343
+msgid ""
+"Do výsledku se budou započítávat seznamy úkolů všech podstránek od vybrané "
+"stránky. Pokud nevyberete žádnou podstránku, tak se budou brát podstránky "
+"aktuální stránky."
+msgstr ""
+
+#: ../elements.php:1347
+msgid "Popisek pokroku"
+msgstr ""
+
+#: ../elements.php:1361 ../init.php:309 ../lib/objects/MwMemberNew.php:85
+msgid "Členské novinky"
+msgstr ""
+
+#: ../elements.php:1363
+msgid ""
+"Pomocí tohoto elementu můžete vypsat všechny nebo i jen několik posledních "
+"členských novinek."
+msgstr ""
+
+#: ../elements.php:1371
+msgid "Typ výpisu"
+msgstr ""
+
+#: ../elements.php:1376
+msgid "Všechny novinky"
+msgstr ""
+
+#: ../elements.php:1377
+msgid "Poslední novinky"
+msgstr ""
+
+#: ../elements.php:1390
+msgid "Počet novinek"
+msgstr ""
+
+#: ../elements.php:1399 ../elements.php:1425
+msgid "Počet slov v náhledu novinky"
+msgstr ""
+
+#: ../elements.php:1416
+msgid "Počet novinek na stránku"
+msgstr ""
+
+#: ../elements.php:1525
+msgid "Formátování textu"
+msgstr ""
+
+#: ../elements.php:1547 ../elements.php:1559
+msgid "Katalog členů"
+msgstr ""
+
+#: ../elements.php:1549
+msgid "Vypíše seznam členů vybrané členské sekce."
+msgstr ""
+
+#: ../elements.php:1557
+msgid "Nadpis katalogu"
+msgstr ""
+
+#: ../elements.php:1567
+msgid "Vypisovat"
+msgstr ""
+
+#: ../elements.php:1572
+msgid "Všechny členy"
+msgstr ""
+
+#: ../elements.php:1573
+msgid "Jen vybrané členy"
+msgstr ""
+
+#: ../elements.php:1580
+msgid "Vypsat uživatele z"
+msgstr ""
+
+#: ../elements.php:1593
+msgid "Počet členů na stránku"
+msgstr ""
+
+#: ../elements.php:1660
+msgid "Barva sociálních ikon"
+msgstr ""
+
+#: ../elements.php:1678
+msgid "Font jména"
+msgstr ""
+
+#: ../elements.php:1695
+msgid "Font popisu"
+msgstr ""
+
+#: ../elements.php:1719
+msgid "Seznam členských sekcí"
+msgstr ""
+
+#: ../elements.php:1721
+msgid "Vypíše seznam členských sekcí s proklikem."
+msgstr ""
+
+#: ../elements.php:1731 ../lib/Dashboard.php:26 ../lib/Dashboard.php:28
+#: ../lib/objects/MwMemberSection.php:265
+msgid "Přidat členskou sekci"
+msgstr ""
+
+#: ../elements.php:1747
+msgid "Obrázek"
+msgstr ""
+
+#: ../elements.php:1756 ../init.php:532 ../init.php:549
+msgid "Název členské sekce"
+msgstr ""
+
+#: ../elements.php:1765
+msgid "Prodejní popis"
+msgstr ""
+
+#: ../elements.php:1767
+msgid ""
+"Pokud nemá uživatel do této členské sekce přístup a klikne na ni, otevře se "
+"mu popup s tímto popisem a tlačítkem odkazujícím na stránku, kde může "
+"přístup získat."
+msgstr ""
+
+#: ../elements.php:1771
+msgid "Odkaz na prodejní stránku"
+msgstr ""
+
+#: ../elements.php:1776
+msgid ""
+"Na stránce kterou zde nastavíte by měl uživatel mít možnost získat přístup "
+"do této členské sekce a to buď nákupem nebo registrací zdarma."
+msgstr ""
+
+#: ../elements.php:1783
+msgid "Zobrazit ukazatel pokroku"
+msgstr ""
+
+#: ../elements.php:1931
+msgid "Zarovnání textů"
+msgstr ""
+
+#: ../elements.php:1937
+msgid "Nalevo"
+msgstr ""
+
+#: ../elements.php:1941
+msgid "Na střed"
+msgstr ""
+
+#: ../elements.php:1979
+msgid "Styl tlačítka v popupu"
+msgstr ""
+
+#: ../elements.php:1981
+msgid ""
+"Styl tlačítka které se zobrazuje v popupu u členských sekcí, do kterých nemá "
+"návštěvník přístup."
+msgstr ""
+
+#: ../elements_print.php:54
+msgid ""
+"Přihlašovací formulář není propojen s žádnou členskou sekcí. Vyberte v "
+"nastavení formuláře členskou sekci, do které se má po vyplnění formuláře "
+"uživatel přihlásit, nebo zařaďte tuto stránku do členské sekce v Nastavení "
+"stránky->Členská stránka."
+msgstr ""
+
+#: ../elements_print.php:58
+msgid ""
+"Vybraná členská sekce nemá nastavenou žádnou stránku jako nástěnku. "
+"Přihlašovací formulář proto nebude fungovat správně. Nastavte členské sekci "
+"nástěnku v <strong>nastavení členských sekcí</strong>."
+msgstr ""
+
+#: ../elements_print.php:63
+msgid "Přihlásit se"
+msgstr "Zaloguj się"
+
+#: ../elements_print.php:76
+msgid ""
+"Vaše členství v této členské sekci bylo časově omezeno a již vypršelo, proto "
+"se nelze přihlásit."
+msgstr ""
+
+#: ../elements_print.php:83
+msgid "Vstoupit do členské sekce"
+msgstr "Dołącz do sekcji członkostwa"
+
+#: ../elements_print.php:88
+msgid "Už jste přihlášen(a)."
+msgstr "Jesteś już zalogowany."
+
+#: ../elements_print.php:100 ../lib/MembershipVariables.php:133
+msgid "Přihlašovací jméno"
+msgstr ""
+
+#: ../elements_print.php:104 ../elements_print.php:221
+#: ../lib/MemberProfileAdmin.php:129 ../lib/MembershipVariables.php:137
+msgid "Heslo"
+msgstr "Hasło"
+
+#: ../elements_print.php:113
+msgid "Zapomněli jste heslo?"
+msgstr "Nie pamiętasz hasła?"
+
+#: ../elements_print.php:149
+msgid "Vybraná členská sekce již neexistuje. Pravděpodobně byla smazána."
+msgstr ""
+
+#: ../elements_print.php:209 ../lib/MemberProfileAdmin.php:49
+msgid "E-mail"
+msgstr ""
+
+#: ../elements_print.php:213 ../lib/MembershipVariables.php:29
+#: ../lib/objects/MwMember.php:778
+msgid "Jméno"
+msgstr ""
+
+#: ../elements_print.php:216 ../lib/MemberProfileAdmin.php:41
+msgid "Příjmení"
+msgstr ""
+
+#: ../elements_print.php:224
+msgid "Potvrdit heslo"
+msgstr "Potwierdź hasło"
+
+#: ../elements_print.php:241
+msgid "Registrovat se"
+msgstr ""
+
+#: ../elements_print.php:268
+msgid "Registrační formulář není propojen s žádnou členskou sekcí."
+msgstr ""
+
+#: ../elements_print.php:341 ../elements_print.php:353
+#: ../elements_print.php:358 ../elements_print.php:633
+#: ../elements_print.php:645 ../elements_print.php:647
+msgid "K této stránce nemáte přístup"
+msgstr ""
+
+#: ../elements_print.php:343 ../elements_print.php:635
+msgid "Více informací"
+msgstr ""
+
+#: ../elements_print.php:359 ../elements_print.php:646
+#: ../elements_print.php:1309 ../elements_print.php:1328
+#: ../lib/MemberAccess.php:31
+msgid "Získat přístup"
+msgstr ""
+
+#: ../elements_print.php:367 ../elements_print.php:377
+#: ../elements_print.php:655
+msgid "Bude zveřejněno"
+msgstr ""
+
+#: ../elements_print.php:368
+msgid "po splnění úkolů předešlé lekce"
+msgstr ""
+
+#: ../elements_print.php:501
+msgid ""
+"Tato nebo vybraná stránka nemá žádné podstránky, proto nelze seznam lekcí "
+"vypsat. Vyberte stránku, která má podstránky, nebo vytvořte podstránky této "
+"stránce."
+msgstr ""
+
+#: ../elements_print.php:578
+msgid "Archív pro rok"
+msgstr ""
+
+#: ../elements_print.php:754
+msgid "Archív je prázdný"
+msgstr ""
+
+#: ../elements_print.php:756
+msgid ""
+"Nejsou definovány žádné lekce měsíčního členství. Vytvořte stránky pro "
+"měsíční členství."
+msgstr ""
+
+#: ../elements_print.php:760
+msgid "Tento element musí být umístěn na stránce v členské sekci."
+msgstr ""
+
+#: ../elements_print.php:842
+msgid "Nejsou zadány žádné úkoly."
+msgstr ""
+
+#: ../elements_print.php:847 ../elements_print.php:890
+msgid ""
+"Tento element bude fungovat pouze na členské stránce. Tato stránka není "
+"zařazena do žádné členské sekce."
+msgstr ""
+
+#: ../elements_print.php:944
+msgid "Zobrazit celé"
+msgstr ""
+
+#: ../elements_print.php:952
+msgid "Skrýt"
+msgstr ""
+
+#: ../elements_print.php:1001
+msgid "Momentálně nejsou k dispozici žádné novinky."
+msgstr ""
+
+#: ../elements_print.php:1060
+msgid "Hledat"
+msgstr ""
+
+#: ../elements_print.php:1063
+msgid "Zrušit vyhledávání"
+msgstr ""
+
+#: ../elements_print.php:1195
+msgid "Nebyli nalezeni žádní členové"
+msgstr ""
+
+#: ../elements_print.php:1327 ../lib/MemberAccess.php:65
+msgid "Do této členské sekce nemáte přístup."
+msgstr ""
+
+#: ../elements_print.php:1333
+msgid "Získat přístup do členské sekce"
+msgstr ""
+
+#: ../elements_print.php:1378
+msgid "Nejsou vybrány žádné členské sekce."
+msgstr ""
+
+#: ../functions.php:34
+msgid "Zobrazit stránku:"
+msgstr ""
+
+#: ../functions.php:44
+msgid "Nebo vypsat text (pokud nevyberete stránku):"
+msgstr ""
+
+#: ../functions.php:115
+msgid ""
+"Aby bylo možné vytvářet nové účty pomocí FAPI, je potřeba nejprve zadat "
+"přihlašovací údaje k FAPI v <strong>Propojení aplikací</strong>."
+msgstr ""
+
+#: ../functions.php:128
+msgid "Do členské úrovně:"
+msgstr ""
+
+#: ../functions.php:147
+msgid ""
+"Nastaví uživateli do jaké nebo do jakých členských úrovní má přístup. "
+"Hodnotou je ID členské úrovně. Pokud chceme uživatele vložit do více "
+"členských úrovní oddělíme je pomlčou (např. 0-1-5)."
+msgstr ""
+
+#: ../functions.php:151
+msgid ""
+"Přidá přístup do členské úrovně a zároveň (na rozdíl od atributu level) "
+"zachová ty do kterých už přístup má. Hodnotou je ID členské úrovně. Pokud "
+"chceme uživatele vložit do více členských úrovní oddělíme je pomlčou (např. "
+"0-1-5)."
+msgstr ""
+
+#: ../functions.php:155
+msgid ""
+"Určuje zda se má poslat klientovi email po zavolání notifikace. Defaultně se "
+"posílá. Pro vypnutí nasavte hodnotu na 0."
+msgstr ""
+
+#: ../functions.php:159
+msgid ""
+"Nastaví datum registrace na zadanou hodnotu. Defaultně se nastaví na den kdy "
+"byla notifikace zavolána. Formát atributu je yyyy-mm-dd."
+msgstr ""
+
+#: ../functions.php:163
+msgid ""
+"Nastaví čas registrace na zadanou hodnotu. Defaultně se nastaví na čas kdy "
+"byla notifikace zavolána. Formát atributu je hh:mm."
+msgstr ""
+
+#: ../functions.php:167
+msgid ""
+"Omezí členství na zadaný počet dní. Po vypršení této doby se nelze do "
+"členské sekce přihlásit."
+msgstr ""
+
+#: ../functions.php:171
+msgid ""
+"Nastaví datum expirace členství na konkrétní hodnotu. Formát hodnoty je dd."
+"mm.yyyy. Pokud nastavíte hodnotu na 0, tak se časově omezené členství zruší "
+"a členství přejde do neomezeného režimu."
+msgstr ""
+
+#: ../functions.php:174
+msgid "Měsíční členství"
+msgstr ""
+
+#: ../functions.php:178
+msgid ""
+"Zpřístupní uživateli zadané měsíce ve formátu yyyymm. Více měsíců musí být "
+"odděleno pomlčkou. Hodnotou může být taky rok ve formátu yyyy, který "
+"zpřístupní všechny měsíce daného roku."
+msgstr ""
+
+#: ../functions.php:182
+msgid ""
+"Zpřístupní uživateli zadaný počet následujících měsíců, které zatím nemá "
+"koupené."
+msgstr ""
+
+#: ../functions.php:220
+msgid "Zatím nebyly provedeny žádné notifikace."
+msgstr ""
+
+#: ../init.php:54 ../init.php:264 ../init.php:279 ../init.php:835
+#: ../lib/objects/MwMemberSection.php:264
+msgid "Členské sekce"
+msgstr ""
+
+#: ../init.php:60
+msgid "Členské"
+msgstr ""
+
+#: ../init.php:65
+msgid "Šablony nástěnky"
+msgstr ""
+
+#: ../init.php:69
+msgid "Šablony stránky s výpisem lekcí"
+msgstr ""
+
+#: ../init.php:73
+msgid "Šablony stránky s obsahem lekce"
+msgstr ""
+
+#: ../init.php:77
+msgid "Šablony přihlašovacích stránek"
+msgstr ""
+
+#: ../init.php:89 ../lib/MemberPage.php:245
+msgid "Členská stránka"
+msgstr ""
+
+#: ../init.php:99
+msgid ""
+"Po zaškrtnutí bude tato stránka součástí vybrané členské sekce a budou k ní "
+"mít přístup jen její členové."
+msgstr ""
+
+#: ../init.php:101
+msgid "Zpřístupnit stránku pouze registrovaným uživatelům."
+msgstr ""
+
+#: ../init.php:110 ../init.php:240
+msgid "Zařadit do členské sekce"
+msgstr ""
+
+#: ../init.php:114 ../init.php:244
+msgid ""
+"Tato stránka bude zařazena do vybrané členské sekce a bude přistupná pouze "
+"těm registrovaným uživatelům, kteří mají do této členské sekce přístup."
+msgstr ""
+
+#: ../init.php:121
+msgid "Omezení přístupu"
+msgstr ""
+
+#: ../init.php:124
+msgid "Zpřístupnit uživateli"
+msgstr ""
+
+#: ../init.php:128
+msgid "okamžitě po vstupu do členské sekce"
+msgstr ""
+
+#: ../init.php:129
+msgid "po X dnech od registrace do členské sekce"
+msgstr ""
+
+#: ../init.php:130
+msgid "v určitý den (přesné datum a čas)"
+msgstr ""
+
+#: ../init.php:131
+msgid "v měsíci (měsíční obsah)"
+msgstr ""
+
+#: ../init.php:132
+msgid "Po splnění úkolů předešlé lekce"
+msgstr ""
+
+#: ../init.php:138
+msgid "Zpřístupnit po x dnech od registrace"
+msgstr ""
+
+#: ../init.php:141
+msgid ""
+"Zadejte, po jakém počtu dní od registrace se má stránka členům zpřístupnit. "
+"Pokud pole nevyplníte, bude stránka přístupná od okamžiku registrace."
+msgstr ""
+
+#: ../init.php:146
+msgid "Zpřístupnit dne"
+msgstr ""
+
+#: ../init.php:150
+msgid "Zadejte datum a čas chvíle, od které má být stránka viditelná."
+msgstr ""
+
+#: ../init.php:157
+msgid ""
+"Pokud stránku nastavíte jako měsíční obsah, tak se automaticky uvolní v "
+"nastavený měsíc a budou na ní mít přístup jen členové s oprávněním pro tento "
+"měsíc. Oprávnění se dá přiřadit pomocí notifikace po zaplacení nebo v "
+"nastavení každého uživatele."
+msgstr ""
+
+#: ../init.php:162
+msgid "Zpřístupnit v měsíci"
+msgstr ""
+
+#: ../init.php:169 ../init.php:661
+msgid "Zobrazení"
+msgstr ""
+
+#: ../init.php:172
+msgid "Skrýt stránku ve výpisu a v archívu měsíčních lekcí"
+msgstr ""
+
+#: ../init.php:177
+msgid "Prodejní stránka pro tento měsíc"
+msgstr ""
+
+#: ../init.php:180
+msgid ""
+"Pokud uživatel nebude mít tento obsah zakoupený, bude v archívu a výpisu "
+"měsíčních lekcí u této stránky zobrazeno tlačítko s odkazem na danou "
+"prodejní stránku."
+msgstr ""
+
+#: ../init.php:185
+msgid "Po splnění úkolů stránky"
+msgstr ""
+
+#: ../init.php:188
+msgid ""
+"Uživatel nebude mít na tuto stránku přístup dokud nesplní všechny úkoly "
+"stránky, kterou zde vyberete. Pokud nevyberete žádnou stránku, vezme se "
+"automaticky předchozí stránka v seznamu."
+msgstr ""
+
+#: ../init.php:230
+msgid "Název stránky"
+msgstr ""
+
+#: ../init.php:234
+msgid "Nadřazená stránka"
+msgstr ""
+
+#: ../init.php:235
+msgid ""
+"Stránka bude v hierarchii stránek zařazena pod stránku, kterou zde "
+"nastavíte. Toto nastavení se projeví i ve výsledné URL stránky. Změna "
+"nadřazené stránky mění celkovou URL stránky."
+msgstr ""
+
+#: ../init.php:272
+msgid "Přehled"
+msgstr ""
+
+#: ../init.php:286
+msgid "Seznam členů"
+msgstr ""
+
+#: ../init.php:293 ../lib/objects/MwMember.php:467
+msgid "Import členů"
+msgstr ""
+
+#: ../init.php:294
+msgid "Vytvoří účty do členských sekcí pro zadané e-mailové adresy"
+msgstr ""
+
+#: ../init.php:302 ../lib/objects/MwMemberCustomField.php:58
+msgid "Vlastní pole členů"
+msgstr ""
+
+#: ../init.php:315
+msgid "Wordpress login"
+msgstr ""
+
+#: ../init.php:324 ../init.php:327
+msgid "Logo"
+msgstr ""
+
+#: ../init.php:333
+msgid "Šířka loga"
+msgstr ""
+
+#: ../init.php:347
+msgid "Výška loga"
+msgstr ""
+
+#: ../init.php:365
+msgid "Pozadí a formátování přihlašovací stránky"
+msgstr ""
+
+#: ../init.php:368
+msgid "Barva pozadí"
+msgstr ""
+
+#: ../init.php:374
+msgid "Obrázek na pozadí"
+msgstr ""
+
+#: ../init.php:384
+msgid "Barva textu"
+msgstr ""
+
+#: ../init.php:399
+msgid "Seznam e-mailů (na každý řádek jeden e-mail)"
+msgstr ""
+
+#: ../init.php:402
+msgid ""
+"Zadejte zde seznam e-mailů, pro který chcete vygenerovat nové účty. Každý e-"
+"mail musí být na novém řádku."
+msgstr ""
+
+#: ../init.php:406
+msgid "Upravit existující členství"
+msgstr ""
+
+#: ../init.php:409
+msgid "Povolit upravit existujících členství"
+msgstr ""
+
+#: ../init.php:410
+msgid ""
+"Pokud povolíte upravit existující členství, tak kontaktům, které jsou již "
+"zařazeny do vybrané členské sekce, bude upraveno členství podle zadaných "
+"kritérií. V opačném případě se tyto kontakty při importu přeskočí."
+msgstr ""
+
+#: ../init.php:419
+msgid "Zaslat přístupy"
+msgstr ""
+
+#: ../init.php:422
+msgid ""
+"Poslat novým členům e-mail s přístupovými údaji (informovat existující členy "
+"o změnách)"
+msgstr ""
+
+#: ../init.php:427
+msgid "Vlastní email"
+msgstr ""
+
+#: ../init.php:430
+msgid "Zadat vlastní znění emailu"
+msgstr ""
+
+#: ../init.php:452
+msgid "Importovat do"
+msgstr ""
+
+#: ../init.php:462 ../lib/objects/MwMemberNew.php:111
+msgid "Novinka"
+msgstr ""
+
+#: ../init.php:472 ../init.php:498
+msgid "Titulek"
+msgstr ""
+
+#: ../init.php:476
+msgid "Text"
+msgstr ""
+
+#: ../init.php:488
+msgid "Vlastní pole"
+msgstr ""
+
+#: ../init.php:505
+msgid "Typ"
+msgstr ""
+
+#: ../init.php:508
+msgid "Jednoduchý text"
+msgstr ""
+
+#: ../init.php:509
+msgid "Textové pole"
+msgstr ""
+
+#: ../init.php:517
+msgid "Popisek"
+msgstr ""
+
+#: ../init.php:555
+msgid "Nástěnka (hlavní stránka)"
+msgstr ""
+
+#: ../init.php:562
+msgid ""
+"Nástěnka je úvodní stránka členské sekce. Na tuto stránku je uživatel "
+"defaultně přesměrován po přihlášení."
+msgstr ""
+
+#: ../init.php:566 ../lib/MembershipVariables.php:108
+#: ../templates/member/login1/template.php:6
+#: ../templates/member/login2/template.php:6
+msgid "Přihlašovací stránka"
+msgstr ""
+
+#: ../init.php:572
+msgid ""
+"Přihlašovací stránka, slouží k přihlášení do této členské sekce. Pokud "
+"přihlašovací stránku nenastavíte, tak se k přihlášení použije defaultní "
+"přihlašovací stránka."
+msgstr ""
+
+#: ../init.php:576
+msgid "Stránka pro členy bez přístupu"
+msgstr ""
+
+#: ../init.php:582
+msgid ""
+"Tato stránka se zobrazí přihlášeným uživatelům (členům), kteří nemají "
+"přístup do této členské sekce."
+msgstr ""
+
+#: ../init.php:589 ../lib/MemberPage.php:259
+msgid "Evergreen"
+msgstr ""
+
+#: ../init.php:594
+msgid "Skrýt nezveřejněné stránky"
+msgstr ""
+
+#: ../init.php:596
+msgid ""
+"Pokud tuto možnost nezaškrtnete, všechny stránky budou viditelné i pro ty, "
+"kteří k nim zatím nemají přístup. Budou však zašedlé a nepůjdou rozkliknout."
+msgstr ""
+
+#: ../init.php:603
+msgid "Omezené členství"
+msgstr ""
+
+#: ../init.php:607 ../init.php:675
+msgid "Stránka pro prodloužení členství"
+msgstr ""
+
+#: ../init.php:613 ../init.php:681
+msgid ""
+"V menu uživatele se zobrazí tlačítko pro prodloužení měsíčního nebo časově "
+"omezeného členství, které povede na zadanou stránku. Pokud stránku nezadáte, "
+"tlačítko se nezobrazí."
+msgstr ""
+
+#: ../init.php:617 ../init.php:685
+msgid "Po vypršení časově omezeného členství zobrazit stránku"
+msgstr ""
+
+#: ../init.php:623
+msgid ""
+"Tato stránka se uživateli zobrazí ve chvíli, kdy se pokusí přihlásit po "
+"vypršení jeho časově omezeného členství."
+msgstr ""
+
+#: ../init.php:644
+msgid "Přidat členskou úroveň"
+msgstr ""
+
+#: ../init.php:645 ../init.php:655
+msgid "Nová členská úroveň"
+msgstr ""
+
+#: ../init.php:654
+msgid "Název členské úrovně"
+msgstr ""
+
+#: ../init.php:662
+msgid ""
+"Zobrazit stránky této úrovně v menu i pro členy, kteří do ní nemají přístup"
+msgstr ""
+
+#: ../init.php:667
+msgid "Obsah stránky pro členy bez oprávnění"
+msgstr ""
+
+#: ../init.php:670
+msgid ""
+"<p style=\"text-align:center;\">Pro přístup k této stránce nemáte dostatečné "
+"oprávnění.</p>"
+msgstr ""
+
+#: ../init.php:691
+msgid ""
+"Tato stránka se uživateli zobrazí ve chvíli, kdy se pokusí přihlásit po "
+"vypršení jeho časově omezeného členství v této úrovni."
+msgstr ""
+
+#: ../init.php:702
+msgid "Emaily"
+msgstr ""
+
+#: ../init.php:712
+#| msgid "Vstoupit do členské sekce"
+msgid "E-mail po přidání do členské sekce"
+msgstr ""
+
+#: ../init.php:718
+msgid "E-mail po přidání do členské úrovně"
+msgstr ""
+
+#: ../init.php:724
+msgid "E-mail po prodloužení členství"
+msgstr ""
+
+#: ../init.php:737
+msgid "Pop-upy"
+msgstr ""
+
+#: ../init.php:745 ../lib/objects/MwMember.php:463
+msgid "Notifikace"
+msgstr ""
+
+#: ../init.php:767
+msgid "Log proběhlých notifikací"
+msgstr ""
+
+#: ../init.php:770
+msgid "Upozornění"
+msgstr ""
+
+#: ../init.php:773
+msgid "Posílat upozornění na neúspěšné notifikace na e-mail"
+msgstr ""
+
+#: ../init.php:777
+msgid "E-mail pro upozornění"
+msgstr ""
+
+#: ../init.php:780
+msgid "Zde zadejte e-mailovou adresu, na kterou chcete notifikace zasílat."
+msgstr ""
+
+#: ../init.php:785
+msgid "Tabulka notifikací"
+msgstr ""
+
+#: ../init.php:804
+msgid "Hlavička"
+msgstr ""
+
+#: ../init.php:811
+msgid "Patička"
+msgstr ""
+
+#: ../init.php:819 ../member_class.php:107
+msgid "Člen"
+msgstr ""
+
+#: ../js/js_texts.php:8
+msgid "Prosím, zadejte jméno členské sekce."
+msgstr ""
+
+#: ../js/js_texts.php:9
+msgid "Prosím, zadejte název členské úrovně."
+msgstr ""
+
+#: ../js/js_texts.php:10
+msgid "Opravdu chcete tuto členskou úroveň smazat?"
+msgstr ""
+
+#: ../js/js_texts.php:11
+msgid "Opravdu chcete tuto členskou sekci smazat?"
+msgstr ""
+
+#: ../js/js_texts.php:14
+msgid "Registrace se z neznámeho důvodu nezdařila."
+msgstr ""
+
+#: ../lib/Dashboard.php:12
+msgid "Celkové statistiky"
+msgstr ""
+
+#: ../lib/Dashboard.php:24
+#| msgid "Vstoupit do členské sekce"
+msgid "Statistiky členských sekcí"
+msgstr ""
+
+#: ../lib/Dashboard.php:40 ../lib/Dashboard.php:85
+msgid "Členů"
+msgstr ""
+
+#: ../lib/Dashboard.php:43
+msgid "Aktivních"
+msgstr ""
+
+#: ../lib/Dashboard.php:46 ../lib/objects/MwMember.php:792
+#: ../lib/objects/MwMemberCustomField.php:87 ../lib/objects/MwMemberNew.php:121
+#: ../lib/objects/MwMemberSection.php:291
+msgid "Akce"
+msgstr ""
+
+#: ../lib/Dashboard.php:90
+msgid "Aktivních členů"
+msgstr ""
+
+#: ../lib/Dashboard.php:95
+msgid "Členských sekcí"
+msgstr ""
+
+#: ../lib/MemberAccess.php:74
+msgid "Vaše členství již vypršelo."
+msgstr ""
+
+#: ../lib/MemberAccess.php:76
+msgid "Prodloužit členství"
+msgstr ""
+
+#: ../lib/MemberAccess.php:92 ../lib/MemberAccess.php:110
+msgid "Pro přístup k této stránce nemáte dostatečné oprávnění."
+msgstr ""
+
+#: ../lib/MemberAccess.php:121
+msgid ""
+"Obsah této stránky je momentálně nedostupný. Bude uvolněn po splnění úkolů "
+"předešlé lekce. "
+msgstr ""
+
+#: ../lib/MemberAccess.php:123
+msgid "Přejít na předešlou lekci"
+msgstr ""
+
+#: ../lib/MemberAccess.php:132
+msgid "Obsah této stránky je momentálně nedostupný. Bude uvolněn"
+msgstr ""
+
+#: ../lib/MemberAccess.php:167
+msgid "nebo"
+msgstr ""
+
+#: ../lib/MemberAccess.php:168
+msgid "přejít na nástěnku"
+msgstr ""
+
+#: ../lib/MemberAccess.php:171
+msgid "Přejít na nástěnku"
+msgstr ""
+
+#: ../lib/MemberLevel.php:25 ../lib/objects/MwMemberSection.php:60
+msgid "(Bez názvu)"
+msgstr ""
+
+#: ../lib/MemberPage.php:252 ../lib/objects/MwMemberNew.php:114
+msgid "Datum"
+msgstr ""
+
+#: ../lib/MemberPage.php:259 ../lib/MwMemberFields.php:150
+msgid "dní"
+msgstr ""
+
+#: ../lib/MemberPage.php:269
+msgid "Měsíc"
+msgstr ""
+
+#: ../lib/MemberPage.php:277
+msgid "Po splnění úkolů předešlé stránky"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:30 ../member_class.php:428
+msgid "Můj profil"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:33
+msgid "Uživatelské jméno (nelze změnit)"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:37
+msgid "Křestní jméno"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:45
+msgid "Můj obor"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:49
+msgid "(povinný)"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:53
+msgid "O mně"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:58 ../lib/objects/MwMember.php:917
+msgid "Profilový obrázek"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:59
+msgid "Svůj profilový obrázek (avatar) si můžete nastavit na adrese"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:59
+msgid ""
+"Výhodou této služby je, že si bude váš profilový obrázek pamatovat pro "
+"všechny weby postavené na wordpressu, a když se kdekoli registrujete nebo "
+"vložíte komentář pod stejným e-mailem, bude se tento profilový obrázek "
+"automaticky zobrazovat."
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:92
+msgid "Kontaktní informace"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:95
+msgid "Webové stránky"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:115 ../lib/MwMemberFields.php:224
+msgid "Zobrazení v katalogu členů"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:118
+msgid "Zobrazit můj profil v katalogu členů"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:122
+msgid "Nezobrazovat můj email v katalogu členů"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:126
+msgid "Nové heslo"
+msgstr "Nowe hasło"
+
+#: ../lib/MemberProfileAdmin.php:133
+msgid "Znovu heslo"
+msgstr "Hasło ponownie"
+
+#: ../lib/MemberProfileAdmin.php:138
+msgid "Uložit profil"
+msgstr ""
+
+#: ../lib/MemberProfileAdmin.php:144
+msgid "Zavřít profil"
+msgstr ""
+
+#: ../lib/MembersImport.php:22
+msgid "Importovat členy"
+msgstr ""
+
+#: ../lib/MembersImport.php:41
+msgid "Nastavení se nepodařilo uložit."
+msgstr ""
+
+#: ../lib/MembersImport.php:45
+msgid "Musíte zadat seznam e-mailů, pro které chcete vytvořit členské účty."
+msgstr ""
+
+#: ../lib/MembersImport.php:49
+msgid ""
+"Musíte vybrat alespoň jednu členskou sekci, do které chcete nové členy "
+"zařadit."
+msgstr ""
+
+#: ../lib/MembersImport.php:53
+msgid "Musíte vyplnit text e-mailu."
+msgstr ""
+
+#: ../lib/MembersImport.php:57
+#, php-format
+msgid "Text e-mailové zprávy musí obsahovat proměnnou %%login%%."
+msgstr ""
+
+#: ../lib/MembersImport.php:97
+#, php-format
+msgid "Bylo vytvořeno %s nových členů."
+msgstr ""
+
+#: ../lib/MembersImport.php:100
+#, php-format
+msgid "Bylo upraveno %s starých členů."
+msgstr ""
+
+#: ../lib/MembersImport.php:104
+#, php-format
+msgid "%s starých členů nebylo upraveno."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:119
+msgid "Zpráva se nepodařila odeslat."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:127
+msgid "Nové členství"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:128
+msgid "Přidány přístupy do úrovně"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:129 ../lib/MembershipEmailing.php:130
+msgid "Prodloužení členství"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:131 ../lib/MembershipEmailing.php:132
+msgid "Změna členství"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:143 ../lib/MembershipEmailing.php:156
+#: ../lib/MembershipEmailing.php:163 ../lib/MembershipEmailing.php:170
+#: ../lib/MembershipEmailing.php:179 ../lib/MembershipEmailing.php:188
+msgid "Dobrý den,"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:145
+#, php-format
+msgid ""
+"byl Vám vytvořen přístup do členské sekce <strong>%%NAZEV_CLENSKE_SEKCE%%</"
+"strong>."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:147
+msgid "Informace o Vašem členství"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:151
+msgid "Přihlášovací údaje"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:158
+#, php-format
+msgid "byl Vám povolen přístup do úrovně <strong>%%NAZEV_UROVNE%%</strong>."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:160 ../lib/MembershipEmailing.php:167
+#: ../lib/MembershipEmailing.php:176 ../lib/MembershipEmailing.php:185
+#: ../lib/MembershipEmailing.php:192
+#, php-format
+msgid "Přihlásit se můžete na: %%PRIHLASOVACI_STRANKA%%"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:165
+#, php-format
+msgid ""
+"Vaše měsíční členství bylo rozšířeno. Nově máte přístup do: "
+"%%MESICNI_CLENSTVI%%"
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:172
+#, php-format
+msgid ""
+"bylo Vám prodlouženo členství v členské sekci <strong>%%NAZEV_CLENSKE_SEKCE"
+"%%</strong>."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:174
+#, php-format
+msgid "Vaše členství nově vyprší: <strong>%%DATUM_EXPIRACE%%</strong>."
+msgstr ""
+
+#: ../lib/MembershipEmailing.php:181
+#, php-format
+msgid ""
+"Vaše členství v členské sekci <strong>%%NAZEV_CLENSKE_SEKCE%%</strong> bylo "
+"změněno."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:15
+msgid "(členství je neomezeno)"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:24 ../lib/objects/MwMember.php:781
+msgid "Email"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:48
+msgid "Členství od"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:55 ../lib/MwMemberFields.php:344
+#: ../member_class.php:460
+msgid "Členství do"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:77
+msgid "Úrovně"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:77
+msgid "Úroveň"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:101
+msgid ""
+"Vaše heslo, které na tomto webu již používáte. (Pokud si heslo nepamatujete, "
+"vygenerujte si na přihlašovací stránce nové)"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:109 ../lib/MembershipVariables.php:124
+msgid "Přihlašovací stránka není nastavena. Kontaktujte správce webu."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:122
+#, php-format
+msgid "Do členské sekce %s se můžete přihlásit na adrese:"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:169
+#, php-format
+msgid "Vaše členství v členské sekci <strong>%s</strong> bylo změněno:"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:186
+msgid "Byl přidán přístup do úrovně"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:202
+msgid "Byl přidán přístup do měsíce"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:212
+msgid "Byla změněna platnost vašeho členství. Členství nyní vyprší"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:214
+msgid "Platnost vašeho členství byla nastavena na neomezené"
+msgstr ""
+
+#: ../lib/MembershipVariables.php:266
+msgid ""
+"Vypíše odkaz na přihlašovací stránku, přihlašovací jméno a heslo člena. "
+"Pokud má člen vytvořen účet v minulosti, tak se heslo nahradí informací, že "
+"má použíž pro přihlášení stejné heslo, které na webu již používá."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:271
+msgid "Odkaz na přihlašovací stránku členské sekce."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:276
+#| msgid "Vstoupit do členské sekce"
+msgid "Odkaz na nástěnku členské sekce."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:281
+msgid "Přihlašovací jméno člena."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:286
+#| msgid "Vstoupit do členské sekce"
+msgid "Název členské sekce."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:291
+msgid ""
+"Vypíše název členské úrovně, případě všech členských úrovní do kterých byl "
+"člen přidán."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:296
+msgid ""
+"Vypíše tabulku s informacemi o členství. Tabulka obsahuje email a jméno "
+"člena, úroveň/úrovně členství a datum expirace (pokud je členství omezeno)."
+msgstr ""
+
+#: ../lib/MembershipVariables.php:301
+msgid ""
+"Datum expirace členství. Pokud členství není omezeno, tak vypíše \"(členství "
+"je neomezeno)\"."
+msgstr ""
+
+#: ../lib/MwMemberFields.php:58 ../lib/MwMemberFields.php:374
+msgid "Zařadit do členských úrovní"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:62
+msgid ""
+"Pokud zaškrtnete některou z členských úrovní, tak na tuto stránku budou mít "
+"přístup pouze ti členové, kteří mají přístup alespoň do jedné ze "
+"zaškrtnutých členských úrovní. Pokud nezaškrtnete nic, bude stránka "
+"přístupná pro všechny členy vybrané členské sekce."
+msgstr ""
+
+#: ../lib/MwMemberFields.php:90 ../lib/MwMemberFields.php:203
+#, php-format
+msgid ""
+"Není vytvořena žádná členská sekce. Členskou sekci lze vytvořit v <a href="
+"\"%s\" target=\"_blank\">administraci členských sekcí</a>."
+msgstr ""
+
+#: ../lib/MwMemberFields.php:106
+msgid "Vytvořit přístup do členských úrovní"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:112
+msgid "Nastavit typ členství na"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:123
+msgid "Neomezené členství"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:127
+msgid "Omezit členství počtem dní"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:131
+msgid "Omezit členství do data"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:145
+msgid "Doba platnosti členství"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:157
+msgid "Platnost členství do data"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:167
+msgid "Pokročilé"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:178
+msgid "Neposílat informační email"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:184
+msgid "Nastavit pevné datum registrace člena"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:192
+msgid "Nastavit datum registrace na"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:229
+msgid "Zobrazit v katalogu členů"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:235
+msgid "Skrýt email v katalogu členů"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:243
+msgid "Obor podnikání"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:244
+msgid "Obor podnikání se zobrazuje v detailu člena v katalogu členů."
+msgstr ""
+
+#: ../lib/MwMemberFields.php:280
+#, php-format
+msgid ""
+"Údaje o členovi můžete rozšířit o %s. Zadané údaje se potom budou zobrazovat "
+"v katalogu členů."
+msgstr ""
+
+#: ../lib/MwMemberFields.php:280
+msgid "vlastní pole členů"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:328
+msgid "Datum registrace"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:336
+msgid "Čas registrace"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:397
+msgid "Zpřístupnit měsíční obsah"
+msgstr ""
+
+#: ../lib/MwMemberFields.php:420
+#, php-format
+msgid ""
+"Není vytvořena žádná členská sekce. Nejdříve je nutné <a href=\"%s"
+"\">vytvořit členskou sekci</a>"
+msgstr ""
+
+#: ../lib/RegisterForm.php:11 ../lib/RegisterForm.php:54
+msgid "Neoprávněná registrace!"
+msgstr ""
+
+#: ../lib/RegisterForm.php:18
+msgid "Musíte zadat svůj e-mail!"
+msgstr ""
+
+#: ../lib/RegisterForm.php:26
+msgid "Uživatel s touto e-mailovou adresou již existuje!"
+msgstr ""
+
+#: ../lib/RegisterForm.php:33
+msgid "Musíte zadat heslo a potvrzení hesla!"
+msgstr ""
+
+#: ../lib/RegisterForm.php:37
+msgid "Heslo a potvrzení hesla se neshoduje!"
+msgstr ""
+
+#: ../lib/RegisterForm.php:49
+msgid "Členská sekce neexistuje."
+msgstr ""
+
+#: ../lib/RegisterForm.php:122
+msgid "Nová registrace zdarma na "
+msgstr ""
+
+#: ../lib/RegisterForm.php:123
+msgid ""
+"Byla vytvořeno nebo upraveno členství skrz formulář pro registraci zdarma "
+"pro uživatele s e-mailovou adresou: "
+msgstr ""
+
+#: ../lib/RegisterForm.php:125
+msgid "Zobrazit detail člena"
+msgstr ""
+
+#: ../lib/RegisterForm.php:136
+#, php-format
+msgid ""
+"Vaše členství již existuje. Přihlásit se můžete na <a href=\"%s\" target="
+"\"_blank\">přihlašovací stránce</a>."
+msgstr ""
+
+#: ../lib/RegisterForm.php:142
+msgid "Registrace byla úspěšná. Zkontrolujte svou emailovou schránku."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:106
+msgid "Notifikace proběhla správně."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:112
+msgid "Notifikace skončila chybou."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:182
+#, php-format
+msgid "Sekce s ID=[%s] neexistuje. "
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:220
+#, php-format
+msgid "Nový uživatel %s byl vytvořen."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:224
+msgid "Při vytváření člena nastala chyba."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:258
+#, php-format
+msgid "Uživatel %s byl aktualizován."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:261
+#, php-format
+msgid "U uživatele %s nebyly provedeny žádné změny."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:327
+msgid "Notifikace proběhla správně. Členství bylo pozastaveno."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:329
+msgid "Notifikace neproběhla."
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:341
+msgid "Členská sekce nenalezena"
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:353
+msgid "Členská úroveň nenalezena"
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:365
+msgid "Hotovo"
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:377
+msgid "Uživatel nenalezen"
+msgstr ""
+
+#: ../lib/notifications/Notifications.php:404
+msgid "Chybná FAPI notifikace"
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:23
+msgid "Notifikace skončila chybou. Přihlašovací údaje do FAPI nejsou správné."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:29
+#: ../lib/notifications/NotificationsFapi.php:87
+msgid "Notifikace skončila chybou. Chybná data."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:39
+msgid "Notifikace skončila chybou. Nepodařilo se získat voucher s tímto ID: "
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:44
+msgid "Notifikace skončila chybou. Voucher je prázdný."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:49
+msgid "Notifikace skončila chybou. Voucher neobsahuje kód šablony."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:61
+msgid ""
+"Notifikace skončila chybou. Stažený voucher neodpovídá jeho bezpečnostnímu "
+"otisku."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:66
+msgid "Notifikace skončila chybou. Voucher není uplatněný."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:71
+#: ../lib/notifications/NotificationsFapi.php:76
+msgid ""
+"Notifikace skončila chybou. Stažený voucher neobsahuje e-mail klienta, který "
+"ho použil."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:94
+msgid "Notifikace skončila chybou. Nepodařilo se získat fakturu s tímto ID: "
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:99
+msgid "Notifikace skončila chybou. Faktura je prázdná."
+msgstr ""
+
+#: ../lib/notifications/NotificationsFapi.php:117
+msgid ""
+"Notifikace skončila chybou. Stažená faktura neodpovídá jejímu bezpečnostnímu "
+"otisku."
+msgstr ""
+
+#: ../lib/notifications/NotificationsSimpleShop.php:24
+msgid "Notifikace neproběhla. Neplatný hash notifikace."
+msgstr ""
+
+#: ../lib/notifications/NotificationsSimpleShop.php:28
+msgid "Notifikace neproběhla. Notifikace neobsahuje všechny potřebné údaje."
+msgstr ""
+
+#: ../lib/objects/MwMember.php:460
+msgid "Neznámý"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:465
+msgid "Vytvořen ručně"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:469
+msgid "Automatizace po prodeji"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:471
+msgid "Formulář pro registraci zdarma"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:473
+msgid "API"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:475
+msgid "Mioweb podpora"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:753
+msgid "Členové"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:754
+msgid "Přidat člena"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:755
+msgid "Upravit člena"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:756
+msgid "Nový člen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:757
+msgid "Nebyl nalezen žádný člen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:758
+msgid "Člen nebyl nalezen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:784
+msgid "Aktivní"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:788
+msgid "Pokrok"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:878
+msgid "Role"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:887
+msgid "Při změně členství informovat člena emailem"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:902
+msgid "Informovat uživatele"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:905
+msgid "Poslat novému členovi email s&nbsp;informací o jeho členství"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:921
+msgid "Profilový obrázek si člen může nastavit na adrese"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:927
+msgid "Souhlas se zpracováním osobních údajů"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:930
+msgid "Souhlas udělen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:930
+msgid "Souhlas neudělen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:931
+msgid " Souhlas s účelem zpracování je evidován u původního zdroje."
+msgstr ""
+
+#: ../lib/objects/MwMember.php:950
+msgid "Vytvořen"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:954
+msgid "Zdroj"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:958
+msgid "Naposledy"
+msgstr ""
+
+#: ../lib/objects/MwMember.php:982
+msgid "Nového člena musíte zařadit alespoň do jedné členské sekce."
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:59
+msgid "Přidat vlastní pole"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:60
+msgid "Upravit vlastní pole"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:61
+msgid "Nové vlastní pole"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:62
+msgid "Smazat vlastní pole"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:63
+msgid "Nebylo nalezeno žádná vlastní pole"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:64
+msgid "Vlastní pole sekce nebylo nalezeno"
+msgstr ""
+
+#: ../lib/objects/MwMemberCustomField.php:84
+#: ../lib/objects/MwMemberSection.php:288
+msgid "Název"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:86
+msgid "Přidat členskou novinku"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:87
+msgid "Upravit členskou novinku"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:88
+msgid "Nová členská novinka"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:89
+msgid "Smazat členskou novinku"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:90
+msgid "Nebyly nalezeny žádná členské novinky"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:91
+msgid "Novinka nebyla nalezena"
+msgstr ""
+
+#: ../lib/objects/MwMemberNew.php:117
+msgid "Viditelnost"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:266
+#| msgid "Vstoupit do členské sekce"
+msgid "Upravit členskou sekci"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:267
+#| msgid "Vstoupit do členské sekce"
+msgid "Nová členská sekce"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:268
+msgid "Smazat členskou sekci"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:269
+msgid "Nebyla nalezena žádná členská sekce"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:270
+msgid "Členská sekce nebyla nalezena"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:306
+msgid ""
+"Tato členská sekce nemá nastavenou žádnou stránku jako nástěnku. Pro správné "
+"fungování musíte členské sekci nastavit nástěnku."
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:333
+msgid "API klíč"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:365
+msgid "Nastavení"
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:531
+msgid "Členská sekce se nepodařila uložit."
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:544
+msgid ""
+"Stránka, kterou jste nastavili jako nástěnka je použita již u jiné členské "
+"sekce. Prosím nastavte jinou."
+msgstr ""
+
+#: ../lib/objects/MwMemberSection.php:552
+msgid ""
+"Stránka, kterou jste nastavili jako přihlašovací je použita již u jiné "
+"členské sekce. Prosím nastavte jinou."
+msgstr ""
+
+#: ../member_class.php:429
+msgid "Odhlásit se"
+msgstr ""
+
+#: ../member_class.php:434
+msgid "Moje členské sekce:"
+msgstr ""
+
+#: ../member_class.php:462
+msgid "Prodloužit"
+msgstr ""
+
+#: ../member_class.php:550
+msgid "Členskou sekci"
+msgstr ""
+
+#: ../member_class.php:567
+msgid "Žádná z členských sekcí nemá nastavenou nástěnku."
+msgstr ""
+
+#: ../templates/default_templates/login.php:183
+#: ../templates/member/login1/config.php:307
+#: ../templates/member/login2/config.php:307
+msgid ""
+"Tato sekce je pouze pro členy. Pokud jste členem, vložte prosím své "
+"přihlašovací údaje a přihlaste se."
+msgstr ""
+
+#: ../templates/member/dashboard1/config.php:191
+msgid "Vítejte v členské sekci"
+msgstr ""
+
+#: ../templates/member/dashboard1/config.php:293
+#: ../templates/member/lesson1/config.php:464
+msgid "Spustit video"
+msgstr ""
+
+#: ../templates/member/dashboard1/template.php:6
+msgid "Nástěnka"
+msgstr ""
+
+#: ../templates/member/dashboard1/template.php:7
+msgid "S krátkým úvodním textem, videem a seznamem lekcí."
+msgstr ""
+
+#: ../templates/member/lesson1/config.php:190
+msgid "Název lekce"
+msgstr ""
+
+#: ../templates/member/lesson1/config.php:230
+#: ../templates/member/list1/config.php:230
+msgid "Sem patří podnadpis"
+msgstr ""
+
+#: ../templates/member/lesson1/config.php:633
+msgid "Komentáře"
+msgstr ""
+
+#: ../templates/member/lesson1/template.php:6
+msgid "Stránka lekce 1"
+msgstr ""
+
+#: ../templates/member/lesson1/template.php:7
+msgid "Stránka lekce s výpisem dalších lekcí na levé straně."
+msgstr ""
+
+#: ../templates/member/list1/template.php:7
+msgid "Stránka s výpisem podstránek jako seznamem lekcí."
+msgstr ""
+
+#: ../templates/member/login1/config.php:192
+#: ../templates/member/login2/config.php:267
+msgid "MOJE LOGO"
+msgstr ""
+
+#: ../templates/member/login1/template.php:7
+msgid "Jednoduchá přihlašovací stránka s obrázkem na pozadí."
+msgstr ""
+
+#: ../templates/member/login2/template.php:7
+msgid "Přihlašovací stránka s formulářem na straně."
+msgstr ""
+
+#~ msgid "Login/E-mail"
+#~ msgstr "Login / email"
+
+#~ msgid "Nové heslo odesláno na uživatelův e-mail."
+#~ msgstr "Nowe hasło zostało wysłane na adres e-mail użytkownika."
+
+#~ msgid "Generovat nové heslo"
+#~ msgstr "Wygeneruj nowe hasło"
+
+#~ msgid "Poslat heslo?"
+#~ msgstr "Wysłać hasło?"
+
+#~ msgid "Heslo (password)"
+#~ msgstr "Hasło"

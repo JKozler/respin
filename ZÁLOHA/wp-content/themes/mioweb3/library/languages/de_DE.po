@@ -1,0 +1,4778 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2022-04-11 17:06+0200\n"
+"PO-Revision-Date: 2022-04-11 17:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Tus/Tus.php:94
+msgid ""
+"Pro použití této funkce je nutné na vašem hostingu aktualizovat PHP na verzi "
+"7.2 a novější."
+msgstr ""
+
+#: ../admin/js/js_texts.php:8
+msgid "Odstranit obrázek"
+msgstr "Bild entfernen"
+
+#: ../admin/js/js_texts.php:9 ../lib/field_types.php:1176
+msgid "Upravit obrázek"
+msgstr "Bild bearbeiten"
+
+#: ../admin/js/js_texts.php:10
+msgid "Upravit informace o obrázku"
+msgstr "Bildinformationen bearbeiten "
+
+#: ../admin/js/js_texts.php:11
+#| msgid "Opravdu chcete tento sidebar smazat?"
+msgid "Opravdu chcete tuto položku smazat?"
+msgstr ""
+
+#: ../admin/js/js_texts.php:12
+msgid ""
+"Opravdu chcete tuto položku nastavit jako defaultní? Změna defaultní měny "
+"může mít značný dopad, například na počítání statistik. Přistupujte k tomuto "
+"kroku prosím uvážlivě."
+msgstr ""
+
+#: ../admin/js/js_texts.php:13
+msgid ""
+"Opravdu chcete změnit způsob zpracování plateb a fakturace? Tato změna může "
+"mít značný dopad na nastavení a fungování eshopu. Přistupujte k tomuto kroku "
+"prosím uvážlivě."
+msgstr ""
+
+#: ../admin/js/js_texts.php:30
+msgid "Zavřít"
+msgstr "Schließen"
+
+#: ../admin/js/js_texts.php:31
+msgid "Dříve"
+msgstr "Früher"
+
+#: ../admin/js/js_texts.php:32
+msgid "Později"
+msgstr "Später"
+
+#: ../admin/js/js_texts.php:33
+msgid "Nyní"
+msgstr "Jetzt"
+
+#: ../admin/js/js_texts.php:35
+msgid "leden"
+msgstr "Januar"
+
+#: ../admin/js/js_texts.php:36
+msgid "únor"
+msgstr "Februar"
+
+#: ../admin/js/js_texts.php:37
+msgid "březen"
+msgstr "März"
+
+#: ../admin/js/js_texts.php:38
+msgid "duben"
+msgstr "April"
+
+#: ../admin/js/js_texts.php:39
+msgid "květen"
+msgstr "Mai"
+
+#: ../admin/js/js_texts.php:40
+msgid "červen"
+msgstr "Juni"
+
+#: ../admin/js/js_texts.php:41
+msgid "červenec"
+msgstr "Juli"
+
+#: ../admin/js/js_texts.php:42
+msgid "srpen"
+msgstr "August"
+
+#: ../admin/js/js_texts.php:43
+msgid "září"
+msgstr "September"
+
+#: ../admin/js/js_texts.php:44
+msgid "říjen"
+msgstr "Oktober"
+
+#: ../admin/js/js_texts.php:45
+msgid "listopad"
+msgstr "November"
+
+#: ../admin/js/js_texts.php:46
+msgid "prosinec"
+msgstr "Dezember"
+
+#: ../admin/js/js_texts.php:48
+msgid "led"
+msgstr "Jan"
+
+#: ../admin/js/js_texts.php:49
+msgid "úno"
+msgstr "Feb"
+
+#: ../admin/js/js_texts.php:50
+msgid "bře"
+msgstr "Mrz"
+
+#: ../admin/js/js_texts.php:51
+msgid "dub"
+msgstr "Apr"
+
+#: ../admin/js/js_texts.php:52
+msgid "kvě"
+msgstr "Mai"
+
+#: ../admin/js/js_texts.php:53
+msgid "čer"
+msgstr "Jun"
+
+#: ../admin/js/js_texts.php:54
+msgid "čvc"
+msgstr "Jul"
+
+#: ../admin/js/js_texts.php:55
+msgid "srp"
+msgstr "Aug"
+
+#: ../admin/js/js_texts.php:56
+msgid "zář"
+msgstr "Sep"
+
+#: ../admin/js/js_texts.php:57
+msgid "říj"
+msgstr "Okt"
+
+#: ../admin/js/js_texts.php:58
+msgid "lis"
+msgstr "Nov"
+
+#: ../admin/js/js_texts.php:59
+msgid "pro"
+msgstr "Dez"
+
+#: ../admin/js/js_texts.php:61
+msgid "neděle"
+msgstr "Sonntag"
+
+#: ../admin/js/js_texts.php:62
+msgid "pondělí"
+msgstr "Montag"
+
+#: ../admin/js/js_texts.php:63
+msgid "úterý"
+msgstr "Dienstag"
+
+#: ../admin/js/js_texts.php:64
+msgid "středa"
+msgstr "Mittwoch"
+
+#: ../admin/js/js_texts.php:65
+msgid "čtvrtek"
+msgstr "Donnerstag"
+
+#: ../admin/js/js_texts.php:66
+msgid "pátek"
+msgstr "Freitag"
+
+#: ../admin/js/js_texts.php:67
+msgid "sobota"
+msgstr "Samstag"
+
+#: ../admin/js/js_texts.php:69
+msgid "ne"
+msgstr "So"
+
+#: ../admin/js/js_texts.php:70
+msgid "po"
+msgstr "Mo"
+
+#: ../admin/js/js_texts.php:71
+msgid "út"
+msgstr "Di"
+
+#: ../admin/js/js_texts.php:72
+msgid "st"
+msgstr "Mi"
+
+#: ../admin/js/js_texts.php:73
+msgid "čt"
+msgstr "Do"
+
+#: ../admin/js/js_texts.php:74
+msgid "pá"
+msgstr "Fr"
+
+#: ../admin/js/js_texts.php:75
+msgid "so"
+msgstr "Sa"
+
+#: ../admin/js/js_texts.php:77
+msgid "Týd"
+msgstr "Wo."
+
+#: ../admin/js/js_texts.php:78
+msgid "dd.mm.yy"
+msgstr "dd.mm.yy"
+
+#: ../admin/mwSetting.php:321
+msgid "Zpět na web"
+msgstr ""
+
+#: ../admin/mwSetting.php:346
+msgid "Podpora"
+msgstr ""
+
+#: ../admin/mwSetting.php:354
+msgid "Do wordpressu"
+msgstr ""
+
+#: ../admin/mwSetting.php:369
+msgid "Můj Mioweb"
+msgstr ""
+
+#: ../admin/mwSetting.php:374
+msgid "Můj profil"
+msgstr ""
+
+#: ../admin/mwSetting.php:378
+msgid "Odhlásit se"
+msgstr ""
+
+#: ../admin/mwSetting.php:564 ../admin/mwSetting.php:573
+#: ../admin/mwSettingObject.php:76 ../lib/MwFields.php:384
+#: ../lib/MwFields.php:494 ../lib/field_types.php:2365
+msgid "Upravit"
+msgstr "Bearbeiten"
+
+#: ../admin/mwSetting.php:582 ../admin/mwSettingObjectService.php:712
+#: ../admin/mwSettingObjectService.php:842 ../admin/objects/mwTerm.php:333
+#| msgid "Neopakovat"
+msgid "Duplikovat"
+msgstr ""
+
+#: ../admin/mwSetting.php:591 ../admin/mwSettingObject.php:79
+#: ../admin/mwSettingObjectService.php:352
+#: ../admin/mwSettingObjectService.php:721
+#: ../admin/mwSettingObjectService.php:876 ../admin/objects/mwTerm.php:344
+#: ../admin/objects/mwUser.php:497 ../lib/MwFields.php:138
+#: ../lib/field_types.php:1229 ../main_class.php:613
+msgid "Smazat"
+msgstr "löschen"
+
+#: ../admin/mwSetting.php:601 ../admin/mwSettingObjectService.php:700
+#: ../admin/objects/mwComment.php:402 ../admin/objects/mwTerm.php:321
+#: ../admin/objects/mwUser.php:484
+#| msgid "Přesměrovat stránku"
+msgid "Zobrazit stránku"
+msgstr ""
+
+#: ../admin/mwSetting.php:609 ../admin/mwSetting.php:615
+#: ../admin/mwSettingObject.php:161 ../admin/mwSettingObject.php:172
+msgid "Obnovit"
+msgstr ""
+
+#: ../admin/mwSetting.php:621
+msgid "Archivovat"
+msgstr ""
+
+#: ../admin/mwSetting.php:646 ../admin/mwSettingObjectService.php:733
+#: ../admin/mwSettingPage.php:189 ../admin/mwSettingPage.php:192
+#: ../lib/MwAdminComponents.php:155
+msgid "Uložit"
+msgstr "Speichern"
+
+#: ../admin/mwSetting.php:849 ../admin/objects/mwBlogPost.php:213
+#: ../admin/objects/mwComment.php:346 ../admin/objects/mwEvent.php:177
+#: ../admin/objects/mwEvent.php:266 ../admin/objects/mwTerm.php:229
+#: ../admin/objects/mwUser.php:297 ../init_set.php:633
+msgid "Akce"
+msgstr ""
+
+#: ../admin/mwSetting.php:921
+msgid "Zadejte název"
+msgstr ""
+
+#: ../admin/mwSetting.php:1002
+#| msgid "Nastavení bylo uloženo"
+msgid "Nastavení se nepodařilo uložit."
+msgstr ""
+
+#: ../admin/mwSetting.php:1057 ../admin/mwSetting.php:1094
+#: ../admin/mwSetting.php:1207 ../admin/mwSetting.php:1279
+#: ../admin/mwSetting.php:1333
+msgid "Došlo k chybě a uložení se nezdařilo. Prosím zkuste to znovu."
+msgstr ""
+
+#: ../admin/mwSetting.php:1456
+msgid "Při vytváření exportu došlo k chybě."
+msgstr ""
+
+#: ../admin/mwSetting.php:1493
+msgid "Při stahování exportu došlo k chybě."
+msgstr ""
+
+#: ../admin/mwSetting.php:1675
+msgid "Nápověda"
+msgstr ""
+
+#: ../admin/mwSetting.php:1827 ../admin/mwSetting.php:1831 ../init_set.php:2027
+#: ../init_set.php:2228
+msgid "Nastavení"
+msgstr "Einstellungen"
+
+#: ../admin/mwSetting.php:1907
+msgid "Spustit editor vzhledu"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:70 ../admin/mwSettingObjectService.php:254
+msgid "Koš"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:72
+#| msgid "Vytvořit sidebar"
+msgid "Vytvořit kopii"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:73 ../lib/MwFields.php:24
+#: ../lib/MwFields.php:504 ../lib/field_types.php:2734
+#| msgid "Přidat obrázky"
+msgid "Přidat"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:74 ../admin/mwSettingObjectService.php:264
+msgid "Archiv"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:75
+msgid "Článků"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:77
+#| msgid "Vytvořit nové menu"
+msgid "Vytvořit nový"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:78
+msgid "Přidat další"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:80 ../lib/MwAdminComponents.php:74
+#: ../lib/MwAdminComponents.php:1127
+msgid "Seznam je prázdný"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:81 ../admin/mwSettingObjectService.php:851
+msgid "Exportovat"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:82
+msgid "Výsledek vyhledávání je prázdný"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:165
+msgid "Trvale smazat"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:422 ../lib/MwAdminComponents.php:682
+msgid "Zrušit filtr"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:437 ../admin/mwSettingObjectService.php:226
+#: ../admin/mwSettingObjectService.php:238
+msgid "Zpět na seznam"
+msgstr ""
+
+#: ../admin/mwSettingObject.php:477 ../admin/mwSettingObject.php:482
+#: ../admin/mwSettingObject.php:487
+#, php-format
+msgid "Pole %s je vyžadováno, prosím vyplňte jej."
+msgstr ""
+
+#: ../admin/mwSettingObject.php:503
+#, php-format
+msgid "Maximální povolená velikost souboru v poli \"%s\" je %d MB."
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:202
+msgid "Celkem"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:231
+msgid "Vysypat koš"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:278
+msgid "Export"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:318 ../admin/objects/mwComment.php:277
+msgid "Vše"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:345
+msgid "Vybrané položky"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:381
+msgid ""
+"Nemůžete upravovat tuto položku, protože byla přesunuta do koše. Nejdříve ji "
+"prosím obnovte a potom to zkuste znovu."
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:512
+msgid "Veřejné"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:517
+msgid "Soukromé"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:526
+msgid "Chráněné heslem"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:533 ../admin/objects/mwEvent.php:262
+msgid "Viditelnost"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:544
+msgid "Zadejte heslo"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:647
+#| msgid "Nahrát obrázek"
+msgid "Náhledový obrázek"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:666 ../admin/objects/mwComment.php:308
+#: ../init_set.php:2202 ../init_set.php:2210 ../init_set.php:2805
+#| msgid "Přidat komentář"
+msgid "Komentáře"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:670
+#| msgid "Vložit komentář"
+msgid "Povolit komentáře"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:683
+#| msgid "Vytvořit nové menu"
+msgid "Vytvořeno"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:737
+#| msgid "Vytvořit sidebar"
+msgid "Vytvořit"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:859
+msgid "Nastavit jako domovskou"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:868 ../admin/objects/mwBlogPost.php:126
+#| msgid "Upravit obrázek"
+msgid "Upravit článek"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:1131
+msgid "Vyplňte heslo"
+msgstr ""
+
+#: ../admin/mwSettingObjectService.php:1136
+msgid "Připnutý článek nemůže být chráněn heslem"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:38
+msgid "Chráněno heslem"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:45
+#| msgid "(koncept)"
+msgid "Koncept"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:52
+msgid "Soukromý"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:59
+msgid "Plánováno"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:66
+msgid "Sticky"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:108 ../admin/objects/mwBlogPost.php:152
+#: ../admin/objects/mwBlogPost.php:153 ../admin/objects/mwEvent.php:126
+#: ../admin/objects/mwEvent.php:127 ../admin/objects/mwEvent.php:129
+#: ../admin/objects/mwEvent.php:134 ../admin/objects/mwEvent.php:161
+#: ../init_set.php:685
+msgid "Kategorie"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:114
+msgid "Od autora"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:124
+msgid "Články"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:125
+#| msgid "Přidat obrázky"
+msgid "Přidat článek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:127
+msgid "Nový článek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:128
+#| msgid "Smazat obrázek"
+msgid "Smazat článek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:129
+msgid "Nebyl nalezen žádný článek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:130
+msgid "Článek s tímto ID nebyl nalezen"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:131
+msgid "Koš článků"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:154 ../admin/objects/mwEvent.php:132
+#: ../admin/objects/mwEvent.php:133 ../admin/objects/mwEvent.php:163
+#| msgid "Přidat obrázky"
+msgid "Přidat kategorii"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:155 ../admin/objects/mwEvent.php:130
+#: ../admin/objects/mwEvent.php:131 ../admin/objects/mwEvent.php:164
+#| msgid "Upravit menu"
+msgid "Upravit kategorii"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:156 ../admin/objects/mwEvent.php:165
+msgid "Nová kategorie"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:157 ../admin/objects/mwEvent.php:166
+msgid "Nebyla nalezena žádná kategorie"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:158
+msgid "Kategorie nebyla nalezena"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:175
+msgid "Štítky"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:176
+msgid "Štítek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:177
+#| msgid "Přidat obrázky"
+msgid "Přidat štítek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:178
+#| msgid "Upravit obrázek"
+msgid "Upravit štítek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:179
+msgid "Nový štítek"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:180
+msgid "Nebyly nalezeny žádné štítky"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:181
+msgid "Štítek nebyl nalezen"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:201 ../admin/objects/mwEvent.php:256
+#: ../init_set.php:620
+msgid "Název"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:204 ../admin/objects/mwComment.php:337
+#: ../init_set.php:717 ../init_set.php:1009
+msgid "Autor"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:207
+msgid "Návštěv"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:210
+#| msgid "Přidat komentář"
+msgid "Komentářů"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:320
+msgid "Publikováno"
+msgstr ""
+
+#: ../admin/objects/mwBlogPost.php:341
+#| msgid "Vpravo"
+msgid "Upraveno"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:38
+msgid "Anonym"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:149
+#, php-format
+msgid "Nepodařilo se vytvořit instanci komentáře s ID: %s"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:224
+msgid "Není spam"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:237
+msgid "Zamítnout"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:243 ../admin/objects/mwComment.php:297
+msgid "Schválit"
+msgstr "Genehmigen"
+
+#: ../admin/objects/mwComment.php:249
+msgid "Odpovědět"
+msgstr "Antworten"
+
+#: ../admin/objects/mwComment.php:255 ../admin/objects/mwComment.php:280
+#: ../admin/objects/mwComment.php:500
+msgid "Spam"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:275
+msgid "Stav"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:278 ../admin/objects/mwComment.php:495
+msgid "Ke schválení"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:279
+#| msgid "Schválit"
+msgid "Schválené"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:286
+#| msgid "pro"
+msgid "Pro"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:293
+msgid "Odmítnout"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:301
+msgid "Označit jako spam"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:309
+msgid "Přidat komentář"
+msgstr "Kommentar hinzufügen"
+
+#: ../admin/objects/mwComment.php:310
+#| msgid "Upravit menu"
+msgid "Upravit komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:311
+#| msgid "Vložit komentář"
+msgid "Nový komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:312
+#| msgid "Přidat komentář"
+msgid "Smazat komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:313
+msgid "Nebyl nalezen žádný komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:314
+msgid "Komentář s tímto ID nebyl nalezen"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:315
+#| msgid "Vložit komentář"
+msgid "Koš komentářů"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:340 ../init_set.php:707 ../init_set.php:726
+#| msgid "Přidat komentář"
+msgid "Komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:343 ../admin/objects/mwPage.php:38
+#: ../init_set.php:955 ../init_set.php:1129
+#| msgid "SEO stránky"
+msgid "Stránka"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:401
+msgid "Zobrazit komentáře stránky"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:412
+#| msgid "Odpovědět"
+msgid "Odpověď na"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:419
+#| msgid "Přidat komentář"
+msgid "smazaný komentář"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:485
+msgid "Status"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:490
+#| msgid "Schválit"
+msgid "Schválený"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:521
+msgid "Souhlas se zpracováním osobních údajů"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:524
+msgid "Souhlas udělen"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:524
+msgid "Souhlas neudělen"
+msgstr ""
+
+#: ../admin/objects/mwComment.php:525
+msgid " Souhlas s účelem zpracování je evidován u původního zdroje."
+msgstr ""
+
+#: ../admin/objects/mwComment.php:605
+msgid "Komentář se nepodařilo uložit"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:128
+msgid "Hledat kategorii"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:160 ../init_set.php:2178
+msgid "Kategorie akcí"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:162
+msgid "Akcí"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:167
+msgid "Kategorie s tímto ID nebyla nalezena"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:176
+msgid "Kalendář akci"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:178 ../admin/objects/mwEvent.php:179
+#: ../admin/objects/mwEvent.php:230 ../init_set.php:2171
+msgid "Kalendář akcí"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:180 ../admin/objects/mwEvent.php:231
+#| msgid "Přidat obrázky"
+msgid "Přidat akci"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:181
+msgid "Přidat novou událost"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:182
+msgid "Nová událost"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:183
+#| msgid "Upravit menu"
+msgid "Upravit událost"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:184
+msgid "Zobrazit událost"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:185
+msgid "Události"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:186
+msgid "Hledat událost"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:188 ../admin/objects/mwEvent.php:189
+msgid "Událost nenalezena"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:216
+msgid "Zobrazit"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:218
+msgid "Neproběhlé akce"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:219
+msgid "Proběhlé akce"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:220
+msgid "Všechny akce"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:232
+#| msgid "Upravit"
+msgid "Upravit akci"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:233
+msgid "Nová akce"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:234
+#| msgid "Smazat"
+msgid "Smazat akci"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:235
+msgid "Nebyla nalezena žádná akce"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:236
+msgid "Akce s tímto ID nebyla nalezena"
+msgstr ""
+
+#: ../admin/objects/mwEvent.php:259
+#| msgid "pátek"
+msgid "Začátek"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:39 ../init_set.php:1125
+#: ../lib/MwAdminComponents.php:838
+#| msgid "Přidat obrázky"
+msgid "Přidat stránku"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:40 ../lib/MwAdminComponents.php:829
+#| msgid "Upravit obrázek"
+msgid "Upravit stránku"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:41
+#| msgid "SEO stránky"
+msgid "Nová stránka"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:42
+#| msgid "Smazat obrázek"
+msgid "Smazat stránku"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:43
+msgid "Nebyla nalezena žádná stránka"
+msgstr ""
+
+#: ../admin/objects/mwPage.php:44
+msgid "Stránka s tímto ID nebyla nalezena"
+msgstr ""
+
+#: ../admin/objects/mwPost.php:27 ../admin/objects/mwTerm.php:20
+#: ../lib/MwAdminComponents.php:807 ../lib/MwFields.php:639
+msgid "(bez názvu)"
+msgstr "(ohne Titel)"
+
+#: ../admin/objects/mwPost.php:267
+msgid "_kopie"
+msgstr ""
+
+#: ../admin/objects/mwPost.php:337
+#, php-format
+msgid "Nepodařilo se vytvořit instanci postu s ID: %d. Chyba: %s"
+msgstr ""
+
+#: ../admin/objects/mwTerm.php:109
+#, php-format
+msgid "Nepodařilo se vytvořit instanci termu: %s"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:101
+msgid "před"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:176
+#, php-format
+msgid "Nepodařilo se vytvořit instanci uživatele: %s"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:263 ../init_set.php:2162
+msgid "Uživatelé"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:264
+msgid "Přidat uživatele"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:265
+#| msgid "Upravit menu"
+msgid "Upravit uživatele"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:266
+msgid "Nový uživatel"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:267
+msgid "Nebyl nalezen žádný uživatel"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:268
+msgid "Uživatel nebyl nalezen"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:288 ../init_set.php:3157
+msgid "Uživatelské jméno"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:291 ../init_set.php:2414 ../init_set.php:3168
+msgid "Jméno"
+msgstr "Name"
+
+#: ../admin/objects/mwUser.php:294 ../init_set.php:720 ../init_set.php:3163
+#| msgid "E-mail"
+msgid "Email"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:411
+msgid "Role"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:428
+msgid "Informovat uživatele"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:431
+msgid "Poslat uživateli email s&nbsp;informací o jeho novém účtu"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:444
+#| msgid "Upravit obrázek"
+msgid "Profilový obrázek"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:448
+msgid "Profilový obrázek (avatar) lze nastavit na adrese"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:462
+#| msgid "Vytvořit nové menu"
+msgid "Vytvořen"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:466
+msgid "Naposledy"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:513
+msgid "Uživatelské jméno je povinná položka, prosím vyplňte jej"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:522
+msgid "Zvolené uživatelské jméno již bohužel existuje."
+msgstr ""
+
+#: ../admin/objects/mwUser.php:529
+msgid "Email je povinná položka, prosím vyplňte jej"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:534
+msgid "Emailová adresa je v chybném formátu"
+msgstr ""
+
+#: ../admin/objects/mwUser.php:543
+msgid "Heslo je povinná položka, prosím vyplňte jej"
+msgstr ""
+
+#: ../admin/pages/404.php:2
+msgid "Stránka nebyla nalezena"
+msgstr ""
+
+#: ../admin/pages/archives.php:11 ../admin/pages/list.php:13
+#: ../admin/pages/trash.php:11
+msgid "Tento objekt neexistuje. Stránku nelze načíst."
+msgstr ""
+
+#: ../api/MwApiConnect.php:54 ../init_set.php:136
+msgid "Testovací režim"
+msgstr ""
+
+#: ../api/MwApiConnect.php:165 ../lib/field_types.php:2618
+msgid "Připojeno"
+msgstr "Verbunden"
+
+#: ../api/MwApiConnect.php:166 ../lib/field_types.php:2620
+msgid "Nepřipojeno"
+msgstr "Nicht verbunden"
+
+#: ../api/MwApiConnect.php:227
+#, php-format
+msgid "Nejdříve je nutné propojit %s s Miowebem."
+msgstr ""
+
+#: ../api/MwApiConnect.php:229
+msgid "Propojit"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:45
+#| msgid "Seznam formulářů"
+msgid "Formulář"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:47
+#| msgid "Seznamy"
+msgid "Seznam"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:123 ../api/MwSellingApi.php:148
+#| msgid "Získat formulář z"
+msgid "- Vyberte formulář -"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:123
+msgid "- Vyberte seznam -"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:130
+msgid "Účel zpracování"
+msgstr ""
+
+#: ../api/MwEmailingApi.php:140
+msgid "Služba je dočasně nedostupná. Prosím, zkuste to později znovu."
+msgstr ""
+"Der Dienst ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später "
+"noch einmal."
+
+#: ../api/MwEmailingApi.php:339
+msgid "Vygenerovat autorizační kód."
+msgstr ""
+
+#: ../api/MwSellingApi.php:156 ../api/mioweb/client.php:40
+#: ../api/mioweb/client.php:44
+#| msgid "Upravit obrázek"
+msgid "Upravit formulář"
+msgstr ""
+
+#: ../api/MwSellingApi.php:164
+msgid "Nebyly nalezeny žádné prodejní formuláře."
+msgstr ""
+
+#: ../api/MwSellingApi.php:305
+msgid "- Vyberte produkt -"
+msgstr ""
+
+#: ../api/MwSellingApi.php:309
+msgid "Nebyly nalezeny žádné produkty."
+msgstr ""
+
+#: ../api/aweber/client.php:44 ../api/getresponse/client.php:41
+msgid "Api klíč není správný. Spojení se nezdařilo."
+msgstr ""
+
+#: ../api/aweber/client.php:54 ../api/getresponse/client.php:46
+#: ../api/google_maps/client.php:17
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit API klíč."
+msgstr ""
+
+#: ../api/aweber/client.php:85 ../api/aweber/client.php:90
+msgid "Access tokens could not be retrieved."
+msgstr ""
+
+#: ../api/aweber/client.php:123
+msgid "API key is not valid or open auth validation has not been finished."
+msgstr ""
+
+#: ../api/aweber/client.php:281
+#| msgid "Seznam formulářů"
+msgid "(neaktivní formulář)"
+msgstr ""
+
+#: ../api/fapi/client.php:35 ../api/mailchimp/client.php:58
+#: ../api/se/client.php:27 ../api/simpleshop/client.php:40
+msgid "Přihlašovací údaje nejsou správné. Spojení se nezdařilo."
+msgstr ""
+
+#: ../api/fapi/client.php:41 ../api/mailchimp/client.php:63
+#: ../api/se/client.php:32 ../api/simpleshop/client.php:45
+msgid "Musíte vyplnit přihlašovací jméno i API klíč."
+msgstr ""
+
+#: ../api/google_analytics/client.php:22
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit ID měření."
+msgstr ""
+
+#: ../api/gopay/client.php:255 ../api/stripe/client.php:170
+msgid "Připojení se nezdařilo. Zkontrolujte správnost zadaných údajů."
+msgstr ""
+
+#: ../api/gtm/client.php:19
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit ID kontejneru."
+msgstr ""
+
+#: ../api/gtm/client.php:24
+msgid "ID konteineru není ve správném tvaru. Prosím zkontrolujte jej."
+msgstr ""
+
+#: ../api/heureka/client.php:13
+msgid ""
+"Pro aktivaci služby \"Ověřeno zákazníky\" nebo měření konverzí musíte zadat "
+"tajný nebo veřejný klíč"
+msgstr ""
+
+#: ../api/mailchimp/client.php:184
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: ../api/mailchimp/client.php:220 ../api/mailchimp/client.php:250
+msgid "(signup form)"
+msgstr ""
+
+#: ../api/mailchimp/client.php:283
+msgid "Odeslat"
+msgstr ""
+
+#: ../api/mioweb/client.php:26
+msgid ""
+"Miowebí formulář nelze použít když je prodej napojený na FAPI. Prosím "
+"vyberte jiný formulář."
+msgstr ""
+
+#: ../api/mioweb/client.php:35
+msgid ""
+"Formulář neexistuje, pravděpodobně byl smazán. Prosím vyberte formulář, "
+"který chcete zobrazit."
+msgstr ""
+
+#: ../api/mioweb/client.php:40
+msgid ""
+"Product nastavený ve formuláři neexistuje. Pravděpodobně byl smazán. "
+"Přiřaďte formuláři jiný produkt."
+msgstr ""
+
+#: ../api/mioweb/client.php:44
+msgid "Ve formuláři nelze prodávat produkt s více variantami."
+msgstr ""
+
+#: ../api/mioweb/client.php:78
+msgid "Objednat"
+msgstr ""
+
+#: ../api/packeta/client.php:21
+msgid "Nesprávný API klíč. API klíč musí být roven prvním 16 znakům API hesla."
+msgstr ""
+
+#: ../api/packeta/client.php:53
+#| msgid "Musíte vyplnit všechny povinné údaje."
+msgid "Je potřeba vyplnit všechny údaje."
+msgstr ""
+
+#: ../api/recaptcha/client.php:16
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit Site key."
+msgstr ""
+
+#: ../api/recaptcha/client.php:23
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit Secret key."
+msgstr ""
+
+#: ../api/recaptcha/recaptcha_class.php:70
+#, php-format
+msgid ""
+"Tento formulář je chráněn službou reCAPTCHA a platí <a href=\"%s\" %s>Zásady "
+"ochrany osobních údajů</a> a <a href=\"%s\" %s>Smluvní podmínky</a> "
+"společnosti Google."
+msgstr ""
+
+#: ../api/stripe/client.php:163
+#| msgid "Musíte vyplnit název sidebaru."
+msgid "Musíte vyplnit tajný klíč."
+msgstr ""
+
+#: ../api/stripe/client.php:173
+#| msgid "Přihlašovací jméno"
+msgid "Přihlašovací údaje nejsou správné."
+msgstr ""
+
+#: ../api/zbozi/client.php:19
+msgid ""
+"Pro aktivování standartního měření konverzí na Zboží.cz, je potřeba zadat ID "
+"provozovny i tajný klíč"
+msgstr ""
+
+#: ../init.php:22
+msgid "Používáte nepodporovanou verzi PHP (verzi "
+msgstr ""
+
+#: ../init_set.php:14 ../init_set.php:32 ../init_set.php:2455
+msgid "Přihlašovací jméno"
+msgstr "Anmeldename"
+
+#: ../init_set.php:17
+msgid "Zadejte přihlašovací jméno, které používáte ve FAPI."
+msgstr ""
+
+#: ../init_set.php:20 ../init_set.php:86 ../init_set.php:98
+msgid "API klíč"
+msgstr ""
+
+#: ../init_set.php:23
+msgid "Získat API klíč z FAPI"
+msgstr ""
+
+#: ../init_set.php:37
+msgid "API token"
+msgstr ""
+
+#: ../init_set.php:40
+msgid "Získat API klíč ze SmartEmailingu"
+msgstr ""
+
+#: ../init_set.php:49
+#| msgid "Přihlašovací jméno"
+msgid "Přihlašovací email"
+msgstr ""
+
+#: ../init_set.php:52
+msgid "Zadejte email, který používáte pro přihlášení do služby SimpleShop."
+msgstr ""
+
+#: ../init_set.php:55
+msgid "SimpleShop API Klíč"
+msgstr ""
+
+#: ../init_set.php:58
+msgid "Najdete ho ve svém SimpleShop účtu v Nastavení."
+msgstr ""
+
+#: ../init_set.php:67
+msgid "Získat autorizační kód"
+msgstr ""
+
+#: ../init_set.php:71
+msgid ""
+"Pro propojení je potřeba povolit připojení Miowebu k Vašemu účtu. Po "
+"kliknutí na odkaz se přihlaste k Vašemu \"AWeber\" účtu. Obdržíte unikátní "
+"kód, který zkopírujte do pole \"Autorizační kód\"."
+msgstr ""
+
+#: ../init_set.php:75
+#| msgid "Konverzní kód"
+msgid "Autorizační kód"
+msgstr ""
+
+#: ../init_set.php:89
+msgid "Získat API klíč z GetResponse"
+msgstr ""
+
+#: ../init_set.php:101
+msgid "Získat API klíč z MailChimp"
+msgstr ""
+
+#: ../init_set.php:112
+msgid "API klíč pro napojení na Google mapy"
+msgstr ""
+
+#: ../init_set.php:115
+msgid "Vygenerujte si svůj API klíč (zdarma)."
+msgstr ""
+
+#: ../init_set.php:115
+msgid ""
+"<a href=\"https://console.developers.google.com/flows/enableapi?"
+"apiid=maps_backend,geocoding_backend,directions_backend,"
+"distance_matrix_backend,elevation_backend&keyType=CLIENT_SIDE&reusekey=true"
+"\" target=\"_blank\">"
+msgstr ""
+
+#: ../init_set.php:126
+msgid "ID měření"
+msgstr ""
+
+#: ../init_set.php:127
+msgid ""
+"ID měření je textový řetězec podobný tomuto: UA-000000-2. Musí být obsažen v "
+"měřicím\n"
+"\t\t\tkódu, neboť podle něj služba Analytics určuje, na jaký účet a jaké "
+"službě má údaje poslat.\n"
+"\t\t\tPokud pracujete se službou Google Analytics 4, namísto ID měření typu "
+"Tracking ID máte ID měření.\n"
+"\t\t\tID měření používá formát G-XXXXXXX a identifikuje datový stream, který "
+"odesílá data do služby Google Analytics 4."
+msgstr ""
+
+#: ../init_set.php:137
+msgid ""
+"V testovacím režimu můžete živě sledovat události ve svém účtu Google "
+"analytics v záložce Konfigurovat -> DebugView. Testovací režim je určen "
+"pouze pro Google analytics 4."
+msgstr ""
+
+#: ../init_set.php:138
+msgid "Testovací režim Google Analytics 4 (DebugView)"
+msgstr ""
+
+#: ../init_set.php:151
+msgid "Vytvořit přihlašovací údaje v Google reCAPTCHA účtu."
+msgstr ""
+
+#: ../init_set.php:154
+msgid "Site key"
+msgstr ""
+
+#: ../init_set.php:159
+msgid "Secret key"
+msgstr ""
+
+#: ../init_set.php:171
+msgid "ID kontejneru"
+msgstr ""
+
+#: ../init_set.php:172
+msgid ""
+"ID kontejneru je textový řetězec ve tvaru GTM-XXXXXX, který najdete ve "
+"správci značek na svém účtu Google Tag Manageru."
+msgstr ""
+
+#: ../init_set.php:602 ../init_set.php:966
+#| msgid "SEO stránky"
+msgid "Název stránky"
+msgstr ""
+
+#: ../init_set.php:606 ../init_set.php:973
+msgid "Nadřazená stránka"
+msgstr ""
+
+#: ../init_set.php:607 ../init_set.php:974
+msgid ""
+"Stránka bude v hierarchii stránek zařazena pod stránku, kterou zde "
+"nastavíte. Toto nastavení se projeví i ve výsledné URL stránky. Změna "
+"nadřazené stránky mění celkovou URL stránky."
+msgstr ""
+
+#: ../init_set.php:643
+msgid "Název akce"
+msgstr ""
+
+#: ../init_set.php:647 ../init_set.php:969 ../init_set.php:1005
+msgid "Popisek"
+msgstr ""
+
+#: ../init_set.php:654
+msgid "Datum a čas konání (začátek akce)"
+msgstr ""
+
+#: ../init_set.php:666
+msgid "Konec akce"
+msgstr ""
+
+#: ../init_set.php:669
+msgid "Místo konání"
+msgstr ""
+
+#: ../init_set.php:674
+msgid "Stránka s popisem akce"
+msgstr ""
+
+#: ../init_set.php:695
+msgid "Název kategorie"
+msgstr ""
+
+#: ../init_set.php:723
+msgid "URL"
+msgstr ""
+
+#: ../init_set.php:742
+msgid "Titulek"
+msgstr ""
+
+#: ../init_set.php:745
+msgid ""
+"Maximální doporučená délka pro titulek je 70 znaků. Pokud necháte toto pole "
+"prázdné, bude tag <code>title</code> obsahovat název stránky."
+msgstr ""
+"Die empfohlene maximale Länge für den Titel beträgt 70 Zeichen. Wenn Sie "
+"dieses Feld leer lassen, wird der Tag <code>title</code> den Namen der Seite "
+"enthalten."
+
+#: ../init_set.php:746
+msgid ""
+"Tag <code>title</code> je druhým nejdůležitějším prvkem, který ovlivňuje on-"
+"page SEO. Jeho obsah se zároveň zobrazuje v záhlaví prohlížeče a jako název "
+"stránky při vyhledávání."
+msgstr ""
+"Der Tag <code>title</code> ist das zweitwichtigste Element, das On-Page-SEO "
+"betrifft. Sein Inhalt wird auch in der Titelleiste im Browser und als der "
+"Seitennamen in der Suche angezeigt."
+
+#: ../init_set.php:749
+msgid "Popis"
+msgstr ""
+
+#: ../init_set.php:752
+msgid "Maximální doporučená délka je 150 znaků."
+msgstr "Die empfohlene maximale Länge beträgt 150 Zeichen."
+
+#: ../init_set.php:753
+msgid ""
+"Meta tag <code>description</code> slouží jako krátký popis obsahu stránky. "
+"Některé vyhledávače tento tag používají pro zobrazení popisku stránky ve "
+"výsledku vyhledávání. Obsah by měl být tvořen souvislými větami s vhodně "
+"zvolenými klíčovými slovy."
+msgstr ""
+"Der Meta-Tag <code>description</code> dient als eine kurze Beschreibung des "
+"Seiteninhalts. Einige Suchmaschinen verwenden diesen Tag, um die "
+"Beschreibung der Seite in den Suchergebnissen anzeigen zu können. Der Inhalt "
+"sollte aus zusammenhängenden Sätzen mit ausgewählten Keywords bestehen."
+
+#: ../init_set.php:756
+msgid "Klíčová slova"
+msgstr ""
+
+#: ../init_set.php:759
+msgid ""
+"Vyplnění meta tag <code>keywords</code> je další možností, jak zvýšit on-"
+"page SEO stránky. Napište zde několik klíčových slov, které souvisejí s "
+"obsahem stránky. Nepřehánějte to ale s jejich množstvím."
+msgstr ""
+"Das Ausfüllen des Meta-Tags <code>keywords</code> ist ein weiterer Weg, um "
+"die On-Page-SEO der Website zu erhöhen. Geben Sie hier einige Keywords ein, "
+"die mit dem Inhalt der Seite zusammenhängen. Übertreiben Sie es aber nicht "
+"mit deren Anzahl."
+
+#: ../init_set.php:762
+msgid "Pro roboty"
+msgstr ""
+
+#: ../init_set.php:766
+msgid "Neindexovat tuto stránku (<code>noindex</code>)"
+msgstr ""
+
+#: ../init_set.php:767
+msgid "Nesledovat odkazy této stránky (<code>nofollow</code>)"
+msgstr ""
+
+#: ../init_set.php:768
+msgid "Nearchivovat tuto stránku (<code>noarchive</code>)"
+msgstr ""
+
+#: ../init_set.php:770
+#| msgid ""
+#| "Meta tag <code>robots</code> umožňuje zakázat robotům indexování obsahu "
+#| "(noindex), sledování odkazů (nofollow) a ukládání casch kopií webu "
+#| "(noarchive)."
+msgid ""
+"Zde můžete nastavit jak se mají na stránce chovat roboti. Můžete zakázat "
+"robotům indexování obsahu (noindex), sledování odkazů (nofollow) a "
+"zařazování stránky do archivu (noarchive)."
+msgstr ""
+
+#: ../init_set.php:784
+#| msgid ""
+#| "Facebook atributy definují, jak se bude stránka zobrazovat na Facebooku "
+#| "při jejím sdílení. Pro kontrolu zobrazení na Facebooku můžete použít "
+#| "debugger na adrese: <a target=\"_blank\" href=\"https://developers."
+#| "facebook.com/tools/debug/\">https://developers.facebook.com/tools/debug/</"
+#| "a>, kde stačí zadat URL stránky, kterou chcete zkontrolovat."
+msgid ""
+"Pro kontrolu zobrazení stránky při sdílení na Facebooku můžete použít <a "
+"target=\"_blank\" href=\"https://developers.facebook.com/tools/debug/"
+"\">Ladící nástroj pro sdílení</a>, kde stačí zadat URL stránky, kterou "
+"chcete zkontrolovat."
+msgstr ""
+
+#: ../init_set.php:787
+msgid "Facebook titulek"
+msgstr "Facebook-Titel"
+
+#: ../init_set.php:790
+msgid ""
+"Meta tag <code>og:title</code> určuje nadpis stránky při jejím sdílení na "
+"Facebooku. Pokud jej nenastavíte, použije se název stránky."
+msgstr ""
+"Der Meta-Tag <code>og: title</code> bestimmt den Titel der Seite, wenn diese "
+"auf Facebook geteilt wird. Wenn Sie den Seitentitel nicht festlegen, wird "
+"der Seitenname verwendet."
+
+#: ../init_set.php:793
+msgid "Facebook popis"
+msgstr "Facebook-Beschreibung"
+
+#: ../init_set.php:796
+msgid ""
+"Meta tag <code>og:description</code> určuje popis stránky při jejím sdílení "
+"na Facebooku."
+msgstr ""
+"Der Meta-Tag <code>og:description</code> bestimmt die Seitenbeschreibung, "
+"wenn diese auf Facebook geteilt wird."
+
+#: ../init_set.php:799
+#| msgid "Facebook obrázek (og:image)"
+msgid "Facebook obrázek"
+msgstr ""
+
+#: ../init_set.php:802
+msgid "Tento obrázek se bude zobrazovat na facebooku při sdílení této stránky."
+msgstr ""
+
+#: ../init_set.php:803
+#| msgid ""
+#| "Pokud obrázek nezadáte, použije se náhledový obrázek. Pokud není zadán "
+#| "ani náhledový obrázek, použije se defaultní facebookový obrázek, který "
+#| "můžete zadat v nastavení webu. Minimální šířka obrázku by měla být 470 px."
+msgid ""
+"Pokud obrázek nezadáte, použije se náhledový obrázek. Pokud není zadán ani "
+"náhledový obrázek, použije se defaultní facebookový obrázek, který můžete "
+"zadat v nastavení webu. Doporučená velikost obrázku je 1200 × 628 px."
+msgstr ""
+
+#: ../init_set.php:814
+msgid "Přesměrovat na"
+msgstr "Weiterleiten auf"
+
+#: ../init_set.php:818
+msgid ""
+"Zde můžete zadat URL adresu, na kterou chcete, aby byl uživatel přesměrován. "
+"Budou přesměrováni všichni uživatelé na všech zařízeních."
+msgstr ""
+"Hier können Sie die URL-Adresse eingeben, bei der Sie möchten, dass der "
+"Benutzer umgeleitet wird. Es werden alle Benutzer auf allen Geräten "
+"umgeleitet werden."
+
+#: ../init_set.php:821
+#| msgid "Přesměrovat stránku"
+msgid "Druh přesměrování"
+msgstr ""
+
+#: ../init_set.php:826
+msgid "Dočasné přesměrování"
+msgstr ""
+
+#: ../init_set.php:827
+msgid "Trvalé přesměrování"
+msgstr ""
+
+#: ../init_set.php:829
+msgid ""
+"Informace zda jde o dočasné nebo trvalé přesměrování je důležitá pro SEO."
+msgstr ""
+
+#: ../init_set.php:833
+msgid "Přesměrovávat ode dne"
+msgstr "Weiterleiten ab dem Datum"
+
+#: ../init_set.php:836
+msgid ""
+"Pokud zadáte datum, bude přesměrování stránky platné až od tohoto data a "
+"času."
+msgstr ""
+"Wenn Sie ein Datum eingeben, wird die Umleitung der Seite erst ab diesem "
+"Datum und dieser Uhrzeit gültig."
+
+#: ../init_set.php:841
+#| msgid "Přesměrovávat ode dne"
+msgid "Přesměrovávat do dne"
+msgstr ""
+
+#: ../init_set.php:844
+#| msgid ""
+#| "Pokud zadáte datum, bude přesměrování stránky platné až od tohoto data a "
+#| "času."
+msgid ""
+"Pokud zadáte datum, bude přesměrování stránky platné k tomuto datu a času."
+msgstr ""
+
+#: ../init_set.php:849
+msgid "Přesměrovávat po půlnoci po X dnech od vstupu do kampaně."
+msgstr "Umleitung ab Mitternacht nach X Tagen ab dem Zutritt zur Kampagne."
+
+#: ../init_set.php:852
+msgid ""
+"Zde můžete zadat číslo odpovídající počtu dní, které určí, po kolika dnech "
+"od vstupu do kampaně se má začít uživatel přesměrovávat z této stránky. Lze "
+"použít například, když chcete po X dnech v evergreenové kampani zakázat "
+"uživateli přístup k nějaké stránce. Například k objednávce. Stránka, ze "
+"které chcete přesměrovávat, musí být zařazena do kampaně jako stránka s "
+"obsahem zdarma."
+msgstr ""
+"Hier können Sie die Zahl eingeben, die der Anzahl der Tage entspricht, die "
+"bestimmen, nach wie vielen Tagen nach dem Kampagnenstart der Benutzer von "
+"dieser Seite umgeleitet werden soll. Das kann zum Beispiel verwendet werden, "
+"wenn Sie nach X Tagen in der Evergreen-Kampagne dem Benutzer den Zugriff zu "
+"einer beliebigen Seite deaktivieren möchten. Zum Beispiel zur Bestellung. "
+"Die Seite, von der Sie weiterleiten wollen, muss in der Kampagne als Seite "
+"mit kostenlosem Inhalt eingeschlossen werden."
+
+#: ../init_set.php:862
+#| msgid "Přesměrování mobilního zařízení"
+msgid "Přesměrování pro mobilní zařízení"
+msgstr ""
+
+#: ../init_set.php:865
+msgid "Přesměrovat mobilní zařízení na"
+msgstr "Umleiten von Mobilgerät zu"
+
+#: ../init_set.php:869
+msgid ""
+"Zde můžete zadat URL adresu, na kterou chcete, aby byl uživatel na mobilním "
+"zařízení přesměrován. Návštěvníci, kteří na stránku přistupují pomocí "
+"notebooků a klasických stolních počítačů, nebudou přesměrováni. Toto "
+"nastavení je vhodné použít, například když chcete místo této stránky na "
+"mobilních zařízeních zobrazit jinou stránku."
+msgstr ""
+"Hier können Sie die URL-Adresse eingeben, bei der Sie möchten, dass der "
+"Benutzer auf einem mobilen Gerät umgeleitet wird. Besucher, die auf die "
+"Website mit Laptops und Desktops zugreifen, werden nicht umgeleitet werden. "
+"Diese Einstellung ist nützlich, wenn Sie auf mobilen Geräten anstelle dieser "
+"Website eine andere Website anzeigen möchten."
+
+#: ../init_set.php:880
+msgid "Klasický popup"
+msgstr ""
+
+#: ../init_set.php:883
+msgid "Klasický pop-up"
+msgstr ""
+
+#: ../init_set.php:886
+msgid ""
+"Tento pop-up se zobrazí po načtení stránky nebo při splnění zadané podmínky "
+"v pokročilém nastavení."
+msgstr ""
+
+#: ../init_set.php:890
+msgid "Zobrazit pop-up"
+msgstr ""
+
+#: ../init_set.php:894
+#| msgid "SEO úvodní stránky"
+msgid "Po načtení stránky"
+msgstr ""
+
+#: ../init_set.php:895 ../init_set.php:1488 ../init_set.php:1789
+#| msgid "Základní nastavení"
+msgid "Pokročilé nastavení"
+msgstr ""
+
+#: ../init_set.php:900
+msgid "Zobrazit po x sekundách"
+msgstr ""
+
+#: ../init_set.php:903
+msgid "Pop-up se zobrazí po x sekundách od načtení stránky."
+msgstr ""
+
+#: ../init_set.php:908
+msgid "Zobrazit po odskrolování"
+msgstr ""
+
+#: ../init_set.php:915
+msgid "Pop-up se zobrazí po odskrolování zadané části stránky (v % nebo v px)."
+msgstr ""
+
+#: ../init_set.php:920
+msgid "Zobrazit po naskrolování na prvek s CSS selektorem"
+msgstr ""
+
+#: ../init_set.php:923
+msgid ".class nebo #id"
+msgstr ""
+
+#: ../init_set.php:924
+msgid ""
+"Pop-up se zobrazí po naskrolování na prvek stránky se zadaným CSS selektorem."
+msgstr ""
+
+#: ../init_set.php:933 ../init_set.php:936
+msgid "Exit pop-up"
+msgstr ""
+
+#: ../init_set.php:939
+msgid ""
+"Tento pop-up se zobrazí v momentě, kdy uživatel vyjede myší do horní části "
+"prohlížeče."
+msgstr ""
+
+#: ../init_set.php:947
+#| msgid "SEO stránky"
+msgid "Vzhled stránky"
+msgstr ""
+
+#: ../init_set.php:970
+msgid ""
+"Popisek se může používat ve výpisech stránek na webu. Také je používán jako "
+"popis stránky pro vyhledávače v případě, že není nastaven popis v nastavení "
+"SEO stránky."
+msgstr ""
+
+#: ../init_set.php:977
+#| msgid "SEO úvodní stránky"
+msgid "Pořadí stránky"
+msgstr ""
+
+#: ../init_set.php:978
+msgid ""
+"Tímto nastavením můžete určit pořadí stránek v různých výpisech stránek."
+msgstr ""
+
+#: ../init_set.php:991
+msgid "Článek"
+msgstr ""
+
+#: ../init_set.php:1002
+msgid "Název článku"
+msgstr ""
+
+#: ../init_set.php:1006
+msgid ""
+"Popisek se používá ve výpisech článků. Také je používán jako popis stránky "
+"pro vyhledávače v případě, že není nastaven popis v nastavení SEO stránky."
+msgstr ""
+
+#: ../init_set.php:1012
+msgid "Připnout článek"
+msgstr ""
+
+#: ../init_set.php:1015
+msgid "Formát článku"
+msgstr ""
+
+#: ../init_set.php:1027 ../init_set.php:2032
+msgid "SEO"
+msgstr ""
+
+#: ../init_set.php:1035
+msgid "Facebook atributy"
+msgstr "Facebook-Attribute"
+
+#: ../init_set.php:1042 ../init_set.php:2154
+msgid "Vlastní kódy"
+msgstr "Benutzerdefinierte Codes"
+
+#: ../init_set.php:1047
+#| msgid "<code>noarchive</code> pro tuto stránku"
+msgid "Konverzní kódy pro tuto stránku"
+msgstr ""
+
+#: ../init_set.php:1059
+#| msgid "<code>noindex</code> pro tuto stránku"
+msgid "Kódy pro tuto stránku"
+msgstr ""
+
+#: ../init_set.php:1071
+msgid "CSS styly pro tuto stránku"
+msgstr ""
+
+#: ../init_set.php:1077
+msgid ""
+"Zde můžete vložit vlastní CSS styly, které budou platit pouze pro tuto "
+"stránku."
+msgstr ""
+"Sie können hier Ihre eigenen CSS-Stile hinzufügen, die nur für diese Seite "
+"gelten."
+
+#: ../init_set.php:1087
+#| msgid "Přesměrovat na"
+msgid "Přesměrování"
+msgstr ""
+
+#: ../init_set.php:1095
+msgid "A/B testování"
+msgstr ""
+
+#: ../init_set.php:1101
+msgid "Výsledky testování"
+msgstr ""
+
+#: ../init_set.php:1113
+msgid "Nastavení A/B testování"
+msgstr ""
+
+#: ../init_set.php:1116
+msgid "Cílová stránka pro výpočet konverze"
+msgstr ""
+
+#: ../init_set.php:1119
+msgid ""
+"Pokud nastavíte cílovou stránku, bude se u této stránky počítat konverzní "
+"poměr, který bude informovat o tom, kolik procent návštěvníků se z této "
+"stránky dostalo na zadanou cílovou stránku. To znamená, kolik jich například "
+"kliklo na tlačítko, které odkazovalo na cílovou stránku."
+msgstr ""
+
+#: ../init_set.php:1123
+msgid "Další varianty stránky"
+msgstr ""
+
+#: ../init_set.php:1133
+msgid ""
+"Každému návštěvníkovi této URL se zobrazí náhodně vybraná varianta stránky "
+"nebo originál stránky."
+msgstr ""
+
+#: ../init_set.php:1134
+msgid ""
+"Zadáním dalších variant stránek se bude návštěvníkům náhodně zobrazovat "
+"jedna ze zadaných stránek (včetně té originální). U každé varianty se bude "
+"počítat míra konverze. Můžete tak zjistit, která ze stránek lépe konvertuje. "
+"Pokud uživatel navštíví stránku, přiřadí se mu jedna z variant, kterou si to "
+"zapamatuje po 48 hodin. Po této době, když ten samý uživatel navštíví "
+"stránku znovu, může se mu zobrazit jiná varianta a zároveň se stránce přičte "
+"další návštěva."
+msgstr ""
+
+#: ../init_set.php:1137
+msgid "Nepřímá konverze"
+msgstr ""
+
+#: ../init_set.php:1140
+msgid "Umožnit nepřímou konverzi"
+msgstr ""
+
+#: ../init_set.php:1141
+msgid ""
+"Defaultně se počítá pouze přímá konverze. To znamená, že se konverze "
+"započítá jen když návštěvník přejde z testované stránky přímo na cílovou "
+"stránku. Tedy nenavštíví mezi testovanou a cílovou stránkou žádnou jinou "
+"stránku. U nepřímé konverze může návštěvník vstoupit na více stránek, než se "
+"dostane na cílovou stránku."
+msgstr ""
+
+#: ../init_set.php:1150
+#| msgid "SEO stránky"
+msgid "Pop-upy stránky"
+msgstr ""
+
+#: ../init_set.php:1154
+#| msgid "Použít vzorek"
+msgid "Použít"
+msgstr ""
+
+#: ../init_set.php:1161
+msgid "Globální pop-upy"
+msgstr ""
+
+#: ../init_set.php:1162
+#| msgid "Vlastní kódy"
+msgid "Vlastní pop-upy"
+msgstr ""
+
+#: ../init_set.php:1183
+msgid "Zobrazit jako slider"
+msgstr ""
+
+#: ../init_set.php:1192 ../lib/field_types.php:1965
+msgid "Typ animace"
+msgstr ""
+
+#: ../init_set.php:1196 ../lib/field_types.php:1968
+#| msgid "Zarovnání"
+msgid "Prolínání"
+msgstr ""
+
+#: ../init_set.php:1197 ../lib/field_types.php:1969
+msgid "Zprava doleva"
+msgstr ""
+
+#: ../init_set.php:1202 ../lib/field_types.php:2002
+msgid "Zpoždění slidů"
+msgstr ""
+
+#: ../init_set.php:1209 ../lib/field_types.php:2008
+msgid "Délka animace"
+msgstr ""
+
+#: ../init_set.php:1216
+msgid "Autoplay"
+msgstr ""
+
+#: ../init_set.php:1218
+msgid "Vypnout autoplay"
+msgstr ""
+
+#: ../init_set.php:1222
+msgid "Barva ovládacích prvků"
+msgstr ""
+
+#: ../init_set.php:1226 ../lib/field_types.php:1993
+#| msgid "Světlý"
+msgid "Světlé"
+msgstr ""
+
+#: ../init_set.php:1227 ../lib/field_types.php:1994
+#| msgid "Tmavý"
+msgid "Tmavé"
+msgstr ""
+
+#: ../init_set.php:1242
+msgid "Logo"
+msgstr ""
+
+#: ../init_set.php:1255 ../lib/field_types.php:919
+#| msgid "Odstranit obrázek"
+msgid "Obrázek"
+msgstr ""
+
+#: ../init_set.php:1269
+#| msgid "Velikost"
+msgid "Velikost loga"
+msgstr ""
+
+#: ../init_set.php:1287
+msgid "Textové logo"
+msgstr ""
+
+#: ../init_set.php:1291
+#| msgid "Text"
+msgid "Text loga"
+msgstr ""
+
+#: ../init_set.php:1294 ../init_set.php:2254
+msgid "Název webu"
+msgstr ""
+
+#: ../init_set.php:1301
+msgid "Font loga"
+msgstr ""
+
+#: ../init_set.php:1328
+msgid "Základní nastavení"
+msgstr "Grundeinstellungen"
+
+#: ../init_set.php:1331
+msgid "Rozložení hlavičky"
+msgstr ""
+
+#: ../init_set.php:1343
+#| msgid "Bez menu"
+msgid "Typ menu"
+msgstr ""
+
+#: ../init_set.php:1363 ../init_set.php:1728
+msgid "Menu"
+msgstr ""
+
+#: ../init_set.php:1372 ../init_set.php:1580
+#| msgid "Barva pozadí ikony"
+msgid "Barva pozadí hlavičky"
+msgstr ""
+
+#: ../init_set.php:1390 ../init_set.php:1633
+msgid "Odsazení obsahu hlavičky"
+msgstr ""
+
+#: ../init_set.php:1412
+#| msgid "Bez menu"
+msgid "Vzhled menu"
+msgstr ""
+
+#: ../init_set.php:1415
+#| msgid "Smazat menu"
+msgid "Font menu"
+msgstr ""
+
+#: ../init_set.php:1434
+#| msgid "Barva"
+msgid "Barva textu"
+msgstr ""
+
+#: ../init_set.php:1445 ../init_set.php:1621
+msgid "Barva aktivní položky"
+msgstr ""
+
+#: ../init_set.php:1456
+#| msgid "Barva pozadí ikony"
+msgid "Barva pozadí podmenu"
+msgstr ""
+
+#: ../init_set.php:1471
+#| msgid "Pozadí ikony"
+msgid "Pozadí menu"
+msgstr ""
+
+#: ../init_set.php:1493
+msgid "Obsah před hlavičkou"
+msgstr ""
+
+#: ../init_set.php:1499
+msgid " - Bez obsahu - "
+msgstr ""
+
+#: ../init_set.php:1500
+msgid "Upravit vybraný obsah"
+msgstr ""
+
+#: ../init_set.php:1501
+msgid "Duplikovat vybraný obsah"
+msgstr ""
+
+#: ../init_set.php:1502
+#| msgid "Vytvořit nový sidebar"
+msgid "Vytvořit nový obsah"
+msgstr ""
+
+#: ../init_set.php:1503
+msgid "Smazat vybraný obsah"
+msgstr ""
+
+#: ../init_set.php:1511
+#| msgid "Styl ohraničení"
+msgid "Spodní ohraničení"
+msgstr ""
+
+#: ../init_set.php:1525
+msgid "Obrázek na pozadí hlavičky"
+msgstr ""
+
+#: ../init_set.php:1549
+msgid "Šířka obsahu hlavičky"
+msgstr ""
+
+#: ../init_set.php:1553 ../init_set.php:1806 ../lib/field_types.php:1665
+#: ../lib/field_types.php:1671 ../lib/field_types.php:1906
+#: ../lib/field_types.php:1923 ../lib/field_types.php:1931
+msgid "Defaultní"
+msgstr "Standard"
+
+#: ../init_set.php:1554 ../init_set.php:1807 ../init_set.php:1997
+msgid "Klasická (970px)"
+msgstr ""
+
+#: ../init_set.php:1555 ../init_set.php:1808 ../init_set.php:1998
+msgid "Širší (1024px)"
+msgstr ""
+
+#: ../init_set.php:1556 ../init_set.php:1809 ../init_set.php:1999
+msgid "Široká (1200px)"
+msgstr ""
+
+#: ../init_set.php:1557 ../init_set.php:1810 ../init_set.php:2000
+msgid "Přes celou šířku (90%)"
+msgstr ""
+
+#: ../init_set.php:1572
+msgid "Fixní hlavička"
+msgstr ""
+
+#: ../init_set.php:1576
+msgid ""
+"Po odskrolování změnit nastavení hlavičky podle následujících parametrů."
+msgstr ""
+
+#: ../init_set.php:1599
+msgid "Barva textového loga"
+msgstr ""
+
+#: ../init_set.php:1610
+msgid "Barva textu menu"
+msgstr ""
+
+#: ../init_set.php:1649
+msgid "Zobrazit stín"
+msgstr ""
+
+#: ../init_set.php:1658
+msgid "Nezobrazovat fixní hlavičku na malých obrazovkách"
+msgstr ""
+
+#: ../init_set.php:1674 ../init_set.php:1678
+msgid "Obsah patičky"
+msgstr ""
+
+#: ../init_set.php:1684
+msgid " - Bez patičky - "
+msgstr ""
+
+#: ../init_set.php:1685
+msgid "Upravit vybranou patičku"
+msgstr ""
+
+#: ../init_set.php:1686
+msgid "Duplikovat vybranou patičku"
+msgstr ""
+
+#: ../init_set.php:1687
+#| msgid "Vytvořit nové menu"
+msgid "Vytvořit novou patičku"
+msgstr ""
+
+#: ../init_set.php:1688
+msgid "Smazat vybranou patičku"
+msgstr ""
+
+#: ../init_set.php:1691
+msgid "Obsah patičky můžete vytvářet nebo editovat pomocí vizuálního editoru."
+msgstr ""
+
+#: ../init_set.php:1702
+msgid "Zobrazit zápatí"
+msgstr ""
+
+#: ../init_set.php:1707
+msgid "Vzhled zápatí"
+msgstr ""
+
+#: ../init_set.php:1717
+msgid "Copyright text"
+msgstr ""
+
+#: ../init_set.php:1725
+msgid ""
+"Pokud chcete v textu zobrazovat aktuální rok, vložte řetězec {current_year}"
+msgstr ""
+
+#: ../init_set.php:1736 ../init_set.php:1831 ../lib/field_types.php:2257
+#| msgid "Barva pozadí ikony"
+msgid "Barva pozadí"
+msgstr ""
+
+#: ../init_set.php:1755 ../init_set.php:2984 ../lib/field_types.php:1660
+#: ../lib/field_types.php:1774
+msgid "Font"
+msgstr ""
+
+#: ../init_set.php:1775 ../init_set.php:1837
+#| msgid "Odsazení pozadí"
+msgid "Obrázek na pozadí"
+msgstr ""
+
+#: ../init_set.php:1802
+msgid "Šířka obsahu patičky"
+msgstr ""
+
+#: ../init_set.php:1828
+#| msgid "Pozadí ikony"
+msgid "Pozadí"
+msgstr ""
+
+#: ../init_set.php:1858
+msgid "Formátování textů"
+msgstr ""
+
+#: ../init_set.php:1861
+msgid "Font nadpisů"
+msgstr ""
+
+#: ../init_set.php:1873
+msgid "Font podnadpisů"
+msgstr ""
+
+#: ../init_set.php:1885
+msgid "Font textů"
+msgstr ""
+
+#: ../init_set.php:1900
+msgid "Barva inverzních textů"
+msgstr ""
+
+#: ../init_set.php:1906
+msgid "Barva odkazů"
+msgstr ""
+
+#: ../init_set.php:1912
+#| msgid "Barva pozadí po najetí myši"
+msgid "Barva odkazů po najetí myši"
+msgstr ""
+
+#: ../init_set.php:1922
+msgid "Formátování textu v textovém elementu"
+msgstr ""
+
+#: ../init_set.php:1925
+msgid "Nadpis 1 (H1)"
+msgstr ""
+
+#: ../init_set.php:1934
+msgid "Nadpis 2 (H2)"
+msgstr ""
+
+#: ../init_set.php:1943
+msgid "Nadpis 3 (H3)"
+msgstr ""
+
+#: ../init_set.php:1952
+msgid "Nadpis 4 (H4)"
+msgstr ""
+
+#: ../init_set.php:1961
+msgid "Nadpis 5 (H5)"
+msgstr ""
+
+#: ../init_set.php:1970
+msgid "Nadpis 6 (H6)"
+msgstr ""
+
+#: ../init_set.php:1980
+msgid "Styl odrážek"
+msgstr ""
+
+#: ../init_set.php:1990
+msgid "Pokročilé"
+msgstr ""
+
+#: ../init_set.php:1993
+#| msgid "Šířka"
+msgid "Šířka stránky"
+msgstr ""
+
+#: ../init_set.php:2019
+msgid "Web"
+msgstr ""
+
+#: ../init_set.php:2039
+msgid "Licence"
+msgstr "Lizenzen"
+
+#: ../init_set.php:2047
+msgid "Affiliate"
+msgstr "Affiliate"
+
+#: ../init_set.php:2053
+msgid "E-mail (SMTP)"
+msgstr "E-Mail (SMTP)"
+
+#: ../init_set.php:2059
+msgid "Sociální sítě"
+msgstr "Soziale Netzwerke"
+
+#: ../init_set.php:2065
+msgid "Pop-upy webu"
+msgstr ""
+
+#: ../init_set.php:2074 ../init_set.php:2718
+msgid "Vzhled"
+msgstr ""
+
+#: ../init_set.php:2079
+msgid "Hlavička webu"
+msgstr ""
+
+#: ../init_set.php:2085
+msgid "Patička webu"
+msgstr ""
+
+#: ../init_set.php:2091
+#| msgid "Tlačítko"
+msgid "Tlačítka webu"
+msgstr ""
+
+#: ../init_set.php:2097
+#| msgid "Základní fonty"
+msgid "Vlastní fonty"
+msgstr ""
+
+#: ../init_set.php:2108
+msgid "Šablona webu"
+msgstr ""
+
+#: ../init_set.php:2120
+msgid "Import/export webu"
+msgstr ""
+
+#: ../init_set.php:2131
+msgid "GDPR"
+msgstr ""
+
+#: ../init_set.php:2137 ../init_set.php:2517
+#| msgid "Cookie info"
+msgid "Cookie lišta"
+msgstr ""
+
+#: ../init_set.php:2144
+msgid "Blokování pluginů"
+msgstr ""
+
+#: ../init_set.php:2185
+msgid "Knihovna médií"
+msgstr ""
+
+#: ../init_set.php:2193
+msgid "Pluginy"
+msgstr ""
+
+#: ../init_set.php:2237 ../init_set.php:2245
+msgid "Propojení aplikací"
+msgstr ""
+
+#: ../init_set.php:2260
+msgid "Popisek webu"
+msgstr ""
+
+#: ../init_set.php:2266
+msgid "Jazyk webu"
+msgstr ""
+
+#: ../init_set.php:2272
+#| msgid "Administrator ID"
+msgid "Administrátorský email"
+msgstr ""
+
+#: ../init_set.php:2275
+msgid "Tato emailová adresa se používá k administrátorským účelům."
+msgstr ""
+
+#: ../init_set.php:2279
+msgid "Zástupce webu (favicon)"
+msgstr ""
+
+#: ../init_set.php:2282
+#| msgid ""
+#| "Favicon je ikona webu zobrazující se vedle URL adresy nebo v záložce "
+#| "prohlížeče vedle názvu stránky."
+msgid ""
+"Favicon je ikona webu zobrazující se vedle URL adresy nebo v záložce "
+"prohlížeče vedle názvu stránky. Nahrajte ikonu ve formátu .png, ideálně ve "
+"velikosti 180 ×180 px."
+msgstr ""
+
+#: ../init_set.php:2286
+msgid "Vlastní chybová stránka (404)"
+msgstr ""
+
+#: ../init_set.php:2292
+msgid ""
+"Tato stránka se zobrazí v případě že uživatel zadá adresu stránky, která "
+"neexistuje. Pokud žádnou stránku nevyberete bude se zobrazovat defaultní "
+"stránka."
+msgstr ""
+
+#: ../init_set.php:2298
+msgid "Datum a čas"
+msgstr ""
+
+#: ../init_set.php:2301
+msgid "Časové pásmo"
+msgstr ""
+
+#: ../init_set.php:2305
+msgid ""
+"Vyberte město, které je ve stejném časovém pásmu nebo UTC (Coordinated "
+"Universal Time) časový posun."
+msgstr ""
+
+#: ../init_set.php:2308
+msgid "Formát data"
+msgstr ""
+
+#: ../init_set.php:2315
+msgid "Formát času"
+msgstr ""
+
+#: ../init_set.php:2325
+#| msgid "Nastavení webu"
+msgid "Ověření webu"
+msgstr ""
+
+#: ../init_set.php:2328
+#| msgid "Google Site verification"
+msgid "Google Site verification kód"
+msgstr ""
+
+#: ../init_set.php:2331
+msgid ""
+"Jedna z možností jak ověřit u googlu že jste vlastníkem tohoto webu, "
+"například pro napojení na google analytics, je pomocí google site "
+"verification kódů. Tento kód, který vám vygeneruje google, zadejte do tohoto "
+"pole. <a href=\"https://napoveda.mioweb.cz/article/698-jak-vlozit-overovaci-"
+"kod-google\" target=\"_blank\">Návod na získání a vložení site verification "
+"kódu</a>"
+msgstr ""
+
+#: ../init_set.php:2341
+msgid "Kódy pro celý web"
+msgstr ""
+
+#: ../init_set.php:2353
+#| msgid "Vlastní CSS styly (platné pro celý web)"
+msgid "CSS styly pro celý web"
+msgstr ""
+
+#: ../init_set.php:2359
+msgid "Vložením vlastních CSS (kaskádových) stylů můžete ovlivnit vzhled webu."
+msgstr ""
+"Mit Ihren eigenen CSS (Kaskade) Stilen können Sie das Aussehen der Website "
+"beeinflussen."
+
+#: ../init_set.php:2369
+msgid "Vaše licenční číslo"
+msgstr "Ihre Lizenznummer "
+
+#: ../init_set.php:2381
+msgid "Váš affiliate odkaz"
+msgstr "Ihr Affiliate-Link"
+
+#: ../init_set.php:2384
+#| msgid "http://mioweb.cz"
+msgid "https://mioweb.cz"
+msgstr ""
+
+#: ../init_set.php:2385
+#| msgid ""
+#| "Zde vložte odkaz na http://mioweb.cz s vaším affiliate kódem. Odkaz se "
+#| "zobrazí v patičce webu, a pokaždé, když se přes něj někdo proklikne na "
+#| "náš web a koupí MioWeb, dostanete z prodeje provizi. Pokud necháte pole "
+#| "prázdné, text v patičce zmizí. Jako affiliate partner se můžete "
+#| "registrovat na <a target=\"_blank\" href=\"http://affiliate.firma20.cz/"
+#| "registrace/\">affiliate.firma20.cz/registrace/</a>."
+msgid ""
+"Zde vložte odkaz na https://mioweb.cz s vaším affiliate kódem. Odkaz se "
+"zobrazí v patičce webu a pokaždé, když se přes něj někdo proklikne na náš "
+"web a koupí Mioweb, dostanete z prodeje provizi. Pokud necháte pole prázdné, "
+"text v patičce zmizí. Jako affiliate partner se můžete registrovat v <a "
+"target=\"_blank\" href=\"https://www.mioweb.cz/money/\">našem partnerském "
+"programu</a>."
+msgstr ""
+
+#: ../init_set.php:2396
+msgid "Použít k zasílání e-mailů vlastní SMTP server."
+msgstr "Eigenen SMTP-Server verwenden, um E-Mails zu senden."
+
+#: ../init_set.php:2401
+#| msgid "Nastavení"
+msgid "Nastavení SMTP"
+msgstr ""
+
+#: ../init_set.php:2407
+msgid "E-mailová adresa"
+msgstr "E-Mail-Adresse"
+
+#: ../init_set.php:2411
+msgid "Zadejte adresu, ze které chcete, aby byly e-maily posílány."
+msgstr "Geben Sie die Adresse ein, von der die E-Mails gesendet werden sollen."
+
+#: ../init_set.php:2418
+msgid "Zadejte jméno, které se má zobrazovat v kolonce „Od:“."
+msgstr ""
+"Geben Sie den Namen ein, der in der Spalte „Von:“ angezeigt werden soll."
+
+#: ../init_set.php:2421
+msgid "SMTP host"
+msgstr "SMTP Gast"
+
+#: ../init_set.php:2427
+msgid "SMTP zabezpečení"
+msgstr "SMTP-Sicherheit"
+
+#: ../init_set.php:2431
+msgid "Nezabezpečené"
+msgstr "Ungesichert"
+
+#: ../init_set.php:2432
+msgid "SSL"
+msgstr "SSL"
+
+#: ../init_set.php:2433
+msgid "TLS"
+msgstr "TLS"
+
+#: ../init_set.php:2438
+msgid "SMTP port"
+msgstr "SMTP Port"
+
+#: ../init_set.php:2444
+#| msgid "SMTP autentikace"
+msgid "SMTP autentifikace"
+msgstr ""
+
+#: ../init_set.php:2448
+msgid "Ano"
+msgstr "Ja"
+
+#: ../init_set.php:2449
+msgid "Ne"
+msgstr "Nein"
+
+#: ../init_set.php:2463 ../init_set.php:3181 ../init_set.php:3184
+msgid "Heslo"
+msgstr "Passwort"
+
+#: ../init_set.php:2475 ../main_class.php:262
+#| msgid "Nastavení"
+msgid "Test nastavení SMTP"
+msgstr ""
+
+#: ../init_set.php:2483
+msgid ""
+"Pokud chcete otestovat správnost nastavení SMTP, zadejte níže emailovou "
+"adresu a pošlete na ní testovací email. Pokud se email podaří odeslat, je "
+"vše nastaveno správně. Pozor, před vyzkoušením je potřeba nejdříve nastavení "
+"SMTP uložit."
+msgstr ""
+
+#: ../init_set.php:2486
+msgid "Poslat testovací email na emailovou adresu:"
+msgstr ""
+
+#: ../init_set.php:2499
+msgid "Zobrazit návštěvníkům lištu se souhlasem použití cookies na tomto webu"
+msgstr ""
+
+#: ../init_set.php:2525 ../init_set.php:2600 ../init_set.php:2625
+#: ../init_set.php:2657 ../init_set.php:2689
+msgid "Nadpis"
+msgstr ""
+
+#: ../init_set.php:2528
+msgid "Tato stránka používá cookies"
+msgstr ""
+
+#: ../init_set.php:2531 ../init_set.php:2584 ../init_set.php:2612
+#: ../init_set.php:2637 ../init_set.php:2669 ../init_set.php:2701
+msgid "Informační text"
+msgstr ""
+
+#: ../init_set.php:2534
+msgid ""
+"Na stránkách používáme soubory cookies. Některé jsou nezbytné pro fungování "
+"stránek, jiné nám umožňují poskytnout vám lepší zkušenost při návštěvě "
+"našich stránek nebo zobrazování reklamy, pomáhají nám analyzovat návštěvnost "
+"a stránky zlepšovat."
+msgstr ""
+
+#: ../init_set.php:2537
+msgid "Text tlačítka pro přijmutí všech cookies"
+msgstr ""
+
+#: ../init_set.php:2540
+msgid "Přijmout vše"
+msgstr ""
+
+#: ../init_set.php:2543
+msgid "Zobrazení tlačítka pro zamítnutí všech cookies"
+msgstr ""
+
+#: ../init_set.php:2548
+msgid "Zobrazit tlačítko pro zamítnutí všech cookies"
+msgstr ""
+
+#: ../init_set.php:2551
+msgid "Text tlačítka pro zamítnutí všech cookies"
+msgstr ""
+
+#: ../init_set.php:2554
+msgid "Odmítnout vše"
+msgstr ""
+
+#: ../init_set.php:2559
+msgid "Stránka s více informacemi"
+msgstr ""
+
+#: ../init_set.php:2563
+#| msgid ""
+#| "Zde vložte odkaz na vaše obchodní podmínky nebo podmínky užití, které by "
+#| "měly obsahovat také podrobnosti o užití souborů cookie na vašem webu."
+msgid ""
+"Zde vložte odkaz na vaše obchodní podmínky nebo podmínky užití, které by "
+"měly obsahovat také podrobnosti o užití souborů cookie na vašem webu a "
+"možnost změnit nastavení. Změnit nastavení mužete návštěvníkům umožnit "
+"pomocí elementu Nastavení cookies."
+msgstr ""
+
+#: ../init_set.php:2570
+msgid "Popup s nastavení cookies"
+msgstr ""
+
+#: ../init_set.php:2578
+msgid "Nadpis popupu"
+msgstr ""
+
+#: ../init_set.php:2581
+msgid "Souhlas s používáním cookies"
+msgstr ""
+
+#: ../init_set.php:2588
+msgid ""
+"Cookies jsou malé soubory, které se dočasně ukládají ve vašem počítači a "
+"pomáhají nám k lepší uživatelské zkušenosti na našich stránkách. Cookies "
+"používáme k personalizaci obsahu stránek a reklam, poskytování funkcí "
+"sociálních sítí a k analýze návštěvnosti. Informace o vašem používání našich "
+"stránek také sdílíme s našimi partnery v oblasti sociálních sítí, reklamy a "
+"analýzy, kteří je mohou kombinovat s dalšími informacemi, které jste jim "
+"poskytli nebo které shromáždili při vašem používání jejich služeb.\n"
+"\n"
+"Ze zákona můžeme na vašem zařízení ukládat pouze soubory cookie, které jsou "
+"nezbytně nutné pro provoz těchto stránek. Pro všechny ostatní typy souborů "
+"cookie potřebujeme vaše svolení. Budeme vděční, když nám ho poskytnete a "
+"pomůžete nám tak, naše stránky a služby zlepšovat. Svůj souhlas s používáním "
+"cookies na našem webu můžete samozřejmě kdykoliv změnit nebo odvolat."
+msgstr ""
+
+#: ../init_set.php:2597
+msgid "Nezbytné cookies"
+msgstr ""
+
+#: ../init_set.php:2603
+msgid "Nezbytné"
+msgstr ""
+
+#: ../init_set.php:2606 ../init_set.php:2631 ../init_set.php:2663
+#: ../init_set.php:2695
+msgid "Krátký text"
+msgstr ""
+
+#: ../init_set.php:2609
+msgid "aby stránky fungovaly, jak mají."
+msgstr ""
+
+#: ../init_set.php:2615
+msgid ""
+"Nezbytné soubory cookie pomáhají učinit webové stránky použitelnými tím, že "
+"umožňují základní funkce, jako je navigace na stránce a přístup k "
+"zabezpečeným oblastem webové stránky. Bez těchto souborů cookie nemůže web "
+"správně fungovat."
+msgstr ""
+
+#: ../init_set.php:2622
+msgid "Preferenční cookies"
+msgstr ""
+
+#: ../init_set.php:2628 ../lib/MwAdminComponents.php:1172
+#: ../lib/MwFields.php:687
+msgid "Preferenční"
+msgstr ""
+
+#: ../init_set.php:2634
+msgid "abychom si pamatovali vaše preference."
+msgstr ""
+
+#: ../init_set.php:2640
+msgid ""
+"Preferenční cookies umožňují, aby si stránka pamatovala informace, které "
+"upravují, jak se stránka chová nebo vypadá. Např. vaše přihlášení, obsah "
+"košíku, zemi, ze které stránku navštěvujete."
+msgstr ""
+
+#: ../init_set.php:2643 ../init_set.php:2675 ../init_set.php:2707
+msgid "Zobrazení"
+msgstr ""
+
+#: ../init_set.php:2644
+msgid ""
+"Pokud zaškrtnete že tento typ cookies na webu nepoužíváte, bude možnost "
+"povolit preferenční cookies v popupu skryta."
+msgstr ""
+
+#: ../init_set.php:2647
+msgid "Preferenční cookies na webu nepoužívám"
+msgstr ""
+
+#: ../init_set.php:2654
+msgid "Statistické cookies"
+msgstr ""
+
+#: ../init_set.php:2660
+msgid "Statistické"
+msgstr ""
+
+#: ../init_set.php:2666
+msgid "abychom věděli, co na webu děláte a co zlepšit."
+msgstr ""
+
+#: ../init_set.php:2672
+msgid ""
+"Statistické cookies pomáhají provozovateli stránek pochopit, jak návštěvníci "
+"stránek stránku používají, aby mohl stránky optimalizovat a nabídnout jim "
+"lepší zkušenost. Veškerá data se sbírají anonymně a není možné je spojit s "
+"konkrétní osobou. "
+msgstr ""
+
+#: ../init_set.php:2676
+msgid ""
+"Pokud zaškrtnete že tento typ cookies na webu nepoužíváte, bude možnost "
+"povolit statistické cookies v popupu skryta."
+msgstr ""
+
+#: ../init_set.php:2679
+msgid "Statistické cookies na webu nepoužívám"
+msgstr ""
+
+#: ../init_set.php:2686
+msgid "Marketingové cookies"
+msgstr ""
+
+#: ../init_set.php:2692
+msgid "Marketingové"
+msgstr ""
+
+#: ../init_set.php:2698
+msgid "abychom vám ukazovali pouze relevantní reklamu."
+msgstr ""
+
+#: ../init_set.php:2704
+msgid ""
+"Marketingové cookies se používají ke sledování pohybu návštěvníků napříč "
+"webovými stránkami s cílem zobrazovat jim pouze takovou reklamu, která je "
+"pro daného člověka relevantní a užitečná. Veškerá data se sbírají a "
+"používají anonymně a není možné je spojit s konkrétní osobou."
+msgstr ""
+
+#: ../init_set.php:2708
+msgid ""
+"Pokud zaškrtnete že tento typ cookies na webu nepoužíváte, bude možnost "
+"povolit marketingové cookies v popupu skryta."
+msgstr ""
+
+#: ../init_set.php:2711
+msgid "Marketingové cookies na webu nepoužívám"
+msgstr ""
+
+#: ../init_set.php:2727
+msgid "Umístění cookie lišty"
+msgstr ""
+
+#: ../init_set.php:2730 ../lib/field_types.php:1481
+msgid "Dole"
+msgstr "Unten"
+
+#: ../init_set.php:2731
+msgid "Dole vlevo"
+msgstr ""
+
+#: ../init_set.php:2732
+msgid "Dole vpravo"
+msgstr ""
+
+#: ../init_set.php:2733 ../lib/field_types.php:1480
+msgid "Nahoře"
+msgstr "Oben"
+
+#: ../init_set.php:2739
+msgid "Vzhled cookie lišty"
+msgstr ""
+
+#: ../init_set.php:2742
+#| msgid "Světlý"
+msgid "Světlý motiv"
+msgstr ""
+
+#: ../init_set.php:2743
+#| msgid "Tmavý"
+msgid "Tmavý motiv"
+msgstr ""
+
+#: ../init_set.php:2749
+#| msgid "Pozadí tlačítka"
+msgid "Barva tlačítek"
+msgstr ""
+
+#: ../init_set.php:2769
+msgid ""
+"Pod každým formulářem, pomocí kterého vám návštěvník webu může předat své "
+"osobní údaje, musíte informovat, jak s těmito údaji budete nakládat."
+msgstr ""
+
+#: ../init_set.php:2772
+msgid "URL stránky se zásadami zpracování osobních údajů"
+msgstr ""
+
+#: ../init_set.php:2776
+msgid ""
+"Zde vložte odkaz na stránku, která obsahuje podrobnosti o vašich zásadách "
+"zpracování osobních údajů."
+msgstr ""
+
+#: ../init_set.php:2784
+#| msgid "Seznam formulářů"
+msgid "Kontaktní formulář"
+msgstr ""
+
+#: ../init_set.php:2788
+msgid "Informační text pod kontaktním formulářem"
+msgstr ""
+
+#: ../init_set.php:2789
+msgid "Vaše osobní údaje budou použity pouze pro účely vyřešení vašeho dotazu."
+msgstr ""
+
+#: ../init_set.php:2794 ../init_set.php:2815
+msgid "Text odkazu na zásady zpracování osobních údajů"
+msgstr ""
+
+#: ../init_set.php:2795 ../init_set.php:2816
+msgid "Zásady zpracování osobních údajů"
+msgstr ""
+
+#: ../init_set.php:2797 ../init_set.php:2818
+msgid ""
+"Aby se odkaz zobrazoval, je nutné mít vybranou stránku se zásadami "
+"zpracování osobních údajů."
+msgstr ""
+
+#: ../init_set.php:2809
+msgid "Informační text pod formulářem pro přidání komentáře"
+msgstr ""
+
+#: ../init_set.php:2810
+msgid ""
+"Vaše osobní údaje budou použity pouze pro účely zpracování tohoto komentáře."
+msgstr ""
+
+#: ../init_set.php:2826
+msgid ""
+"Pomocí tohoto nastavení můžete zajistit aby pluginy nainstalované na tomto "
+"webu neukládaly cookies v rozporu s preferencemi návštěvníka webu. Pluginy u "
+"kterých nastavíte \"Povolit blokování\" budou blokovány podle nastaveného "
+"účelu pluginu a podle souhlasu návštěníka, uděleného pomocí cookie lišty."
+msgstr ""
+
+#: ../init_set.php:2837
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../init_set.php:2845
+#| msgid "Vypnout Facebook atributy MioWeb šablony"
+msgid "Vypnout Facebook atributy Mioweb šablony"
+msgstr ""
+
+#: ../init_set.php:2846
+msgid ""
+"Vypnout Facebook atributy šablony je vhodné, pokud chcete pro nastavení "
+"Facebook atributů webu nebo stránek používat některý z Wordpress pluginů."
+msgstr ""
+"Die Deaktivierung der Facebook-Attribute der Vorlage ist nützlich, wenn Sie "
+"für die Einstellung der Facebook-Attribute der Website oder der Seiten ein "
+"Wordpress-Plugin verwenden möchten."
+
+#: ../init_set.php:2849
+msgid "Defaultní Facebook obrázek (og:image)"
+msgstr "Standard Facebook Bild (og:image)"
+
+#: ../init_set.php:2852
+#| msgid ""
+#| "Tento obrázek se bude zobrazovat na Facebooku při sdílení jakékoli "
+#| "stránky vašeho webu. V nastavení každé stránky ale můžete nastavit jiný "
+#| "obrázek, který bude jedinečný právě pro danou stránku. Minimální šířka "
+#| "obrázku by měla být 470 px."
+msgid ""
+"Tento obrázek se bude zobrazovat na Facebooku při sdílení jakékoli stránky "
+"vašeho webu. V nastavení každé stránky ale můžete nastavit jiný obrázek, "
+"který bude jedinečný právě pro danou stránku. Doporučená velikost obrázku je "
+"1200 × 628 px."
+msgstr ""
+
+#: ../init_set.php:2857
+msgid "Facebook Application ID"
+msgstr "Facebook Application ID"
+
+#: ../init_set.php:2862
+msgid "Administrator ID"
+msgstr "Administrator ID"
+
+#: ../init_set.php:2865
+msgid ""
+"Zde zadejte ID Facebook uživatele, který bude mít oprávnění moderovat "
+"Facebook komentáře. Svoje ID získáte například tak, že se v prohlížeči "
+"přepnete na svůj facebookový profil. V URL pak změňte řetězec „www“ na "
+"„graph“. Zobrazí se seznam údajů, kdy první z nich je ID."
+msgstr ""
+"Geben Sie die Facebook-Benutzer ID ein, welche die Erlaubnis hat, Facebook-"
+"Kommentare zu moderieren. Sie erhalten Ihre ID, indem Sie, zum Beispiel, im "
+"Browser auf Ihr Facebook-Profil umschalten. In der URL ändern Sie dann die "
+"Zeichenfolge „www“ auf „graph“. Es wird eine Liste der Daten angezeigt, "
+"wobei die erste Angabe die ID darstellt."
+
+#: ../init_set.php:2879
+#| msgid "Vypnout SEO MioWeb šablony"
+msgid "Vypnout SEO Mioweb šablony"
+msgstr ""
+
+#: ../init_set.php:2880
+#| msgid ""
+#| "Vypnout SEO šablony je vhodné pokud chcete pro nastavení SEO atributů "
+#| "webu nebo stránek používat některý z Wordpress pluginů."
+msgid ""
+"Vypnout SEO šablony je vhodné, pokud chcete pro nastavení SEO atributů webu "
+"nebo stránek používat některý z Wordpress pluginů."
+msgstr ""
+
+#: ../init_set.php:2974
+msgid ""
+"Vložte kódy vlastních google fontů. Kódy můžete získat zde: <a href="
+"\"https://fonts.google.com/\" target=\"_blank\">fonts.google.com</a>. Po "
+"přidání se tyto fonty objeví ve výběru fontů v nastavení a editaci elementů."
+msgstr ""
+
+#: ../init_set.php:2983
+#| msgid "Přidat komentář"
+msgid "Přidat font"
+msgstr ""
+
+#: ../init_set.php:2989
+msgid "Název fontu"
+msgstr ""
+
+#: ../init_set.php:2994
+msgid "Kód fontu"
+msgstr ""
+
+#: ../init_set.php:3008
+msgid "Povolit komentáře u nových stránek a článků"
+msgstr ""
+
+#: ../init_set.php:3009
+msgid ""
+"Toto nastavení může být změněno individuálně u každé stránky nebo článku."
+msgstr ""
+
+#: ../init_set.php:3013
+msgid "Poviné jméno a email"
+msgstr ""
+
+#: ../init_set.php:3015
+msgid "Autor komentáře musí vyplnit jméno a email"
+msgstr ""
+
+#: ../init_set.php:3019
+msgid "Komentáře pouze pro registrované"
+msgstr ""
+
+#: ../init_set.php:3021
+msgid "Přidávat komentáře mohou pouze registrovaní a přihlášení uživatelé"
+msgstr ""
+
+#: ../init_set.php:3025
+#| msgid "Přidat komentář"
+msgid "Povolit vlákna komentářů"
+msgstr ""
+
+#: ../init_set.php:3027
+msgid "Povolit odpovídat návštěvníkům na komentáře"
+msgstr ""
+
+#: ../init_set.php:3032
+msgid "Povolit vlákna komentářů až do úrovně"
+msgstr ""
+
+#: ../init_set.php:3051
+#| msgid "Přidat komentář"
+msgid "Stránkovat komentáře"
+msgstr ""
+
+#: ../init_set.php:3058
+msgid "Počet komentářů nejvyšší úrovně na stránku"
+msgstr ""
+
+#: ../init_set.php:3063
+msgid "Jako výchozí zobrazit"
+msgstr ""
+
+#: ../init_set.php:3066
+#| msgid "SEO úvodní stránky"
+msgid "poslední stránku"
+msgstr ""
+
+#: ../init_set.php:3067
+#| msgid "SEO úvodní stránky"
+msgid "první stránku"
+msgstr ""
+
+#: ../init_set.php:3072
+msgid "Seřadit komentáře na každé stránce"
+msgstr ""
+
+#: ../init_set.php:3075
+msgid "od nejstarších"
+msgstr ""
+
+#: ../init_set.php:3076
+msgid "od nejnovějších"
+msgstr ""
+
+#: ../init_set.php:3083
+msgid "Poslat notifikační email"
+msgstr ""
+
+#: ../init_set.php:3084
+msgid "Notifikační e-mail bude odeslán na adresu autora článku."
+msgstr ""
+
+#: ../init_set.php:3089
+#| msgid "Přidat komentář"
+msgid "Když někdo přidá komentář"
+msgstr ""
+
+#: ../init_set.php:3094
+#| msgid "Komentář čeká na schválení."
+msgid "Když nějaký komentář čeká na schválení"
+msgstr ""
+
+#: ../init_set.php:3100
+msgid "Pravidla pro schvalování"
+msgstr ""
+
+#: ../init_set.php:3105
+msgid "Každý komentář musí být schválen ručně"
+msgstr ""
+
+#: ../init_set.php:3110
+msgid "Autor komentáře už napsal alespoň jeden schválený komentář"
+msgstr ""
+
+#: ../init_set.php:3116
+msgid "Automatické zadržování"
+msgstr ""
+
+#: ../init_set.php:3120
+msgid "Zdržet komentář ve frontě, pokud obsahuje více než"
+msgstr ""
+
+#: ../init_set.php:3122
+msgid "odkazů"
+msgstr ""
+
+#: ../init_set.php:3123
+msgid "Základní charakteristikou komentářového spamu je velké množství odkazů."
+msgstr ""
+
+#: ../init_set.php:3127
+msgid "Zadržet komentář, když obsahuje jedno ze slov"
+msgstr ""
+
+#: ../init_set.php:3130
+msgid ""
+"Pokud bude komentář obsahovat ve svém obsahu, jménu autora, URL adrese, IP "
+"adrese nebo v hlavičce prohlížeče, jedno ze zadaných slov, tak bude komentář "
+"zadržen a bude vyžadovat schválení. Zadejte každé slovo nebo IP adresu na "
+"nový řádek."
+msgstr ""
+
+#: ../init_set.php:3136
+msgid "Nepovolené komentáře"
+msgstr ""
+
+#: ../init_set.php:3140
+msgid "Hodit komentář do koše, když obsahuje jedno ze slov"
+msgstr ""
+
+#: ../init_set.php:3143
+msgid ""
+"Pokud bude komentář obsahovat ve svém obsahu, jménu autora, URL adrese, IP "
+"adrese nebo v hlavičce prohlížeče, jedno ze zadaných slov, tak bude komentář "
+"automaticky hozen do koše. Zadejte každé slovo nebo IP adresu na nový řádek."
+msgstr ""
+
+#: ../init_set.php:3151
+msgid "Uživatel"
+msgstr ""
+
+#: ../init_set.php:3173
+msgid "Příjmení"
+msgstr ""
+
+#: ../init_set.php:3195
+msgid "Informace"
+msgstr ""
+
+#: ../init_set.php:3201
+msgid "O uživateli"
+msgstr ""
+
+#: ../init_set.php:3206
+msgid "Webová stránka"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:161
+msgid "Storno"
+msgstr "Abbrechen"
+
+#: ../lib/MwAdminComponents.php:380
+msgid "Datum"
+msgstr "Datum"
+
+#: ../lib/MwAdminComponents.php:386
+msgid "Hodin"
+msgstr "Stunden"
+
+#: ../lib/MwAdminComponents.php:395
+msgid "Minut"
+msgstr "Minuten"
+
+#: ../lib/MwAdminComponents.php:603
+msgid "Období"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:605
+msgid "Celé období"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:606
+msgid "Dnes"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:607
+msgid "Včera"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:608
+msgid "Posledních 7 dní"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:609
+msgid "Posledních 30 dní"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:610
+msgid "Tento měsíc"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:611
+msgid "Minulý měsíc"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:612
+msgid "Tento rok"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:613
+msgid "Minulý rok"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:614
+#| msgid "Vlastní obrázek"
+msgid "Vlastní období"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:618
+msgid "Od"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:622
+#| msgid "Dole"
+msgid "Do"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:640
+msgid "Filtrovat statistiky"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:644
+msgid "Filtrovat podle"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:679
+msgid "Filtrovat"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:701
+msgid "Vybrat"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:704
+msgid "radio"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:749
+msgid "Vybrat šablonu"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:754
+msgid "Náhled"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:930 ../lib/MwAdminComponents.php:934
+msgid "Hledat"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:980
+msgid "Neznámý"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:1074 ../lib/field_types.php:785
+#: ../lib/field_types.php:831 ../lib/field_types.php:1182
+msgid "Smazat obrázek"
+msgstr "Bild löschen"
+
+#: ../lib/MwAdminComponents.php:1081 ../lib/field_types.php:792
+#| msgid "Upravit obrázek"
+msgid "Vybrat obrázek"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:1171
+msgid "Nezbytný pro fungování"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:1171 ../lib/MwFields.php:681
+msgid "Nezbytný"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:1173 ../lib/MwFields.php:684
+msgid "Marketingový"
+msgstr ""
+
+#: ../lib/MwAdminComponents.php:1174 ../lib/MwFields.php:690
+msgid "Statistický"
+msgstr ""
+
+#: ../lib/MwFields.php:25
+msgid "Nový"
+msgstr ""
+
+#: ../lib/MwFields.php:134
+msgid "Editovat"
+msgstr ""
+
+#: ../lib/MwFields.php:149
+msgid "Zpět"
+msgstr "Zurück"
+
+#: ../lib/MwFields.php:173 ../lib/field_types.php:2389
+msgid "HOTOVO"
+msgstr ""
+
+#: ../lib/MwFields.php:268
+msgid "Standardní"
+msgstr ""
+
+#: ../lib/MwFields.php:288
+msgid "Připnout článek na začátek výpisu článků"
+msgstr ""
+
+#: ../lib/MwFields.php:371
+msgid "Trvalý odkaz:"
+msgstr ""
+
+#: ../lib/MwFields.php:389
+msgid "Potvrdit"
+msgstr ""
+
+#: ../lib/MwFields.php:613
+msgid ""
+"Následující proměnné budou v konverzním kódu nahrazeny skutečnými daty "
+"konkrétní objednávky, pro kterou bude konverze vytvořena. Můžete tak do "
+"konverzního kódu vložit např. skutečnou cenu objednávky."
+msgstr ""
+
+#: ../lib/MwFields.php:624
+#| msgid "Konverzní kód"
+msgid "Přidat konverzní kód"
+msgstr ""
+
+#: ../lib/MwFields.php:624
+#| msgid "Přidat komentář"
+msgid "Přidat kód"
+msgstr ""
+
+#: ../lib/MwFields.php:642
+msgid "Kód je deaktivován"
+msgstr ""
+
+#: ../lib/MwFields.php:660 ../lib/MwFields.php:738
+#| msgid "Kódy v hlavičce"
+msgid "V hlavičce"
+msgstr ""
+
+#: ../lib/MwFields.php:664 ../lib/MwFields.php:739
+msgid "V těle"
+msgstr ""
+
+#: ../lib/MwFields.php:668 ../lib/MwFields.php:740
+#| msgid "Kódy v patičce"
+msgid "V patičce"
+msgstr ""
+
+#: ../lib/MwFields.php:708
+msgid "Název kódu"
+msgstr ""
+
+#: ../lib/MwFields.php:709
+msgid "Název slouží pouze pro vaší orientaci."
+msgstr ""
+
+#: ../lib/MwFields.php:721
+msgid "Konverzní kód"
+msgstr "Conversion-Code"
+
+#: ../lib/MwFields.php:722
+#, php-format
+#| msgid ""
+#| "Zde můžete umístit konverzní kód platný pouze pro tuto stránku. Pokud "
+#| "chcete do kódu dynamicky umístit hodnotu z URL adresy, vložte do kódu na "
+#| "místo, kde chcete hodnotu vypsat, řetězec ve tvaru: %%nazev_promenne%%. "
+#| "Pokud tedy budete chtít do kódu vložit například e-mailovou adresu z "
+#| "atributu e-mail (URL adresa bude obsahovat řetězec ve tvaru e-"
+#| "mail=jmeno@poskytovatel.cz), vložte do kódu proměnnou %%e-mail%%. V "
+#| "případě konverzního kódu AFFILBOXU, můžete nechat v konverzním kódu "
+#| "proměnné CENA a ID_TRANSAKCE. CENA se nahradí cenou staženou z faktury "
+#| "FAPI (pokud máte zadané propojení s FAPI) a ID_TRANSAKCE se nahradí e-"
+#| "mailovou adresou z URL z atributu e-mail."
+msgid ""
+"Pokud chcete do kódu dynamicky umístit hodnotu z URL adresy, vložte do kódu "
+"na místo, kde chcete hodnotu vypsat, řetězec ve tvaru: %%nazev_promenne%%. "
+"Pokud tedy budete chtít do kódu vložit například e-mailovou adresu z "
+"atributu e-mail (URL adresa bude obsahovat řetězec ve tvaru "
+"email=jmeno@poskytovatel.cz), vložte do kódu proměnnou %%email%%. V případě "
+"konverzního kódu AFFILBOXU, můžete nechat v konverzním kódu proměnné CENA a "
+"ID_TRANSAKCE. CENA se nahradí cenou staženou z faktury FAPI (pokud máte "
+"zadané propojení s FAPI a objednávka je vytvořena skrz FAPI) a ID_TRANSAKCE "
+"se nahradí variabilním symbolem objednávky nebo emailovou adresou (pokud je "
+"v url zadaná)."
+msgstr ""
+
+#: ../lib/MwFields.php:732
+#| msgid "Vlastní kódy"
+msgid "Umístění kódu"
+msgstr ""
+
+#: ../lib/MwFields.php:733
+msgid ""
+"Umístění určí v jaké části stránky bude tento kód vykreslován. Doporučené "
+"umístění se dozvíte u poskytovatele kódu."
+msgstr ""
+
+#: ../lib/MwFields.php:738
+msgid "V hlavičce - uvnitř tagu &lt;/head&gt;"
+msgstr ""
+
+#: ../lib/MwFields.php:739
+msgid "V těle - hned za tagem &lt;body&gt;"
+msgstr ""
+
+#: ../lib/MwFields.php:740
+msgid "V patičce - před tagem &lt;/body&gt;"
+msgstr ""
+
+#: ../lib/MwFields.php:748
+#| msgid "Kódy"
+msgid "Kód"
+msgstr ""
+
+#: ../lib/MwFields.php:759
+msgid "Účel kódu"
+msgstr ""
+
+#: ../lib/MwFields.php:760
+msgid ""
+"Účel je důležitý pro GDPR a rozhoduje, zda se kód na stránce bude nebo "
+"nebude vykreslovat podle preferencí návštěvníka, které si zvolil při "
+"souhlasu s použitím cookies."
+msgstr ""
+
+#: ../lib/MwFields.php:774
+msgid "Dočasně deaktivovat tento kód"
+msgstr ""
+
+#: ../lib/MwFields.php:790
+msgid "Nemáte nahrané žádné pluginy."
+msgstr ""
+
+#: ../lib/MwFields.php:793
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/MwFields.php:796
+msgid "Povolit&nbsp;blokování"
+msgstr ""
+
+#: ../lib/MwFields.php:796
+msgid ""
+"Povolit blokování znamená, že plugin bude blokován v případě že návštěvník "
+"nebude souhlasit s ukládáním cookies s účelem nastaveným u pluginu."
+msgstr ""
+
+#: ../lib/MwFields.php:799
+msgid "Účel"
+msgstr ""
+
+#: ../lib/MwVariables.php:140
+msgid "Číslo objednávky."
+msgstr ""
+
+#: ../lib/MwVariables.php:145
+msgid "Variabilní symbol objednávky."
+msgstr ""
+
+#: ../lib/MwVariables.php:150
+msgid "Datum vytvoření objednávky."
+msgstr ""
+
+#: ../lib/MwVariables.php:155
+msgid "Vypíšou se veškeré potřebné informace o objednávce."
+msgstr ""
+
+#: ../lib/MwVariables.php:160
+msgid ""
+"Celková cena objednávky (v&nbsp;měně, ve které byla objednávka vytvořena)."
+msgstr ""
+
+#: ../lib/MwVariables.php:165
+msgid ""
+"Celková cena objednávky bez DPH (v&nbsp;měně, ve které byla objednávka "
+"vytvořena)."
+msgstr ""
+
+#: ../lib/MwVariables.php:170
+msgid ""
+"Celková cena objednávky bez ceny za dopravu a platbu (v&nbsp;měně, ve které "
+"byla objednávka vytvořena)."
+msgstr ""
+
+#: ../lib/MwVariables.php:175
+msgid ""
+"Celková cena objednávky bez ceny za dopravu a platbu bez DPH (v&nbsp;měně, "
+"ve které byla objednávka vytvořena)."
+msgstr ""
+
+#: ../lib/MwVariables.php:180
+msgid "Měna objednávky (např. CZK)"
+msgstr ""
+
+#: ../lib/MwVariables.php:185
+msgid "Symbol měny (např. Kč)"
+msgstr ""
+
+#: ../lib/MwVariables.php:190
+msgid "Celková cena objednávky v&nbsp;nativní měně eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:195
+msgid "Celková cena objednávky bez DPH v&nbsp;nativní měně eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:200
+msgid ""
+"Celková cena objednávky bez ceny za dopravu a platbu v&nbsp;nativní měně "
+"eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:205
+msgid ""
+"Celková cena objednávky bez ceny za dopravu a platbu bez DPH v&nbsp;nativní "
+"měně eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:210 ../lib/MwVariables.php:215
+msgid "Nativní měna"
+msgstr ""
+
+#: ../lib/MwVariables.php:220
+msgid "Tabulka se seznamem objednaných produktů a&nbsp;celkovou cenou."
+msgstr ""
+
+#: ../lib/MwVariables.php:225
+msgid ""
+"Seznam objednaných produktů ve formátů vhodném pro konverzní kód Google "
+"Analytics."
+msgstr ""
+
+#: ../lib/MwVariables.php:230
+msgid "Slevový kód použitý v&nbsp;objednávce."
+msgstr ""
+
+#: ../lib/MwVariables.php:235
+msgid "Fakturační adresa."
+msgstr ""
+
+#: ../lib/MwVariables.php:240
+msgid "Kontaktní údaje na zákazníka získané z&nbsp;fakturačních údajů."
+msgstr ""
+
+#: ../lib/MwVariables.php:245
+msgid "Doručovací adresa."
+msgstr ""
+
+#: ../lib/MwVariables.php:250
+msgid "Kontaktní údaje na zákazníka získané z&nbsp;doručovacích údajů."
+msgstr ""
+
+#: ../lib/MwVariables.php:255
+msgid ""
+"Způsob platby, který si klient zvolil. Pokud je jako způsob platby zvolen "
+"nějaký druh online platby a objednávka není zaplacena tak se vypíše i odkaz "
+"na zaplacení online. Pokud je zvolen způsob platby bankovním převodem, "
+"vypíšou se taky údaje potřebné pro platbu převodem."
+msgstr ""
+
+#: ../lib/MwVariables.php:260
+msgid ""
+"Způsob doručení, který si klient zvolil. Pokud je zvolen způsob doručení na "
+"výdejní místo zásilkovny, vypíše se také adresa zvoleného výdejního místa."
+msgstr ""
+
+#: ../lib/MwVariables.php:265
+msgid "Cena dopravy."
+msgstr ""
+
+#: ../lib/MwVariables.php:270
+msgid "Cena dopravy bez DPH."
+msgstr ""
+
+#: ../lib/MwVariables.php:275
+msgid "Číslo účtu pro měnu objednávky."
+msgstr ""
+
+#: ../lib/MwVariables.php:280
+msgid ""
+"Informace potřebné při platbě převodem na účet. Obsahuje číslo účtu (IBAN "
+"a&nbsp;SWIFT), variabilní symbol a&nbsp;částku k&nbsp;zaplacení."
+msgstr ""
+
+#: ../lib/MwVariables.php:285
+msgid ""
+"Informace potřebné při platbě převodem na účet, které se vypíšou jen v&nbsp;"
+"případě, že si zákazník tento způsob platby vybral. Jinak se nevypíše nic."
+msgstr ""
+
+#: ../lib/MwVariables.php:290
+msgid "Odkaz na zaplacení online."
+msgstr ""
+
+#: ../lib/MwVariables.php:295
+msgid "Poznámka uživatele."
+msgstr ""
+
+#: ../lib/MwVariables.php:300
+#| msgid "E-mailová adresa"
+msgid "E-mailová adresa eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:305
+#| msgid "Licenční číslo je platné."
+msgid "Telefonní číslo eshopu."
+msgstr ""
+
+#: ../lib/MwVariables.php:310
+msgid "Název webu."
+msgstr ""
+
+#: ../lib/MwVariables.php:315
+msgid "URL adresa webu."
+msgstr ""
+
+#: ../lib/MwVariables.php:320
+msgid "ID výdejního místa zásilkovny."
+msgstr ""
+
+#: ../lib/MwVariables.php:339
+msgid "Seznam proměnných"
+msgstr ""
+
+#: ../lib/MwVariables.php:341
+msgid "Seznam proměnných pro konverzní kódy"
+msgstr ""
+
+#: ../lib/PluginCompatibilityChecker.php:24
+#, php-format
+msgid ""
+"Plugin <strong>%s</strong> je nekompatibilní s Miowebem a nemůže být "
+"aktivován."
+msgstr ""
+
+#: ../lib/cookie_management/MwCookieManagement.php:120
+#: ../lib/cookie_management/MwCookieManagement.php:159
+msgid "Více informací"
+msgstr "Weitere informationen"
+
+#: ../lib/cookie_management/MwCookieManagement.php:126
+msgid "Nastavení cookies"
+msgstr "Cookie-Einstellungen"
+
+#: ../lib/cookie_management/MwCookieManagement.php:166
+msgid "Jednotlivé souhlasy"
+msgstr "Einzelne zustimmungen"
+
+#: ../lib/cookie_management/MwCookieManagement.php:230
+#| msgid "Nastavení"
+msgid "Uložit nastavení"
+msgstr "Einstellungen speichern"
+
+#: ../lib/cookie_management/MwCookieManagement.php:251
+msgid "Přehráním videa souhlasíte se zásadami ochrany osobních údajů YouTube."
+msgstr ""
+
+#: ../lib/cookie_management/MwCookieManagement.php:252
+msgid "Zjistit více"
+msgstr ""
+
+#: ../lib/cookie_management/MwCookieManagement.php:253
+msgid "Povolit video"
+msgstr ""
+
+#: ../lib/cookie_management/MwCookieManagement.php:254
+msgid "Vždy povolit Youtube videa"
+msgstr ""
+
+#: ../lib/cookie_management/mwSettingPageServiceScriptBlocker.php:34
+msgid "Nepodařilo se vytvořit soubor <i>"
+msgstr ""
+
+#: ../lib/field_types.php:48
+msgid ""
+"Následující proměnné budou ve faktuře nahrazeny skutečnými daty konkrétní "
+"objednávky. Můžete tak do poznámek vložit veškeré potřebné informace o "
+"konkrétní objednávce."
+msgstr ""
+
+#: ../lib/field_types.php:364 ../lib/field_types.php:409
+msgid "Otevřít v novém okně"
+msgstr "In neuem Fenster öffnen"
+
+#: ../lib/field_types.php:406
+#| msgid "Zadejte URL včetně http://"
+msgid "Zadejte URL včetně http:// nebo https://"
+msgstr ""
+
+#: ../lib/field_types.php:422
+msgid "Zadat vlastní URL"
+msgstr "Benutzerdefinierte URL eingeben"
+
+#: ../lib/field_types.php:436
+msgid "Náhled URL"
+msgstr ""
+
+#: ../lib/field_types.php:707
+#| msgid "Barva ikony"
+msgid "Barva icony"
+msgstr ""
+
+#: ../lib/field_types.php:714
+msgid "Velikost ikony"
+msgstr "Symbol Größe "
+
+#: ../lib/field_types.php:741
+msgid "Nahrát obrázek"
+msgstr "Bild hochladen"
+
+#: ../lib/field_types.php:742
+#| msgid "Použít vzorek"
+msgid "Použít iconu"
+msgstr ""
+
+#: ../lib/field_types.php:827
+msgid "Použít vzorek"
+msgstr "Muster verwenden"
+
+#: ../lib/field_types.php:941
+#| msgid "Skrýt na mobilních zařízeních"
+msgid "Skrýt na mobilu"
+msgstr ""
+
+#: ../lib/field_types.php:959
+msgid "Přizpůsobit obrazovce"
+msgstr ""
+
+#: ../lib/field_types.php:973
+msgid "Použít barevný filtr"
+msgstr ""
+
+#: ../lib/field_types.php:991
+#| msgid "Žádný"
+msgid "Efekt: žádný"
+msgstr ""
+
+#: ../lib/field_types.php:995
+msgid "Efekt: fixní"
+msgstr ""
+
+#: ../lib/field_types.php:1000
+msgid "Efekt: parallax"
+msgstr ""
+
+#: ../lib/field_types.php:1030
+msgid "Neopakovat"
+msgstr "Nicht wiederholen"
+
+#: ../lib/field_types.php:1034
+msgid "Opakovat všemi směry"
+msgstr "In alle Richtungen wiederholen"
+
+#: ../lib/field_types.php:1038
+msgid "Opakovat po ose X"
+msgstr "Auf X-Achse wiederholen"
+
+#: ../lib/field_types.php:1042
+msgid "Opakovat po ose Y"
+msgstr "Auf Y-Achse wiederholen"
+
+#: ../lib/field_types.php:1062
+#| msgid "Velikost stínu"
+msgid "Velikost pozadí"
+msgstr ""
+
+#: ../lib/field_types.php:1062 ../lib/field_types.php:1068
+#: ../lib/field_types.php:1073
+msgid "Auto"
+msgstr ""
+
+#: ../lib/field_types.php:1068
+#| msgid "Velikost stínu"
+msgid "Velikost pozadí na tabletu"
+msgstr ""
+
+#: ../lib/field_types.php:1073
+#| msgid "Velikost stínu"
+msgid "Velikost pozadí na mobilu"
+msgstr ""
+
+#: ../lib/field_types.php:1200
+msgid "Přidat obrázky"
+msgstr "Bilder einfügen"
+
+#: ../lib/field_types.php:1225
+#| msgid "Nahrát obrázek"
+msgid "Nahrát soubor"
+msgstr ""
+
+#: ../lib/field_types.php:1252
+msgid "Bez menu"
+msgstr "Ohne Menü"
+
+#: ../lib/field_types.php:1260 ../lib/field_types.php:1261
+msgid "Upravit menu"
+msgstr "Menü bearbeiten"
+
+#: ../lib/field_types.php:1266
+msgid "Smazat menu"
+msgstr "Menü löschen"
+
+#: ../lib/field_types.php:1273 ../lib/field_types.php:1275
+msgid "Vytvořit nové menu"
+msgstr "Neues Menü erstellen"
+
+#: ../lib/field_types.php:1368
+msgid "Barevný přechod"
+msgstr ""
+
+#: ../lib/field_types.php:1482 ../lib/field_types.php:1867
+msgid "Vlevo"
+msgstr "Links"
+
+#: ../lib/field_types.php:1483 ../lib/field_types.php:1868
+msgid "Vpravo"
+msgstr "Rechts"
+
+#: ../lib/field_types.php:1496
+msgid "Horizontální posunutí"
+msgstr "Horizontale Verschiebung"
+
+#: ../lib/field_types.php:1497
+msgid "Vertikální posunutí"
+msgstr "Vertikale Verschiebung"
+
+#: ../lib/field_types.php:1498
+msgid "Velikost stínu"
+msgstr "Schattengröße"
+
+#: ../lib/field_types.php:1501
+msgid "Průhlednost stínu"
+msgstr "Schattentransparenz"
+
+#: ../lib/field_types.php:1643 ../lib/field_types.php:1680
+#: ../lib/field_types.php:1703
+msgid "Normal"
+msgstr "Normal"
+
+#: ../lib/field_types.php:1643 ../lib/field_types.php:1680
+#: ../lib/field_types.php:1703
+msgid "Bold"
+msgstr "Fett"
+
+#: ../lib/field_types.php:1676
+msgid "Naposledy používané fonty"
+msgstr "Zuletzt verwendete Schriftarten"
+
+#: ../lib/field_types.php:1699
+msgid "Základní fonty"
+msgstr "Standard-Fonts"
+
+#: ../lib/field_types.php:1717
+#| msgid "Google fonty"
+msgid "Vlastní google fonty"
+msgstr ""
+
+#: ../lib/field_types.php:1731
+msgid "Google fonty"
+msgstr "Google Fonts"
+
+#: ../lib/field_types.php:1776 ../lib/field_types.php:1914
+msgid "Použít font nadpisu"
+msgstr ""
+
+#: ../lib/field_types.php:1777 ../lib/field_types.php:1917
+msgid "Použít font podnadpisu"
+msgstr ""
+
+#: ../lib/field_types.php:1778 ../lib/field_types.php:1920
+#| msgid "Použít vzorek"
+msgid "Použít font textu"
+msgstr ""
+
+#: ../lib/field_types.php:1788 ../lib/field_types.php:2083
+msgid "Velikost"
+msgstr "Größe"
+
+#: ../lib/field_types.php:1841 ../lib/field_types.php:2104
+#: ../lib/field_types.php:2170
+msgid "Barva"
+msgstr "Farbe"
+
+#: ../lib/field_types.php:1850
+#| msgid "Velikost řádků"
+msgid "Výška řádků"
+msgstr ""
+
+#: ../lib/field_types.php:1857
+msgid "Mezery"
+msgstr ""
+
+#: ../lib/field_types.php:1864
+msgid "Zarovnání"
+msgstr "Ausrichtung"
+
+#: ../lib/field_types.php:1866
+msgid "Na střed"
+msgstr "Zentriert"
+
+#: ../lib/field_types.php:1875 ../lib/field_types.php:2237
+msgid "Stín"
+msgstr "Schatten"
+
+#: ../lib/field_types.php:1877
+msgid "Žádný"
+msgstr "Ohne"
+
+#: ../lib/field_types.php:1878
+msgid "Tmavý"
+msgstr "Dunkel"
+
+#: ../lib/field_types.php:1879
+msgid "Světlý"
+msgstr "Hell"
+
+#: ../lib/field_types.php:1888
+msgid "Velká písmena"
+msgstr ""
+
+#: ../lib/field_types.php:1979
+msgid "Zapnout autoplay"
+msgstr ""
+
+#: ../lib/field_types.php:1983
+msgid "Skrýt navigaci"
+msgstr ""
+
+#: ../lib/field_types.php:1989
+msgid "Barevné schéma"
+msgstr ""
+
+#: ../lib/field_types.php:1992
+msgid "Automaticky"
+msgstr ""
+
+#: ../lib/field_types.php:2111
+msgid "Převrátit"
+msgstr ""
+
+#: ../lib/field_types.php:2149
+msgid "Tloušťka čáry"
+msgstr "Strichstärke"
+
+#: ../lib/field_types.php:2155
+#| msgid "Plná čára"
+msgid "Styl čáry"
+msgstr ""
+
+#: ../lib/field_types.php:2157
+msgid "Plná"
+msgstr ""
+
+#: ../lib/field_types.php:2158
+#| msgid "Čárkovaná čára"
+msgid "Čárkovaná"
+msgstr ""
+
+#: ../lib/field_types.php:2159
+#| msgid "Tečkovaná čára"
+msgid "Tečkovaná"
+msgstr ""
+
+#: ../lib/field_types.php:2213
+msgid "Zakulacení rohů"
+msgstr "Abgerundete Ecken"
+
+#: ../lib/field_types.php:2218
+msgid "Ostré"
+msgstr ""
+
+#: ../lib/field_types.php:2222
+#| msgid "Zakulacení rohů"
+msgid "Zakulacené"
+msgstr ""
+
+#: ../lib/field_types.php:2226
+msgid "Kulaté"
+msgstr ""
+
+#: ../lib/field_types.php:2239
+#| msgid "Bez menu"
+msgid "Bez stínu"
+msgstr ""
+
+#: ../lib/field_types.php:2240
+msgid "Malý stín"
+msgstr ""
+
+#: ../lib/field_types.php:2241
+#| msgid "Základní nastavení"
+msgid "Základní stín"
+msgstr ""
+
+#: ../lib/field_types.php:2242
+msgid "Větší stín"
+msgstr ""
+
+#: ../lib/field_types.php:2243
+#| msgid "SEO úvodní stránky"
+msgid "Spodní stín"
+msgstr ""
+
+#: ../lib/field_types.php:2244
+msgid "Stín vpravo dole"
+msgstr ""
+
+#: ../lib/field_types.php:2274
+#| msgid "Styl ohraničení"
+msgid "Ohraničení"
+msgstr ""
+
+#: ../lib/field_types.php:2364
+msgid "Text tlačítka"
+msgstr "Button Text"
+
+#: ../lib/field_types.php:2378
+#| msgid "Pozadí tlačítka"
+msgid "Vlastní tlačítko"
+msgstr ""
+
+#: ../lib/field_types.php:2397
+#| msgid "Text tlačítka"
+msgid "Velikost tlačítka"
+msgstr ""
+
+#: ../lib/field_types.php:2401
+msgid "Malé"
+msgstr ""
+
+#: ../lib/field_types.php:2402
+#| msgid "středa"
+msgid "Střední"
+msgstr ""
+
+#: ../lib/field_types.php:2403
+msgid "Velké"
+msgstr ""
+
+#: ../lib/field_types.php:2407
+#| msgid "Vlastní kódy"
+msgid "Vlastní"
+msgstr ""
+
+#: ../lib/field_types.php:2428
+#| msgid "Základní nastavení"
+msgid "Základní vzhled"
+msgstr ""
+
+#: ../lib/field_types.php:2430
+#| msgid "Konverzní kód"
+msgid "Inverzní vzhled"
+msgstr ""
+
+#: ../lib/field_types.php:2432
+#| msgid "Vlastní kódy"
+msgid "Vlastní vzhled"
+msgstr ""
+
+#: ../lib/field_types.php:2494
+msgid "Adresa"
+msgstr ""
+
+#: ../lib/field_types.php:2497
+#| msgid "Zadejte adresu, ze které chcete, aby byly e-maily posílány."
+msgid "Zadejte adresu, kterou chcete na mapě vyznačit."
+msgstr ""
+
+#: ../lib/field_types.php:2500
+msgid "Zoom mapy"
+msgstr ""
+
+#: ../lib/field_types.php:2523
+#| msgid "Administrator ID"
+msgid "Administrace akci"
+msgstr ""
+
+#: ../lib/field_types.php:2550
+msgid "Již proběhlé akce"
+msgstr ""
+
+#: ../lib/field_types.php:2570
+msgid ""
+"Nejsou vytvořené žádné akce. Správa seznamu akcí se nachází v administraci "
+"wordpressu."
+msgstr ""
+
+#: ../lib/field_types.php:2582
+msgid "Zadejte email"
+msgstr ""
+
+#: ../lib/field_types.php:2584
+msgid "Odeslat testovací email"
+msgstr ""
+
+#: ../lib/field_types.php:2617
+msgid "Stav spojení"
+msgstr ""
+
+#: ../lib/field_types.php:2621
+msgid "Chyba"
+msgstr ""
+
+#: ../lib/field_types.php:2676
+#| msgid "Vytvořit nové menu"
+msgid "Vytvořit A/B test"
+msgstr ""
+
+#: ../lib/field_types.php:2832
+msgid "Povolit odesílání tohoto e-mailu z Miowebu"
+msgstr ""
+
+#: ../lib/field_types.php:2833
+msgid ""
+"E-mail s oznámením o přijetí objednávky je standardně odesílán z FAPI, ale v "
+"některých případech nemusí obsahovat kompletní informace, které doplňuje e-"
+"mail z Miowebu (například informace o doručení pomocí Zásilkovny). V "
+"případě, že povolíte odesílání e-mailu z Miowebu, obdrží zákazník dva e-"
+"maily. Pokud odesílání zakážete, obdrží zákazník pouze jeden e-mail z FAPI."
+msgstr ""
+
+#: ../lib/field_types.php:2837
+msgid "Předmět"
+msgstr ""
+
+#: ../lib/field_types.php:2844
+msgid "Obsah emailu"
+msgstr ""
+
+#: ../lib/field_types.php:2872
+msgid ""
+"Následující proměnné budou v e-mailu nahrazeny skutečnými daty konkrétní "
+"objednávky. Můžete tak do e-mailu vložit veškeré potřebné informace o "
+"konkrétní objednávce."
+msgstr ""
+
+#: ../lib/field_types.php:2879
+msgid "Obnovit výchozí"
+msgstr ""
+
+#: ../lib/field_types.php:2881
+msgid "Obnoví texty e-mailů do výchozích přednastavených hodnot"
+msgstr ""
+
+#: ../lib/field_types.php:2923
+#| msgid "Vytvořit nové menu"
+msgid "Nastavit nové heslo"
+msgstr ""
+
+#: ../lib/field_types.php:2939
+msgid "Skrýt heslo"
+msgstr ""
+
+#: ../lib/field_types.php:2943
+msgid "Generovat heslo"
+msgstr ""
+
+#: ../lib/field_types.php:2948
+msgid "Zrušit"
+msgstr ""
+
+#: ../lib/field_types.php:2954
+#| msgid "Nezabezpečené"
+msgid "Bezpečné"
+msgstr ""
+
+#: ../lib/functions.php:646
+msgid "Licenční číslo je platné."
+msgstr "Die Lizenznummer ist gültig."
+
+#: ../lib/functions.php:651
+msgid "Neplatné licenční číslo."
+msgstr "Lizenznummer ungültig."
+
+#: ../lib/functions.php:655
+#| msgid ""
+#| "Platnost této zkušební licence již vypršela. Pokud se vám šablona líbí a "
+#| "chcete v tvorbě webu pokračovat, <strong><a target=\\\"_blank\\\" href=\\"
+#| "\"http://www.mioweb.cz/objednavka/\\\">kupte si plnou verzi MioWeb "
+#| "šablony zde.</a></strong>."
+msgid ""
+"Platnost této zkušební licence již vypršela. Pokud se vám šablona líbí a "
+"chcete v tvorbě webu pokračovat, <strong><a target=\\\"_blank\\\" href=\\"
+"\"https://www.mioweb.cz/objednavka/\\\">kupte si plnou verzi Mioweb šablony "
+"zde.</a></strong>."
+msgstr ""
+
+#: ../lib/functions.php:659
+#| msgid ""
+#| "Neplatné licenční číslo. Zadané licenční číslo je již rezervováno pro "
+#| "jinou doménu. Zkuste zadat jiné. Nebo toto licenční číslo uvolněte pro "
+#| "tuto doménu."
+msgid ""
+"Zadané licenční číslo je již rezervováno pro jinou doménu. Zkuste zadat jiné "
+"nebo toto licenční číslo uvolněte."
+msgstr ""
+
+#: ../lib/functions.php:663
+msgid "Pro tuto doménu je již aktivovaná jiná licence. Prosím uvolněte ji."
+msgstr ""
+
+#: ../lib/functions.php:667
+msgid "Neplatný klíč pro tento hosting."
+msgstr ""
+
+#: ../lib/functions.php:671
+msgid ""
+"Licenční číslo není platné. K aktivaci webu je potřeba použít licenční číslo "
+"jedné z vašich doživotních licencí. Zakoupené doživotní licence naleznete ve "
+"<a href=\"https://mujucet.mioweb.cz/licenses\" target=\"_blank\">Vašem "
+"zákaznickém účtu Miowebu</a>."
+msgstr ""
+
+#: ../lib/functions.php:675
+msgid ""
+"Hosting pro toto licenční číslo byl již smazán. Licenční číslo je neplatné."
+msgstr ""
+
+#: ../lib/functions.php:679
+msgid "Pro tento hosting je už nastavena jiná doživotní licence."
+msgstr ""
+
+#: ../lib/functions.php:683
+msgid ""
+"Nedaří se spojit s licenčním serverem. Pravděpodobně došlo k jeho dočasnému "
+"výpadku. Zkuste se, prosím, přihlásit později. Webové stránky fungují pro "
+"vaše návštěvníky samozřejmě dále."
+msgstr ""
+"Kann nicht mit dem Lizenzserver verbunden werden. Wahrscheinlich handelt es "
+"sich um einen vorübergehenden Ausfall. Versuchen Sie, sich bitte später "
+"einzuloggen. Die Website funktioniert natürlich weiterhin für Ihre Besucher."
+
+#: ../lib/functions.php:687
+msgid "Nastala neznámá chyba:"
+msgstr "Ein unbekannter Fehler ist aufgetreten:"
+
+#: ../lib/hosting.php:119
+#| msgid "Nyní"
+msgid "dní"
+msgstr ""
+
+#: ../lib/hosting.php:121
+msgid "dny"
+msgstr ""
+
+#: ../lib/hosting.php:123
+#| msgid "leden"
+msgid "den"
+msgstr ""
+
+#: ../lib/hosting.php:138
+msgid "Zkušební verze končí za"
+msgstr ""
+
+#: ../lib/hosting.php:143
+msgid "Předplacené období končí za"
+msgstr ""
+
+#: ../lib/hosting.php:145 ../lib/hosting.php:167
+msgid "Prodloužit"
+msgstr ""
+
+#: ../lib/hosting.php:148
+msgid "Dnes končí předplacené období. Prodloužit"
+msgstr ""
+
+#: ../lib/hosting.php:165
+msgid "Platnost hostingu končí za"
+msgstr ""
+
+#: ../lib/hosting.php:170
+msgid "Dnes končí platnost hostingu. Prodloužit"
+msgstr ""
+
+#: ../lib/hosting.php:190
+msgid "Informace o nové verzi Miowebu"
+msgstr ""
+
+#: ../lib/hosting.php:190
+msgid "Nová verze"
+msgstr ""
+
+#: ../lib/hosting.php:203
+msgid "Máme pro vás"
+msgstr ""
+
+#: ../lib/hosting.php:204
+msgid "Novou verzi Miowebu"
+msgstr ""
+
+#: ../lib/hosting.php:206
+msgid ""
+"Aktualizaci nelze provést. Vypršelo obodobí, po které byly aktualizace a "
+"podpora k dispozici.<br />Aby bylo možné aktualizace stáhnout, je potřeba "
+"toto období prodloužit."
+msgstr ""
+
+#: ../lib/hosting.php:208
+msgid "Prodloužit podporu a aktualizace o rok"
+msgstr ""
+
+#: ../lib/hosting.php:210
+msgid ""
+"Po kliknutí na tlačítko níže se dostanete na stránku s aktualizacemi. Ve "
+"spodní části stránky v seznamu šablon zaškrtněte Mioweb 3.0 a klikněte na "
+"tlačítko „Aktualizovat šablony“."
+msgstr ""
+
+#: ../lib/hosting.php:212
+#| msgid "Provést aktualizaci"
+msgid "Přejít k aktualizaci"
+msgstr ""
+
+#: ../lib/hosting.php:219 ../lib/hosting.php:228
+msgid "Vydáno"
+msgstr ""
+
+#: ../lib/hosting.php:246
+msgid "Můj účet"
+msgstr ""
+
+#: ../lib/hosting.php:249
+msgid "Platnost webu vypršela a jeho<br>editace byla zablokována"
+msgstr ""
+
+#: ../lib/hosting.php:252
+msgid "Pro opětovnou funkčnost prodlužte předplatné svého webhostingu."
+msgstr ""
+
+#: ../lib/hosting.php:253 ../lib/hosting.php:258
+#, php-format
+msgid ""
+"Ve svém <a href=\"%s\">zákaznickém účtu</a> najdete fakturu, kterou stačí "
+"jednoduše uhradit a jedeme dále. Jestliže fakturu nemáte, napište nám na <a "
+"href=\"mailto:fakturace@mioweb.cz\">fakturace@mioweb.cz</a> a vše vyřešíme."
+msgstr ""
+
+#: ../lib/hosting.php:254
+msgid ""
+"Pokud tento web nepotřebujete a webhosting neprodloužíte, bude jeho provoz "
+"během několika dnů trvale ukončen."
+msgstr ""
+
+#: ../lib/hosting.php:255
+msgid "PRODLOUŽIT WEBHOSTING"
+msgstr ""
+
+#: ../lib/hosting.php:257
+msgid "Pro opětovnou funkčnost prodlužte předplatné Mioweb tarifu."
+msgstr ""
+
+#: ../lib/hosting.php:259
+msgid ""
+"Pokud tento web nepotřebujete a tarif neprodloužíte, bude jeho provoz během "
+"několika dnů trvale ukončen."
+msgstr ""
+
+#: ../lib/hosting.php:260
+msgid "PRODLOUŽIT PŘEDPLATNÉ"
+msgstr ""
+
+#: ../lib/update.php:93
+#, php-format
+msgid "K dispozici je nová verze <strong>Mioweb šablony %s</strong>."
+msgstr ""
+
+#: ../lib/update.php:94
+msgid "Doporučujeme"
+msgstr "Wird empfohlen"
+
+#: ../lib/update.php:95
+msgid "Provést aktualizaci"
+msgstr "Update durchführen"
+
+#: ../main_class.php:246
+msgid ""
+"SMTP není nastaveno. Před odesláním testovacího e-mailu nezapomeňte "
+"nastavení uložit."
+msgstr ""
+
+#: ../main_class.php:248
+msgid ""
+"SMTP host není vyplněn. Před odesláním testovacího e-mailu nezapomeňte "
+"nastavení uložit."
+msgstr ""
+
+#: ../main_class.php:250
+msgid ""
+"E-mailová adresa pro odesílání e-mailů není vyplněna. Před odesláním "
+"testovacího e-mailu nezapomeňte nastavení uložit."
+msgstr ""
+
+#: ../main_class.php:252
+msgid ""
+"Nesprávně nastavená adresa pro odesílání e-mailů. Před odesláním testovacího "
+"e-mailu nezapomeňte nastavení uložit."
+msgstr ""
+
+#: ../main_class.php:254
+msgid "Vyplněná adresa příjemce není platná."
+msgstr ""
+
+#: ../main_class.php:260
+msgid ""
+"Toto je testovací email, zaslaný pro ověření funkčnosti nastavení SMTP. "
+"Pokud email dorazi, tak máte vše nastaveno v pořádku."
+msgstr ""
+
+#: ../main_class.php:263
+msgid "Zpráva byla úspěšně odeslána."
+msgstr ""
+
+#: ../main_class.php:274
+msgid "Zpráva se nepodařila odeslat."
+msgstr ""
+
+#: ../main_class.php:278
+msgid "Není vyplněna adresa na kterou se má testovací zpráva odeslat."
+msgstr ""
+
+#: ../main_class.php:589
+msgid "Vytvořit nový sidebar"
+msgstr "Neue Seitenleiste erstellen"
+
+#: ../main_class.php:593
+msgid "Musíte vyplnit název sidebaru."
+msgstr "Die Bezeichnung der Seitenleiste muss angegeben werden."
+
+#: ../main_class.php:594
+msgid "Sidebar nebyl vytvořen, nepodařilo se ověřit oprávnění akce."
+msgstr ""
+"Die Seitenleiste wurde nicht erstellt, die Genehmigung der Aktion konnte "
+"nicht überprüft werden."
+
+#: ../main_class.php:595
+msgid "Sidebar s tímto názvem již existuje. Zkuste jiný název."
+msgstr ""
+"Eine Seitenleiste mit dieser Bezeichnung ist bereits vorhanden. Versuchen "
+"Sie eine andere Bezeichnung."
+
+#: ../main_class.php:600
+msgid "Sidebar byl vytvořen."
+msgstr "Seitenleiste wurde erstellt."
+
+#: ../main_class.php:604
+msgid "Název nového sidebaru"
+msgstr "Bezeichnung der neuen Seitenleiste"
+
+#: ../main_class.php:608
+msgid "Vytvořit sidebar"
+msgstr "Seitenleiste erstellen"
+
+#: ../main_class.php:613
+msgid "Opravdu chcete tento sidebar smazat?"
+msgstr "Wollen Sie diese Seitenleiste wirklich löschen?"
+
+#~ msgid ""
+#~ "Opravdu chcete zavřít editor? Vaše poslední úpravy nejsou uloženy a mohou "
+#~ "být ztraceny."
+#~ msgstr ""
+#~ "Wollen Sie den Editor wirklich schließen? Ihre bisherigen Änderungen "
+#~ "werden nicht gespeichert und können verloren gehen."
+
+#~ msgid ""
+#~ "Nejdříve je nutné propojit tento systém s MioWebem. Zadejte, prosím, "
+#~ "údaje pro přístup do API."
+#~ msgstr ""
+#~ "Zuerst ist es erforderlich, dieses System mit MioWeb zu verbinden. Bitte "
+#~ "geben Sie Informationen ein, um auf die API zuzugreifen."
+
+#~ msgid ""
+#~ "Nepodařilo se přihlásit. Zkontrolujte, zda jste zadali přihlašovací údaje "
+#~ "správně."
+#~ msgstr ""
+#~ "Konnte nicht angemeldet werden. Achten Sie darauf, dass die richtigen "
+#~ "Anmeldeinformationen eingegeben wurden."
+
+#~ msgid "Uložit přístupy"
+#~ msgstr "Zugriff speichern"
+
+#~ msgid "Získat seznamy z"
+#~ msgstr "Listen laden von"
+
+#~ msgid ""
+#~ "Pro vypsání seznamu formulářů jen nutné níže zadat vaše přihlašovací "
+#~ "údaje do FAPI. Tuto akci provedete pouze jednou."
+#~ msgstr ""
+#~ "Für die Auflistung der Formularliste, müssen Sie Ihre Anmeldedaten in "
+#~ "FAPI eingeben. Diese Aktion führen Sie nur einmal durch."
+
+#~ msgid ""
+#~ "Nepodařilo se přihlásit do FAPI. Zkontrolujte, zda jste zadali "
+#~ "přihlašovací údaje správně."
+#~ msgstr ""
+#~ "Konnte nicht bei FAPI angemeldet werden. Achten Sie darauf, dass die "
+#~ "richtigen Anmeldeinformationen eingegeben wurden."
+
+#~ msgid "Meta Title"
+#~ msgstr "Meta Title"
+
+#~ msgid "Meta Description"
+#~ msgstr "Meta Description"
+
+#~ msgid "Meta Keywords"
+#~ msgstr "Meta Keywords"
+
+#~ msgid "Meta Robots"
+#~ msgstr "Meta Robots"
+
+#~ msgid "<code>nofollow</code> pro tuto stránku"
+#~ msgstr "<code>nofollow</code> für diese Seite"
+
+#~ msgid ""
+#~ "Pomocí meta tagu <code>og:image</code> můžete Facebooku přikázat, jaký "
+#~ "obrázek má použít při sdílení této stránky."
+#~ msgstr ""
+#~ "Mit dem Meta-Tag <code>og: image</code> können Sie Facebook anweisen, "
+#~ "welches Bild verwenden wird, wenn die Seite geteilt wird."
+
+#~ msgid ""
+#~ "Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/"
+#~ "head&gt;</code> a které chcete, aby byly platné pouze pro tuto stránku."
+#~ msgstr ""
+#~ "Hier können Sie Codes eingeben, die vor dem  <code>&lt;/head&gt;</code>-"
+#~ "Tag gestellt werden müssen und die nur für diese Seite gültig sein sollen."
+
+#~ msgid ""
+#~ "Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/"
+#~ "body&gt;</code> a které chcete, aby byly platné pouze pro tuto stránku."
+#~ msgstr ""
+#~ "Hier können Sie Codes eingeben, die vor dem  <code>&lt;/body&gt;</code>-"
+#~ "Tag gestellt werden müssen und die nur für diese Seite gültig sein sollen."
+
+#~ msgid "Vlastní CSS styly"
+#~ msgstr "Benutzerdefinierte CSS-Stile"
+
+#~ msgid "Základní nastavení webu"
+#~ msgstr "Grundeinstellungen der Website"
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#~ msgid "Nahrajte ikonu ve formátu .png, ideálně ve velikosti 16 ×16 px."
+#~ msgstr ""
+#~ "Laden Sie das Symbol im PNG-Format hoch, die ideale Größe beträgt 16 x 16 "
+#~ "Pixel."
+
+#~ msgid "Google Analytics kód"
+#~ msgstr "Google Analytics Code"
+
+#~ msgid ""
+#~ "Vložením Google Analytics měřicího kódu na vaše stránky získáte podrobné "
+#~ "statistiky návštěvnosti."
+#~ msgstr ""
+#~ "Fügen Sie den Google Analytics-Tracking-Code auf Ihrer Website ein, um "
+#~ "detaillierte Besucherstatistiken zu erhalten."
+
+#~ msgid "Skripty v hlavičce"
+#~ msgstr "Scripts in der Kopfzeile"
+
+#~ msgid ""
+#~ "Zde vložte všechny kódy, které se mají vypisovat v hlavičce webu před "
+#~ "tagem <code>&lt;/head&gt;</code>. Tyto kódy se budou vypisovat na všech "
+#~ "stránkách webu."
+#~ msgstr ""
+#~ "Geben Sie hier alle Codes ein, die in der Kopfzeile der Website vor dem "
+#~ "<code>&lt;/head&gt;</code>-Tag abgerufen werden sollen. Diese Codes "
+#~ "werden auf allen Seiten der Website abgerufen."
+
+#~ msgid "Skripty v patičce"
+#~ msgstr "Scripts in der Fußzeile"
+
+#~ msgid ""
+#~ "Zde vložte všechny kódy, které se mají vypisovat v patičce webu před "
+#~ "tagem <code>&lt;/body&gt;</code>. Tyto kódy se budou vypisovat na všech "
+#~ "stránkách webu."
+#~ msgstr ""
+#~ "Geben Sie hier alle Codes ein, die in der Fußzeile der Website vor dem "
+#~ "<code>&lt;/body&gt;</code>-Tag abgerufen werden sollen. Diese Codes "
+#~ "werden auf allen Seiten der Website abgerufen."
+
+#~ msgid ""
+#~ "U samotného MioWebu není potřeba mít tuto možnost aktivní. MioWeb používá "
+#~ "cookie pouze v administraci webu a při A/B testování a do cookie neukládá "
+#~ "žádné osobní údaje. Některé skripty (například reklamy) nebo pluginy ale "
+#~ "mohou pracovat s osobními údaji v cookie a podle evropského práva je "
+#~ "nutné o tomto uživatele informovat."
+#~ msgstr ""
+#~ "Bei MioWeb selbst, müssen Sie diese Option nicht aktiviert haben. MioWeb "
+#~ "verwendet Cookies nur bei der Verwaltung der Website und bei A/B-Tests "
+#~ "und speichert keine persönlichen Informationen in Cookies. Einige Skripte "
+#~ "(wie Reklamen) oder Plug-Ins können aber mit persönlichen Daten in "
+#~ "Cookies arbeiten und nach europäischem Recht ist es notwendig, Benutzer "
+#~ "darüber zu informieren."
+
+#~ msgid "Informovat uživatele o používání cookie na tomto webu"
+#~ msgstr ""
+#~ "Benutzer über die Verwendung von Cookies auf dieser Website informieren "
+
+#~ msgid ""
+#~ "Při poskytování našich služeb nám pomáhají soubory cookie. Využíváním "
+#~ "našich služeb s jejich používáním souhlasíte."
+#~ msgstr ""
+#~ "Bei der Bereitstellung unserer Leistungen helfen uns Cookies. Durch die "
+#~ "Verwendung unseres Dienstes stimmen Sie deren Verwendung zu."
+
+#~ msgid "Rozumím"
+#~ msgstr "Verstanden"
+
+#~ msgid "URL stránky s podmínkami užití"
+#~ msgstr "URL der Seite mit den Nutzungsbedingungen"
+
+#~ msgid "SEO webu"
+#~ msgstr "SEO der Website"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "URL vašeho Google+ profilu"
+#~ msgstr "URL Ihres Google+ Profils"
+
+#~ msgid ""
+#~ "Zadejte URL adresu svého profilu na Google+. Po zadání se bude ve "
+#~ "výsledcích vyhledávání na Googlu zobrazovat zadaný profil jako autor webu."
+#~ msgstr ""
+#~ "Geben Sie die URL-Adresse Ihres Google+ Profils an. Nachdem diese "
+#~ "eingegeben wurde, wird in den Google-Suchergebnissen das angegebene "
+#~ "Profil als Autor der Website angezeigt."
+
+#~ msgid "SEO šablony"
+#~ msgstr "SEO Vorlagen"
+
+#~ msgid "Maximální doporučená délka pro titulek je 70 znaků."
+#~ msgstr "Die empfohlene maximale Länge für den Titel beträgt 70 Zeichen."
+
+#~ msgid ""
+#~ "Výchozí hodnota tagu <code>title</code> je „název webu | popis webu“. V "
+#~ "případě potřeby můžete obsah tagu <code>title</code> přepsat zde zadaným "
+#~ "textem."
+#~ msgstr ""
+#~ "Der Standardwert des Tags <code>title</code> ist „Name der Website | "
+#~ "Beschreibung der Website. „Bei Bedarf können Sie den Inhalt des Tags "
+#~ "<code>title</code> mit dem hier angegebenen Text überschreiben."
+
+#~ msgid "Meta Desription"
+#~ msgstr "Meta Desription"
+
+#~ msgid ""
+#~ "Meta tag <code>description</code> slouží pro krátký popis obsahu stránky. "
+#~ "Některé vyhledávače tento tag používají pro zobrazení popisku stránky ve "
+#~ "výsledku vyhledávání. Obsah by měl být tvořen souvislými větami s vhodně "
+#~ "zvolenými klíčovými slovy."
+#~ msgstr ""
+#~ "Der Meta-Tag <code>description</code> dient als eine kurze Beschreibung "
+#~ "des Seiteninhalts. Einige Suchmaschinen verwenden diesen Tag, um die "
+#~ "Beschreibung der Seite in den Suchergebnissen anzeigen zu können. Der "
+#~ "Inhalt sollte aus zusammenhängenden Sätzen mit ausgewählten Keywords "
+#~ "bestehen."
+
+#~ msgid "Ikona"
+#~ msgstr "Symbol"
+
+#~ msgid "Hover"
+#~ msgstr "Hover"
+
+#~ msgid "Barva ohraničení"
+#~ msgstr "Rahmenfarbe"
+
+#~ msgid "Tloušťka ohraničení"
+#~ msgstr "Rahmendicke"
+
+#~ msgid "Barva ikony po najetí myši"
+#~ msgstr "Symbolfarbe bei Hover"
+
+#~ msgid "Barva ohraničení po najetí myši"
+#~ msgstr "Rahmenfarbe bei Hover"
+
+#~ msgid "Umístit doprostřed"
+#~ msgstr "In die Mitte platzieren"
+
+#~ msgid "Umístit nahoru doleva"
+#~ msgstr "Oben links platzieren"
+
+#~ msgid "Umístit nahoru doprostřed"
+#~ msgstr "Oben in die Mitte platzieren"
+
+#~ msgid "Umístit nahoru doprava"
+#~ msgstr "Oben rechts platzieren"
+
+#~ msgid "Umístit doprostřed doleva"
+#~ msgstr "In die Mitte links platzieren"
+
+#~ msgid "Umístit doprostřed doprava"
+#~ msgstr "In die Mitte rechts platzieren"
+
+#~ msgid "Umístit dolů doleva"
+#~ msgstr "Unten links platzieren"
+
+#~ msgid "Umístit dolů doprostřed"
+#~ msgstr "Unten in die Mitte platzieren"
+
+#~ msgid "Umístit dolů doprava"
+#~ msgstr "Unten rechts platzieren"
+
+#~ msgid "Roztáhnout obrázek přes celou plochu"
+#~ msgstr "Bild über die gesamte Fläche strecken"
+
+#~ msgid "Fixní pozadí"
+#~ msgstr "Fixer Hintergrund"
+
+#~ msgid "Smazat pozadí"
+#~ msgstr "Hintergrund löschen"
+
+#~ msgid "Vložit soubor"
+#~ msgstr "Datei einfügen"
+
+#~ msgid "Počáteční barva pozadí"
+#~ msgstr "Anfangs-Hintergrundfarbe"
+
+#~ msgid "Koncová barva pozadí"
+#~ msgstr "End-Hintergrundfarbe"
+
+#~ msgid "Průhlednost pozadí"
+#~ msgstr "Hintergrundtransparenz"
+
+#~ msgid "Písmo"
+#~ msgstr "Schriftart"
+
+#~ msgid "Tloušťka"
+#~ msgstr "Stärke"
+
+#~ msgid "Změnit styl tlačítka"
+#~ msgstr "Button-Stil ändern"
+
+#~ msgid "Použít styl i nastavení naposledy vytvořeného tlačítka"
+#~ msgstr "Stil und Einstellung des zuletzt erstellten Buttons verwenden"
+
+#~ msgid "Font textu tlačítka"
+#~ msgstr "Schriftart des Textes auf dem Button"
+
+#~ msgid "Font podtextu tlačítka"
+#~ msgstr "Schriftart des Untertextes auf dem Button"
+
+#~ msgid "Výška"
+#~ msgstr "Höhe"
+
+#~ msgid "Pozadí po najetí myši"
+#~ msgstr "Hintergrund bei Hover"
+
+#~ msgid "Efekt po najetí myši"
+#~ msgstr "Hover-Effekt"
+
+#~ msgid "Zvětšení"
+#~ msgstr "Vergrößerung"
+
+#~ msgid "Barva písma po najetí myši"
+#~ msgstr "Schriftfarbe bei Hover"
+
+#~ msgid "Defaultní šablona"
+#~ msgstr "Standardvorlage"
+
+#~ msgid "ULOŽIT ZMĚNY"
+#~ msgstr "ÄNDERUNGEN SPEICHERN"
+
+#~ msgid "Uložit změny"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid ""
+#~ "Nastavení není dostupné, protože není zadáno vaše licenční číslo. Prosím, "
+#~ "zadejte jej k ověření. Po zadání platného licenčního čísla se nastavení "
+#~ "zpřístupní. Tuto akci provedete jen jednou."
+#~ msgstr ""
+#~ "Die Einstellung ist nicht verfügbar, weil Ihre Lizenznummer nicht "
+#~ "angegeben wurde. Bitte geben Sie diese zur Überprüfung ein. Nach Eingabe "
+#~ "einer gültigen Lizenznummer werden die verfügbaren Einstellungen "
+#~ "verfügbar. Dies kann nur einmal durchgeführt werden."
+
+#~ msgid "Uložit licenční číslo"
+#~ msgstr "Lizenznummer speichern"
+
+#~ msgid "Předchozí"
+#~ msgstr "Zurück"
+
+#~ msgid "Další"
+#~ msgstr "Weiter"
+
+#~ msgid "Zrušit odpověď"
+#~ msgstr "Antwort abbrechen"
+
+#~ msgid "Nezapomeňte na povinné pole."
+#~ msgstr "Vergessen Sie nicht auf das Pflichtfeld."
+
+#, php-format
+#~ msgid "Strana %s"
+#~ msgstr "Seite %s"
+
+#, php-format
+#~ msgid ""
+#~ "K dispozici je nová verze <a class=\\\"thickbox\\\" href=\\\"#TB_inline?"
+#~ "width=600&height=550&inlineId=cms_changelog\\\">MioWeb šablony %s</a>."
+#~ msgstr ""
+#~ "Es gibt eine neue Version der <a class=\\\"thickbox\\\" href=\\"
+#~ "\"#TB_inline?width=600&height=550&inlineId=cms_changelog\\\">MioWeb "
+#~ "Vorlage%s</a> ."

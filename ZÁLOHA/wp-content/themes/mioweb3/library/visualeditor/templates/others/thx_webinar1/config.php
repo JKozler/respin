@@ -1,0 +1,1110 @@
+<?php
+$temp_layer = [
+	'0' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '',
+				'transparency1' => '1',
+				'rgba1' => '',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => MW_IMAGE_LIBRARY . 'bg/man_with_notebook.jpg',
+				'imageid' => '',
+				'pattern' => '0',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.63',
+					'rgba' => 'rgba(0, 0, 0, 0.63)',
+				],
+				'efect' => 'fixed',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'center',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '25',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'custom',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '172',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'show' => '1',
+				'shape' => 'triangle_negative',
+				'code' => '',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '#15a3bf',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-twothree',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '57',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'dark',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => __('GRATULUJEME! REZERVACE BYLA ÚSPĚŠNÁ.', 'cms_ve'),
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '15',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+					'1' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-family' => '',
+								'weight' => '',
+								'font-size' => '20',
+								'color' => '',
+								'line-height' => '',
+							],
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'content' => __('Rezervovali jsme pro vás jedno z nejlepších míst, tak se nezapomeňte včas připojit...', 'cms_ve'),
+							'li' => '',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '445',
+							'element_align' => 'left',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+			'1' => [
+				'type' => 'col-three',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'box',
+						'content' => [
+							'0' => [
+								'0' => [
+									'style' => [
+										'icon' => [
+											'icon' => 'calendar',
+											'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/library/visualeditor/images/icons/feather/symbol-defs.svg#icon-calendar"></use></svg>',
+											'icon_set' => 'feather',
+											'tab' => 'icon',
+										],
+										'title' => __('Kdy', 'cms_ve'),
+										'text' => '21.10.',
+										'style' => 'beside',
+										'link' => [
+											'page' => '',
+											'link' => '',
+										],
+										'align' => 'left',
+										'size' => '55',
+										'icon_style' => '1',
+										'color' => '#ffffff',
+										'title_font' => [
+											'use-font' => 'text',
+											'font-size' => '16',
+											'color' => '#9accd6',
+										],
+										'font' => [
+											'font-size' => '25',
+											'color' => '',
+										],
+										'mw30' => '1',
+									],
+									'type' => 'icon',
+									'config' => [
+										'margin_top' => '',
+										'tablet' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'mobile' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'margin_bottom' => '',
+										'max_width' => '',
+										'element_align' => 'center',
+										'animate' => '',
+										'id' => '',
+										'class' => '',
+										'delay' => '',
+									],
+								],
+								'1' => [
+									'style' => [
+										'icon' => [
+											'icon' => 'clock',
+											'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/library/visualeditor/images/icons/feather/symbol-defs.svg#icon-clock"></use></svg>',
+											'icon_set' => 'feather',
+											'tab' => 'icon',
+										],
+										'title' => __('V kolik', 'cms_ve'),
+										'text' => '20:00',
+										'style' => 'beside',
+										'link' => [
+											'page' => '',
+											'link' => '',
+										],
+										'align' => 'left',
+										'size' => '55',
+										'icon_style' => '1',
+										'color' => '#ffffff',
+										'title_font' => [
+											'use-font' => 'text',
+											'font-size' => '16',
+											'color' => '#9accd6',
+										],
+										'font' => [
+											'font-size' => '25',
+											'color' => '',
+										],
+										'mw30' => '1',
+									],
+									'type' => 'icon',
+									'config' => [
+										'margin_top' => '',
+										'tablet' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'mobile' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'margin_bottom' => '',
+										'max_width' => '',
+										'element_align' => 'center',
+										'animate' => '',
+										'id' => '',
+										'class' => '',
+										'delay' => '',
+									],
+								],
+							],
+						],
+						'style' => [
+							'background_color' => [
+								'color1' => '#15a3bf',
+								'transparency1' => '1.00',
+								'rgba1' => 'rgba(21, 163, 191, 1)',
+							],
+							'background_image' => [
+								'position' => 'center center',
+								'image' => '',
+								'imageid' => '',
+								'pattern' => '0',
+								'cover' => '1',
+								'overlay_color' => [
+									'color' => '#158ebf',
+									'transparency' => '',
+									'rgba' => '',
+								],
+							],
+							'border' => [
+								'size' => '0',
+								'style' => 'solid',
+								'color' => '',
+							],
+							'corner' => '2',
+							'padding' => [
+								'size' => '45',
+								'unit' => 'px',
+							],
+							'shadow' => '1',
+							'text' => 'auto',
+							'title' => __('NEZAPOMEŇTE', 'cms_ve'),
+							'title_bg' => [
+								'color1' => '',
+								'transparency1' => '1',
+								'rgba1' => '',
+							],
+							'title_border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#000000',
+								'transparency' => '0.14',
+								'rgba' => 'rgba(0, 0, 0, 0.14)',
+							],
+							'title-font' => [
+								'use-font' => 'subtitle',
+								'font-size' => '22',
+								'color' => '#ffffff',
+								'align' => 'center',
+							],
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+	'1' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#15a3bf',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(21, 163, 191, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'efect' => '',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '100',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'break' => '1',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '45',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<p style="text-align: center;">' . __('TŘI VĚCI, KTERÉ DOPORUČUJI <br />UDĚLAT PŘED ZAČÁTKEM...', 'cms_ve') . '</p>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '50',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+			'1' => [
+				'type' => 'col-three',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '90',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">1</p>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '30',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '25',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet consectetur</p>',
+						],
+					],
+					'2' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '18',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>',
+						],
+					],
+				],
+			],
+			'2' => [
+				'type' => 'col-three',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '90',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">2</p>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '30',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '25',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet consectetur</p>',
+						],
+					],
+					'2' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '18',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>',
+						],
+					],
+				],
+			],
+			'3' => [
+				'type' => 'col-three',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '90',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">3</p>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '30',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '25',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet consectetur</p>',
+						],
+					],
+					'2' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '18',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>',
+						],
+					],
+				],
+			],
+		],
+	],
+	'2' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '',
+				'transparency1' => '1',
+				'rgba1' => '',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => '/wp-content/uploads/2018/10/pexels-photo-1438081.jpeg',
+				'imageid' => '32',
+				'pattern' => '0',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.62',
+					'rgba' => 'rgba(0, 0, 0, 0.62)',
+				],
+				'efect' => 'fixed',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'show' => '1',
+				'shape' => 'triangle_negative',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" preserveAspectRatio="none">
+	<path d="M1000,0V150L500,2,0,150V0H1000Z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '#15a3bf',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'like',
+						'style' => [
+							'layout' => 'button_count',
+							'scheme' => 'light',
+							'setting' => [
+								'share' => 'share',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+];
+
+$config['layer'] = base64_encode(serialize($temp_layer));
+$config['config'] = [];
+
+$config['setting'] = [
+	've_header' => ['show' => 'none'],
+	've_footer' => ['show' => 'none'],
+	've_appearance' => [],
+];

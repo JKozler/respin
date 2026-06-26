@@ -1,0 +1,53 @@
+{
+  "name": "mioweb-cz/mpohoda-client",
+  "description": "Library for accessing mPOHODA API.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Zelycz",
+      "email": "adam.zelycz@mioweb.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "mioweb-cz/http-client": "^2.8.0"
+  },
+  "require-dev": {
+    "nette/tester": "^2.4",
+    "nette/di": "^3.0",
+    "nette/utils": "^3.2",
+    "guzzlehttp/guzzle": "^6.3 | ^7.0",
+    "tracy/tracy": "^2.9",
+    "phpstan/phpstan-nette": "^1.0.0",
+    "phpstan/phpstan": "^1.5.2",
+    "mioweb-cz/coding-standard": "^1.0.1",
+    "phpstan/phpstan-strict-rules": "^1.1.0"
+  },
+  "suggest": {
+    "nette/di": "to use class MPohodaClientExtension"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    },
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "autoload": {
+    "psr-0": {
+      "Mioweb\\MPohodaClient\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:mioweb-cz/http-client.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mioweb-cz/coding-standard.git"
+    }
+  ]
+}

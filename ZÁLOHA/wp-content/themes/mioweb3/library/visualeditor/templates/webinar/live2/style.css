@@ -1,0 +1,37 @@
+.row_content {
+	padding-left: 50px;
+	padding-right: 50px;
+
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.row_content .row_fix_width, .fix_width {
+	max-width: 950px;
+	width: 100%;
+}
+
+#row_0 {
+	max-width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-khtml-border-radius: 0;
+	border-radius: 0;
+}
+
+#row_0 .row_fix_width, #row_0 .fix_width {
+	max-width: 950px;
+	width: 100%;
+}
+
+#row_1 {
+	margin-top: -40px;
+}

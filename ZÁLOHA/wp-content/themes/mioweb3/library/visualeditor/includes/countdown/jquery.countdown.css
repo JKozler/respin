@@ -1,0 +1,241 @@
+.countdownHolder {
+	margin: 0 auto;
+	font-size: 40px;
+	text-align: center;
+	color: inherit !important;
+}
+
+.position {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 1.6em;
+	float: left;
+	line-height: 1.5em;
+	width: 1.1em;
+}
+
+.position1 {
+	padding-right: 0.1em;
+}
+
+.position3 {
+	padding-left: 0.1em;
+}
+
+.digit {
+	position: absolute;
+	display: block;
+	width: 1.1em;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+.count_time {
+	position: relative;
+	margin-right: 0.4em;
+	display: inline-block;
+}
+
+.count_time::after {
+	width: 0.4em;
+	line-height: 1.3em;
+	content: ':';
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: -0.4em;
+	display: block;
+}
+
+.countSeconds {
+	margin-right: 0;
+}
+
+.countSeconds::after {
+	content: none;
+}
+
+.position_title {
+	font-size: 11px;
+	display: block;
+	line-height: 13px;
+	height: 20px;
+	padding-top: 10px;
+	clear: both;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+/* counter 1 */
+
+.ve_countdown_1 .digit {
+	background-color: #333;
+	-moz-border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	border-radius: 0.15em;
+}
+
+
+/* counter 3*/
+
+.ve_countdown_3 .count_time {
+	background-color: #333;
+	padding: 0.2em 0.4em;
+}
+
+.ve_countdown_3 .count_time::after {
+	color: #333;
+	line-height: 1.6em;
+	padding: 10px 0;
+}
+
+.ve_countdown_3 .position {
+	width: 0.7em;
+	height: 1.2em;
+	line-height: 1.2em;
+}
+
+.ve_countdown_3 .position1 {
+	padding-right: 0;
+}
+
+.ve_countdown_3 .digit {
+	width: 0.7em;
+}
+
+/* counter 5 */
+
+
+.ve_countdown_5 .digit {
+	width: 0.6em;
+	height: 1.1em;
+	line-height: 1.1em;
+}
+
+.ve_countdown_5 .position {
+	width: 0.6em;
+	height: 1.2em;
+	line-height: 1.1em;
+}
+
+.ve_countdown_5 .position1 {
+	padding-right: 0;
+}
+
+.ve_countdown_5 .position_title {
+	height: 15px;
+	padding: 0;
+}
+
+.ve_countdown_5 .count_time::after {
+	line-height: 1em;
+}
+
+/* counter 6 */
+
+.ve_countdown_6 .count_time {
+	background-color: #333;
+	padding: 0 0.2em;
+	text-align: center;
+	position: relative;
+	margin-right: 0.2em;
+	margin-bottom: 20px;
+}
+
+.ve_countdown_6 .count_time::after {
+	content: none;
+}
+
+.ve_countdown_6 .digit {
+	width: 0.6em;
+}
+
+.ve_countdown_6 .position {
+	width: 0.6em;
+	line-height: 1.5em;
+	height: 1.5em;
+}
+
+.ve_countdown_6 .position1 {
+	padding-right: 0;
+}
+
+.ve_countdown_6 .position_title {
+	height: 15px;
+	padding: 0;
+	position: absolute;
+	width: 80px;
+	margin-left: -40px;
+	left: 50%;
+	bottom: -20px;
+}
+
+/* counter 7 */
+.ve_countdown_7 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.ve_countdown_7 .digit {
+	width: 0.6em;
+}
+.ve_countdown_7 .count_time {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ve_countdown_7 .position {
+	width: 0.6em;
+	line-height: 1.5em;
+	height: 1.5em;
+	display: inline-block;
+	font-weight: bold;
+	float: none;
+	vertical-align: text-top;
+}
+
+.ve_countdown_7 .position1 {
+	padding-right: 0;
+}
+
+.ve_countdown_7 .position_title,
+.ve_countdown_7 .position_before {
+	display: inline;
+	float: none;
+	line-height: 1.5em;
+	clear: none;
+	font-size: inherit;
+	padding-top: 0;
+	padding-left: 0.3em;
+	text-transform: none;
+	text-align: left;
+}
+
+.ve_countdown_7 .position_before {
+	padding-right: 0.3em;
+	padding-left: 0;
+	display: inline;
+}
+
+.ve_countdown_7 .position_title::after {
+	content: ',';
+}
+
+.ve_countdown_7 .countSeconds .position_title::after,
+.ve_countdown_7 .count_time::after {
+	content: none;
+}
+
+
+.ve_countdown_1.dark_countdown_color .position,
+.ve_countdown_3.dark_countdown_color .count_time,
+.ve_countdown_6.dark_countdown_color .position {
+	color: #fff;
+}
+
+.ve_countdown_1.light_countdown_color .position,
+.ve_countdown_3.light_countdown_color .count_time,
+.ve_countdown_6.light_countdown_color .position {
+	color: #111;
+}

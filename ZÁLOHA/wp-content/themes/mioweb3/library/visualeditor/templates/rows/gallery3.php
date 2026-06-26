@@ -1,0 +1,207 @@
+<?php
+$image = [
+	2420 => MW_IMAGE_LIBRARY . 'bg/sea2.jpg',
+	2416 => MW_IMAGE_LIBRARY . 'bg/sea3.jpg',
+	2419 => MW_IMAGE_LIBRARY . 'bg/sea1.jpg',
+	2414 => MW_IMAGE_LIBRARY . 'bg/sea4.jpg',
+	2415 => MW_IMAGE_LIBRARY . 'bg/sea5.jpg',
+	2418 => MW_IMAGE_LIBRARY . 'bg/sea6.jpg',
+];
+
+$content = [
+	'class' => '',
+	'style' => [
+		'background_color' => [
+			'color1' => '#ffffff',
+			'rgba1' => 'rgba(255,255,255,1)',
+			'color2' => '',
+			'rgba2' => '',
+			'transparency1' => '1',
+			'transparency2' => '1',
+		],
+		'background_image' => [
+			'cover' => '1',
+			'overlay_color' => [
+				'color' => '#000000',
+				'transparency' => '0.2',
+				'rgba' => 'rgba(0, 0, 0, 0.2)',
+			],
+			'efect' => '',
+		],
+		'content_align' => 'top',
+		'link_color' => '',
+		'row_padding' => 'big',
+		'font' => [
+			'font-size' => '',
+			'font-family' => '',
+			'weight' => '',
+			'color' => '',
+		],
+		'text' => 'auto',
+		'video_type' => 'custom',
+		'row_height' => '',
+		'margin_top' => '',
+		'margin_bottom' => '',
+	],
+	'content' => [
+		'0' => [
+			'type' => 'col-one',
+			'class' => '',
+			'content' => [
+				'0' => [
+					'style' => [
+						'font' => [
+							'font-size' => '40',
+							'tablet' => [
+								'font-size' => '',
+							],
+							'mobile' => [
+								'font-size' => '',
+							],
+							'color' => '',
+							'font-family' => '',
+							'weight' => '',
+							'line-height' => '1.2',
+							'letter-spacing' => '0',
+							'text-shadow' => 'none',
+						],
+						'style' => '1',
+						'border' => [
+							'size' => '1',
+							'style' => 'solid',
+							'color' => '#d5d5d5',
+						],
+						'background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'decoration-color' => '#158ebf',
+						'align' => 'center',
+						'content' => '<p style="text-align: center;">' . __('Naše galerie', 'cms_ve') . '</p>',
+						'mw30' => '1',
+					],
+					'type' => 'title',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '25',
+						'max_width' => '680',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'1' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '18',
+							'color' => '#808080',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat volutpat blandit.</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '70',
+						'max_width' => '515',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'2' => [
+					'type' => 'image_gallery',
+					'style' => [
+						'image_gallery_items' => [
+							'0' => $image[2420],
+							'1' => $image[2416],
+							'2' => $image[2419],
+							'3' => $image[2414],
+							'4' => $image[2415],
+							'5' => $image[2418],
+						],
+						'thumb_name' => '43',
+						'cols' => '3',
+						'cols_type' => '',
+						'hover' => 'zoom',
+						'hover_color' => [
+							'color' => '#000000',
+							'transparency' => '0.46',
+							'rgba' => 'rgba(0, 0, 0, 0.46)',
+						],
+						'gallery_style' => 'no_captions',
+						'font' => [
+							'use-font' => 'text',
+							'font-size' => '16',
+							'align' => 'center',
+						],
+						'miocarousel_setting' => [
+							'animation' => 'fade',
+							'autoplay' => '1',
+							'color_scheme' => '',
+							'delay' => '3500',
+							'speed' => '1000',
+						],
+						'mw30' => '1',
+					],
+					'config' => [
+						'margin_top' => '0',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '0',
+						'max_width' => '',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+	],
+	'type' => 'basic',
+];

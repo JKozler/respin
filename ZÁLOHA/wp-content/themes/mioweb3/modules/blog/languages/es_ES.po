@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+msgid "Kategorie:"
+msgstr "Categorías:"
+
+msgid "Autor: "
+msgstr "Autor: "
+
+msgid "Autor"
+msgstr "Autor"
+
+msgid "Komentář"
+msgstr "Comentario"
+
+msgid "Komentáře"
+msgstr "Comentarios"
+
+msgid "Komentářů"
+msgstr "Comentarios"
+
+msgid "Webová stránka"
+msgstr "Página web"
+
+msgid "Tagy:"
+msgstr "Tags:"
+
+msgid "Štítek: "
+msgstr "Tag: "
+
+msgid "Výsledek vyhledávání"
+msgstr "Resultado de búsqueda"
+
+msgid "Zadanému řetězci neodpovídá žádný článek."
+msgstr "La cadena introducida no coincide con ningún artículo."
+
+msgid "V této kategorii se nenachází žádný článek."
+msgstr "No hay ningún artículo en esta categoría."
+
+msgid "Archív dne: %s"
+msgstr "Archivo del día: %s"
+
+msgid "Archív měsíce: %s"
+msgstr "Archivo del mes: %s"
+
+msgid "Archív roku: %s"
+msgstr "Archivo anual: %s"
+
+msgid "O autorovi"
+msgstr "Sobre el autor"
+
+msgid "Starší příspěvky"
+msgstr "Los comentarios anteriores"
+
+msgid "Novější příspěvky"
+msgstr "Los comentarios nuevos"
+
+msgid "Podobné články"
+msgstr "Los artículos parecidos"

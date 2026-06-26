@@ -1,0 +1,45 @@
+{
+    "name": "mioweb-cz/parameters",
+    "description": "Library for processing of parameters.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jan-Sebastian Fabík",
+            "email": "honza@fabik.org"
+        },
+        {
+            "name": "Adam Zelycz",
+            "email": "adam.zelycz@mioweb.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "php-parallel-lint/php-parallel-lint": "^1.3.0",
+        "mioweb-cz/coding-standard": "^1.1",
+        "phpstan/phpstan": "^1.9.2",
+        "phpstan/phpstan-strict-rules": "^1.1.0",
+        "nette/tester": "^2.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:mioweb-cz/coding-standard.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mioweb\\Parameters\\": "src/Mioweb/Parameters/"
+        }
+    }
+}

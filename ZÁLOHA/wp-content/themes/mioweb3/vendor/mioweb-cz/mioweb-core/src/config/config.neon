@@ -1,0 +1,38 @@
+parameters:
+	isCrawler: Jaybizzle\CrawlerDetect\CrawlerDetect()::isCrawler()
+
+extensions:
+	phinx: Mioweb\Core\Database\PhinxExtension
+	httpClient: Mioweb\HttpClient\DI\HttpClientExtension
+	mwaClient: Mioweb\MiowebAdminClient\DI\MiowebAdminClientExtension
+
+application:
+	mapping:
+		*: Mioweb\Core\Presenters\*Presenter
+
+session:
+	cookieSamesite: Lax
+	expiration: 14 days
+	autoStart: false
+
+http:
+	cookieSecure: auto
+
+services:
+	router: Mioweb\Core\Router\RouterFactory::createRouter(%routerPrefix%)
+	options:
+		factory: Mioweb\Core\Utils\FileOptions(%tempDir%/options.json)
+		type: Mioweb\Core\Utils\Options
+
+	application.application:
+		setup:
+			- @Nette\DI\Container::initialize() # initailize container only if application is requested
+
+	- Mioweb\Core\Analytics\Analytics(%isCrawler%)
+
+database:
+	dsn: %database.dsn%
+	user: %database.user%
+	password: %database.password%
+	options:
+		lazy: true

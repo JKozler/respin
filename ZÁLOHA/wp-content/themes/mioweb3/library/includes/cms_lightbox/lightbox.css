@@ -1,0 +1,163 @@
+.cms_open_lightbox,
+.cms_open_lightbox body {
+	overflow: hidden;
+}
+
+/* lightbox */
+
+.cms_lightbox {
+	position: fixed;
+	top: 20px;
+	background: #fff;
+	z-index: 105;
+	-moz-box-shadow: 0px 0px 5px #444444;
+	-webkit-box-shadow: 0px 0px 5px #444444;
+	box-shadow: 0px 0px 5px #444444;
+	color: #111;
+	font-size: 13px;
+	line-height: 1.5em;
+	font-family: Arial !important;
+	font-weight: normal;
+}
+
+.cms_lightbox h1,
+.cms_lightbox h2,
+.cms_lightbox h3,
+.cms_lightbox h4,
+.cms_lightbox h5,
+.cms_lightbox h6,
+.cms_lightbox .title_element_container,
+.cms_lightbox .form_container_title {
+	color: #111;
+	font-family: "Open Sans", Arial, sans-serif;
+
+}
+
+.cms_lightbox img {
+	display: block;
+	max-width: 100%;
+	width: auto;
+}
+
+.cms_lightbox input, .cms_lightbox textarea {
+	font-family: Arial !important;
+}
+
+.cms_lightbox iframe {
+	display: block;
+	overflow-x: hidden;
+}
+
+.cms_lightbox_loading {
+	margin: 0 auto;
+	display: block;
+}
+
+.cms_lightbox_background {
+	opacity: 0.8;
+	background-color: #000000;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.cms_lightbox_content {
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #fff;
+}
+
+.cms_lightbox_handle {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	min-height: 15px;
+}
+
+.cms_lightbox_handle span {
+	font-weight: bold;
+}
+
+.cms_close_lightbox {
+	background: url(img/close.png) no-repeat;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: right;
+}
+
+.cms_lightbox_contentin_loading {
+	min-height: 100px;
+	background: url(img/loading.gif) no-repeat center center;
+}
+
+.cms_lightbox_footer {
+	text-align: center;
+}
+
+.cms_lightbox_footer_in {
+	border-top: 1px solid #ccc;
+	padding: 10px;
+}
+
+.cms_lightbox_footer .button {
+	margin: 0 3px;
+}
+
+.cms_lightbox .cms_lightbox_nopadding {
+	padding: 0;
+}
+
+.cms_lightbox_contentin .mw_input, .cms_lightbox_contentin select, .cms_lightbox_contentin .cms_text_textarea {
+	margin: 0;
+	border: 1px solid #ddd;
+	background: #f3f3f3;
+	font-family: Arial !important;
+}
+
+.cms_setform_row {
+	border-top: 1px dotted #EBEBEB;
+	margin-top: 12px;
+	padding-top: 10px;
+}
+
+.cms_lightbox_hidden {
+	display: none;
+}
+
+.cms_lightbox_main_but {
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	padding: 0 30px;
+	text-transform: uppercase;
+}
+
+.cms_lightbox_back_link {
+	position: relative;
+	display: none;
+	padding-left: 30px;
+}
+
+.cms_lightbox_back_link span {
+	display: none;
+	width: 23px;
+	height: 23px;
+	background: url(img/back.png) no-repeat 0 0;
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: 0;
+}
+
+.cms_lightbox_back_link:hover span {
+	background: url(img/back.png) no-repeat 0 -23px;
+}
+
+.cms_lightbox_contentin_slide {
+	position: absolute;
+	top: 0;
+}

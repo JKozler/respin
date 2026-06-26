@@ -1,0 +1,13 @@
+<?php
+/**
+ * Template Title: Vysílání webináře 3
+ * Template Description: Stránka pro živé vysílání webináře.
+ */
+__('Vysílání webináře 3', 'cms_ve');
+__('Stránka pro živé vysílání webináře.', 'cms_ve');
+if (have_posts()) {
+	while (have_posts()) {
+		the_post();
+		the_content();
+	}
+}

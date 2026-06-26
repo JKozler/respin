@@ -1,0 +1,2043 @@
+<?php
+$temp_layer = [
+	'0' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#11334f',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(17, 51, 79, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => MW_IMAGE_LIBRARY . 'bg/laptop.jpg',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#11324f',
+					'transparency' => '0.90',
+					'rgba' => 'rgba(17, 50, 79, 0.9)',
+				],
+				'efect' => 'fixed',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'image',
+						'style' => [
+							'image' => [
+								'image' => MW_IMAGE_LIBRARY . 'misc/face.jpg',
+								'imageid' => '',
+							],
+							'click_action' => 'none',
+							'alert' => '',
+							'popup' => '',
+							'link' => [
+								'page' => '',
+								'link' => '',
+							],
+							'large_image' => [
+								'image' => '',
+								'imageid' => '',
+							],
+							'align' => 'center',
+							'max-width' => '',
+							'label' => '',
+							'style' => '6',
+							'mw30' => '1',
+							'content' => '',
+							'thumb_name' => '',
+							'hover_color' => [
+								'color' => '#000000',
+								'transparency' => '0.3',
+								'rgba' => 'rgba(0,0,0,0.3)',
+							],
+						],
+						'config' => [
+							'max_width' => '250',
+							'margin_top' => '0',
+							'margin_bottom' => '40',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '56',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<h1 style="text-align: center;">' . __('Jsem programátor', 'cms_ve') . '</h1>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'2' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '22',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.7',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec ipsum nec ligula cursus maximus.</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '50',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'3' => [
+						'type' => 'button',
+						'style' => [
+							'content' => __('Najmout si mě', 'cms_ve'),
+							'button_style' => [
+								'style' => 'inverse',
+								'custom_setting' => [
+									'style' => '12',
+									'background_color' => [
+										'color1' => '#424242',
+										'transparency1' => '1',
+										'rgba1' => 'rgba(66, 66, 66, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'font-color' => '#1a1a1a',
+									'corner' => '9999',
+									'height_padding' => '1.1',
+									'width_padding' => '1.9',
+									'font' => [
+										'font-family' => '',
+										'weight' => '',
+									],
+									'border-color' => '#1a1a1a',
+									'border_width' => '3',
+									'hover_effect' => '',
+									'hover_color' => [
+										'color1' => '#1a1a1a',
+										'transparency1' => '1.00',
+										'rgba1' => 'rgba(26, 26, 26, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'hover_font_color' => '#ffffff',
+									'border_hover-color' => '',
+								],
+								'button_size' => 'medium',
+								'custom_size' => '18',
+							],
+							'show' => 'url',
+							'link' => [
+								'page' => '',
+								'link' => '#row_6',
+								'use_url' => '1',
+							],
+							'popup' => '',
+							'align' => 'center',
+							'text2' => __('Text tlačítka', 'cms_ve'),
+							'button_style2' => [
+								'style' => 'basic',
+								'custom_setting' => [
+									'style' => '12',
+									'background_color' => [
+										'color1' => '#424242',
+										'transparency1' => '1',
+										'rgba1' => 'rgba(66, 66, 66, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'font-color' => '#1a1a1a',
+									'corner' => '9999',
+									'height_padding' => '1.1',
+									'width_padding' => '1.9',
+									'font' => [
+										'font-family' => '',
+										'weight' => '',
+									],
+									'border-color' => '#1a1a1a',
+									'border_width' => '3',
+									'hover_effect' => '',
+									'hover_color' => [
+										'color1' => '#1a1a1a',
+										'transparency1' => '1.00',
+										'rgba1' => 'rgba(26, 26, 26, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'hover_font_color' => '#ffffff',
+									'border_hover-color' => '',
+								],
+								'button_size' => 'medium',
+								'custom_size' => '18',
+							],
+							'show2' => 'url',
+							'link2' => [
+								'page' => '',
+								'link' => '',
+							],
+							'popup2' => '',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+	'1' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#0a2033',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(10, 32, 51, 1)',
+				'color2' => '',
+				'transparency2' => '0.6',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'efect' => '',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => 'sluzby',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'features',
+						'style' => [
+							'features' => [
+								'0' => [
+									'icon' => [
+										'icon' => 'monitor',
+										'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/library/visualeditor/images/icons/feather/symbol-defs.svg#icon-monitor"></use></svg>',
+										'icon_set' => 'feather',
+										'image' => [
+											'position' => '',
+											'image' => '',
+											'imageid' => '',
+										],
+										'tab' => 'icon',
+									],
+									'title' => __('Název služby', 'cms_ve'),
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate, quam id dignissim sagittis.',
+									'button_text' => __('Více informací →', 'cms_ve'),
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'1' => [
+									'icon' => [
+										'icon' => 'code',
+										'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/library/visualeditor/images/icons/feather/symbol-defs.svg#icon-code"></use></svg>',
+										'icon_set' => 'feather',
+										'image' => [
+											'position' => '',
+											'image' => '',
+											'imageid' => '',
+										],
+										'tab' => 'icon',
+									],
+									'title' => __('Název služby', 'cms_ve'),
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate, quam id dignissim sagittis.',
+									'button_text' => __('Více informací →', 'cms_ve'),
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'2' => [
+									'icon' => [
+										'icon' => 'clock',
+										'code' => '<svg role="img"><use xlink:href="http://localhost/mioweb/wp-content/themes/MioWeb/library/visualeditor/images/icons/feather/symbol-defs.svg#icon-clock"></use></svg>',
+										'icon_set' => 'feather',
+										'image' => [
+											'position' => '',
+											'image' => '',
+											'imageid' => '',
+										],
+										'tab' => 'icon',
+									],
+									'title' => __('Název služby', 'cms_ve'),
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vulputate, quam id dignissim sagittis.',
+									'button_text' => __('Více informací →', 'cms_ve'),
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+							],
+							'cols' => 'three',
+							'style' => '1',
+							'background_set' => [
+								'corner' => '',
+								'shadow' => '1',
+								'color' => '#ffffff',
+							],
+							'icon_size' => '45',
+							'background-color' => '#9fb2c2',
+							'icon_style' => '1',
+							'font' => [
+								'use-font' => 'title',
+								'font-size' => '27',
+								'color' => '#ffffff',
+							],
+							'font_text' => [
+								'font-size' => '',
+							],
+							'button' => [
+								'style' => 'basic',
+								'custom_setting' => [
+									'style' => '1',
+									'background_color' => [
+										'color1' => '#cf731d',
+										'transparency1' => '1',
+										'rgba1' => 'rgba(207, 115, 29, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'font-color' => '#ffffff',
+									'corner' => '9999',
+									'height_padding' => '1',
+									'width_padding' => '1.8',
+									'font' => [
+										'font-family' => '',
+										'weight' => '',
+									],
+									'border-color' => '',
+									'border_width' => '3',
+									'hover_effect' => '',
+									'hover_color' => [
+										'color1' => '#1a1a1a',
+										'transparency1' => '1.00',
+										'rgba1' => 'rgba(26, 26, 26, 1)',
+										'color2' => '',
+										'transparency2' => '',
+										'rgba2' => '',
+									],
+									'hover_font_color' => '#ffffff',
+									'border_hover-color' => '',
+								],
+								'button_size' => 'medium',
+								'custom_size' => '18',
+							],
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '20',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+	'2' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#ffffff',
+				'transparency1' => '1',
+				'rgba1' => 'rgba(255, 255, 255, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'efect' => '',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'custom',
+			'padding_top' => '90',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '10',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => 'omne',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '40',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<h2 style="text-align: center;">' . __('Něco o mně', 'cms_ve') . '</h2>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '40',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.7',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam efficitur nisl, ac ullamcorper justo dictum vel. Phasellus maximus elementum cursus. Vestibulum vel fermentum lectus. Integer finibus nibh nec quam imperdiet iaculis. Vivamus tempus dui eu nisi facilisis vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec tristique diam.</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+	'3' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#ffffff',
+				'color2' => '',
+				'transparency1' => '1',
+				'rgba1' => 'rgba(255, 255, 255, 1)',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'position' => '50% 50%',
+				'repeat' => 'no-repeat',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'efect' => '',
+				'cover' => '1',
+			],
+			'background_delay' => '3000',
+			'background_speed' => '1500',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_setting' => [
+				'is_saved' => '1',
+			],
+			'font' => [
+				'font-size' => '',
+				'font-family' => '',
+				'weight' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'padding_top' => '100',
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'margin_t' => [
+				'size' => '',
+			],
+			'margin_b' => [
+				'size' => '',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'height_setting' => [
+				'arrow_color' => '#fff',
+			],
+			'min-height' => '',
+			'css_class' => '',
+			'delay' => '',
+			'video_type' => 'custom',
+			'content_align' => 'top',
+			'arrow_color' => '#fff',
+			'row_height' => '',
+			'text' => 'auto',
+			'row_padding' => 'big',
+			'margin_top' => '',
+			'margin_bottom' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-two',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '40',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<h2>' . __('Co umím', 'cms_ve') . '</h2>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '40',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+					'1' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.7',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam efficitur nisl, ac ullamcorper justo dictum vel. Phasellus maximus elementum cursus. Vestibulum vel fermentum lectus. Integer finibus nibh nec quam imperdiet iaculis. Vivamus tempus dui eu nisi facilisis vehicula.</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+				],
+			],
+			'1' => [
+				'type' => 'col-two',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'progressbar',
+						'style' => [
+							'percent' => '95',
+							'text' => 'PHP',
+							'style' => '1',
+							'color1' => '#158dbf',
+							'color2' => '#eeeeee',
+							'font' => [
+								'font-size' => '',
+							],
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+					'1' => [
+						'type' => 'progressbar',
+						'style' => [
+							'percent' => '85',
+							'text' => 'HTML',
+							'style' => '1',
+							'color1' => '#158dbf',
+							'color2' => '#eeeeee',
+							'font' => [
+								'font-size' => '',
+							],
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+					'2' => [
+						'type' => 'progressbar',
+						'style' => [
+							'percent' => '80',
+							'text' => 'CSS',
+							'style' => '1',
+							'color1' => '#158dbf',
+							'color2' => '#eeeeee',
+							'font' => [
+								'font-size' => '',
+							],
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+					'3' => [
+						'type' => 'progressbar',
+						'style' => [
+							'percent' => '45',
+							'text' => 'Javascript',
+							'style' => '1',
+							'color1' => '#158dbf',
+							'color2' => '#eeeeee',
+							'font' => [
+								'font-size' => '',
+							],
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+					'4' => [
+						'type' => 'progressbar',
+						'style' => [
+							'percent' => '72',
+							'text' => 'Nette',
+							'style' => '1',
+							'color1' => '#158dbf',
+							'color2' => '#eeeeee',
+							'font' => [
+								'font-size' => '',
+							],
+							'mw30' => '1',
+							'content' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+	'4' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#11334f',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(17, 51, 79, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => MW_IMAGE_LIBRARY . 'bg/laptop.jpg',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#11324f',
+					'transparency' => '0.90',
+					'rgba' => 'rgba(17, 50, 79, 0.9)',
+				],
+				'efect' => 'fixed',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '40',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<h2 style="text-align: center;">' . __('Ukázky moji práce', 'cms_ve') . '</h2>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '80',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'catalog',
+						'style' => [
+							'item_type' => 'own',
+							'items' => [
+								'0' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'1' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'2' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'3' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'4' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+								'5' => [
+									'title' => __('Název projektu', 'cms_ve'),
+									'image' => [
+										'image' => '',
+										'imageid' => '',
+									],
+									'subtitle' => '',
+									'description' => '',
+									'price' => '',
+									'link' => [
+										'page' => '',
+										'link' => '',
+									],
+								],
+							],
+							'page' => '',
+							'cols' => '3',
+							'style' => '4',
+							'text_align' => 'left',
+							'font_title' => [
+								'use-font' => 'title',
+								'font-size' => '',
+								'color' => '',
+							],
+							'font_description' => [
+								'font-size' => '',
+							],
+							'font_color' => '',
+							'font_price' => [
+								'use-font' => 'subtitle',
+								'font-size' => '',
+								'color' => '',
+							],
+							'animation' => 'fade',
+							'delay' => '3500',
+							'speed' => '1000',
+							'color_scheme' => '',
+							'mw30' => '1',
+							'content' => '',
+							'miocarousel_setting' => [
+								'animation' => 'fade',
+								'color_scheme' => '',
+								'delay' => '3500',
+								'speed' => '1000',
+								'autoplay' => '1',
+							],
+							'background_set' => [
+								'color' => '#ffffff',
+								'shadow' => '1',
+							],
+							'hover_color' => [
+								'color' => '#000000',
+								'transparency' => '0.7',
+								'rgba' => 'rgba(0, 0, 0, 0.7)',
+							],
+							'image_ratio' => 'original',
+						],
+					],
+				],
+			],
+		],
+	],
+	'5' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#ffffff',
+				'color2' => '',
+				'transparency1' => '1',
+				'rgba1' => 'rgba(255, 255, 255, 1)',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.5',
+					'rgba' => 'rgba(0,0,0,0.5)',
+				],
+				'position' => '50% 50%',
+				'repeat' => 'no-repeat',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'efect' => '',
+				'cover' => '1',
+			],
+			'background_delay' => '3000',
+			'background_speed' => '1500',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_setting' => [
+				'is_saved' => '1',
+			],
+			'font' => [
+				'font-size' => '',
+				'font-family' => '',
+				'weight' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'padding_top' => '100',
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'margin_t' => [
+				'size' => '',
+			],
+			'margin_b' => [
+				'size' => '',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'height_setting' => [
+				'arrow_color' => '#fff',
+			],
+			'min-height' => '',
+			'css_class' => '',
+			'delay' => '',
+			'video_type' => 'custom',
+			'content_align' => 'top',
+			'arrow_color' => '#fff',
+			'row_height' => '',
+			'text' => 'auto',
+			'row_padding' => 'big',
+			'margin_top' => '',
+			'margin_bottom' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '40',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'align' => 'center',
+							'mw30' => '1',
+							'content' => '<h2 style="text-align: center;">' . __('Co o mě říkají klienti', 'cms_ve') . '</h2>',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '80',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'testimonials',
+						'style' => [
+							'testimonials' => [
+								'0' => [
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque velit a dolor fermentum, eget viverra risus finibus. Nam libero quam, imperdiet at magna vel, tincidunt elementum blandit quam tincidunt sem. ',
+									'name' => __('Petra', 'cms_ve'),
+									'company' => __('Finanční poradce', 'cms_ve'),
+									'image' => [
+										'image' => MW_IMAGE_LIBRARY . 'misc/face-w.jpg',
+										'imageid' => '',
+									],
+								],
+								'1' => [
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque velit a dolor fermentum, eget viverra risus finibus. Nam libero quam, imperdiet at magna vel, tincidunt elementum blandit quam tincidunt sem. ',
+									'name' => __('Honza', 'cms_ve'),
+									'company' => __('Informatik', 'cms_ve'),
+									'image' => [
+										'image' => MW_IMAGE_LIBRARY . 'misc/face-m.jpg',
+										'imageid' => '',
+									],
+								],
+								'2' => [
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque velit a dolor fermentum, eget viverra risus finibus. Nam libero quam, imperdiet at magna vel, tincidunt elementum blandit quam tincidunt sem. ',
+									'name' => __('Jana', 'cms_ve'),
+									'company' => __('Účetní', 'cms_ve'),
+									'image' => [
+										'image' => MW_IMAGE_LIBRARY . 'misc/face-w2.jpg',
+										'imageid' => '',
+									],
+								],
+								'3' => [
+									'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque velit a dolor fermentum, eget viverra risus finibus. Nam libero quam, imperdiet at magna vel, tincidunt elementum blandit quam tincidunt sem. ',
+									'name' => __('Mirka', 'cms_ve'),
+									'company' => __('Doktorka', 'cms_ve'),
+									'image' => [
+										'image' => MW_IMAGE_LIBRARY . 'misc/face-w2.jpg',
+										'imageid' => '',
+									],
+								],
+							],
+							'cols' => 'two',
+							'style' => '6',
+							'font' => [
+								'font-size' => '20',
+							],
+							'font-author' => [
+								'font-size' => '20',
+							],
+							'use_slider' => '1',
+							'animation' => 'fade',
+							'delay' => '4500',
+							'speed' => '1000',
+							'color_scheme' => '',
+							'mw30' => '1',
+							'content' => '',
+							'miocarousel_setting' => [
+								'animation' => 'fade',
+								'color_scheme' => '',
+								'delay' => '4500',
+								'speed' => '1000',
+								'autoplay' => '1',
+							],
+						],
+					],
+				],
+			],
+		],
+	],
+	'6' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#11334f',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(17, 51, 79, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '50% 50%',
+				'image' => MW_IMAGE_LIBRARY . 'bg/laptop.jpg',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#11324f',
+					'transparency' => '0.90',
+					'rgba' => 'rgba(17, 50, 79, 0.9)',
+				],
+				'efect' => 'fixed',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'custom',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'default',
+			'min-height' => '',
+			'arrow_color' => '#fff',
+			'content_align' => 'top',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '100',
+			'tablet' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'mobile' => [
+				'padding_top' => '',
+				'padding_bottom' => '',
+				'padding_left' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+				'padding_right' => [
+					'size' => '',
+					'unit' => 'px',
+				],
+			],
+			'padding_bottom' => '100',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '0',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'shape_top' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'shape_bottom' => [
+				'shape' => 'tilt',
+				'code' => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path d="M0,6V0h1000v100L0,6z"></path>
+</svg>
+',
+				'size' => '100',
+				'tablet' => [
+					'size' => '',
+				],
+				'mobile' => [
+					'size' => '',
+				],
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '40',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#ffffff',
+								'transparency1' => '0.6',
+								'rgba1' => 'rgba(255, 255, 255, 0.6)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<h2 style="text-align: center;">' . __('Kontaktujte mě', 'cms_ve') . '</h2>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '40',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+					'1' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.7',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">' . __('Kontaktujte mě na tel.: +420 123 132 123<br />nebo na emailu: <a href="mailto:email@email.cz">email@email.cz</a>', 'cms_ve') . '</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '50',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'2' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '25',
+								'tablet' => [
+									'font-size' => '',
+								],
+								'mobile' => [
+									'font-size' => '',
+								],
+								'color' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.2',
+								'letter-spacing' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<p style="text-align: center;">' . __('Fakturační údaje', 'cms_ve') . '</p>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '20',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+					'3' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.7',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'mw30' => '1',
+							'content' => '<p style="text-align: center;">' . __('Jméno Příjmení, Ulice 28, Brno, IČ: 123456798', 'cms_ve') . '</p>',
+						],
+						'config' => [
+							'max_width' => '700',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+];
+$page = [
+	'page' => [
+		'title' => __('Úvod', 'cms_ve'),
+		'slug' => __('uvod', 'cms_ve'),
+		'theme' => 'page/1/',
+	],
+	'setting' => [],
+	'layer' => base64_encode(serialize($temp_layer)),
+];

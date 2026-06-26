@@ -1116,9 +1116,157 @@
         border-color: rgba(255, 255, 255, 0.6);
     }
 }
+
+/* Cookie lišta (GDPR) */
+.cookie-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99998;
+    background: var(--dark-blue);
+    color: var(--white);
+    padding: 22px 20px;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.25);
+    display: none;
+}
+
+.cookie-banner.show {
+    display: block;
+    animation: fadeInUp 0.4s ease;
+}
+
+.cookie-banner-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cookie-banner-text {
+    flex: 1;
+    min-width: 260px;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+.cookie-banner-text strong {
+    display: block;
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+}
+
+.cookie-banner-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.cookie-btn {
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid var(--white);
+    white-space: nowrap;
+}
+
+.cookie-btn-accept {
+    background: var(--white);
+    color: var(--dark-blue);
+}
+
+.cookie-btn-accept:hover {
+    background: rgba(255,255,255,0.9);
+    transform: translateY(-2px);
+}
+
+.cookie-btn-necessary {
+    background: transparent;
+    color: var(--white);
+}
+
+.cookie-btn-necessary:hover {
+    background: rgba(255,255,255,0.15);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .cookie-banner-inner {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .cookie-banner-actions {
+        justify-content: center;
+    }
+
+    .cookie-btn {
+        flex: 1;
+        text-align: center;
+    }
+}
 </style>
 </head>
 <body>
+
+<div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-banner-inner">
+        <div class="cookie-banner-text">
+            <strong>Používáme cookies</strong>
+            Tento web používá cookies pro zajištění základní funkčnosti a v případě souhlasu i pro měření návštěvnosti. Svůj souhlas můžete kdykoliv změnit. Více informací najdete na <a n:href="Home:contacts" style="color: var(--white); text-decoration: underline;">kontaktní stránce</a>.
+        </div>
+        <div class="cookie-banner-actions">
+            <button type="button" class="cookie-btn cookie-btn-necessary" id="cookieNecessaryBtn">Pouze nezbytné</button>
+            <button type="button" class="cookie-btn cookie-btn-accept" id="cookieAcceptBtn">Přijmout vše</button>
+        </div>
+    </div>
+</div>
+<script>
+(function() {
+    var CONSENT_KEY = 'respin_cookie_consent';
+
+    function getConsent() {
+        try {
+            return localStorage.getItem(CONSENT_KEY);
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function setConsent(value) {
+        try {
+            localStorage.setItem(CONSENT_KEY, value);
+            localStorage.setItem(CONSENT_KEY + '_date', new Date().toISOString());
+        } catch (e) {}
+    }
+
+    var banner = document.getElementById('cookieBanner');
+
+    if (!getConsent()) {
+        banner.classList.add('show');
+    }
+
+    document.getElementById('cookieAcceptBtn').addEventListener('click', function() {
+        setConsent('all');
+        banner.classList.remove('show');
+    });
+
+    document.getElementById('cookieNecessaryBtn').addEventListener('click', function() {
+        setConsent('necessary');
+        banner.classList.remove('show');
+    });
+})();
+</script>
+
 {if $flashes}
 <div class="flash-messages" style="position: fixed;z-index: 999999;background: green;color: white !important;width: 100vw;padding: 10px;text-align: center;">
     {foreach $flashes as $flash}
@@ -1230,7 +1378,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 ReSpin Team s.r.o. Všechna práva vyhrazena. | IČ: 08504024</p>
+            <p>&copy; 2026 ReSpin Team s.r.o. Všechna práva vyhrazena. | IČ: 08504024</p>
         </div>
     </footer>
 

@@ -1,0 +1,253 @@
+<?php
+
+return [
+	'0' => [
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '#ebebeb',
+				'transparency1' => '1.00',
+				'rgba1' => 'rgba(235, 235, 235, 1)',
+				'color2' => '',
+				'transparency2' => '1',
+				'rgba2' => '',
+			],
+			'background_setting' => 'image',
+			'background_image' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+				'pattern' => '',
+				'cover' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.2',
+					'rgba' => 'rgba(0, 0, 0, 0.2)',
+				],
+				'efect' => '',
+				'repeat' => 'no-repeat',
+			],
+			'slider_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'video_type' => 'iframe',
+			'video_url' => '',
+			'background_video_mp4' => '',
+			'background_video_webm' => '',
+			'background_video_ogg' => '',
+			'video_image' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+				'cover' => '1',
+			],
+			'video_overlay_color' => [
+				'color' => '',
+				'transparency' => '0.7',
+				'rgba' => '',
+			],
+			'row_height' => 'full',
+			'min-height' => '100',
+			'arrow_color' => '#fff',
+			'content_align' => 'center',
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'type' => 'basic',
+			'row_padding' => 'big',
+			'padding_top' => '50',
+			'padding_bottom' => '50',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'border-top' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'border-bottom' => [
+				'size' => '',
+				'style' => 'solid',
+				'color' => '',
+			],
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'css_class' => '',
+			'row_anchor' => '',
+			'delay' => '',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-one',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'style' => [
+							'background_color' => [
+								'color1' => '#ffffff',
+								'transparency1' => '1.00',
+								'rgba1' => 'rgba(255, 255, 255, 1)',
+							],
+							'background_image' => [
+								'position' => '',
+								'image' => '',
+								'imageid' => '',
+								'pattern' => '0',
+								'cover' => '1',
+								'overlay_color' => [
+									'color' => '#158ebf',
+									'transparency' => '0',
+									'rgba' => '',
+								],
+							],
+							'border' => [
+								'size' => '0',
+								'style' => 'solid',
+								'color' => '#eeeeee',
+							],
+							'corner' => '1',
+							'padding' => [
+								'size' => '40',
+								'unit' => 'px',
+							],
+							'shadow' => '1',
+							'text' => 'auto',
+							'title' => '',
+							'title_bg' => [
+								'color1' => '',
+								'transparency1' => '1',
+								'rgba1' => '',
+							],
+							'title_border' => [
+								'size' => '1',
+								'style' => 'solid',
+								'color' => '#000000',
+								'transparency' => '0.2',
+								'rgba' => 'rgba(0,0,0,0.2)',
+							],
+							'title-font' => [
+								'font-size' => '20',
+								'color' => '',
+								'align' => 'center',
+							],
+						],
+						'type' => 'box',
+						'config' => [
+							'margin_top' => '',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '400',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+						'content' => [
+							'0' => [
+								'0' => [
+									'style' => [
+										'font' => [
+											'font-family' => '',
+											'weight' => '',
+											'font-size' => '',
+											'color' => '',
+											'line-height' => '',
+										],
+										'style' => '1',
+										'p-background-color' => [
+											'color1' => '#e8e8e8',
+											'transparency1' => '1',
+											'rgba1' => 'rgba(232,232,232,1)',
+										],
+										'content' => '<p style="text-align: center;">' . __('Tato sekce je pouze pro členy. Pokud jste členem, vložte prosím své přihlašovací údaje a přihlaste se.', 'cms_member') . '</p>',
+										'li' => '',
+									],
+									'type' => 'text',
+									'config' => [
+										'margin_top' => '',
+										'tablet' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'mobile' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'margin_bottom' => '',
+										'max_width' => '',
+										'element_align' => 'center',
+										'animate' => '',
+										'id' => '',
+										'class' => '',
+										'delay' => '',
+									],
+								],
+								'1' => [
+									'style' => [
+										'loginto' => '',
+										'input-style' => '1',
+										'background' => '#e3e3e3',
+										'corners' => 'rounded',
+										'form-font' => [
+											'font-size' => '16',
+										],
+										'button' => [
+											'style' => 'basic',
+											'button_size' => 'medium',
+											'custom_size' => '18',
+										],
+									],
+									'type' => 'member_login',
+									'config' => [
+										'margin_top' => '',
+										'tablet' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'mobile' => [
+											'margin_top' => '',
+											'margin_bottom' => '',
+											'max_width' => '',
+										],
+										'margin_bottom' => '',
+										'max_width' => '',
+										'element_align' => 'center',
+										'animate' => '',
+										'id' => '',
+										'class' => '',
+										'delay' => '',
+									],
+								],
+							],
+						],
+					],
+				],
+			],
+		],
+	],
+];

@@ -1,0 +1,14 @@
+.cms_popup_content_container {
+	padding: 30px;
+}
+
+.cms_popup_content_container .visual_content {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.cms_popup_content_container .row_fix_width {
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}

@@ -1,0 +1,456 @@
+<?php
+$image = [
+	2400 => MW_IMAGE_LIBRARY . 'bg/town2.jpg',
+];
+
+$content = [
+	'class' => '',
+	'style' => [
+		'background_color' => [
+			'color1' => '#ffffff',
+			'transparency1' => '1',
+			'rgba1' => 'rgba(255,255,255,1)',
+			'color2' => '',
+			'transparency2' => '1',
+			'rgba2' => '',
+		],
+		'background_setting' => 'image',
+		'background_image' => [
+			'position' => '50% 50%',
+			'image' => '',
+			'imageid' => '',
+			'pattern' => '',
+			'tablet' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+			],
+			'mobile' => [
+				'position' => '50% 50%',
+				'image' => '',
+				'imageid' => '',
+			],
+			'cover' => '1',
+			'overlay_color' => [
+				'color' => '#000000',
+				'transparency' => '0.2',
+				'rgba' => 'rgba(0, 0, 0, 0.2)',
+			],
+			'efect' => '',
+			'repeat' => 'no-repeat',
+		],
+		'slider_overlay_color' => [
+			'color' => '',
+			'transparency' => '0.7',
+			'rgba' => '',
+		],
+		'video_type' => 'iframe',
+		'video_url' => '',
+		'background_video_mp4' => '',
+		'background_video_webm' => '',
+		'background_video_ogg' => '',
+		'video_image' => [
+			'position' => '50% 50%',
+			'image' => '',
+			'imageid' => '',
+			'cover' => '1',
+		],
+		'video_overlay_color' => [
+			'color' => '',
+			'transparency' => '0.7',
+			'rgba' => '',
+		],
+		'row_height' => 'default',
+		'min-height' => '100',
+		'arrow_color' => '#fff',
+		'content_align' => 'center',
+		'text' => 'auto',
+		'font' => [
+			'font-family' => '',
+			'weight' => '',
+			'font-size' => '',
+			'color' => '',
+		],
+		'link_color' => '',
+		'type' => 'basic',
+		'row_padding' => 'big',
+		'padding_top' => '50',
+		'tablet' => [
+			'padding_top' => '',
+			'padding_bottom' => '',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+		],
+		'mobile' => [
+			'padding_top' => '',
+			'padding_bottom' => '',
+			'padding_left' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+			'padding_right' => [
+				'size' => '',
+				'unit' => 'px',
+			],
+		],
+		'padding_bottom' => '50',
+		'padding_left' => [
+			'size' => '',
+			'unit' => 'px',
+		],
+		'padding_right' => [
+			'size' => '',
+			'unit' => 'px',
+		],
+		'border-top' => [
+			'size' => '',
+			'style' => 'solid',
+			'color' => '',
+		],
+		'border-bottom' => [
+			'size' => '',
+			'style' => 'solid',
+			'color' => '',
+		],
+		'shape_top' => [
+			'shape' => 'tilt',
+			'code' => '<svg viewBox=\"0 0 1000 100\" preserveAspectRatio=\"none\"><path d=\"M0,6V0h1000v100L0,6z\"></path></svg>',
+			'size' => '100',
+			'tablet' => [
+				'size' => '',
+			],
+			'mobile' => [
+				'size' => '',
+			],
+			'color' => '',
+		],
+		'shape_bottom' => [
+			'shape' => 'tilt',
+			'code' => '<svg viewBox=\"0 0 1000 100\" preserveAspectRatio=\"none\"><path d=\"M0,6V0h1000v100L0,6z\"></path></svg>',
+			'size' => '100',
+			'tablet' => [
+				'size' => '',
+			],
+			'mobile' => [
+				'size' => '',
+			],
+			'color' => '',
+		],
+		'margin_top' => '',
+		'margin_bottom' => '',
+		'css_class' => '',
+		'row_anchor' => '',
+		'm_background_image' => [
+			'position' => '',
+			'image' => '',
+			'imageid' => '',
+			'tablet' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+			],
+			'mobile' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+			],
+		],
+		'm2_background_image' => [
+			'position' => '',
+			'image' => '',
+			'imageid' => '',
+			'tablet' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+			],
+			'mobile' => [
+				'position' => '',
+				'image' => '',
+				'imageid' => '',
+			],
+		],
+		'delay' => '',
+	],
+	'content' => [
+		'0' => [
+			'type' => 'col-two',
+			'class' => '',
+			'content' => [
+				'0' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '20',
+							'color' => '#878787',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p>' . __('Podnadpis', 'cms_ve') . '</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '0',
+						'max_width' => '500',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'1' => [
+					'style' => [
+						'font' => [
+							'font-size' => '40',
+							'tablet' => [
+								'font-size' => '',
+							],
+							'mobile' => [
+								'font-size' => '',
+							],
+							'color' => '',
+							'font-family' => '',
+							'weight' => '',
+							'line-height' => '1.2',
+							'letter-spacing' => '0',
+							'text-shadow' => 'none',
+						],
+						'style' => '1',
+						'border' => [
+							'size' => '1',
+							'style' => 'solid',
+							'color' => '#d5d5d5',
+						],
+						'background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'decoration-color' => '#158ebf',
+						'align' => 'center',
+						'content' => '<p style="text-align: left;">Naše vlastnosti</p>',
+						'mw30' => '1',
+					],
+					'type' => 'title',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '17',
+						'max_width' => '',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'2' => [
+					'style' => [
+						'font' => [
+							'font-family' => '',
+							'weight' => '',
+							'font-size' => '',
+							'color' => '',
+							'line-height' => '',
+						],
+						'style' => '1',
+						'p-background-color' => [
+							'color1' => '#e8e8e8',
+							'transparency1' => '1',
+							'rgba1' => 'rgba(232,232,232,1)',
+						],
+						'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan ipsum posuere orci commodo egestas.</p>',
+						'li' => '',
+						'mw30' => '1',
+					],
+					'type' => 'text',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '46',
+						'max_width' => '',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+				'3' => [
+					'style' => [
+						'bullets' => [
+							'0' => [
+								'title' => '',
+								'text' => 'Naše vlastnost',
+							],
+							'1' => [
+								'title' => '',
+								'text' => 'Naše vlastnost',
+							],
+							'2' => [
+								'title' => '',
+								'text' => 'Naše vlastnost',
+							],
+							'3' => [
+								'title' => '',
+								'text' => 'Naše vlastnost',
+							],
+						],
+						'type' => 'image',
+						'style' => '2',
+						'start_number' => '1',
+						'bullet_icon' => [
+							'icon' => 'check1',
+							'code' => '',
+							'tab' => 'icon',
+						],
+						'custom_image' => [
+							'position' => '',
+							'image' => '',
+							'imageid' => '',
+						],
+						'size' => '18',
+						'space' => '25',
+						'bullet_color' => '#219ed1',
+						'title_font' => [
+							'use-font' => 'title',
+							'font-size' => '18',
+							'color' => '',
+						],
+						'text_font' => [
+							'font-size' => '',
+							'color' => '',
+						],
+						'mw30' => '1',
+					],
+					'type' => 'bullets',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '',
+						'max_width' => '',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+		'1' => [
+			'type' => 'col-two',
+			'class' => '',
+			'content' => [
+				'0' => [
+					'style' => [
+						'image' => [
+							'position' => '50% 50%',
+							'image' => $image[2400],
+							'imageid' => '',
+						],
+						'thumb_name' => '11',
+						'max-width' => '',
+						'align' => 'center',
+						'label' => '',
+						'click_action' => 'none',
+						'alert' => '',
+						'popup' => '',
+						'link' => [
+							'page' => '',
+							'link' => '',
+						],
+						'large_image' => [
+							'position' => '',
+							'image' => '',
+							'imageid' => '',
+						],
+						'hover' => '',
+						'hover_color' => [
+							'color' => '#000000',
+							'transparency' => '0.3',
+							'rgba' => 'rgba(0,0,0,0.3)',
+						],
+						'style' => '1',
+						'mw30' => '1',
+					],
+					'type' => 'image',
+					'config' => [
+						'margin_top' => '',
+						'tablet' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'mobile' => [
+							'margin_top' => '',
+							'margin_bottom' => '',
+							'max_width' => '',
+						],
+						'margin_bottom' => '',
+						'max_width' => '',
+						'element_align' => 'center',
+						'animate' => '',
+						'id' => '',
+						'class' => '',
+						'delay' => '',
+					],
+				],
+			],
+		],
+	],
+	'type' => 'basic',
+];

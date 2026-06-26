@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2015-12-23 13:21+0100\n"
+"PO-Revision-Date: 2015-12-23 13:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../elements.php:5 ../init.php:49 ../init.php:50 ../init.php:58
+#: ../init.php:59 ../init.php:66 ../mioweb_class.php:243
+msgid "Kampaně"
+msgstr "Kampagnen"
+
+#: ../elements.php:12
+msgid "Nastavit odpočet na půlnoc x dní od vstupu návštěvníka do kampaně"
+msgstr ""
+"Countdown bis Mitternacht x Tage nach dem Zugang des Besuchers zur Kampagne "
+"einstellen"
+
+#: ../elements.php:14
+msgid "Odpočet musí být umístěn na stránce kampaně."
+msgstr "Der Countdown muss auf der Kampagnenseite platziert werden."
+
+#: ../elements.php:19
+msgid "Navigace kampaně"
+msgstr "Kampagnen-Navigation "
+
+#: ../elements.php:20
+msgid ""
+"Vypíše seznam stránek s obsahem zdarma vybrané kampaně. Slouží jako navigace "
+"mezi těmito stránkami."
+msgstr ""
+"Listet Seiten mit dem Inhalt des kostenlos ausgewählten Kampagne auf. Dient "
+"als Navigation zwischen diesen Seiten."
+
+#: ../elements.php:24 ../init.php:35
+msgid "Kampaň"
+msgstr "Kampagne"
+
+#: ../elements.php:29
+msgid "Vzhled navigace"
+msgstr "Aussehen der Navigation"
+
+#: ../elements.php:43 ../elements.php:105
+msgid "Písmo"
+msgstr "Schriftart"
+
+#: ../elements.php:54
+msgid "Barva textu aktivní položky"
+msgstr "Textfarbe des aktiven Elements"
+
+#: ../elements.php:61
+msgid "Počet stažení / koupení"
+msgstr "Anzahl Downloads / Einkäufe"
+
+#: ../elements.php:62
+msgid ""
+"Vypíše kontakty z vybraného seznamu ze SmartEmailingu. Můžete tak vypsat "
+"informaci o tom, kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+"(pokud je ukládáte do SmartEmailingu)."
+msgstr ""
+"Listet die Kontakte aus der gewählten Liste von SmartEmailings auf. Sie "
+"können Informationen darüber aufrufen, wie viele Menschen Ihr eBook "
+"heruntergeladen oder Ihr Produkt gekauft haben (wenn sie diese im "
+"SmartEmailingu speichern)."
+
+#: ../elements.php:66
+msgid "Obsah"
+msgstr "Inhalt"
+
+#: ../elements.php:70
+msgid "Vyberte seznam, pro který chcete vypsat počet kontaktů."
+msgstr ""
+"Wählen Sie die Liste aus, für die Sie die Anzahl der Kontakte auflisten "
+"wollen."
+
+#: ../elements.php:75
+msgid "Text před číslem"
+msgstr "Text vor der Zahl"
+
+#: ../elements.php:77
+msgid "Tento ebook si stáhlo již"
+msgstr "Dieses eBook wurde bereits von "
+
+#: ../elements.php:81
+msgid "Text za číslem"
+msgstr "Text nach der Zahl"
+
+#: ../elements.php:83
+msgid "lidí"
+msgstr "Personen heruntergeladen"
+
+#: ../elements.php:87
+msgid "Odečítat počet kontaktů od čísla"
+msgstr "Die Anzahl von Kontakten von der Zahl abziehen"
+
+#: ../elements.php:89
+msgid ""
+"Počet kontaktů z vybraného seznamu se bude odečítat od tohoto čísla. Pokud "
+"zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se vypíše "
+"číslice 80. Pokud zde žádné číslo nezadáte, bude se zobrazovat klasicky "
+"počet kontaktů ze seznamu."
+msgstr ""
+"Die Anzahl der Kontakte aus der ausgewählten Liste wird von dieser Zahl "
+"abgezogen. Zum Beispiel, wenn Sie hier die Nummer 100 eingeben und in der "
+"Liste sind 20 Kontakte, dann wird hier die Zahl 80 angezeigt. Wenn Sie hier "
+"keine Nummer eingeben, dann wird die klassischen Anzahl der Kontakte aus der "
+"Liste angezeigt."
+
+#: ../elements.php:93
+msgid "Po dosažení nuly přesměrovat návštěvníka na"
+msgstr "Nach dem Erreichen von Null werden die Besucher umgeleitet zu"
+
+#: ../elements.php:101
+msgid "Vzhled"
+msgstr "Erscheinung"
+
+#: ../elements_print.php:48
+msgid ""
+"Vybraná kampaň neobsahuje žádné stránky s obsahem zdarma. Nastavte je ve "
+"správě kampaní, jinak se nebude menu zobrazovat."
+msgstr ""
+"Die ausgewählte Kampagne enthält keinen kostenlosen Inhalt. Stellen Sie "
+"diesen in der Kampagnenverwaltung ein, da sonst das Menü nicht angezeigt "
+"wird."
+
+#: ../elements_print.php:51
+msgid ""
+"Kampaň neexistuje. Pravděpodobně byla smazána. Vyberte prosím jinou kampaň "
+"nebo toto menu kampaně smažte."
+msgstr ""
+"Die Kampagne existiert nicht. Wahrscheinlich wurde sie gelöscht. Bitte "
+"wählen Sie eine andere Kampagne oder löschen Sie dieses Kampagnenmenü."
+
+#: ../elements_print.php:93
+msgid ""
+"Není vybrán žádný SmartEmailingový seznam. Element proto nelze správně "
+"zobrazit."
+msgstr ""
+"Keine Liste für SmartEmailing ausgewählt. Das Element kann daher nicht "
+"richtig angezeigt werden."
+
+#: ../functions.php:27
+msgid "Vytvořit novou kampaň"
+msgstr "Neue Kampagne erstellen"
+
+#: ../functions.php:29
+#, php-format
+msgid ""
+"Dochází ke konfliktu stránky %s. Pravděpodobně jste tuto stránku vybrali na "
+"více místech kampaně nebo ve více kampaních. Použijte ji jen jednou, jinak "
+"nebude kampaň fungovat správně."
+msgstr ""
+"Es gibt einen Konflikt mit der Seite %s . Wahrscheinlich haben Sie diese "
+"Seite in mehreren Orten oder in mehreren Kampagnen ausgewählt. Verwenden Sie "
+"diese nur einmal, sonst wird die Kampagne nicht korrekt funktionieren."
+
+#: ../functions.php:31
+msgid "Zadejte název nové kampaně"
+msgstr "Geben Sie einen Namen für Ihre neue Kampagne ein"
+
+#: ../functions.php:32 ../mioweb_class.php:243
+msgid "Vytvořit kampaň"
+msgstr "Kampagne erstellen"
+
+#: ../functions.php:33
+msgid "Storno"
+msgstr "Abbrechen"
+
+#: ../functions.php:71
+msgid ""
+"Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v záložce "
+"kampaně."
+msgstr ""
+"Keine Kampagne erstellt. Die Kampagne kann in den Websiteeinstellungen in "
+"der Registerkarte Kampagne erstellt werden."
+
+#: ../init.php:22
+msgid "Kampaňové"
+msgstr "Kampagnen"
+
+#: ../init.php:26
+msgid "Video stránky"
+msgstr "Videoseite"
+
+#: ../js/js_texts.php:8
+msgid "Prosím zadejte název kampaně."
+msgstr "Bitte geben Sie den Namen der Kampagne ein."
+
+#: ../js/js_texts.php:9
+msgid "Opravdu chcete odstranit stránku z kampaně?"
+msgstr "Wollen Sie diese Seite wirklich aus der Kampagne löschen?"
+
+#: ../js/js_texts.php:10
+msgid "Opravdu chcete tuto kampaň smazat?"
+msgstr "Wollen Sie diese Kampagne wirklich löschen?"
+
+#: ../js/js_texts.php:11
+msgid ""
+"Tuto stránku nelze použít. Pravděpodobně již byla použita jako stránka této "
+"nebo jiné kampaně. Zvolte jinou stránku."
+msgstr ""
+"Diese Seite kann nicht verwendet werden. Sie wurde wahrscheinlich bereits "
+"als Seite für diese oder eine andere Kampagne verwendet. Wählen Sie eine "
+"andere Seite."
+
+#: ../mioweb_class.php:121 ../mioweb_class.php:138 ../mioweb_class.php:148
+msgid "Stránka s obsahem zdarma"
+msgstr "Seite mit gratis Inhalt"
+
+#: ../mioweb_class.php:129
+msgid "Stránky kampaně"
+msgstr "Kampagnen-Website"
+
+#: ../mioweb_class.php:131
+msgid "Úvodní stránka / Squeeze page"
+msgstr "Homepage / Squeeze Page"
+
+#: ../mioweb_class.php:149
+msgid "Pro odkázání uživatele na tuto stránku použijte odkaz:"
+msgstr "Um den Benutzer auf diese Seite zu verweisen, verwenden Sie den Link:"
+
+#: ../mioweb_class.php:157
+msgid "Přidat stránku do kampaně"
+msgstr "Seite zur Kampagne hinzufügen"
+
+#: ../mioweb_class.php:158
+msgid "Nastavení kampaně"
+msgstr "Kampagneneinstellungen"
+
+#: ../mioweb_class.php:160
+msgid "Přístupový kód"
+msgstr "Zugangscode"
+
+#: ../mioweb_class.php:162
+msgid ""
+"Tento kód budete používat jako hodnotu atributu setuser v URL adrese, na "
+"kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+"uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+"musí být jedinečný pro každou kampaň."
+msgstr ""
+"Diesen Code werden Sie als Attributwert von setuser in der URL verwenden, "
+"auf die Sie registrierte Besucher weiterleiten werden. Mit diesem Code "
+"werden ihnen Cookies gespeichert und ihnen wird der Zugriff auf die Website "
+"der Kampagne ermöglicht. Der Zugangscode muss für jede Kampagne einzigartig "
+"sein."
+
+#: ../mioweb_class.php:164
+msgid "Evergreen"
+msgstr "Evergreen"
+
+#: ../mioweb_class.php:168
+msgid "Aktivovat evergreen mód"
+msgstr "Evergreen-Modus aktivieren "
+
+#: ../mioweb_class.php:170
+msgid ""
+"Pokud je evergreen mód u kampaně aktivní, znamená to, že každému novému "
+"návštěvníkovi, který se registruje, budou zpřístupněny pouze ty stránky, na "
+"které ho přímo odkážete (za použití výše nastaveného přístupového kódu v "
+"URL). Můžete tak stránky kampaně zpřístupňovat postupně například pomocí e-"
+"mailové kampaně, s e-maily odkazujícími na jednotlivé stránky. Pokud je "
+"evergreen mód aktivní, deaktivuje se nastavení data zveřejnění u všech "
+"stránek kampaně."
+msgstr ""
+"Wenn der Evergreen-Modus der Kampagne aktiv ist, bedeutet dies, dass jedem "
+"neuen Besucher, der sich registriert, nur die Seiten angezeigt werden, zu "
+"denen sie diesen verbinden (mit dem zuvor eingestellten Zugangscode in der "
+"URL). Sie können dann die Seiten der Kampagnen nach und nach anzeigen, zum "
+"Beispiel mit einer E-Mail-Kampagne, mit E-Mails, die auf einzelne Seiten "
+"verweisen. Falls der Evergreen-Modus aktiv ist, wird die Einstellung des "
+"Datums der Veröffentlichung bei allen Seiten der Kampagne deaktiviert."
+
+#: ../mioweb_class.php:172 ../mioweb_class.php:173
+msgid "Smazat kampaň"
+msgstr "Kampagne löschen"
+
+#: ../mioweb_class.php:182
+msgid "Nastavení stránky"
+msgstr "Seiteneinstellungen"
+
+#: ../mioweb_class.php:185
+msgid "Nevypisovat v menu kampaně"
+msgstr "Nicht in Kampagnenmenü zeigen"
+
+#: ../mioweb_class.php:189
+msgid "Datum zveřejnění"
+msgstr "Erscheinungsdatum"
+
+#: ../mioweb_class.php:193
+msgid "Název stránky v menu"
+msgstr "Seitenname im Menü"
+
+#: ../mioweb_class.php:197
+msgid "Název před zveřejněním"
+msgstr "Name vor der Veröffentlichung"
+
+#: ../mioweb_class.php:201
+msgid "Náhledový obrázek v menu"
+msgstr "Vorschaubild im Menü"
+
+#: ../mioweb_class.php:205
+msgid "Náhledový obrázek před zveřejněním"
+msgstr "Vorschaubild vor der Veröffentlichung"
+
+#: ../mioweb_class.php:209
+msgid "Odstranit"
+msgstr "Entfernen"
+
+#: ../mioweb_class.php:230
+msgid "Vytvořit novou stránku"
+msgstr "Neue Seite erstellen"
+
+#: ../mioweb_class.php:230
+msgid "Nová stránka kampaně"
+msgstr "Neue Kampagnenseite"
+
+#: ../mioweb_class.php:234
+msgid "Přejít na kampaň"
+msgstr "Zur Kampagne "
+
+#: ../mioweb_class.php:243
+msgid "Správa kampaní"
+msgstr "Kampagnenmanagement"
+
+#: ../templates/campaign/1/config.php:147
+#: ../templates/campaign/2/config.php:131
+msgid "Přidejte se do diskuze"
+msgstr "Diskutieren Sie mit!"
+
+#: ../templates/campaign/1/template.php:6
+msgid "Dvousloupcová video stránka"
+msgstr "Doppelspaltige Video-Seite"
+
+#: ../templates/campaign/1/template.php:7
+msgid "Video stránka s dvousloupcovým obsahem a s menu vedle videa."
+msgstr "Videoseite mit doppelspaltigem Inhalt und Menü neben dem Video."
+
+#: ../templates/campaign/2/template.php:6
+msgid "Jednoduchá video stránka"
+msgstr "Einfache Videoseite"
+
+#: ../templates/campaign/2/template.php:7
+msgid "Video stránka s menu nad videem."
+msgstr "Videoseite mit Menü über dem Video."

@@ -1,0 +1,69 @@
+{
+	"name": "mioweb-cz/mioweb-admin-client",
+	"description": "Library for accessing Mioweb Admin Management API.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Jan-Sebastian Fabík",
+			"email": "honza@fabik.org"
+		},
+		{
+			"name": "Adam Zelycz",
+			"email": "adam.zelycz@mioweb.cz"
+		},
+		{
+			"name": "Matouš Němec"
+		},
+		{
+			"name": "Jakub Koňas",
+			"email": "jakub.konas@gmail.com"
+		},
+		{
+			"name": "Lukáš Bauer"
+		}
+	],
+	"require": {
+		"php": ">=8.0",
+		"mioweb-cz/http-client": "^2.7.0"
+	},
+	"require-dev": {
+		"nette/tester": "^2.5",
+		"nette/di": "^3.1",
+		"nette/utils": "^3.1",
+		"guzzlehttp/guzzle": "^6.0",
+		"tracy/tracy": "^2.10",
+		"phpstan/phpstan": "^1.10",
+		"phpstan/phpstan-strict-rules": "^1.5",
+		"mioweb-cz/coding-standard": "^1.1"
+	},
+	"suggest": {
+		"nette/di": "to use class MiowebAdminClientExtension"
+	},
+	"config": {
+		"platform": {
+			"php": "8.0"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"": [
+				"src/",
+				"tests/"
+			]
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "git@github.com:mioweb-cz/http-client.git"
+		},
+		{
+			"type": "vcs",
+			"url":  "git@github.com:mioweb-cz/coding-standard.git"
+		}
+	]
+}

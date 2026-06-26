@@ -1,0 +1,1087 @@
+# Translation of Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-27 07:16:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded &#8211; Login Security, Brute Force Protection, Firewall - Stable (latest release)\n"
+
+#: views/tab-settings.php:636
+msgid "The LLAR plugin displays its item on the left navigation menu, which provides a shortcut to the plugin."
+msgstr "Plugin LLAR zobrazuje svou položku v levé navigační nabídce, která poskytuje zkrácený kód k pluginu."
+
+#: views/tab-settings.php:631
+msgid "Display left menu item"
+msgstr "Zobrazit položku levého menu"
+
+#: views/tab-settings.php:626 views/tab-settings.php:643
+#: views/tab-settings.php:674
+msgid "(Save and reload this page to see the changes)"
+msgstr "(Uložte a znovu načtěte tuto stránku, abyste viděli změny)"
+
+#: views/tab-settings.php:619
+msgid "The LLAR plugin displays its item on the top navigation menu, which provides a shortcut to the plugin."
+msgstr "Plugin LLAR zobrazuje svou položku v horní nabídce navigace, která poskytuje zkrácený kód k tomuto pluginu."
+
+#: views/tab-settings.php:614
+msgid "Display top menu item"
+msgstr "Zobrazit položku horního menu"
+
+#: views/tab-logs-local.php:245
+msgid "Unlocked"
+msgstr "Odemčeno"
+
+#: views/tab-logs-local.php:242
+msgid "Unlock"
+msgstr "Odemknout"
+
+#: views/tab-logs-local.php:233
+msgid " lockouts"
+msgstr " uzamčení"
+
+#: core/LimitLoginAttempts.php:933
+msgid "LLAR"
+msgstr "LLAR"
+
+#: views/tab-settings.php:803
+msgid "Test email has been sent!"
+msgstr "Testovací e-mail byl odeslán!"
+
+#: views/tab-settings.php:329
+msgid "This is the code you receive via email once you subscribe to the LLAR premium cloud app. (example xxxxxxxxxxxxx=yek?putes/1v/moc.stpmettanigoltimil.ipa)"
+msgstr "Jedná se o kód, který obdržíte e-mailem, jakmile si předplatíte prémiovou cloudovou aplikaci LLAR. (příklad xxxxxxxxxxxxx=yek?putes/1v/moc.stpmettanigoltimil.ipa)"
+
+#: views/tab-settings.php:215
+msgid "After a specific IP address fails to log in <b>%1$s</b> times, a lockout lasting <b>%2$s</b> minutes is activated. If additional failed attempts occur within <b>%3$s</b> hours and lead to another lockout, once their combined total hits <b>%4$s</b>, the <b>%2$s</b> minutes duration is extended to <b>%5$s</b> hours. The lockout will be lifted once <b>%3$s</b> hours have passed since the last lockout incident."
+msgstr "Pokud se konkrétní IP adresa nepřihlásí <b>%1$s</b>krát, aktivuje se uzamčení trvající <b>%2$s</b> minut. Pokud během <b>%3$s</b> hodin dojde k dalším neúspěšným pokusům, které povedou k dalšímu uzamčení, jakmile jejich celkový součet dosáhne <b>%4$s</b>, prodlouží se doba trvání <b>%2$s</b> minut na  <b>%5$s</b> hodin. Uzamčení bude zrušeno, jakmile uplyne <b>%3$s</b> hodin od posledního případu uzamčení."
+
+#: views/tab-settings.php:209
+msgid "Time in hours before blocks are removed."
+msgstr "Čas v hodinách, než bude zablokování odstraněno."
+
+#: views/tab-settings.php:196
+msgid "After the specified number of lockouts the lockout time will increase by specified hours."
+msgstr "Po uplynutí zadaného počtu uzamčení se doba uzamčení prodlouží o zadané hodiny."
+
+#: views/tab-settings.php:180
+msgid "Lockout time in minutes."
+msgstr "Doba uzamčení v minutách."
+
+#: views/tab-settings.php:167
+msgid "Number of failed attempts allowed before locking out."
+msgstr "Počet povolených neúspěšných pokusů před zablokováním."
+
+#: views/tab-settings.php:153
+msgid "Set lockout limits based on failed attempts."
+msgstr "Nastavení limitů uzamčení na základě neúspěšných pokusů."
+
+#: views/tab-settings.php:113
+msgid "Switches from free version (local) to premium (cloud)."
+msgstr "Přechod z bezplatné verze (místní) na prémiovou (cloudovou)."
+
+#: views/tab-settings.php:667
+msgid "The warning badge is a red bubble icon displayed next to the LLAR logo on the main vertical navigation menu. It displays a warning if there were more than 100 attempts for a day."
+msgstr "Varovný znak je ikona červené bubliny zobrazená vedle loga LLAR v hlavní vertikální navigační nabídce. Zobrazuje varování, pokud bylo za den zaznamenáno více než 100 pokusů."
+
+#: views/tab-settings.php:652
+msgid "The LLAR dashboard widget provides a quick glance of your daily failed login activity on the main WordPress dashboard. You may hide this widget by checking this box."
+msgstr "Widget nástěnka LLAR poskytuje rychlý přehled o denní aktivitě neúspěšných přihlášení na hlavní nástěnce WordPressu. Tento widget můžete skrýt zaškrtnutím tohoto políčka."
+
+#: views/tab-settings.php:599
+msgid "Test Email Notifications"
+msgstr "Test e-mailových oznámení"
+
+#: views/tab-settings.php:584
+msgid "Email address to which lockout notifications will be sent."
+msgstr "E-mailová adresa, na kterou budou zasílána oznámení o zablokování."
+
+#: views/tab-settings.php:538
+msgid "This message will appear at the bottom of the login page."
+msgstr "Tato zpráva se zobrazí v dolní části přihlašovací stránky."
+
+#: views/tab-logs-local.php:111
+msgid "Denylist"
+msgstr "Seznam zablokovaných"
+
+#: views/tab-settings.php:231
+msgid "Server variables containing IP addresses."
+msgstr "Proměnné serveru obsahující IP adresy."
+
+#: core/LimitLoginAttempts.php:827 resources/compare-plans-data.php:64
+#: views/options-page.php:139
+msgid "Login Firewall"
+msgstr "Brána firewall pro přihlášení"
+
+#: core/Ajax.php:1134
+msgid "Wrong email format."
+msgstr "Špatný formát e-mailu."
+
+#: views/chart-circle-failed-attempts-today.php:120
+msgid "Cloud protection enabled"
+msgstr "Povolená ochrana v cloudu"
+
+#: views/emails/failed-login.php:352
+msgid "from these notifications."
+msgstr "z těchto oznámení."
+
+#: views/emails/failed-login.php:351
+msgid "Unsubscribe"
+msgstr "Odhlásit se"
+
+#: views/emails/failed-login.php:321
+msgid " for more information on our premium services, which can automatically block and detect malicious IP addresses."
+msgstr " pro více informací o našich prémiových službách, které mohou automaticky blokovat a detekovat škodlivé IP adresy."
+
+#: views/emails/failed-login.php:321
+msgid "Limit Login Attempts Reloaded website"
+msgstr "Web Limit Login Attempts Reloaded"
+
+#: views/emails/failed-login.php:318
+msgid "Unfortunately, we cannot determine the severity of the IP address with the free version of the plugin. If the IP continues to make attempts and is not recognized by your organization, then it's likely to have malicious intent. Depending on how frequent the attacks are, you may experience performance issues. In the plugin dashboard, you can investigate the frequency of the failed login attempts in the logs and take additional steps to protect your website (i.e. adding them to the block list). You can visit the "
+msgstr "U bezplatné verze pluginu bohužel nedokážeme určit závažnost IP adresy. Pokud IP pokračuje v pokusech a vaše organizace ji nerozpozná, je pravděpodobné, že má nekalý úmysl. V závislosti na tom, jak časté jsou útoky, můžete zaznamenat problémy s výkonem. Na hlavním panelu pluginu můžete prozkoumat četnost neúspěšných pokusů o přihlášení v protokolech a podniknout další kroky k ochraně svých webových stránek (tj. přidat je do seznamu blokovaných). Můžete navštívit "
+
+#: views/emails/failed-login.php:317
+msgid "How dangerous is this failed login attempt?"
+msgstr "Jak nebezpečný je tento neúspěšný pokus o přihlášení?"
+
+#: views/emails/failed-login.php:315
+msgid "You are receiving this email because there was a failed login attempt on your website {domain}. If you'd like to opt out of these notifications, please click the “Unsubscribe” link below."
+msgstr "Tento e-mail jste obdrželi, protože na vašem webu {domain} došlo k neúspěšnému pokusu o přihlášení. Pokud se chcete odhlásit z těchto oznámení, klikněte na níže uvedený odkaz „Odhlásit odběr“."
+
+#: views/emails/failed-login.php:314
+msgid "Why am I getting these emails?"
+msgstr "Proč dostávám tyto e-maily?"
+
+#: views/emails/failed-login.php:312
+msgid "A failed login attempt is when an IP address uses incorrect credentials to log into your website. The IP address could be a human operator, or a program designed to guess your password."
+msgstr "Neúspěšný pokus o přihlášení je, když IP adresa používá k přihlášení na váš web nesprávné přihlašovací údaje. IP adresa může být lidský operátor nebo program určený k uhádnutí vašeho hesla."
+
+#: views/emails/failed-login.php:311
+msgid "What is a failed login attempt?"
+msgstr "Co je neúspěšný pokus o přihlášení?"
+
+#: views/emails/failed-login.php:309
+msgid "Frequently Asked Questions"
+msgstr "Často kladené otázky"
+
+#: views/emails/failed-login.php:280
+msgid "Go to Dashboard"
+msgstr "Přejít na Nástěnku"
+
+#: views/emails/failed-login.php:266
+msgid "Please visit your WordPress dashboard for additional details, investigation options, and help articles."
+msgstr "Navštivte prosím svou nástěnku WordPress, kde najdete další podrobnosti, možnosti zkoumání a články nápovědy."
+
+#: views/emails/failed-login.php:262
+msgid "IP was blocked for {blocked_duration}"
+msgstr "IP adresa byla zablokována na {blocked_duration}"
+
+#: views/emails/failed-login.php:260
+msgid "Last user attempted: <b>{username}</b>"
+msgstr "Poslední pokus uživatele: <b>{username}</b>"
+
+#: views/emails/failed-login.php:250
+msgid "The failed login details include:"
+msgstr "Neúspěšné přihlašovací podrobnosti včetně:"
+
+#: views/emails/failed-login.php:248
+msgid "This is installed on your <b>{domain}</b> WordPress site."
+msgstr "Toto je nainstalováno na vašem webu <b>{domain}</b> WordPressu."
+
+#: views/emails/failed-login.php:244
+msgid "Hello,"
+msgstr "Ahoj,"
+
+#: views/emails/failed-login.php:243
+msgid "Hello {name},"
+msgstr "Nazdar {name},"
+
+#: views/chart-circle-failed-attempts-today.php:51
+msgid "Warning: Your site has experienced over 100 failed login attempts in the past 24 hours"
+msgstr "Varování: Vaše stránky zaznamenaly za posledních 24 hodin více než 100 neúspěšných pokusů o přihlášení"
+
+#: views/chart-circle-failed-attempts-today.php:46
+#: views/chart-circle-failed-attempts-today.php:80
+msgid "(past 24 hrs)"
+msgstr "(posledních 24 hodin)"
+
+#: views/chart-circle-failed-attempts-today.php:40
+#: views/chart-circle-failed-attempts-today.php:75
+msgid "Hooray! Zero failed login attempts (past 24 hrs)"
+msgstr "Hurá! Žádné neúspěšné pokusy o přihlášení (za posledních 24 hodin)"
+
+#: views/tab-settings.php:296 views/tab-settings.php:462
+msgid "No contract - cancel anytime"
+msgstr "Žádná smlouva - kdykoli zrušit"
+
+#: core/LimitLoginAttempts.php:1948
+msgid "The %s IP range is invalid"
+msgstr "Rozsah IP adres %s je neplatný"
+
+#: resources/compare-plans-data.php:129
+msgid "Lockouts & safelists/blocklists can be shared between multiple domains to enhance protection."
+msgstr "Uzamčení a seznamy bezpečných/blokovaných položek lze sdílet mezi více doménami pro zvýšení ochrany."
+
+#: resources/compare-plans-data.php:128
+msgid "Synchronize Lockouts & Safelists/Blocklists"
+msgstr "Synchronizujte uzamčení a bílou/černou listinu"
+
+#: resources/compare-plans-data.php:121
+msgid "Use active IP database via the cloud to automatically block users before they are able to make a failed login."
+msgstr "Použijte aktivní databázi IP přes cloud k automatickému zablokování uživatelů, než se jim podaří provést neúspěšné přihlášení."
+
+#: resources/compare-plans-data.php:120
+msgid "Intelligent IP Blocking"
+msgstr "Inteligentní blokování IP"
+
+#: resources/compare-plans-data.php:113
+msgid "Use system wide data from over 10,000 WordPress websites to identify and block malicious IPs. This is an active list in real-time."
+msgstr "Použijte celosystémová data z více než 10 000 webů WordPress k identifikaci a blokování škodlivých IP adres. Toto je aktivní seznam v reálném čase."
+
+#: resources/compare-plans-data.php:112
+msgid "Access Active Cloud Blocklist"
+msgstr "Přístup k seznamu blokovaných aktivních cloudů"
+
+#: resources/compare-plans-data.php:105
+msgid "Automatically add malicious IPs to your blocklist when triggered by the system."
+msgstr "Automaticky přidávat škodlivé IP adresy do seznamu blokovaných, když je systém zaznamená."
+
+#: resources/compare-plans-data.php:104
+msgid "Auto IP Blocklist"
+msgstr "Automatický seznam blokovaných IP"
+
+#: resources/compare-plans-data.php:97
+msgid "Add another layer of protection from brute force bots by accessing a global database of known IPs with malicious activity."
+msgstr "Přidejte další vrstvu ochrany před roboty hrubou silou přístupem do globální databáze známých IP adres se škodlivou aktivitou."
+
+#: resources/compare-plans-data.php:96
+msgid "Access Blocklist of Malicious IPs"
+msgstr "Přístup na černou listinu škodlivých IP adres"
+
+#: resources/compare-plans-data.php:89
+msgid "Disable IPs from any region to disable logins."
+msgstr "Chcete-li zakázat přihlášení, zakažte adresy IP z libovolné oblasti."
+
+#: resources/compare-plans-data.php:88
+msgid "Block By Country"
+msgstr "Blokovat podle země"
+
+#: resources/compare-plans-data.php:78
+msgid "300k requests per month"
+msgstr "300k požadavků za měsíc"
+
+#: resources/compare-plans-data.php:77
+msgid "200k requests per month"
+msgstr "200k žádostí za měsíc"
+
+#: resources/compare-plans-data.php:76
+msgid "100k requests per month"
+msgstr "100k žádostí za měsíc"
+
+#: resources/compare-plans-data.php:73
+msgid "Absorb failed login attempts from brute force bots in the cloud to keep your website at its optimal performance."
+msgstr "Absorbujte neúspěšné pokusy o přihlášení od robotů hrubou silou v cloudu, abyste udrželi svůj web na optimálním výkonu."
+
+#: resources/compare-plans-data.php:57
+msgid "Configurable Lockout Timing"
+msgstr "Nastavitelné časování uzamčení."
+
+#: resources/compare-plans-data.php:50
+msgid "Limit Number of Retry Attempts"
+msgstr "Omezit počet pokusů o opakování"
+
+#: resources/compare-plans-data.php:27
+msgid "Installed"
+msgstr "Nainstalováno"
+
+#: core/LimitLoginAttempts.php:850
+msgid "Premium"
+msgstr "Premium"
+
+#: views/tab-premium.php:95
+msgid "Features comparison"
+msgstr "Porovnání funkcí"
+
+#: views/tab-premium.php:85
+msgid "Why Should I Consider Premium?"
+msgstr "Proč bych měl uvažovat o Premium verzi?"
+
+#: views/tab-premium.php:68
+msgid "You are currently using the free version of <strong>Limit Login Attempts Reloaded</strong>."
+msgstr "Momentálně používáte bezplatnou verzi <strong>Limit Login Attempts Reloaded</strong>."
+
+#: views/tab-premium.php:61
+msgid "Get It Here"
+msgstr "Získejte zde"
+
+#: views/tab-premium.php:53
+msgid "Support"
+msgstr "Podpora"
+
+#: views/tab-premium.php:48
+msgid "Ask a pre-sales question"
+msgstr "Položte otázku před koupí"
+
+#: views/tab-premium.php:43
+msgid "Pre-sales FAQs"
+msgstr "Časté otázky před nákupem"
+
+#: views/tab-premium.php:38
+msgid "Full feature list"
+msgstr "Úplný seznam funkcí"
+
+#: views/tab-premium.php:32
+msgid "Limit Login Attempts Reloaded <strong>Premium</strong>"
+msgstr "Limit Login Attempts Reloaded <strong>Premium</strong>"
+
+#: views/tab-help.php:161
+msgid "What URLs are being attacked and protected?"
+msgstr "Jaké URL jsou napadeny a chráněny?"
+
+#: views/tab-help.php:155
+msgid "I just installed LLAR and I'm already getting several failed login attempts"
+msgstr "Právě jsem nainstaloval LLAR a už mám několik neúspěšných pokusů o přihlášení"
+
+#: views/tab-help.php:149
+msgid "What do I do if all users get blocked?"
+msgstr "Co mám dělat, jsou-li zablokováni všichni uživatelé?"
+
+#: views/tab-help.php:143
+msgid "What happens if my site exceeds the request limits in the plan?"
+msgstr "Co se stane, když můj web překročí limity požadavků v plánu?"
+
+#: views/tab-help.php:131
+msgid "Could these failed login attempts be fake?"
+msgstr "Mohou být tyto neúspěšné pokusy o přihlášení falešné?"
+
+#: views/tab-help.php:125
+msgid "Why am I still seeing login attempts even after the IP got blocked?"
+msgstr "Proč stále vidím pokusy o přihlášení i po zablokování IP adresy?"
+
+#: views/tab-help.php:119
+msgid "What do I do if the admin gets blocked?"
+msgstr "Co mám dělat, když je admin zablokován?"
+
+#: views/tab-help.php:113
+msgid "How can I tell that the premium plugin is working?"
+msgstr "Jak poznám, že prémiový plugin funguje?"
+
+#: views/tab-help.php:107
+msgid "How do I know if I'm under attack?"
+msgstr "Jak poznám, že jsem napaden?"
+
+#: views/tab-help.php:101
+msgid "Top Topics and Questions"
+msgstr "Nejdůležitější témata a otázky"
+
+#: views/tab-help.php:93
+msgid "Questions regarding premium software sales."
+msgstr "Otázky týkající se prodeje prémiového softwaru."
+
+#: views/tab-help.php:91
+msgid "Pre-sales Questions"
+msgstr "Otázky před nákupem"
+
+#: views/tab-help.php:85
+msgid "Questions regarding updating billing info, cancellation, and expiration."
+msgstr "Otázky týkající se aktualizace fakturačních údajů, zrušení a vypršení platnosti."
+
+#: views/tab-help.php:83
+msgid "Accounts & Billing"
+msgstr "Účty a fakturace"
+
+#: views/tab-help.php:78
+msgid "Popular technical questions about the service including admin blocking, definitions, and email notifications."
+msgstr "Oblíbené technické otázky týkající se služby včetně blokování administrátora, definic a e-mailových upozornění."
+
+#: views/tab-help.php:76
+msgid "Technical Questions"
+msgstr "Technické otázky"
+
+#: views/tab-help.php:70
+msgid "Questions regarding the cloud service including how to activate, logs and storage, and compliance."
+msgstr "Otázky týkající se cloudové služby včetně toho, jak ji aktivovat, protokoly a úložiště a dodržování předpisů."
+
+#: views/tab-help.php:68
+msgid "Cloud Service & Security"
+msgstr "Cloudové služby a zabezpečení"
+
+#: views/tab-help.php:62
+msgid "All Documentation"
+msgstr "Kompletní dokumentace"
+
+#: views/tab-help.php:51
+msgid "GDPR Information"
+msgstr "Informace o GDPR"
+
+#: views/tab-help.php:42
+msgid "Go To Support Forums"
+msgstr "Přejděte na fórum podpory"
+
+#: views/tab-help.php:34
+msgid "Free Support"
+msgstr "Podpora zdarma"
+
+#: views/tab-help.php:176
+msgid "Our technical support team is available by email to help with any questions."
+msgstr "Náš tým technické podpory je k dispozici e-mailem, aby vám pomohl s případnými dotazy."
+
+#: views/tab-help.php:20
+msgid "Upgrade Now to Access Premium Support"
+msgstr "Upgradujte nyní a získejte přístup k prémiové podpoře"
+
+#: views/tab-debug.php:70
+msgid "Version"
+msgstr "Verze"
+
+#: views/chart-failed-attempts.php:227
+msgid "Attempts"
+msgstr "Pokusy"
+
+#: views/options-page.php:159
+msgid "Premium / Extensions"
+msgstr "Premium / Rozšíření"
+
+#: views/options-page.php:88
+msgid "Yes, enable auto-update"
+msgstr "Ano, povolit automatické aktualizace"
+
+#: views/options-page.php:86
+msgid "Do you want Limit Login Attempts Reloaded to provide the latest version automatically?"
+msgstr "Chcete, aby Limit Login Attempts Reloaded načetly automaticky nejnovější verzi?"
+
+#: views/app-widgets/event-log.php:61
+msgid "Loading older events, skipping ACL events. <a href=\"%s\" target=\"_blank\">Full logs</a>"
+msgstr "Načítání starších událostí, přeskakování událostí ACL. <a href=\"%s\" target=\"_blank\">Úplné protokoly</a>"
+
+#: views/app-widgets/event-log.php:54 views/app-widgets/login-attempts.php:62
+msgid "Load older events"
+msgstr "Načíst starší události"
+
+#: views/chart-circle-failed-attempts-today.php:47
+#: views/chart-circle-failed-attempts-today.php:81
+msgid "Your site is currently at a low risk for brute force activity"
+msgstr "Vaše stránky jsou aktuálně vystaveny nízkému riziku útoku hrubou silou"
+
+#: views/micro-cloud-modal.php:68 views/onboarding-popup.php:158
+#: views/onboarding-popup.php:230
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: views/options-page.php:92
+msgid "No thanks"
+msgstr "Ne, díky"
+
+#: views/tab-help.php:28
+msgid "Upgrade To Premium"
+msgstr "Upgrade na Premium verzi"
+
+#: views/tab-logs-custom.php:36
+msgid "Or"
+msgstr "Nebo"
+
+#: views/app-widgets/active-lockouts.php:13
+msgid "Reload"
+msgstr "Obnovit"
+
+#: views/emails/failed-login.php:331
+msgid "This alert was sent by your website where Limit Login Attempts Reloaded free version is installed and you are listed as the admin. If you are a GoDaddy customer, the plugin is installed into a must-use (MU) folder."
+msgstr ""
+"Toto upozornění bylo zasláno vaším webem, kde je nainstalována bezplatná verze Limit Login Attempts\n"
+" a vy jste uvedeni jako správce. Pokud jste zákazníkem GoDaddy, plugin je nainstalován\n"
+"do složky, kterou musíte použít (MU)."
+
+#: views/tab-settings.php:307 views/tab-settings.php:414
+msgid "Upgrade"
+msgstr "Upgradovat"
+
+#: views/app-widgets/acl-rules.php:14 views/app-widgets/acl-rules.php:63
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#. Description of the plugin
+#: limit-login-attempts-reloaded.php
+msgid "Block excessive login attempts and protect your site against brute force attacks. Simple, yet powerful tools to improve site performance."
+msgstr "Blokujte opakované pokusy o přihlášení a chraňte svůj web před závažnými útoky. Ano, jednoduché, ale výkonné nástroje pro zlepšení výkonu webu."
+
+#: views/tab-settings.php:647
+msgid "Hide Dashboard Widget"
+msgstr "Skrýt widget na nástěnce"
+
+#: views/app-widgets/event-log.php:19
+msgid "Full Logs"
+msgstr "Úplné záznamy"
+
+#: views/app-widgets/event-log.php:24
+msgid "All attempts blocked by access rules are hidden by default. You can see the full log at this link."
+msgstr "Všechny pokusy blokované pravidly přístupu jsou ve výchozím nastavení skryté. Celý protokol si můžete prohlédnout na tomto odkazu."
+
+#: views/tab-settings.php:548
+msgid "You can use a shortcode here to insert links, for example, a link to your Privacy Policy page. <br>The shortcode is: [llar-link url=\"https://example.com\" text=\"Privacy Policy\"]"
+msgstr "Zde můžete použít krátký kód pro vložení odkazů, například odkaz na vaši stránku Zásady ochrany osobních údajů. <br>Zkrácený kód je: [llar-link url=\"https://vašedoména.cz\" text=\"Zásady ochrany osobních údajů\"]"
+
+#: views/app-widgets/country-access-rules.php:14
+msgid "Country Access Rules"
+msgstr "Pravidla pro přístup do zemí"
+
+#: views/app-widgets/country-access-rules.php:22
+msgid "these countries:"
+msgstr "tyto státy:"
+
+#: views/tab-settings.php:533
+msgid "GDPR message"
+msgstr "Zpráva o GDPR"
+
+#: core/Config.php:96
+msgid "By proceeding you understand and give your consent that your IP address and browser information might be processed by the security plugins installed on this site."
+msgstr "Pokračováním berete na vědomí a souhlasíte s tím, že vaše IP adresa a informace o prohlížeči mohou být zpracovávány bezpečnostními pluginy nainstalovanými na této stránce."
+
+#: views/chart-circle-failed-attempts-today.php:102
+#: views/chart-failed-attempts.php:36 views/chart-failed-attempts.php:121
+#: views/chart-failed-attempts.php:131
+msgid "Failed Login Attempts"
+msgstr "Neúspěšné pokusy přihlášení"
+
+#: views/chart-circle-failed-attempts-today.php:93
+msgid "Failed Login Attempts Today"
+msgstr "Neúspěšné pokusy dnes"
+
+#: views/tab-dashboard.php:147
+msgid "Many options such as notifications, alerts, premium status, and more."
+msgstr "Mnoho možností, jako jsou oznámení, výstrahy, prémiový stav a další."
+
+#: views/tab-dashboard.php:143
+msgid "Global Options"
+msgstr "Globální možnosti"
+
+#: views/tab-dashboard.php:132
+msgid "Find the documentation and help you need."
+msgstr "Vyhledejte dokumentaci a nápovědu, kterou potřebujete."
+
+#: core/LimitLoginAttempts.php:842 views/options-page.php:155
+#: views/tab-dashboard.php:128
+msgid "Help"
+msgstr "Pomoc"
+
+#: views/tab-dashboard.php:113
+msgid "Tools"
+msgstr "Nástroje"
+
+#: views/tab-dashboard.php:67 views/tab-settings.php:96
+msgid "Learn More"
+msgstr "Zjistit více"
+
+#: views/onboarding-popup.php:41
+msgid "Notifications"
+msgstr "Upozornění"
+
+#: core/LimitLoginAttempts.php:453 views/tab-dashboard.php:97
+#: views/tab-dashboard.php:253
+msgid "Upgrade to Premium"
+msgstr "Upgradujte na Premium verzi"
+
+#: views/tab-dashboard.php:87
+msgid "As a free user, your local server is absorbing the traffic brought on by brute force attacks, potentially slowing down your website. Upgrade to Premium today to outsource these attacks through our cloud app, and slow down future attacks with advanced throttling."
+msgstr "Jako bezplatný uživatel váš místní server absorbuje provoz způsobený útoky závažného charakteru, což potenciálně zpomaluje váš web. Upgradujte na Premium ještě dnes, abyste odvedli tyto útoky prostřednictvím naší cloudové aplikace a zamezili budoucím útokům pomocí našeho sofistikovaného zabezpečení."
+
+#: views/tab-dashboard.php:83
+msgid "Premium Protection Disabled"
+msgstr "Prémiová ochrana deaktivována"
+
+#: views/tab-dashboard.php:117
+msgid "View lockouts logs, block or whitelist usernames or IPs, and more."
+msgstr "Zobrazte protokoly zablokovaných, povolených uživatelů, nebo IP adres a mnoho dalšího."
+
+#: views/tab-logs-local.php:88
+msgid "Safelist"
+msgstr "Bezpečnostní seznam"
+
+#: resources/compare-plans-data.php:35
+msgid "Upgrade now"
+msgstr "Upgradovat nyní"
+
+#: resources/compare-plans-data.php:72
+msgid "Performance Optimizer"
+msgstr "Optimalizace výkonu"
+
+#: views/app-widgets/active-lockouts.php:8
+msgid "Active Lockouts"
+msgstr "Aktivní blokace"
+
+#: views/chart-failed-attempts.php:44 views/chart-failed-attempts.php:147
+#: views/chart-failed-attempts.php:244
+msgid "Requests"
+msgstr "Požadavek"
+
+#: views/tab-settings.php:319 views/tab-settings.php:324
+msgid "Setup Code"
+msgstr "Instalační kód"
+
+#: views/chart-circle-failed-attempts-today.php:45
+#: views/chart-circle-failed-attempts-today.php:79
+msgid "%d failed login attempt "
+msgid_plural "%d failed login attempts "
+msgstr[0] "%d neúspěšný pokus o přihlášení"
+msgstr[1] "%d neúspěšné pokusy o přihlášení"
+msgstr[2] "%d neúspěšných pokusů o přihlášení"
+
+#: core/LimitLoginAttempts.php:2302
+msgid "Don't show this message again"
+msgstr "Toto oznámení již nezobrazovat"
+
+#: core/LimitLoginAttempts.php:2301
+msgid "Remind me a month from now"
+msgstr "Připomeňte mi to za měsíc"
+
+#: core/LimitLoginAttempts.php:2300
+msgid "Yes, turn on email notifications"
+msgstr "Ano, zapnout e-mailová upozornění"
+
+#: core/LimitLoginAttempts.php:2295
+msgid "You have been upgraded to the latest version of <strong>Limit Login Attempts Reloaded</strong>.<br> Due to increased security threats around the holidays, we recommend turning on email notifications when you receive a failed login attempt."
+msgstr "Byli jste upgradováni na nejnovější verzi <strong>Limit Login Attempts Reloaded</strong>.<br> Kvůli zvýšeným bezpečnostním hrozbám během svátkůúvolna doporučujeme zapnout e-mailová upozornění, abychom Vás mohli informovat, když se někdo pokusí neúspěšně přihlásit."
+
+#: resources/compare-plans-data.php:136 views/tab-help.php:173
+msgid "Premium Support"
+msgstr "Prémiová podpora"
+
+#: views/emails/failed-login.php:246
+msgid "This notification was sent automatically via Limit Login Attempts Reloaded Plugin."
+msgstr "Toto oznámení bylo odesláno automaticky prostřednictvím pluginu Limit Login Attempts Reloaded."
+
+#: views/options-page.php:164
+msgid "Failover"
+msgstr "Přesměrování datového toku"
+
+#: views/tab-settings.php:353
+msgid "Configuration"
+msgstr "Konfigurace"
+
+#: views/tab-settings.php:289 views/tab-settings.php:456
+msgid "Run auto backups of access control lists, lockouts and logs"
+msgstr "Spusťte automatické zálohování seznamů řízení přístupu, blokování a záznamů"
+
+#: views/tab-settings.php:282 views/tab-settings.php:450
+msgid "Get premium support"
+msgstr "Přejít na prémiovou podporu"
+
+#: views/tab-settings.php:256 views/tab-settings.php:426
+msgid "Absorb site load caused by attacks"
+msgstr "Absorbujte zátěž stránek způsobenou útoky"
+
+#: views/tab-settings.php:250 views/tab-settings.php:406
+msgid "Why Use Our Premium Cloud App?"
+msgstr "Proč používat naši Premium cloudovou aplikaci?"
+
+#: views/tab-settings.php:341
+msgid "Submit"
+msgstr "Potvrdit"
+
+#: views/tab-settings.php:65
+msgid "App Settings"
+msgstr "Nastavení aplikace"
+
+#: views/tab-settings.php:108
+msgid "Active App"
+msgstr "Aktivní aplikace"
+
+#: views/app-widgets/acl-rules.php:59
+msgid "IP Access Rules"
+msgstr "Pravidla přístupu IP"
+
+#: views/app-widgets/acl-rules.php:10
+msgid "Login Access Rules"
+msgstr "Pravidla pro přihlášení k přístupu"
+
+#: views/app-widgets/event-log.php:14
+msgid "Event Log"
+msgstr "Protokol akcí"
+
+#: core/CloudApp.php:132
+msgid "The endpoint is not responding. Please contact your app provider to settle that."
+msgstr "Koncový bod nereaguje. Chcete-li to vyřešit, kontaktujte svého poskytovatele služeb."
+
+#: core/Ajax.php:779
+msgid "No rules yet."
+msgstr "Zatím žádná pravidla."
+
+#: views/app-widgets/acl-rules.php:44 views/app-widgets/acl-rules.php:93
+#: views/app-widgets/country-access-rules.php:26
+msgid "Add"
+msgstr "Přidat"
+
+#: views/app-widgets/acl-rules.php:39 views/app-widgets/acl-rules.php:88
+msgid "Pass"
+msgstr "V pořádku"
+
+#: views/app-widgets/acl-rules.php:38 views/app-widgets/acl-rules.php:87
+msgid "Allow"
+msgstr "Povolit"
+
+#: views/app-widgets/acl-rules.php:37 views/app-widgets/acl-rules.php:86
+#: views/app-widgets/country-access-rules.php:55
+msgid "Deny"
+msgstr "Odmítnout"
+
+#: views/app-widgets/acl-rules.php:26 views/app-widgets/acl-rules.php:75
+msgid "Action"
+msgstr "Akce"
+
+#: core/Ajax.php:728
+msgid "Meanwhile, the app falls over to the <a href=\"%s\">default functionality</a>."
+msgstr "Mezitím aplikace přejde na <a href=\"%s\">původní funkce</a>."
+
+#: views/app-widgets/active-lockouts.php:25
+msgid "Expires in (minutes)"
+msgstr "Vyprší za (minuty)"
+
+#: views/app-widgets/active-lockouts.php:24
+msgid "Count"
+msgstr "Počet"
+
+#: core/Ajax.php:359 core/Ajax.php:662
+msgid "No events yet."
+msgstr "Zatím žádné události."
+
+#: views/app-widgets/event-log.php:46
+msgid "Actions"
+msgstr "Akce"
+
+#: views/app-widgets/event-log.php:45
+msgid "Lockout Duration"
+msgstr "Doba blokování"
+
+#: views/app-widgets/event-log.php:44
+msgid "Attempts Left"
+msgstr "Zbývá pokusů"
+
+#: views/app-widgets/acl-rules.php:24 views/app-widgets/acl-rules.php:33
+#: views/app-widgets/acl-rules.php:73 views/app-widgets/acl-rules.php:82
+#: views/app-widgets/event-log.php:43
+msgid "Pattern"
+msgstr "Vzor"
+
+#: views/app-widgets/event-log.php:42
+msgid "Reason"
+msgstr "Důvod"
+
+#: views/app-widgets/acl-rules.php:25 views/app-widgets/acl-rules.php:74
+#: views/app-widgets/event-log.php:41
+msgid "Rule"
+msgstr "Pravidlo"
+
+#: views/app-widgets/active-lockouts.php:23 views/app-widgets/event-log.php:40
+#: views/app-widgets/login-attempts.php:50
+msgid "Login"
+msgstr "Přihlášení"
+
+#: views/app-widgets/active-lockouts.php:22 views/app-widgets/event-log.php:38
+#: views/app-widgets/login-attempts.php:51
+msgid "IP"
+msgstr "IP"
+
+#: views/app-widgets/event-log.php:37 views/app-widgets/login-attempts.php:49
+msgid "Time"
+msgstr "Čas"
+
+#: core/Ajax.php:175
+msgid "Please specify the Setup Code"
+msgstr "Zadejte prosím instalační kód"
+
+#: core/CloudApp.php:157
+msgid "The app has been successfully imported."
+msgstr "Aplikace byla úspěšně importována."
+
+#. Author URI of the plugin
+#: limit-login-attempts-reloaded.php
+msgid "https://www.limitloginattempts.com/"
+msgstr "https://www.limitloginattempts.com/"
+
+#: views/tab-settings.php:144
+msgid "Local App"
+msgstr "Místní aplikace"
+
+#: core/Ajax.php:711
+msgid "No lockouts yet."
+msgstr "Prozatím žádné blokace"
+
+#: core/LimitLoginAttempts.php:832 views/options-page.php:145
+msgid "Logs"
+msgstr "Protokoly"
+
+#: core/LimitLoginAttempts.php:435 core/LimitLoginAttempts.php:816
+#: views/options-page.php:129
+msgid "Dashboard"
+msgstr "Ovládací panel"
+
+#: views/tab-logs-local.php:142 views/tab-settings.php:475
+#: views/tab-settings.php:816
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+#: views/tab-settings.php:68
+msgid "The app absorbs the main load caused by brute-force attacks, analyzes login attempts, and blocks unwanted visitors. It provides other service functions as well."
+msgstr "Aplikace absorbuje hlavní zátěž způsobenou závažnými útoky, dále analyzuje pokusy o přihlášení a blokuje nežádoucí návštěvníky. Nabízí i další servisní funkce."
+
+#: views/tab-settings.php:481
+msgid "General Settings"
+msgstr "Hlavní nastavení"
+
+#: core/LimitLoginAttempts.php:1975 core/LimitLoginAttempts.php:2049
+msgid "Settings saved."
+msgstr "Nastavení bylo uloženo."
+
+#: core/LimitLoginAttempts.php:2209
+msgid "Leave a review"
+msgstr "Přidat recenzi"
+
+#: core/LimitLoginAttempts.php:2208
+msgid "Maybe later"
+msgstr "Možná později"
+
+#: core/LimitLoginAttempts.php:2207
+msgid "Don't show again"
+msgstr "Znovu nezobrazovat"
+
+#: core/LimitLoginAttempts.php:2204
+msgid "We would really like to hear your feedback about the plugin! Please take a couple minutes to write a few words <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">here</a>. Thank you!"
+msgstr "Opravdu bychom rádi slyšeli váš názor na plug-in! Věnujte prosím pár minut napsáním několika slov <a href=\"https://wordpress.org/support/plugin/limit-login-attempts-reloaded/reviews/#new-post\" target=\"_blank\">sem</a>. Děkujeme!"
+
+#: core/LimitLoginAttempts.php:2203
+msgid "A <strong>crazy idea</strong> we wanted to share! What if we put an image from YOU on the <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">LLAR page</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">example</a>) A drawing made by you or your child would cheer people up! Send us your drawing by <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">email</a> and we like it, we'll add it in the next release. Let's have some fun!"
+msgstr "<strong>Šílený nápad</strong>, o který jsme se chtěli podělit! Co kdybychom dali obrázek od VÁS <a href=\"https://wordpress.org/plugins/limit-login-attempts-reloaded/\" target=\"_blank\">stránku LLAR</a>?! (<a href=\"https://wordpress.org/plugins/hello-dolly/\" target=\"_blank\">například</a>). Kresba vytvořená Vámi, nebo vaším dítětem, by lidi rozveselila! Pošlete nám svůj výkres na <a href=\"mailto:wpchef.me@gmail.com\" target=\"_blank\">e-mail</a> a když se nám bude líbit, přidáme ho v příštím vydání. Pojďme, bude to zábava!"
+
+#: core/LimitLoginAttempts.php:2202
+msgid "Hey <strong>Limit Login Attempts Reloaded</strong> user!"
+msgstr "Dobrý den, uživateli<strong>Limit Login Attempts Reloaded</strong>!"
+
+#: views/tab-debug.php:65
+msgid "Copy the contents of the window and provide to support."
+msgstr "Zkopírujte obsah okna a poskytněte jej podpoře."
+
+#: core/LimitLoginAttempts.php:436 core/LimitLoginAttempts.php:821
+#: views/options-page.php:133
+msgid "Settings"
+msgstr "Nastavení"
+
+#: core/LimitLoginAttempts.php:837 views/options-page.php:151
+msgid "Debug"
+msgstr "Ladění"
+
+#: views/tab-debug.php:58
+msgid "Debug Info"
+msgstr "Informace o ladění"
+
+#: views/tab-settings.php:226
+msgid "Trusted IP Origins"
+msgstr "Důvěryhodný původ IP"
+
+#: views/tab-settings.php:241
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr "Zadejte původy, kterým důvěřujete, v pořadí podle priority a oddělte je čárkami. Důrazně doporučujeme, abyste <b>nepoužívali</b> nic jiného než REMOTE_ADDR, protože jiné zdroje lze snadno zfalšovat. Příklady: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+
+#: views/tab-settings.php:594
+msgid "after"
+msgstr "po"
+
+#: views/tab-settings.php:567 views/tab-settings.php:591
+msgid "Email to"
+msgstr "Na e-mail"
+
+#: core/LimitLoginAttempts.php:1678
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr "<strong>CHYBA</strong>: Chybný e-mail nebo heslo."
+
+#: views/tab-settings.php:522
+msgid "GDPR compliance"
+msgstr "Soulad s GDPR"
+
+#: views/tab-logs-local.php:93 views/tab-logs-local.php:116
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr "Jedna IP nebo rozsah IP (1.2.3.4-5.6.7.8) na jednu řádku"
+
+#: views/tab-logs-local.php:218
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: views/tab-logs-local.php:217
+msgid "Date"
+msgstr "Datum"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: limit-login-attempts-reloaded.php core/LimitLoginAttempts.php:194
+msgid "Limit Login Attempts Reloaded"
+msgstr "Limit Login Attempts Reloaded"
+
+#: views/app-widgets/event-log.php:39 views/tab-logs-local.php:220
+msgid "Gateway"
+msgstr "Brána"
+
+#: views/tab-logs-local.php:202
+msgid "Clear Log"
+msgstr "Vyčistit Log"
+
+#: views/tab-logs-local.php:101 views/tab-logs-local.php:124
+msgid "One Username per line"
+msgstr "Jedno Uživatelské jméno na řádku"
+
+#: views/tab-settings.php:204
+msgid "hours until retries are reset"
+msgstr "Pokusil se přihlásit jako"
+
+#: views/tab-settings.php:191
+msgid "hours"
+msgstr "hodin"
+
+#: views/tab-logs-local.php:219
+msgid "Tried to log in as"
+msgstr "Pokusil se přihlásit jako"
+
+#: views/tab-settings.php:162
+msgid "allowed retries"
+msgstr "povolených opakování"
+
+#: views/tab-settings.php:498
+msgid "Use global settings"
+msgstr "Použít globální nastavení"
+
+#: views/tab-settings.php:493
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr "Pokud je tato možnost zakázána, globální nastavení se vynuceně použije na celou síť."
+
+#: views/tab-settings.php:492
+msgid "Let network sites use their own settings"
+msgstr "Povolit síťovým webům používat jejich vlastní nastavení"
+
+#: views/tab-logs-local.php:71
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "%d tato IP má momentálně blokovaný pokus o přihlášení"
+
+#: views/tab-logs-local.php:68
+msgid "Restore Lockouts"
+msgstr "Obnovit blokování"
+
+#: views/tab-logs-local.php:64
+msgid "Active lockouts"
+msgstr "Aktivní blokování"
+
+#: views/tab-logs-local.php:57
+msgid "No lockouts yet"
+msgstr "Zatím žádné blokování"
+
+#: views/tab-logs-local.php:53
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d zablokování od posledního resetování"
+msgstr[1] "%d zablokování od posledního resetování"
+msgstr[2] "%d zablokování od posledního resetování"
+
+#: views/tab-logs-local.php:50
+msgid "Reset Counter"
+msgstr "Vynulovat počítadlo"
+
+#: views/tab-logs-local.php:45
+msgid "Total lockouts"
+msgstr "Celkové blokobání/celkově blokováno"
+
+#: views/tab-logs-local.php:35
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: core/LimitLoginAttempts.php:1903
+msgid "Cleared current lockouts"
+msgstr "Vymazáné aktuální zablokování"
+
+#: core/LimitLoginAttempts.php:1896
+msgid "Reset lockout count"
+msgstr "Resetovat počet blokování"
+
+#: core/LimitLoginAttempts.php:1889
+msgid "Cleared IP log"
+msgstr "Protokol IP byl vymazán"
+
+#: core/LimitLoginAttempts.php:1701
+msgid "WC Error"
+msgstr "Chyba WC"
+
+#: core/LimitLoginAttempts.php:1681
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>CHYBA</strong>: Nesprávné uživatelské jméno nebo heslo."
+
+#: core/LimitLoginAttempts.php:601 core/LimitLoginAttempts.php:1146
+#: core/LimitLoginAttempts.php:1638
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Zkuste to znovu za %d hodinu."
+msgstr[1] "Zkuste to znovu za %d hodiny."
+msgstr[2] "Zkuste to znovu za %d hodin."
+
+#: core/LimitLoginAttempts.php:603 core/LimitLoginAttempts.php:1148
+#: core/LimitLoginAttempts.php:1641
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Prosím, zkuste to znovu za %d minutu."
+msgstr[1] "Prosím, zkuste to znovu za %d minuty."
+msgstr[2] "Prsoím, zkuste to znovu za %d minut."
+
+#: core/LimitLoginAttempts.php:594 core/LimitLoginAttempts.php:649
+#: core/LimitLoginAttempts.php:1139 core/LimitLoginAttempts.php:1559
+#: core/LimitLoginAttempts.php:1618
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>CHYBA</strong>: Příliš mnoho neúspěšných pokusů o přihlášení."
+
+#: core/LimitLoginAttempts.php:1340
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minutu"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#: core/LimitLoginAttempts.php:1333
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d hodina"
+msgstr[1] "%d hodiny"
+msgstr[2] "%d hodin"
+
+#: core/Ajax.php:994
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "Zbývá <strong>%d</strong> pokus."
+msgstr[1] "Zbývá <strong>%d</strong> pokusy."
+msgstr[2] "Zbývá <strong>%d</strong> pokusů."
+
+#: core/LimitLoginAttempts.php:1626
+msgid "Please try again later."
+msgstr "Prosím, zkuste to znovu později."
+
+#: views/tab-settings.php:597
+msgid "lockouts"
+msgstr "blokování"
+
+#: views/tab-settings.php:148
+msgid "Lockout"
+msgstr "Blokování"
+
+#: views/tab-logs-local.php:194
+msgid "Lockout log"
+msgstr "Log blokování"
+
+#: views/tab-settings.php:579
+msgid "Notify on lockout"
+msgstr "Upozornit na blokování"
+
+#: views/tab-settings.php:187
+msgid "lockouts increase lockout time to"
+msgstr "Blokování - prodloužení doby blokování pro přihlášení na"
+
+#: views/tab-settings.php:175
+msgid "minutes lockout"
+msgstr "vyloučení v minutách"

@@ -1,0 +1,58 @@
+{
+	"name": "mioweb-cz/mioweb-core",
+	"type": "library",
+	"description": "Mioweb core library",
+	"authors": [
+		{
+			"name": "Marek Cepcek",
+			"email": "marek.cepcek@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"nette/application": "^3.0",
+		"nette/bootstrap": "^3.0",
+		"nette/database": "^3.0",
+		"nette/di": "^3.0",
+		"nette/utils": "^3.0",
+		"tracy/tracy": "^2.7",
+		"jaybizzle/crawler-detect": "^1.2",
+		"ramsey/uuid": "^3.9",
+		"robmorgan/phinx": "^0.13",
+		"mioweb-cz/mioweb-admin-client": "^1.16.7",
+		"latte/latte": "^2.10"
+	},
+	"require-dev": {
+		"nette/tester": "^2.3.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mioweb\\Core\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/Tests"
+		}
+	},
+	"config": {
+		"platform": {
+			"php": "7.4"
+		}
+	},
+	"scripts": {
+		"tests": [
+			"tester -c tests/php.ini tests/Tests -s -j 1"
+		]
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:mioweb-cz/http-client.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:mioweb-cz/mioweb-admin-client.git"
+		}
+	]
+}

@@ -1,0 +1,4217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioShop\n"
+"POT-Creation-Date: 2017-04-24 11:34+0200\n"
+"PO-Revision-Date: 2017-04-24 11:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: elements-print.php:14
+msgid "Není vybrán žádný produkt pro vložení do košíku."
+msgstr ""
+
+#: elements-print.php:149
+msgid ""
+"Není vybrán žádný produkt. Vyberte produkt, který chcete prodávat nebo "
+"element smažte."
+msgstr ""
+
+#: elements-print.php:274
+msgid ""
+"Zatím nebyl prodán žádný produkt, proto nelze vypsat nejprodávanější "
+"produkty."
+msgstr ""
+
+#: elements-print.php:275
+msgid "Výpis produktů je prázdný."
+msgstr ""
+
+#: elements-print.php:344
+msgid "Výběru neodpovídá žádná kategorie."
+msgstr ""
+
+#: elements-print.php:365
+msgid "Pro výpis detailu musíte vybrat produkt."
+msgstr ""
+
+#: elements-print.php:398
+msgid "(zvolte produkt)"
+msgstr ""
+
+#: elements-print.php:401
+msgid "Není vybrán žádný produkt pro vypsání ceny."
+msgstr ""
+
+#: elements.php:6 init.php:889 init.php:890 shop_class.php:733
+msgid "Eshop"
+msgstr ""
+
+#: elements.php:13
+msgid "Tlačítko koupit"
+msgstr ""
+
+#: elements.php:14
+msgid ""
+"Vyberte si z několika typů tlačítek a přizpůsobte ho barevně podle svých "
+"představ."
+msgstr ""
+
+#: elements.php:18
+msgid "Tlačítko"
+msgstr ""
+
+#: elements.php:22
+msgid "Typ tlačítka"
+msgstr ""
+
+#: elements.php:25 elements.php:41 includes/ajax.php:654
+msgid "Koupit"
+msgstr ""
+
+#: elements.php:26 includes/ajax.php:616 includes/ajax.php:619
+msgid "Vložit do košíku"
+msgstr ""
+
+#: elements.php:30
+msgid ""
+"Typ \"Koupit\" umožní přímý nákup zboží bez nutnosti vkládat zboží do košíku "
+"a projít celým objednávkovým procesem."
+msgstr ""
+
+#: elements.php:34 elements.php:145 init.php:787
+msgid "Produkt"
+msgstr ""
+
+#: elements.php:39
+msgid "Text tlačítka"
+msgstr ""
+
+#: elements.php:45
+msgid "Zarovnání"
+msgstr ""
+
+#: elements.php:48
+msgid "Nalevo"
+msgstr ""
+
+#: elements.php:49
+msgid "Doprostřed"
+msgstr ""
+
+#: elements.php:50
+msgid "Napravo"
+msgstr ""
+
+#: elements.php:70
+msgid "Vzhled tlačítka"
+msgstr ""
+
+#: elements.php:75
+msgid "Styl tlačítka"
+msgstr ""
+
+#: elements.php:116
+msgid "Výpis produktů"
+msgstr ""
+
+#: elements.php:117
+msgid ""
+"Vypíše buď všechny produkty, vybrané produkty, nejprodávanější produkty nebo "
+"produkty určité kategorie."
+msgstr ""
+
+#: elements.php:121
+msgid "Výpis"
+msgstr ""
+
+#: elements.php:125
+msgid "Vypsat"
+msgstr ""
+
+#: elements.php:128
+msgid "Vybrané produkty"
+msgstr ""
+
+#: elements.php:129
+msgid "Nejprodávanější produkty"
+msgstr ""
+
+#: elements.php:130
+msgid "Produkty z kategorie"
+msgstr ""
+
+#: elements.php:131 includes/types_registration.php:91
+msgid "Všechny produkty"
+msgstr ""
+
+#: elements.php:140 templates/parts/product-loop.php:62
+msgid "Přidat produkt"
+msgstr ""
+
+#: elements.php:154
+msgid "Kategorie produktu"
+msgstr ""
+
+#: elements.php:161
+msgid "Počet produktů"
+msgstr ""
+
+#: elements.php:169 init.php:1056
+msgid "Řadit zboží podle"
+msgstr ""
+
+#: elements.php:173 init.php:1060
+msgid "Data vytvoření"
+msgstr ""
+
+#: elements.php:174 init.php:1061
+msgid "Názvu"
+msgstr ""
+
+#: elements.php:175 init.php:1062
+msgid "Vlastního řazení"
+msgstr ""
+
+#: elements.php:176
+msgid "Nejprodávanější"
+msgstr ""
+
+#: elements.php:178 init.php:1064
+msgid ""
+"Pořadí pro vlastní řazení se určuje podle hodnoty \"Pořadí\" v nastavení "
+"každého produktu."
+msgstr ""
+
+#: elements.php:186 elements.php:295
+msgid "Vzhled"
+msgstr ""
+
+#: elements.php:190
+msgid "Vzhled formulářových polí"
+msgstr ""
+
+#: elements.php:202 elements.php:314 init.php:1328
+msgid "Počet sloupců"
+msgstr ""
+
+#: elements.php:217
+msgid "Maximální počet slov popisku"
+msgstr ""
+
+#: elements.php:221
+msgid "Pokud nezadáte žádnou hodnotu, použije se počet slov z nastavení eshopu"
+msgstr ""
+
+#: elements.php:225 init.php:1292
+msgid "Barva pozadí"
+msgstr ""
+
+#: elements.php:233 elements.php:374
+msgid "Barva textů"
+msgstr ""
+
+#: elements.php:243
+msgid "Slider"
+msgstr ""
+
+#: elements.php:249 elements.php:254 init.php:691
+msgid "Detail produktu"
+msgstr ""
+
+#: elements.php:250
+msgid "Vypíše detail produktu"
+msgstr ""
+
+#: elements.php:258
+msgid "Vypsat detail produktu"
+msgstr ""
+
+#: elements.php:266
+msgid "Kategorie eshopu"
+msgstr ""
+
+#: elements.php:267
+msgid "Vypíše menu s kategoriemi eshopu."
+msgstr ""
+
+#: elements.php:271
+msgid "Seznam kategorií"
+msgstr ""
+
+#: elements.php:275 includes/types_registration.php:459
+msgid "Zobrazit"
+msgstr ""
+
+#: elements.php:279 includes/types_registration.php:50
+msgid "Všechny kategorie"
+msgstr ""
+
+#: elements.php:280
+msgid "Pouze podkategorie od"
+msgstr ""
+
+#: elements.php:286
+msgid "Zobrazit podkategorie od"
+msgstr ""
+
+#: elements.php:299
+msgid "Způsob zobrazení"
+msgstr ""
+
+#: elements.php:329
+msgid "Písmo textu"
+msgstr ""
+
+#: elements.php:345
+msgid "Cena produktu"
+msgstr ""
+
+#: elements.php:346
+msgid "Zobrazte vždy aktuální cenu produktu."
+msgstr ""
+
+#: elements.php:350 functions.php:1028 includes/types_registration.php:559
+#: includes/types_registration.php:567 includes/types_registration.php:573
+#: init.php:479
+msgid "Cena"
+msgstr ""
+
+#: elements.php:354
+msgid "Zobrazit cenu produktu"
+msgstr ""
+
+#: elements.php:359
+msgid "Skrýt"
+msgstr ""
+
+#: elements.php:362
+msgid "Původní cenu"
+msgstr ""
+
+#: elements.php:363
+msgid "Cenu bez DPH"
+msgstr ""
+
+#: elements.php:370
+msgid "Formátování"
+msgstr ""
+
+#: functions.php:41 templates/eshop-order.php:507
+msgid "zdarma"
+msgstr ""
+
+#: functions.php:58
+msgid "bez&nbsp;DPH"
+msgstr ""
+
+#: functions.php:393
+msgid ""
+"Před nastavením platebních metod vyberte platební bránu na záložce \"ESHOP/"
+"Základní nastavení\"."
+msgstr ""
+
+#: functions.php:495 includes/ajax.php:496 templates/eshop-order.php:288
+msgid "Název společnosti"
+msgstr ""
+
+#: functions.php:509 includes/ajax.php:502 includes/cart.php:408
+#: includes/gateway_fapi.php:1430 templates/eshop-order.php:294
+msgid "IČ"
+msgstr ""
+
+#: functions.php:521 includes/ajax.php:508 includes/cart.php:409
+#: includes/gateway_fapi.php:1432 templates/eshop-order.php:300
+msgid "DIČ"
+msgstr ""
+
+#: functions.php:545 includes/ajax.php:440 includes/ajax.php:576
+#: templates/eshop-order.php:239 templates/eshop-order.php:327
+msgid "Jméno"
+msgstr ""
+
+#: functions.php:557 includes/ajax.php:446 includes/ajax.php:582
+#: templates/eshop-order.php:244 templates/eshop-order.php:333
+msgid "Příjmení"
+msgstr ""
+
+#: functions.php:569 includes/ajax.php:453 templates/eshop-order.php:250
+#: templates/eshop-order.php:339
+msgid "Telefon"
+msgstr ""
+
+#: functions.php:581 includes/ajax.php:459 includes/ajax.php:589
+#: templates/eshop-order.php:345
+msgid "Ulice"
+msgstr ""
+
+#: functions.php:593 includes/ajax.php:465 includes/ajax.php:595
+#: templates/eshop-order.php:260 templates/eshop-order.php:351
+msgid "Město"
+msgstr ""
+
+#: functions.php:605 includes/ajax.php:471 includes/ajax.php:601
+#: templates/eshop-order.php:265 templates/eshop-order.php:357
+msgid "PSČ"
+msgstr ""
+
+#: functions.php:634
+msgid "nepoužívat"
+msgstr ""
+
+#: functions.php:637
+#, php-format
+msgid "Sazba %d"
+msgstr ""
+
+#: functions.php:657
+msgid ""
+"Účtování s DPH není aktivní. Chcete-li účtovat s DPH, zadejte sazby DPH v "
+"globálním nastavení obchodu."
+msgstr ""
+
+#: functions.php:670
+#, php-format
+msgid "sazba %d"
+msgstr ""
+
+#: functions.php:690
+msgid "- Vyberte kategorii -"
+msgstr ""
+
+#: functions.php:714
+msgid "- Vyberte produkt -"
+msgstr ""
+
+#: functions.php:753 functions.php:782
+msgid "Nejsou vytvořeny žádné parametry produktů."
+msgstr ""
+
+#: functions.php:811
+msgid "Kódy účetní, skladové, evidenční"
+msgstr ""
+
+#: functions.php:812
+msgid ""
+"Pro využití kódů je potřeba v nastavení eshopu v sekci <i>Platby a "
+"fakturace</i> povolit, které kódy chcete používat."
+msgstr ""
+
+#: functions.php:840
+msgid ""
+"Nejsou vytvořené žádné parametry produktu ze kterých lze vytvářet varianty. "
+"Nejdříve vytvořte parametry, ze kterých chcete varianty vytvářet a potom "
+"tuto stránku obnovte."
+msgstr ""
+
+#: functions.php:841
+msgid "Vytvořit parametry produktu"
+msgstr ""
+
+#: functions.php:847
+msgid "Vyberte ze kterých parametrů chcete vytvářet varianty"
+msgstr ""
+
+#: functions.php:860
+msgid "Uložit změny"
+msgstr ""
+
+#: functions.php:861
+msgid "Storno"
+msgstr ""
+
+#: functions.php:865
+msgid "Vybrat parametry pro varianty"
+msgstr ""
+
+#: functions.php:870 init.php:453 init.php:548
+msgid "Varianty produktu"
+msgstr ""
+
+#: functions.php:871
+msgid "změnit parametry pro varianty"
+msgstr ""
+
+#: functions.php:909
+msgid "Přidat variantu"
+msgstr ""
+
+#: functions.php:920
+msgid "(neuložená varianta)"
+msgstr ""
+
+#: functions.php:929
+#, php-format
+msgctxt "Part of product variation title, when stock is enabled and full."
+msgid " / %dks"
+msgstr ""
+
+#: functions.php:931
+#, php-format
+msgctxt ""
+"Part of product variation title, when stock is enabled, backordered and "
+"stock is below 0."
+msgid " / %dks (v objednávkách)"
+msgstr ""
+
+#: functions.php:933
+msgctxt "Part of product variation title, when stock is enabled but empty."
+msgid " / vyprodáno"
+msgstr ""
+
+#: functions.php:943
+msgid "Smazat"
+msgstr ""
+
+#: functions.php:983
+#, php-format
+msgid "Zadejte hodnotu parametru %s."
+msgstr ""
+
+#: functions.php:1024 templates/single-mwproduct.php:35
+msgid "Parametry"
+msgstr ""
+
+#: functions.php:1035
+msgid "Plná cena"
+msgstr ""
+
+#: functions.php:1040 init.php:574
+msgid "Cena po slevě"
+msgstr ""
+
+#: functions.php:1046
+msgid ""
+"Cena po slevě - Zadejde hodnotu ceny po slevě pro aktivaci slevy. Ponechte "
+"pole prázdné pro vypnutí slevy."
+msgstr ""
+
+#: functions.php:1053 includes/types_registration.php:563
+msgid "Sklad"
+msgstr ""
+
+#: functions.php:1057
+msgid "Stav skladových zásob"
+msgstr ""
+
+#: functions.php:1060
+msgid "Obrázek"
+msgstr ""
+
+#: functions.php:1066
+msgid "Nahrát obrázek"
+msgstr ""
+
+#: includes/ajax.php:28
+msgid "Košík neobsahuje odebírané zboží."
+msgstr ""
+
+#: includes/ajax.php:50
+msgid "Zboží bylo odebráno z košíku"
+msgstr ""
+
+#: includes/ajax.php:58
+msgid "Při odebírání zboží z košíku došlo k chybě."
+msgstr ""
+
+#: includes/ajax.php:73
+msgid "Neověřený požadavek."
+msgstr ""
+
+#: includes/ajax.php:82
+msgid "Chyba při zpracování - chybí cena"
+msgstr ""
+
+#: includes/ajax.php:121
+msgid "Produkt se nepodařilo nalézt v nabídce."
+msgstr ""
+
+#: includes/ajax.php:127
+msgid "U produktu je nulová cena? To je podezřelé."
+msgstr ""
+
+#: includes/ajax.php:139
+#, php-format
+msgid "Objednávku se nepodařilo odeslat. %s"
+msgstr ""
+
+#: includes/ajax.php:151
+msgid "Není nastavena platební brána."
+msgstr ""
+
+#: includes/ajax.php:158
+msgid "Chyba při vkládání do košíku."
+msgstr ""
+
+#: includes/ajax.php:170
+msgid "Selhalo určení platební metody."
+msgstr ""
+
+#: includes/ajax.php:194
+msgid "Neočekávaná chyba při zpracování."
+msgstr ""
+
+#: includes/ajax.php:200
+msgid "Zopakujte objednání."
+msgstr ""
+
+#: includes/ajax.php:220
+msgid "Vybraný produkt není v našem obchodě k dispozici."
+msgstr ""
+
+#: includes/ajax.php:221
+#, php-format
+msgid "Přejete si zobrazit <a href=\"%s\"> naši nabídku?"
+msgstr ""
+
+#: includes/ajax.php:233 includes/ajax.php:643
+msgid "Zavřít"
+msgstr ""
+
+#: includes/ajax.php:236
+msgid "Nepodařilo se vložit do košíku"
+msgstr ""
+
+#: includes/ajax.php:254
+#, php-format
+msgid "Zboží jsme vložili do košíku"
+msgid_plural "Zboží jsme vložili do košíku v počtu %d kusů."
+msgstr[0] "Tovar sme vložili do košíka"
+msgstr[1] "Tovar sme vložili do košíka v počte %d kusov."
+msgstr[2] "Tovar sme vložili do košíka v počte %d kusov."
+
+#: includes/ajax.php:257
+msgid "Pokračovat v nákupu"
+msgstr ""
+
+#: includes/ajax.php:259
+msgid "Přejít do košíku"
+msgstr ""
+
+#: includes/ajax.php:265
+msgid "Do košíku jsme nic nevložili. Zkuste obnovit stránku a pokus opakovat."
+msgstr ""
+
+#: includes/ajax.php:272
+msgid ""
+"Při vkládání zboží do košíku došlo k chybě. Zkuste obnovit stránku a pokus "
+"opakovat."
+msgstr ""
+
+#: includes/ajax.php:280
+msgid ""
+"Do košíku jsme nic nevložili, zboží není v požadovaném množství dostupné. "
+"Zkuste obnovit stránku a pokus opakovat později."
+msgstr ""
+
+#: includes/ajax.php:343 templates/eshop-order.php:95
+msgid "Komunikace se serverem se nezdařila. Prosím opakujte požadavek později."
+msgstr ""
+
+#: includes/ajax.php:355
+msgid "Zadejte e-mail"
+msgstr ""
+
+#: includes/ajax.php:363 includes/ajax.php:480 includes/ajax.php:607
+#: templates/eshop-order.php:179 templates/eshop-order.php:271
+#: templates/eshop-order.php:363
+msgid "Země"
+msgstr ""
+
+#: includes/ajax.php:372
+msgid "Způsob dopravy"
+msgstr ""
+
+#: includes/ajax.php:374
+msgid "(vyberte způsob dopravy)"
+msgstr ""
+
+#: includes/ajax.php:376
+msgid ""
+"Cena za doručení se skládá z ceny za dopravu a případného příplatku při "
+"volbě platby \"Při převzetí\" (za lomítkem)."
+msgstr ""
+
+#: includes/ajax.php:411
+msgid "Způsob platby"
+msgstr ""
+
+#: includes/ajax.php:413
+msgid "(vyberte způsob platby)"
+msgstr ""
+
+#: includes/ajax.php:429 templates/eshop-order.php:230
+msgid "Potřebuji vystavit fakturu"
+msgstr ""
+
+#: includes/ajax.php:491 templates/eshop-order.php:284
+msgid "Nakupuji na firmu"
+msgstr ""
+
+#: includes/ajax.php:514 templates/eshop-order.php:306
+msgid "IČ DPH"
+msgstr ""
+
+#: includes/ajax.php:567 templates/eshop-order.php:320
+msgid "Doručit na jinou než fakturační adresu"
+msgstr ""
+
+#: includes/ajax.php:628
+msgid "Dokončit objednávku"
+msgstr ""
+
+#: includes/ajax.php:640
+msgid "Omlouváme se, tento produkt momentálně nelze koupit."
+msgstr ""
+
+#: includes/ajax.php:682
+msgid "Zadejte celé číslo"
+msgstr ""
+
+#: includes/ajax.php:784
+#, php-format
+msgid "Vytvořena nová objednávka [%s], v.s. [%s]."
+msgstr ""
+
+#: includes/ajax.php:803
+msgid "Objednávku se nepodařilo odeslat. Zopakujte objednání."
+msgstr ""
+
+#: includes/ajax.php:931
+msgid "Pole je vyžadované"
+msgstr ""
+
+#: includes/ajax.php:932
+msgid "Zvolte zemi dostupnou v nabídce."
+msgstr ""
+
+#: includes/ajax.php:944
+msgid "Cena objednávky nemůže být nulová."
+msgstr ""
+
+#: includes/ajax.php:953
+msgid "Zadaná hodnota není platný email."
+msgstr ""
+
+#: includes/ajax.php:973
+msgid "Vyplňte prosím fakturační údaje."
+msgstr ""
+
+#: includes/ajax.php:974
+msgid ""
+"Zjednodušený daňový doklad je možné vystavit pouze zákazníkům z ČR při "
+"objednávce do 10000Kč včetně DPH."
+msgstr ""
+
+#: includes/ajax.php:1078
+msgid "Pro doručení je potřeba zadat fakturační anebo doručovací adresu."
+msgstr ""
+
+#: includes/ajax.php:1079
+msgid "Pro doručení zboží je potřeba zadat fakturační anebo doručovací adresu."
+msgstr ""
+
+#: includes/ajax.php:1100
+msgid "Zvolte platební metodu"
+msgstr ""
+
+#: includes/ajax.php:1101 templates/eshop-order.php:387
+msgid "Zvolte způsob doručení"
+msgstr ""
+
+#: includes/ajax.php:1102
+msgid "Zadaná hodnota není platná"
+msgstr ""
+
+#: includes/ajax.php:1116
+msgid ""
+"Pro vaši objednávku není možné použít elektronické doručení, neboť obsahuje "
+"produkty vyžadující doručení."
+msgstr ""
+
+#: includes/ajax.php:1121
+msgid "Zvolený způsob dopravy není dostupný."
+msgstr ""
+
+#: includes/ajax.php:1137
+msgid "Pro vaši objednávku je přípustný pouze elektronický způsob doručení."
+msgstr ""
+
+#: includes/ajax.php:1156
+msgid "Zvolený způsob platby není dostupný."
+msgstr ""
+
+#: includes/ajax.php:1160
+msgid "Zvolený způsob platby není přípustný pro zvolenou dopravu."
+msgstr ""
+
+#: includes/ajax.php:1177
+msgid "Mám FAPI účet"
+msgstr ""
+
+#: includes/ajax.php:1178
+msgid "Zadejte přihlašovací jméno a API klíč pro spojení s vašim FAPI."
+msgstr ""
+
+#: includes/ajax.php:1183
+msgid "Přihlašovací jméno (e-mail)"
+msgstr ""
+
+#: includes/ajax.php:1187
+msgid "API klíč"
+msgstr ""
+
+#: includes/ajax.php:1189
+msgid "Získat API klíč z FAPI"
+msgstr ""
+
+#: includes/ajax.php:1192
+msgid "Propojit s FAPI"
+msgstr ""
+
+#: includes/ajax.php:1198
+msgid "Nemám FAPI účet"
+msgstr ""
+
+#: includes/ajax.php:1199
+msgid "Vytvořte si FAPI účet zdarma."
+msgstr ""
+
+#: includes/ajax.php:1202
+msgid "Vytvořít FAPI účet"
+msgstr ""
+
+#: includes/cart.php:184
+#, php-format
+msgctxt ""
+"Cart error message when some of cart items are not available in specified "
+"amount."
+msgid "Omlouváme se, %d položku nelze zajistit v požadovaném množství."
+msgid_plural "Omlouváme se, %d položek nelze zajistit v požadovaném množství."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/cart.php:197
+msgid ""
+"Omlouváme se, při výpočtu ceny došlo k chybě. Opakujte prosím pokus později."
+msgstr ""
+
+#: includes/cart.php:379 includes/gateway_fapi.php:803
+msgid "Tel:"
+msgstr ""
+
+#: includes/cart.php:735 includes/product.php:742
+msgid "Produkt není v prodeji."
+msgstr ""
+
+#: includes/cart.php:760
+#, php-format
+msgid "Interní chyba (aktualizace skladových zásob produktu '%s')"
+msgstr ""
+
+#: includes/enumerations.php:133
+msgid "Nákupní košík"
+msgstr ""
+
+#: includes/enumerations.php:134 init.php:371
+msgid "Osobní údaje"
+msgstr ""
+
+#: includes/enumerations.php:135
+msgid "Doprava a platba"
+msgstr ""
+
+#: includes/enumerations.php:136
+msgid "Shrnutí objednávky"
+msgstr ""
+
+#: includes/enumerations.php:137
+msgid "Závěr"
+msgstr ""
+
+#: includes/enumerations.php:163
+msgid "nová"
+msgstr ""
+
+#: includes/enumerations.php:164
+msgid "zpracovává se"
+msgstr ""
+
+#: includes/enumerations.php:165
+msgid "doručeno"
+msgstr ""
+
+#: includes/enumerations.php:166
+msgid "uzavřeno"
+msgstr ""
+
+#: includes/enumerations.php:167
+msgid "stornováno"
+msgstr ""
+
+#: includes/enumerations.php:192
+msgid "CZK - Kč"
+msgstr ""
+
+#: includes/enumerations.php:193
+msgid "EUR - €"
+msgstr ""
+
+#: includes/enumerations.php:239 init.php:1003
+msgid "Kč"
+msgstr ""
+
+#: includes/enumerations.php:240
+msgid "€"
+msgstr ""
+
+#: includes/enumerations.php:321
+msgid "Evidenční kód"
+msgstr ""
+
+#: includes/enumerations.php:322
+msgid "Účetní kód"
+msgstr ""
+
+#: includes/enumerations.php:323
+msgid "Kód předkontace"
+msgstr ""
+
+#: includes/enumerations.php:324
+msgid "Kód střediska"
+msgstr ""
+
+#: includes/enumerations.php:325
+msgid "Kód skladu"
+msgstr ""
+
+#: includes/enumerations.php:326
+msgid "Kód skladové položky"
+msgstr ""
+
+#: includes/field_editors.php:171
+msgctxt "invalid field value"
+msgid "(invalid value)"
+msgstr ""
+
+#: includes/field_editors.php:422
+msgid "never"
+msgstr ""
+
+#: includes/field_editors.php:434
+msgid "not synced"
+msgstr ""
+
+#: includes/field_editors.php:463
+msgctxt "order status - unfinished order, before first checkout"
+msgid "New"
+msgstr ""
+
+#: includes/field_editors.php:464
+msgctxt "order status - checkout finished, expecting payment"
+msgid "Pending payment"
+msgstr ""
+
+#: includes/field_editors.php:465
+msgctxt "order status - fully paid order"
+msgid "Paid"
+msgstr ""
+
+#: includes/field_editors.php:466
+msgctxt "order status - completed, closed"
+msgid "Completed"
+msgstr ""
+
+#: includes/field_editors.php:467
+msgctxt "order status - cancelled, closed"
+msgid "Cancelled"
+msgstr ""
+
+#: includes/field_editors.php:480
+msgctxt "payment type"
+msgid "Credit card (GoPay)"
+msgstr ""
+
+#: includes/field_editors.php:481
+msgctxt "payment type"
+msgid "SMS Premium (GoPay)"
+msgstr ""
+
+#: includes/field_editors.php:482
+msgctxt "payment type"
+msgid "PayPal (GoPay)"
+msgstr ""
+
+#: includes/field_editors.php:483
+msgctxt "payment type"
+msgid "Express bank transfer (GoPay)"
+msgstr ""
+
+#: includes/field_editors.php:484
+msgctxt "payment type"
+msgid "Bank transfer (GoPay)"
+msgstr ""
+
+#: includes/field_editors.php:485
+msgctxt "payment type"
+msgid "Cash at desk"
+msgstr ""
+
+#: includes/field_editors.php:486
+msgctxt "payment type"
+msgid "Cash on delivery"
+msgstr ""
+
+#: includes/field_editors.php:497
+msgctxt "represents a customer without existing registration"
+msgid "Guest"
+msgstr ""
+
+#: includes/field_editors.php:515
+msgctxt "address field"
+msgid "First name"
+msgstr ""
+
+#: includes/field_editors.php:519
+msgctxt "address field"
+msgid "Surname"
+msgstr ""
+
+#: includes/field_editors.php:523
+msgctxt "address field"
+msgid "Street and number"
+msgstr ""
+
+#: includes/field_editors.php:527
+msgctxt "address field"
+msgid "City"
+msgstr ""
+
+#: includes/field_editors.php:531
+msgctxt "address field"
+msgid "Postcode"
+msgstr ""
+
+#: includes/field_editors.php:535
+msgctxt "address field"
+msgid "Country"
+msgstr ""
+
+#: includes/field_editors.php:544
+msgctxt "company field"
+msgid "Name of the company"
+msgstr ""
+
+#: includes/field_editors.php:548
+msgctxt "company field"
+msgid "ID number"
+msgstr ""
+
+#: includes/field_editors.php:552
+msgctxt "company field"
+msgid "VAT number"
+msgstr ""
+
+#: includes/gateway_fapi.php:59
+msgid "Globální nastavní FAPI se nepodařilo načíst."
+msgstr ""
+
+#: includes/gateway_fapi.php:72
+msgid "Eshop nemá zvolen FAPI formulář."
+msgstr ""
+
+#: includes/gateway_fapi.php:113 includes/gateway_fapi.php:127
+msgid "Nastavení FAPI formuláře se nepodařilo načíst. "
+msgstr ""
+
+#: includes/gateway_fapi.php:115 includes/gateway_fapi.php:129
+msgid "Nastavení FAPI formuláře se nepodařilo načíst."
+msgstr ""
+
+#: includes/gateway_fapi.php:259
+#, php-format
+msgid "FAPI formulář [%d] aktualizování"
+msgstr ""
+
+#: includes/gateway_fapi.php:262 includes/gateway_fapi.php:554
+#, php-format
+msgid "Chyba při aktualizaci FAPI formuláře [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:312
+#, php-format
+msgid "Vytvořena nová FAPI šablona produktu \"%s\" [%d, fapiItemTplId=%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:318
+#, php-format
+msgid "Aktualizována FAPI šablona produktu \"%s\" [%d, fapiItemTplId=%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:322
+#, php-format
+msgid "Chyba při aktualizaci FAPI šablony produktu [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:383
+#, php-format
+msgid "Vytvořena nová FAPI šablona doručení \"%s\" [%d, fapiItemTplId=%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:391
+#, php-format
+msgid "Aktualizována FAPI šablona doručení \"%s\" [%d, fapiItemTplId=%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:395
+#, php-format
+msgid "Chyba při aktualizaci FAPI šablony doručení [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:473
+#, php-format
+msgctxt "name of FAPI form"
+msgid "MioWeb - %s"
+msgstr ""
+
+#: includes/gateway_fapi.php:500
+#, php-format
+msgid "Vytvořen nový FAPI formulář [%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:503
+msgid "Chyba při vytváření FAPI formuláře:"
+msgstr ""
+
+#: includes/gateway_fapi.php:551
+#, php-format
+msgid "FAPI formulář [%d] aktualizován"
+msgstr ""
+
+#: includes/gateway_fapi.php:586
+msgid "(nový formulář eshopu bude vytvořen po uložení nastavení)"
+msgstr ""
+
+#: includes/gateway_fapi.php:606
+msgid "Používat kódy položek"
+msgstr ""
+
+#: includes/gateway_fapi.php:612
+msgctxt "FAPI gate - unreachable FAPI settings"
+msgid "Nelze načíst nastavení z FAPI."
+msgstr ""
+
+#: includes/gateway_fapi.php:620
+msgid "Upravit nastavení FAPI"
+msgstr ""
+
+#: includes/gateway_fapi.php:624
+msgid "Propojený formulář FAPI"
+msgstr ""
+
+#: includes/gateway_fapi.php:663
+msgid "(formulář eshopu ve FAPI neexistuje, bude vytvořen nový)"
+msgstr ""
+
+#: includes/gateway_fapi.php:665
+msgid "(vytvořit nový eshop formulář)"
+msgstr ""
+
+#: includes/gateway_fapi.php:674
+msgid "Upravit nastavení formuláře"
+msgstr ""
+
+#: includes/gateway_fapi.php:683
+msgid "nastavení FAPI formuláře"
+msgstr ""
+
+#: includes/gateway_fapi.php:687
+msgid "Povolené platební metody FAPI formuláře"
+msgstr ""
+
+#: includes/gateway_fapi.php:713
+msgid "Zjednodušený daňový doklad"
+msgstr ""
+
+#: includes/gateway_fapi.php:722
+msgid "Povolit zjednodušený doklad pro objednávky do 10000Kč zákazníkům z CZ"
+msgstr ""
+
+#: includes/gateway_fapi.php:780
+msgctxt "FAPI gate - unrecognized FAPI form, communication error"
+msgid "neznámo (chyba komunikace s FAPI)"
+msgstr ""
+
+#: includes/gateway_fapi.php:797 templates/eshop-order.php:769
+msgid "Dodací adresa"
+msgstr ""
+
+#: includes/gateway_fapi.php:876
+msgid "Platný FAPI formulář není nastaven. Košík nemůže být přepočítán."
+msgstr ""
+
+#: includes/gateway_fapi.php:980 includes/gateway_fapi.php:1132
+msgid ""
+"Zjednodušený doklad lze využít pouze pro objednávky do 10000Kč včetně DPH. "
+"Je potřeba zadat fakturační údaje."
+msgstr ""
+
+#: includes/gateway_fapi.php:985
+#, php-format
+msgid "Chyba při přepočítávání košíku pomocí FAPI formuláře [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:1011
+msgid "Předvypočítaná cena objednávky je neočekávané prázdná."
+msgstr ""
+
+#: includes/gateway_fapi.php:1043
+msgid "Platný FAPI formulář není vybrán. Objednávku nelze vytvořit."
+msgstr ""
+
+#: includes/gateway_fapi.php:1044
+msgid "Komunikace s fakturačním SW není správně nastavená (neurčený formulář)."
+msgstr ""
+
+#: includes/gateway_fapi.php:1110
+#, php-format
+msgid "Nepodporovaná platební metoda [%s]."
+msgstr ""
+
+#: includes/gateway_fapi.php:1197
+#, php-format
+msgid "Chyba při vytváření objednávky pomocí FAPI formuláře [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:1198
+msgid "Objednávku se nepodařilo vytvořit."
+msgstr ""
+
+#: includes/gateway_fapi.php:1244
+msgid "Nový FAPI formulář bude vytvořen při synchronizaci FAPI."
+msgstr ""
+
+#: includes/gateway_fapi.php:1250
+#, php-format
+msgid "Vybrán jiný FAPI formulář, nový FAPI formulář má ID [%d]"
+msgstr ""
+
+#: includes/gateway_fapi.php:1287 includes/gateway_fapi.php:1328
+#, php-format
+msgid "Objednávka pro FAPI fakturu {%s} [%d] nebyla nalezena ve FAPI"
+msgstr ""
+
+#: includes/gateway_fapi.php:1297
+#, php-format
+msgid "FAPI objednávka {%s} odbavena jako UHRAZENÁ."
+msgstr ""
+
+#: includes/gateway_fapi.php:1300
+#, php-format
+msgid "FAPI faktura {%s} [%d] není ve FAPI označena jako UHRAZENÁ. Podvádíš?"
+msgstr ""
+
+#: includes/gateway_fapi.php:1304 includes/gateway_fapi.php:1342
+#, php-format
+msgid "Chyba při zpracování FAPI faktury [%d]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:1308 includes/gateway_fapi.php:1346
+msgid "Chybí důležitý argument \"id\" ve FAPI callbacku."
+msgstr ""
+
+#: includes/gateway_fapi.php:1335
+#, php-format
+msgid "FAPI objednávka {%s} odbavena jako STORNOVANÁ."
+msgstr ""
+
+#: includes/gateway_fapi.php:1338
+#, php-format
+msgid "FAPI faktura {%s} [%d] není ve FAPI označena jako STORNOVANÁ. Podvádíš?"
+msgstr ""
+
+#: includes/gateway_fapi.php:1365
+#, php-format
+msgid "FAPI fakturu se nepodařilo načíst z FAPI [%s]:"
+msgstr ""
+
+#: includes/gateway_fapi.php:1401
+msgid "FAPI faktury se nepodařilo přednačíst:"
+msgstr ""
+
+#: includes/gateway_fapi.php:1437 init.php:374 templates/eshop-order.php:729
+msgid "Email"
+msgstr ""
+
+#: includes/gateway_fapi.php:1484
+msgid "Zobrazit klienta"
+msgstr ""
+
+#: includes/gateway_fapi.php:1486
+msgid "Upravit klienta"
+msgstr ""
+
+#: includes/gateway_fapi.php:1563
+#, php-format
+msgid "%s - zálohová faktura"
+msgstr ""
+
+#: includes/gateway_fapi.php:1566
+#, php-format
+msgid "%s - přijetí platby"
+msgstr ""
+
+#: includes/gateway_fapi.php:1569
+#, php-format
+msgid "%s - faktura"
+msgstr ""
+
+#: includes/gateway_fapi.php:1572
+#, php-format
+msgid "%s - zjednodušená daň. doklad"
+msgstr ""
+
+#: includes/gateway_fapi.php:1575
+#, php-format
+msgid "%s - opravný daň. doklad"
+msgstr ""
+
+#: includes/gateway_fapi.php:1582
+#, php-format
+msgid "Doklad č. %s"
+msgstr ""
+
+#: includes/gateways.php:64
+msgid "Synchronizace platebních/fakturačních bran zakázáná, neprovádí se."
+msgstr ""
+
+#: includes/gateways.php:219
+msgid "Není vybrána aktivní platební brána."
+msgstr ""
+
+#: includes/gateways.php:775
+#, php-format
+msgid ""
+"Příspěvek [%d] není platným produktem a nemůže být proto synchronizován."
+msgstr ""
+
+#: includes/gateways.php:814
+#, php-format
+msgid ""
+"Příspěvek [%d] není platnou doručovací metodou a nemůže být proto "
+"synchronizován."
+msgstr ""
+
+#: includes/gateways.php:838
+#, php-format
+msgid "Synchronizace produktu [%d] \"%s\" selhala."
+msgstr ""
+
+#: includes/gateways.php:856
+#, php-format
+msgid "Synchronizace varianty produktu [%d] \"%s\" selhala."
+msgstr ""
+
+#: includes/gateways.php:874
+#, php-format
+msgid "Synchronizace doručovací metody [%d] \"%s\" selhala."
+msgstr ""
+
+#: includes/gateways.php:994
+msgid "Kontrola a snížení stavu skladových zásob před vytvořením objednávky."
+msgstr ""
+
+#: includes/gateways.php:1013
+msgid ""
+"Omlouváme se, objednávku se nepodařilo vytvořit. Některé položky nejsou "
+"dostupné."
+msgstr ""
+
+#: includes/gateways.php:1018
+msgid ""
+"Objednávku se nepodařilo vytvořit. Vrácím zásoby rezervované objednávkou na "
+"sklad."
+msgstr ""
+
+#: includes/gateways.php:1165
+msgid "FAPI"
+msgstr ""
+
+#: includes/install.php:73
+msgid "Text na konci objednávky"
+msgstr ""
+
+#: includes/order-admin.php:16
+msgid "Základní informace"
+msgstr ""
+
+#: includes/order-admin.php:17
+msgid "Kontakt"
+msgstr ""
+
+#: includes/order-admin.php:18
+msgid "Položky"
+msgstr ""
+
+#: includes/order-admin.php:28
+msgid "Objednávka č.:"
+msgstr ""
+
+#: includes/order-admin.php:32 includes/types_registration.php:572
+msgid "Stav"
+msgstr ""
+
+#: includes/order-admin.php:54 includes/order-admin.php:56
+msgid "Cena (s DPH)"
+msgstr ""
+
+#: includes/order-admin.php:56
+msgid "(chyba při zjišťování hodnoty)"
+msgstr ""
+
+#: includes/order-admin.php:62
+msgid "Platební brána"
+msgstr ""
+
+#: includes/order-admin.php:70
+msgid "Poznámka zákazníka"
+msgstr ""
+
+#: includes/order-admin.php:77
+msgid "Doklady"
+msgstr ""
+
+#: includes/order-admin.php:80 includes/order-admin.php:148
+#: includes/order-admin.php:179
+#, php-format
+msgid "Nepodařilo se načíst data z platební brány [%s]."
+msgstr ""
+
+#: includes/order-admin.php:85
+#, php-format
+msgid ""
+"Platební brána [%s] neobsahuje žádný relevantní doklad. Doklad byl patrně "
+"vymazán."
+msgstr ""
+
+#: includes/order-admin.php:96
+msgid "uhrazeno"
+msgstr ""
+
+#: includes/order-admin.php:97
+msgid "neuhrazeno"
+msgstr ""
+
+#: includes/order-admin.php:119
+msgid "Historie"
+msgstr ""
+
+#: includes/order-admin.php:127
+msgid "objednáno"
+msgstr ""
+
+#: includes/order-admin.php:136
+msgid "zaplaceno"
+msgstr ""
+
+#: includes/order-admin.php:171 init.php:404
+msgid "Doručovací adresa"
+msgstr ""
+
+#: includes/order-admin.php:186
+msgid "Název"
+msgstr ""
+
+#: includes/order-admin.php:187
+msgid "Kusů"
+msgstr ""
+
+#: includes/order-admin.php:188
+msgid "Cena/kus (s DPH)"
+msgstr ""
+
+#: includes/order-admin.php:189 init.php:231 init.php:489
+msgid "DPH"
+msgstr ""
+
+#: includes/order-admin.php:190
+msgid "Cena celkem (s DPH)"
+msgstr ""
+
+#: includes/order-admin.php:204
+msgid "Objednávka neobsahuje žádné položky."
+msgstr ""
+
+#: includes/order.php:136
+msgid "Objednávka (bez čísla)"
+msgstr ""
+
+#: includes/order.php:136 includes/order.php:229
+#, php-format
+msgid "Objednávka č. %s"
+msgstr ""
+
+#: includes/order.php:234
+msgid "objednávka"
+msgstr ""
+
+#: includes/payments.php:25
+msgid "Bankovní převod (1-2 dny)"
+msgstr ""
+
+#: includes/payments.php:26
+msgid "Online platební karta (ihned)"
+msgstr ""
+
+#: includes/payments.php:27
+msgid "Online bankovní převod (ihned)"
+msgstr ""
+
+#: includes/payments.php:28
+msgid "SMS (m-platba) (ihned)"
+msgstr ""
+
+#: includes/payments.php:29
+msgid "PayPal (ihned)"
+msgstr ""
+
+#: includes/payments.php:31
+msgid "Při převzetí"
+msgstr ""
+
+#: includes/payments.php:37
+msgid ""
+"Běžný bankovní převod je známý a oblíbený převod peněz mezi dvěma bankovními "
+"ústavy. Platbu lze zadat kdykoliv, ale zpracována je v úředních hodinách "
+"vaší banky. Zadejte platební příkaz ve vaší bance."
+msgstr ""
+
+#: includes/payments.php:38
+msgid ""
+"Platba platební kartou přes internet patří mezi dnes nejrozšířenější "
+"platební metody. Platební karty jsou chytře zabezpečené, rychlé a každý má v "
+"peněžence alespoň jednu. Informace o zaplacení se k obchodníkovi dostane "
+"ihned. Budete přesměrováni na platební bránu."
+msgstr ""
+
+#: includes/payments.php:39
+msgid ""
+"Jedná se o oblíbenou bankovní platbu na jedno kliknutí s předvyplněným "
+"platebním příkazem přímo z vašeho internetového bankovnictví a okamžitým "
+"převodem peněz na účet obchodníka. Budete přesměrováni na platební bránu."
+msgstr ""
+
+#: includes/payments.php:40
+msgid ""
+"m-platba je platební metoda, která umožňuje zadat příkaz k převodu peněz a "
+"zaplatit prostřednictvím mobilního telefonu. Tuto službu musíte mít "
+"povolenou u vašeho mobilního operátora. S pomocí mPlatby lze zaplatit částky "
+"až do výše 1500 Kč. Budete přesměrováni na platební bránu."
+msgstr ""
+
+#: includes/payments.php:41
+msgid ""
+"Systém PayPal je elektronický internetový platební prostředek a "
+"nejrozšířenějším celosvětově používaným systémem pro online platby. Účet v "
+"systému PayPal funguje podobně jako běžný bankovní účet a přesun peněz z "
+"účtu kupujícího na účet prodávajícího probíhá okamžitě jako kdyby měli "
+"stejnou banku – PayPal. Budete přesměrováni na platební bránu."
+msgstr ""
+
+#: includes/payments.php:43
+msgid ""
+"Platba při převzetí je platební metoda, kdy se vybírá částka za produkt až "
+"při převzetí produktu od přepravce nebo v prodejně. Platba od vás bude "
+"vyžadována při převzetí zboží."
+msgstr ""
+
+#: includes/product.php:93
+msgid "(nový produkt)"
+msgstr ""
+
+#: includes/product.php:145
+#, php-format
+msgid "Požadovaný atribut %s.%s není definován."
+msgstr ""
+
+#: includes/product.php:224
+#, php-format
+msgid "Nepodařilo se vytvořit instanci produktu [%d] se zprávou: %s"
+msgstr ""
+
+#: includes/product.php:364
+msgctxt ""
+"Prepended text when price is counted as lowest price from product variants."
+msgid "od"
+msgstr ""
+
+#: includes/product.php:366
+msgctxt "Text used when a price for variant product is not present."
+msgid "(neurčeno)"
+msgstr ""
+
+#: includes/product.php:413
+#, php-format
+msgctxt "Shop log message when stock count has been incremented."
+msgid "Stav skladu produktu %s zvýšen o %d kus."
+msgid_plural "Stav skladu produktu %s zvýšen o %d kusů."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/product.php:418
+#, php-format
+msgctxt "Shop log message when stock count has been decremented."
+msgid "Stav skladu produktu %s snížen o %d kus."
+msgid_plural "Stav skladu produktu %s snížen o %d kusů."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/product.php:423
+#, php-format
+msgctxt "Shop log message when stock count has been set."
+msgid "Stav skladu produktu %s nastaven na %d kus."
+msgid_plural "Stav skladu produktu %s nastaven na %d kusů."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/product.php:435
+#, php-format
+msgid "Chyba při aktualizaci stavu skladu produktu %s."
+msgstr ""
+
+#: includes/product.php:607
+msgctxt "Buy buttontext - product can be bought"
+msgid "Koupit"
+msgstr ""
+
+#: includes/product.php:609
+msgctxt "Buy buttontext - Product availability status is not recognized."
+msgid "Nedostupné"
+msgstr ""
+
+#: includes/product.php:612
+msgctxt "Product is unavailable, stock is disabled."
+msgid "Vyprodáno"
+msgstr ""
+
+#: includes/product.php:615 includes/product.php:673
+msgctxt "Product is unavailable, stock is enabled."
+msgid "Vyprodáno"
+msgstr ""
+
+#: includes/product.php:618
+msgctxt "Product is unavailable, manually disabled selling."
+msgid "Není v prodeji"
+msgstr ""
+
+#: includes/product.php:621
+msgctxt "Product is unavailable, future sell."
+msgid "Připravujeme"
+msgstr ""
+
+#: includes/product.php:624
+msgctxt "Product is unavailable, past sell."
+msgid "Ukončeno"
+msgstr ""
+
+#: includes/product.php:645
+msgctxt "Product availability status is not recognized."
+msgid "Dostupnost neznámá"
+msgstr ""
+
+#: includes/product.php:650 includes/product.php:653
+msgctxt "Product is available, stock is disabled."
+msgid "Dostupné"
+msgstr ""
+
+#: includes/product.php:660
+#, php-format
+msgctxt "Product is available in stock, plenty of items available."
+msgid "Skladem >%s kusů"
+msgstr ""
+
+#: includes/product.php:663
+#, php-format
+msgctxt "Product is available in stock, last items available."
+msgid "Posledních 1 kus"
+msgid_plural "Posledních %s kusů"
+msgstr[0] "Posledný 1 kus"
+msgstr[1] "Posledné %s kusy"
+msgstr[2] "Posledných %s kusov"
+
+#: includes/product.php:667
+msgctxt "Product is available using backorder."
+msgid "Na objednávku"
+msgstr ""
+
+#: includes/product.php:670
+msgctxt "Product is unavailable, stock is disabled."
+msgid "Nedostupné"
+msgstr ""
+
+#: includes/product.php:676
+msgctxt "Product is unavailable, manually disabled selling."
+msgid "Nedostupné"
+msgstr ""
+
+#: includes/product.php:679
+msgctxt "Product is unavailable, future sell."
+msgid "Prodej nezahájen"
+msgstr ""
+
+#: includes/product.php:682
+msgctxt "Product is unavailable, past sell."
+msgid "Prodej ukončen"
+msgstr ""
+
+#: includes/product.php:736
+msgid "Produkt byl zcela vyprodán."
+msgstr ""
+
+#: includes/product.php:738
+#, php-format
+msgctxt "Cart print count error message when product is out of stock."
+msgid "V nabídce je poslední %d kus."
+msgid_plural "V nabídce je posledních %d kusů."
+msgstr[0] "V ponuke je posledný %d kus."
+msgstr[1] "V ponuke sú posledné %d kusy."
+msgstr[2] "V ponuke je posledných %d kusov."
+
+#: includes/product_variant.php:210
+#, php-format
+msgid "Hodnota parametru \"%s\" je prázdná."
+msgstr ""
+
+#: includes/product_variant.php:216
+#, php-format
+msgid "Hodnota \"%s\" parametru \"%s\" není platná."
+msgstr ""
+
+#: includes/product_variant.php:221
+#, php-format
+msgid "Parametr [%s] neexistuje."
+msgstr ""
+
+#: includes/property.php:194
+msgid "(bez hodnoty)"
+msgstr ""
+
+#: includes/property.php:215
+msgid "(vyberte)"
+msgstr ""
+
+#: includes/property.php:216
+#, php-format
+msgid "(vyberte — hodnota \"%s\" neexistuje)"
+msgstr ""
+
+#: includes/property.php:220
+#, php-format
+msgid "hodnota \"%s\" neexistuje"
+msgstr ""
+
+#: includes/rewrite.php:87 init.php:899 init.php:900 shop_class.php:1646
+msgid "Nastavení eshopu"
+msgstr ""
+
+#: includes/rewrite.php:92
+msgid "Základní část URL produktu"
+msgstr ""
+
+#: includes/rewrite.php:97
+msgid "Základní část URL kategorie produktu"
+msgstr ""
+
+#: includes/rewrite.php:137
+msgid "URL pro produky"
+msgstr ""
+
+#: includes/rewrite.php:140
+msgid ""
+"Zadáním hodnoty můžete změnit URL, pod kterou budou dostupné vaše produkty. "
+"Výchozí hodnota je \"produkty\", kdy produkty jsou pak dostupné na URL \"www."
+"mujweb.cz/produkty/mujprodukt\"."
+msgstr ""
+
+#: includes/rewrite.php:154
+msgid "URL pro kategorie produktů"
+msgstr ""
+
+#: includes/rewrite.php:157
+msgid ""
+"Zadáním hodnoty můžete změnit URL, pod kterou budou dostupné vaše kategorie "
+"produktů. Výchozí hodnota je \"kategorie-produktu\", kdy kategorie jsou pak "
+"dostupné na URL \"www.mujweb.cz/kategorie-produktu/mojekategorie\"."
+msgstr ""
+
+#: includes/rewrite.php:161
+msgid "Zanořit pod URL produktu"
+msgstr ""
+
+#: includes/shipping.php:111
+#, php-format
+msgid "Nepodařilo se vytvořit instanci způsobu doručení [%d] se zprávou: %s"
+msgstr ""
+
+#: includes/shipping.php:131 templates/eshop-order.php:452
+msgid "Není definován žádný způsob doručení."
+msgstr ""
+
+#: includes/shipping.php:133 templates/eshop-order.php:452
+msgid "Vytvořit způsob doručení"
+msgstr ""
+
+#: includes/shipping.php:136 templates/eshop-order.php:454
+msgid "Není definován žádný způsob doručení, objednávku nelze dokončit."
+msgstr ""
+
+#: includes/shipping.php:264
+msgid "Elektronicky"
+msgstr ""
+
+#: includes/shipping.php:266
+msgid "Zboží vám bude zasláno elektronicky na váš email."
+msgstr ""
+
+#: includes/types_registration.php:47
+msgctxt "taxonomy general name"
+msgid "Kategorie eshopu"
+msgstr ""
+
+#: includes/types_registration.php:48
+msgctxt "taxonomy singular name"
+msgid "Kategorie eshopu"
+msgstr ""
+
+#: includes/types_registration.php:49
+msgid "Hledat kategorie"
+msgstr ""
+
+#: includes/types_registration.php:51
+msgid "Nadřazená kategorie"
+msgstr ""
+
+#: includes/types_registration.php:52
+msgid "Nadřazená kategorie:"
+msgstr ""
+
+#: includes/types_registration.php:53
+msgid "Upravit kategorii"
+msgstr ""
+
+#: includes/types_registration.php:54
+msgid "Uložit kategorii"
+msgstr ""
+
+#: includes/types_registration.php:55
+msgid "Přidat kategorii"
+msgstr ""
+
+#: includes/types_registration.php:56
+msgid "Jméno nové kategorie"
+msgstr ""
+
+#: includes/types_registration.php:57 shop_class.php:1644 shop_class.php:1882
+msgid "Kategorie"
+msgstr ""
+
+#: includes/types_registration.php:82
+msgctxt "post type general name for product"
+msgid "Produkty"
+msgstr ""
+
+#: includes/types_registration.php:83
+msgctxt "post type singular name for product"
+msgid "Produkt"
+msgstr ""
+
+#: includes/types_registration.php:84
+msgctxt "admin menu"
+msgid "Produkty"
+msgstr ""
+
+#: includes/types_registration.php:85
+msgctxt "add new on admin bar"
+msgid "Produkt"
+msgstr ""
+
+#: includes/types_registration.php:86 includes/types_registration.php:181
+msgctxt "create new product"
+msgid "Vytvořit nový"
+msgstr ""
+
+#: includes/types_registration.php:87
+msgid "Vytvořit nový produkt"
+msgstr ""
+
+#: includes/types_registration.php:88 shop_class.php:1641
+msgid "Nový produkt"
+msgstr ""
+
+#: includes/types_registration.php:89
+msgid "Upravit produkt"
+msgstr ""
+
+#: includes/types_registration.php:90
+msgid "Zobrazit produkt"
+msgstr ""
+
+#: includes/types_registration.php:92
+msgid "Vyhledat produkty"
+msgstr ""
+
+#: includes/types_registration.php:93
+msgid "Nadřazené zboží:"
+msgstr ""
+
+#: includes/types_registration.php:94
+msgid "Žádné produkty nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:95
+msgid "Žádné produkty nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:100
+msgid "Produkt MioWeb obchodu."
+msgstr ""
+
+#: includes/types_registration.php:129
+msgctxt "post type general name for variant of product"
+msgid "Varianta produktu"
+msgstr ""
+
+#: includes/types_registration.php:130
+msgctxt "post type singular name for variant of product"
+msgid "Varianta produktu"
+msgstr ""
+
+#: includes/types_registration.php:131
+msgctxt "admin menu"
+msgid "Varianty produktů"
+msgstr ""
+
+#: includes/types_registration.php:132
+msgctxt "add new on admin bar"
+msgid "Varianta produktu"
+msgstr ""
+
+#: includes/types_registration.php:133
+msgctxt "create new product"
+msgid "Vytvořit novou"
+msgstr ""
+
+#: includes/types_registration.php:134
+msgid "Vytvořit novou variantu produktu"
+msgstr ""
+
+#: includes/types_registration.php:135
+msgid "Nová varianta produktu"
+msgstr ""
+
+#: includes/types_registration.php:136
+msgid "Upravit variantu produktu"
+msgstr ""
+
+#: includes/types_registration.php:137
+msgid "Zobrazit variantu produktu"
+msgstr ""
+
+#: includes/types_registration.php:138
+msgid "Všechny varianty produktů"
+msgstr ""
+
+#: includes/types_registration.php:139
+msgid "Vyhledat variantu produktu"
+msgstr ""
+
+#: includes/types_registration.php:140
+msgid "Nadřazený produkt:"
+msgstr ""
+
+#: includes/types_registration.php:141
+msgid "Žádné varianty produktů nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:142
+msgid "Žádné varianty produktů nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:147
+msgid "Varianta produktu MioWeb obchodu."
+msgstr ""
+
+#: includes/types_registration.php:177
+msgctxt "post type general name for product"
+msgid "Parametry produktu"
+msgstr ""
+
+#: includes/types_registration.php:178
+msgctxt "post type singular name for product"
+msgid "Parametr produktu"
+msgstr ""
+
+#: includes/types_registration.php:179
+msgctxt "admin menu"
+msgid "Parametry produktu"
+msgstr ""
+
+#: includes/types_registration.php:180
+msgctxt "add new on admin bar"
+msgid "Parametr produktu"
+msgstr ""
+
+#: includes/types_registration.php:182
+msgid "Vytvořit nový parametr"
+msgstr ""
+
+#: includes/types_registration.php:183
+msgid "Nový parametr produktu"
+msgstr ""
+
+#: includes/types_registration.php:184
+msgid "Upravit parametr"
+msgstr ""
+
+#: includes/types_registration.php:185
+msgid "Zobrazit parametr"
+msgstr ""
+
+#: includes/types_registration.php:186 init.php:751
+msgid "Parametry produktu"
+msgstr ""
+
+#: includes/types_registration.php:187
+msgid "Vyhledat parametry"
+msgstr ""
+
+#: includes/types_registration.php:188
+msgid "Žádné parametry nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:189
+msgid "Žádné parametry nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:194
+msgid "Parametry pro produkty MioWeb eshopu."
+msgstr ""
+
+#: includes/types_registration.php:213
+msgctxt "post type general name for product"
+msgid "Objednávky"
+msgstr ""
+
+#: includes/types_registration.php:214
+msgctxt "post type singular name for product"
+msgid "Objednávka"
+msgstr ""
+
+#: includes/types_registration.php:215
+msgctxt "admin menu"
+msgid "Objednávky"
+msgstr ""
+
+#: includes/types_registration.php:216
+msgctxt "add new on admin bar"
+msgid "Objednávka"
+msgstr ""
+
+#: includes/types_registration.php:217
+msgctxt "create new product"
+msgid "Vytvořit objednávku"
+msgstr ""
+
+#: includes/types_registration.php:218
+msgid "Vytvořit novou objednávku"
+msgstr ""
+
+#: includes/types_registration.php:219
+msgid "Nová objednávka"
+msgstr ""
+
+#: includes/types_registration.php:220
+msgid "Upravit objednávku"
+msgstr ""
+
+#: includes/types_registration.php:221
+msgid "Zobrazit objednávku"
+msgstr ""
+
+#: includes/types_registration.php:222 shop_class.php:1643
+msgid "Objednávky"
+msgstr ""
+
+#: includes/types_registration.php:223
+msgid "Vyhledat objednávku"
+msgstr ""
+
+#: includes/types_registration.php:224
+msgid "Nadřazená objednávka:"
+msgstr ""
+
+#: includes/types_registration.php:225
+msgid "Žádné objednávky nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:226
+msgid "Žádné objednávky nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:231
+msgid "Objednávka MioWeb obchodu."
+msgstr ""
+
+#: includes/types_registration.php:250
+msgctxt "post type general name for order state"
+msgid "Stavy objednávky"
+msgstr ""
+
+#: includes/types_registration.php:251
+msgctxt "post type singular name for product"
+msgid "Stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:252
+msgctxt "admin menu"
+msgid "Stavy objednávky"
+msgstr ""
+
+#: includes/types_registration.php:253
+msgctxt "add new on admin bar"
+msgid "Stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:254
+msgctxt "create new product"
+msgid "Vytvořit stav"
+msgstr ""
+
+#: includes/types_registration.php:255
+msgid "Vytvořit nový stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:256
+msgid "Nový stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:257
+msgid "Upravit stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:258
+msgid "Zobrazit stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:259
+msgid "Stavy objednávky"
+msgstr ""
+
+#: includes/types_registration.php:260
+msgid "Vyhledat stav objednávky"
+msgstr ""
+
+#: includes/types_registration.php:261
+msgid "Žádné stavy objednávky nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:262
+msgid "Žádné stavy objednávky nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:267
+msgid "Stavy objednávky MioWeb e-shopu"
+msgstr ""
+
+#: includes/types_registration.php:286
+msgctxt "post type general name for shipping"
+msgid "Doručování"
+msgstr ""
+
+#: includes/types_registration.php:287
+msgctxt "post type singular name for shipping"
+msgid "Doručování"
+msgstr ""
+
+#: includes/types_registration.php:288
+msgctxt "admin menu"
+msgid "Doručování"
+msgstr ""
+
+#: includes/types_registration.php:289
+msgctxt "add new on admin bar"
+msgid "Doručování"
+msgstr ""
+
+#: includes/types_registration.php:290
+msgctxt "create new shipping"
+msgid "Vytvořit nové"
+msgstr ""
+
+#: includes/types_registration.php:291
+msgid "Vytvořit nový způsob doručení"
+msgstr ""
+
+#: includes/types_registration.php:292
+msgid "Nové doručování"
+msgstr ""
+
+#: includes/types_registration.php:293
+msgid "Upravit doručování"
+msgstr ""
+
+#: includes/types_registration.php:294
+msgid "Zobrazit doručování"
+msgstr ""
+
+#: includes/types_registration.php:295 shop_class.php:1645
+msgid "Způsoby doručení"
+msgstr ""
+
+#: includes/types_registration.php:296
+msgid "Vyhledat doručování"
+msgstr ""
+
+#: includes/types_registration.php:297
+msgid "Nadřazené doručování:"
+msgstr ""
+
+#: includes/types_registration.php:298
+msgid "Žádné způsoby doručení nenalezeny."
+msgstr ""
+
+#: includes/types_registration.php:299
+msgid "Žádné způsoby doručení nenalezeny v koši."
+msgstr ""
+
+#: includes/types_registration.php:304
+msgid "Způsob doručování MioWeb obchodu."
+msgstr ""
+
+#: includes/types_registration.php:370
+#, php-format
+msgid "%s produkt aktualizován."
+msgid_plural "%s produkty aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:371
+msgid "1 produkt nebyl aktualizován, někdo jej edituje."
+msgstr ""
+
+#: includes/types_registration.php:372
+#, php-format
+msgid "%s produkt nebyl aktualizován, někdo jej edituje."
+msgid_plural "%s produkty nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:373
+#, php-format
+msgid "%s produkt nevratně smazán."
+msgid_plural "%s produkty nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:374
+#, php-format
+msgid "%s produkt přesunut do koše."
+msgid_plural "%s produkty přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:375
+#, php-format
+msgid "%s produkt obnoven z koše."
+msgid_plural "%s produkty obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:378
+#, php-format
+msgid "%s doručovací metoda aktualizována."
+msgid_plural "%s doručovací metody aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:379
+msgid "1 doručovací metoda nebyla aktualizována, někdo ji edituje."
+msgstr ""
+
+#: includes/types_registration.php:380
+#, php-format
+msgid "%s doručovací metoda nebyla aktualizována, někdo ji edituje."
+msgid_plural "%s doručovací metody nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:381
+#, php-format
+msgid "%s doručovací metoda nevratně smazána."
+msgid_plural "%s doručovací metody nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:382
+#, php-format
+msgid "%s doručovací metoda přesunuta do koše."
+msgid_plural "%s doručovací metody přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:383
+#, php-format
+msgid "%s doručovací metoda obnovena z koše."
+msgid_plural "%s doručovací metody obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:386
+#, php-format
+msgid "%s parametr produktu aktualizován."
+msgid_plural "%s parametry produktu aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:387
+msgid "1 parametr produktu nebyl aktualizován, někdo jej edituje."
+msgstr ""
+
+#: includes/types_registration.php:388
+#, php-format
+msgid "%s parametry produktu nebyl aktualizován, někdo jej edituje."
+msgid_plural "%s parametry produktu nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:389
+#, php-format
+msgid "%s parametr produktu nevratně smazán."
+msgid_plural "%s parametry produktu nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:390
+#, php-format
+msgid "%s parametr produktu přesunut do koše."
+msgid_plural "%s parametry produktu přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:391
+#, php-format
+msgid "%s parametr produktu obnoven z koše."
+msgid_plural "%s parametry produktu obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:394
+#, php-format
+msgid "%s objednávka aktualizována."
+msgid_plural "%s objednávky aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:395
+msgid "1 objednávka nebyla aktualizována, někdo ji edituje."
+msgstr ""
+
+#: includes/types_registration.php:396
+#, php-format
+msgid "%s objednávka nebyla aktualizována, někdo ji edituje."
+msgid_plural "%s objednávky nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:397
+#, php-format
+msgid "%s objednávka nevratně smazána."
+msgid_plural "%s objednávky nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:398
+#, php-format
+msgid "%s objednávka přesunuta do koše."
+msgid_plural "%s objednávky přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:399
+#, php-format
+msgid "%s objednávka obnovena z koše."
+msgid_plural "%s objednávky obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:402
+#, php-format
+msgid "%s varianta produktu aktualizována."
+msgid_plural "%s varianty produktu aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:403
+msgid "1 varianta produktu nebyla aktualizována, někdo ji edituje."
+msgstr ""
+
+#: includes/types_registration.php:404
+#, php-format
+msgid "%s varianta produktu nebyla aktualizována, někdo ji edituje."
+msgid_plural "%s varianty produktu nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:405
+#, php-format
+msgid "%s varianta produktu nevratně smazána."
+msgid_plural "%s varianty produktu nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:406
+#, php-format
+msgid "%s varianta produktu přesunuta do koše."
+msgid_plural "%s varianty produktu přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:407
+#, php-format
+msgid "%s varianta produktu obnovena z koše."
+msgid_plural "%s varianty produktu obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:410
+#, php-format
+msgid "%s stav objednávky aktualizován."
+msgid_plural "%s stavy objednávky aktualizovány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:411
+msgid "1 stav objednávky nebyl aktualizován, někdo jej edituje."
+msgstr ""
+
+#: includes/types_registration.php:412
+#, php-format
+msgid "%s stav objednávky nebyl aktualizován, někdo jej edituje."
+msgid_plural "%s stavy objednávky nebyly aktualizovány, někdo je edituje."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:413
+#, php-format
+msgid "%s stav objednávky nevratně smazán."
+msgid_plural "%s stavy objednávky nevratně smazány."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:414
+#, php-format
+msgid "%s stav objednávky přesunut do koše."
+msgid_plural "%s stavy objednávky přesunuty do koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:415
+#, php-format
+msgid "%s stav objednávky obnoven z koše."
+msgid_plural "%s stavy objednávky obnoveny z koše."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:443 includes/types_registration.php:451
+msgid "Zobrazit náhled"
+msgstr ""
+
+#: includes/types_registration.php:466 includes/types_registration.php:469
+msgid "Produkt aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:467 includes/types_registration.php:468
+#: includes/types_registration.php:481 includes/types_registration.php:482
+#: includes/types_registration.php:495 includes/types_registration.php:496
+#: includes/types_registration.php:509 includes/types_registration.php:510
+#: includes/types_registration.php:523 includes/types_registration.php:524
+#: includes/types_registration.php:537 includes/types_registration.php:538
+msgid "Vlastní pole aktualizováno."
+msgstr ""
+
+#: includes/types_registration.php:471
+#, php-format
+msgid "Produkt obnoven do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:472
+msgid "Produkt publikován."
+msgstr ""
+
+#: includes/types_registration.php:473
+msgid "Produkt uložen."
+msgstr ""
+
+#: includes/types_registration.php:474
+msgid "Produkt odeslán."
+msgstr ""
+
+#: includes/types_registration.php:475
+#, php-format
+msgid "Produkt naplánován na: %s."
+msgstr ""
+
+#: includes/types_registration.php:476 includes/types_registration.php:546
+msgid "Koncept produktu aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:480 includes/types_registration.php:483
+msgid "Doručovací metoda aktualizována."
+msgstr ""
+
+#: includes/types_registration.php:485
+#, php-format
+msgid "Doručovací metoda obnovena do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:486
+msgid "Doručovací metoda publikována."
+msgstr ""
+
+#: includes/types_registration.php:487
+msgid "Doručovací metoda uložena."
+msgstr ""
+
+#: includes/types_registration.php:488
+msgid "Doručovací metoda odeslána."
+msgstr ""
+
+#: includes/types_registration.php:489
+#, php-format
+msgid "Doručovací metoda naplánována na: %s."
+msgstr ""
+
+#: includes/types_registration.php:490
+msgid "Koncept doručovací metody aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:494 includes/types_registration.php:497
+msgid "Parametr produktu aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:499
+#, php-format
+msgid "Parametr produktu obnoven do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:500
+msgid "Parametr produktu publikován."
+msgstr ""
+
+#: includes/types_registration.php:501
+msgid "Parametr produktu uložen."
+msgstr ""
+
+#: includes/types_registration.php:502
+msgid "Parametr produktu odeslán."
+msgstr ""
+
+#: includes/types_registration.php:503
+#, php-format
+msgid "Parametr produktu naplánován na: %s."
+msgstr ""
+
+#: includes/types_registration.php:504
+msgid "Koncept parametru produktu aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:508 includes/types_registration.php:511
+msgid "Objednávka aktualizována."
+msgstr ""
+
+#: includes/types_registration.php:513
+#, php-format
+msgid "Objednávka obnovena do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:514
+msgid "Objednávka publikována."
+msgstr ""
+
+#: includes/types_registration.php:515
+msgid "Objednávka uložena."
+msgstr ""
+
+#: includes/types_registration.php:516
+msgid "Objednávka odeslána."
+msgstr ""
+
+#: includes/types_registration.php:517
+#, php-format
+msgid "Objednávka naplánována na: %s."
+msgstr ""
+
+#: includes/types_registration.php:518
+msgid "Koncept objednávky aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:522 includes/types_registration.php:525
+msgid "Varianta produktu aktualizována."
+msgstr ""
+
+#: includes/types_registration.php:527
+#, php-format
+msgid "Varianta produktu obnovena do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:528
+msgid "Varianta produktu publikována."
+msgstr ""
+
+#: includes/types_registration.php:529
+msgid "Varianta produktu uložena."
+msgstr ""
+
+#: includes/types_registration.php:530
+msgid "Varianta produktu odeslána."
+msgstr ""
+
+#: includes/types_registration.php:531
+#, php-format
+msgid "Varianta produktu naplánována na: %s."
+msgstr ""
+
+#: includes/types_registration.php:532
+msgid "Koncept varianty produktu aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:536 includes/types_registration.php:539
+msgid "Stav objednávky aktualizován."
+msgstr ""
+
+#: includes/types_registration.php:541
+#, php-format
+msgid "Stav objednávky obnoven do revize z %s."
+msgstr ""
+
+#: includes/types_registration.php:542
+msgid "Stav objednávky publikován."
+msgstr ""
+
+#: includes/types_registration.php:543
+msgid "Stav objednávky uložen."
+msgstr ""
+
+#: includes/types_registration.php:544
+msgid "Stav objednávky odeslán."
+msgstr ""
+
+#: includes/types_registration.php:545
+#, php-format
+msgid "Stav objednávky naplánován na: %s."
+msgstr ""
+
+#: includes/types_registration.php:558 init.php:440
+msgid "Typ produktu"
+msgstr ""
+
+#: includes/types_registration.php:561 includes/types_registration.php:568
+msgid "Sazba DPH"
+msgstr ""
+
+#: includes/types_registration.php:562
+msgid "Sleva"
+msgstr ""
+
+#: includes/types_registration.php:564
+msgid "Omezení prodeje"
+msgstr ""
+
+#: includes/types_registration.php:569
+msgid "Možnost dobírky"
+msgstr ""
+
+#: includes/types_registration.php:574
+msgid "Zaplaceno"
+msgstr ""
+
+#: includes/types_registration.php:575
+msgid "Zákazník"
+msgstr ""
+
+#: includes/types_registration.php:599
+msgctxt "product type - single"
+msgid "běžný"
+msgstr ""
+
+#: includes/types_registration.php:602
+msgctxt "product type - variants"
+msgid "variantní"
+msgstr ""
+
+#: includes/types_registration.php:615
+msgctxt "sale type - list of products - continuous"
+msgid "trvalá"
+msgstr ""
+
+#: includes/types_registration.php:618
+#, php-format
+msgctxt "sale type - list of products - enable from"
+msgid "od %s"
+msgstr ""
+
+#: includes/types_registration.php:622 includes/types_registration.php:672
+#, php-format
+msgid "do %s"
+msgstr ""
+
+#: includes/types_registration.php:626 includes/types_registration.php:676
+#, php-format
+msgid "od %s do %s"
+msgstr ""
+
+#: includes/types_registration.php:644 includes/types_registration.php:654
+#, php-format
+msgctxt "Column in admin list of products for stock"
+msgid "%d kus"
+msgid_plural "%d kusů"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:648 includes/types_registration.php:651
+#, php-format
+msgctxt "Column in admin list of products for stock"
+msgid "%d kus (v objednávkách)"
+msgid_plural "%d kusů (v objednávkách)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/types_registration.php:665
+msgctxt "selling restriction - list of products - full disable"
+msgid "neprodávat"
+msgstr ""
+
+#: includes/types_registration.php:668
+#, php-format
+msgctxt "selling restriction - list of products - enable from"
+msgid "od %s"
+msgstr ""
+
+#: includes/types_registration.php:686
+msgid "chyba"
+msgstr ""
+
+#: includes/types_registration.php:700 includes/types_registration.php:731
+msgid "ano"
+msgstr ""
+
+#: includes/types_registration.php:702
+msgid "příplatek"
+msgstr ""
+
+#: includes/types_registration.php:711
+msgctxt ""
+"List of orders - a column value is inaccessible cause order is not "
+"accessible."
+msgid "(nedostupné)"
+msgstr ""
+
+#: includes/types_registration.php:731
+msgid "ne"
+msgstr ""
+
+#: includes/types_registration.php:747
+msgid "data nelze získat"
+msgstr ""
+
+#: includes/types_registration.php:831
+msgid "Basic attributes"
+msgstr ""
+
+#: includes/types_registration.php:832
+msgid "Price"
+msgstr ""
+
+#: includes/types_registration.php:834
+msgid "Available from"
+msgstr ""
+
+#: includes/types_registration.php:835 includes/types_registration.php:837
+msgid "always"
+msgstr ""
+
+#: includes/types_registration.php:836
+msgid "Available to"
+msgstr ""
+
+#: includes/types_registration.php:841
+msgid "Stock / Inventory"
+msgstr ""
+
+#: includes/types_registration.php:842
+msgid "Use stock management"
+msgstr ""
+
+#: includes/types_registration.php:844
+msgid "Items on stock"
+msgstr ""
+
+#: includes/types_registration.php:849
+msgid "Synchronization"
+msgstr ""
+
+#: includes/types_registration.php:850
+msgid "Status of synchronization"
+msgstr ""
+
+#: includes/types_registration.php:852
+msgid "Last synchronized"
+msgstr ""
+
+#: includes/types_registration.php:854
+msgid "Sync Id"
+msgstr ""
+
+#: includes/types_registration.php:859 includes/types_registration.php:912
+msgid "Custom properties"
+msgstr ""
+
+#: includes/types_registration.php:861 includes/types_registration.php:914
+msgid "Sample color"
+msgstr ""
+
+#: includes/types_registration.php:862
+msgid "none"
+msgstr ""
+
+#: includes/types_registration.php:872
+msgid "General Details"
+msgstr ""
+
+#: includes/types_registration.php:873
+msgid "Order date"
+msgstr ""
+
+#: includes/types_registration.php:874
+msgid "Order status"
+msgstr ""
+
+#: includes/types_registration.php:876
+msgid "Customer"
+msgstr ""
+
+#: includes/types_registration.php:877
+msgid "Guest"
+msgstr ""
+
+#: includes/types_registration.php:878
+msgid "Customer's note"
+msgstr ""
+
+#: includes/types_registration.php:882
+msgid "Billing Details"
+msgstr ""
+
+#: includes/types_registration.php:883
+msgid "Billing address"
+msgstr ""
+
+#: includes/types_registration.php:884 includes/types_registration.php:892
+msgid "Company details"
+msgstr ""
+
+#: includes/types_registration.php:885
+msgid "Payment method"
+msgstr ""
+
+#: includes/types_registration.php:889
+msgid "Shipping Details"
+msgstr ""
+
+#: includes/types_registration.php:890
+msgid "Shipping address"
+msgstr ""
+
+#: includes/types_registration.php:891
+msgid "Shipping method"
+msgstr ""
+
+#: includes/types_registration.php:896
+msgid "Order Items"
+msgstr ""
+
+#: includes/types_registration.php:897
+msgid "List of items"
+msgstr ""
+
+#: includes/types_registration.php:898
+msgid "no items"
+msgstr ""
+
+#: includes/types_registration.php:899
+msgid "Count of items"
+msgstr ""
+
+#: includes/types_registration.php:901
+msgid "Price for items"
+msgstr ""
+
+#: includes/types_registration.php:903
+msgid "Price for shipping"
+msgstr ""
+
+#: includes/types_registration.php:905
+msgid "VAT"
+msgstr ""
+
+#: includes/types_registration.php:907
+msgid "Order total"
+msgstr ""
+
+#: includes/types_registration.php:915
+msgid "(no color)"
+msgstr ""
+
+#: init.php:110
+msgctxt "Část URL permalinků pro produkty. Lokalizace musí být URL friendly."
+msgid "produkty"
+msgstr ""
+
+#: init.php:113
+msgctxt ""
+"Část URL permalinků pro kategorie produktů. Lokalizace musí být URL friendly."
+msgid "kategorie-produktu"
+msgstr ""
+
+#: init.php:116
+msgctxt ""
+"Část URL permalinků pro kategorie produktů, pokud jsou kategorie produktů "
+"zanořeny pod produkty. Lokalizace musí být URL friendly."
+msgid "kategorie"
+msgstr ""
+
+#: init.php:195 init.php:203 init.php:824 init.php:833
+msgid "Nastavení"
+msgstr ""
+
+#: init.php:215
+msgid "Nastavení doručování"
+msgstr ""
+
+#: init.php:221 init.php:429 init.php:914
+msgid "Základní nastavení"
+msgstr ""
+
+#: init.php:224 init.php:478
+msgid "Cena (včetně DPH)"
+msgstr ""
+
+#: init.php:236 init.php:875 templates/single-mwproduct.php:33
+msgid "Popis"
+msgstr ""
+
+#: init.php:260
+msgid "Další nastavení"
+msgstr ""
+
+#: init.php:264
+msgid "Osobní vyzvednutí"
+msgstr ""
+
+#: init.php:268
+msgid ""
+"Zákazník se dostaví a zboží si přebere sám. Lze využít pro vytvoření "
+"fyzického výdejního místa (kamenná prodejna)."
+msgstr ""
+
+#: init.php:271
+msgid "Umožňuje zaplatit při převzetí"
+msgstr ""
+
+#: init.php:275
+msgid ""
+"Platbu lze provést až při převzetí zboží. Při využití platby při převzetí "
+"bude cena dopravy navýšena o nastavitelnou výši příplatku."
+msgstr ""
+
+#: init.php:289
+msgid "Příplatek za dobírku (včetně DPH)"
+msgstr ""
+
+#: init.php:302 init.php:506
+msgid "Kódy produktu (evidenční, účetní, skladový)"
+msgstr ""
+
+#: init.php:317
+msgid "Nastavení stavu objednávky"
+msgstr ""
+
+#: init.php:320
+msgid "Barevné označení stavu"
+msgstr ""
+
+#: init.php:325
+msgid "Po změně na tento stav uložit klienta do seznamu"
+msgstr ""
+
+#: init.php:336 init.php:919
+msgid "Vlastní kódy"
+msgstr ""
+
+#: init.php:339
+msgid "Konverzní kód produktu"
+msgstr ""
+
+#: init.php:342
+msgid ""
+"V případě že objednávka bude obsahovat tento produkt, tak se zadaný "
+"konverzní kód vypíše na děkovací stránce objednávky."
+msgstr ""
+
+#: init.php:345
+msgid "Kódy v hlavičce"
+msgstr ""
+
+#: init.php:348
+msgid ""
+"Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/head&gt;"
+"</code> a které chcete, aby byly platné pouze pro tuto stránku."
+msgstr ""
+
+#: init.php:351
+msgid "Kódy v patičce"
+msgstr ""
+
+#: init.php:354
+msgid ""
+"Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/body&gt;"
+"</code> a které chcete, aby byly platné pouze pro tuto stránku."
+msgstr ""
+
+#: init.php:357
+msgid "Vlastní CSS styly"
+msgstr ""
+
+#: init.php:360
+msgid ""
+"Zde můžete vložit vlastní CSS styly, které budou platit pouze pro tuto "
+"stránku."
+msgstr ""
+
+#: init.php:379 templates/eshop-order.php:237 templates/eshop-order.php:732
+msgid "Fakturační údaje"
+msgstr ""
+
+#: init.php:385
+msgid "Zboží nakupuji na firmu"
+msgstr ""
+
+#: init.php:391
+msgid "Informace o firmě"
+msgstr ""
+
+#: init.php:398
+msgid "Zboží doručit na jinou adresu"
+msgstr ""
+
+#: init.php:410 templates/eshop-order.php:368 templates/eshop-order.php:786
+msgid "Poznámka"
+msgstr ""
+
+#: init.php:423
+msgid "Nastavení produktu"
+msgstr ""
+
+#: init.php:432
+msgid "Krátký popis"
+msgstr ""
+
+#: init.php:443
+msgid "Fyzický (vyžaduje klasické metody doručení - pošta, DPD, PPL...)"
+msgstr ""
+
+#: init.php:445
+msgid "Elektronický/virtuální (zboží nevyžaduje fyzické doručení)"
+msgstr ""
+
+#: init.php:456
+msgid "Bez variant"
+msgstr ""
+
+#: init.php:458
+msgid "Produkt má více variant"
+msgstr ""
+
+#: init.php:484
+msgid "Pro zadání desetinné ceny použijte tečku, např \"120.50\"."
+msgstr ""
+
+#: init.php:521
+msgid "Sledovat sklad u variant"
+msgstr ""
+
+#: init.php:527 init.php:643
+msgid "Nabízet i po vyprodání skladu"
+msgstr ""
+
+#: init.php:567
+msgid "Sleva / akční cena"
+msgstr ""
+
+#: init.php:573
+msgid "Cena po slevě (včetně DPH)"
+msgstr ""
+
+#: init.php:579
+msgid ""
+"Zadáním hodnoty \"Cena po slevě\" zapnete u produktu zobrazování se slevou. "
+"Zákazníkům se bude produkt nabízet za cenu po slevě. Výše slevy bude "
+"zobrazena procentuelně v nabídce. Pro cenu ZDARMA zadejte nulu."
+msgstr ""
+
+#: init.php:589
+msgid "trvalá (sleva je aktivní až do svého vypnutí)"
+msgstr ""
+
+#: init.php:590
+msgid "budoucí sleva (sleva je aktivní od určitého okamžiku)"
+msgstr ""
+
+#: init.php:591
+msgid "končící sleva (sleva je aktivní do určitého okamžiku)"
+msgstr ""
+
+#: init.php:592
+msgid "v intervalu (sleva je aktivní ve vymezeném období)"
+msgstr ""
+
+#: init.php:599
+msgid "Slevu aktivovat v termínu"
+msgstr ""
+
+#: init.php:617
+msgid "Sledovat sklad"
+msgstr ""
+
+#: init.php:636
+msgid "Položek skladem"
+msgstr ""
+
+#: init.php:653
+msgid "Omezit prodej"
+msgstr ""
+
+#: init.php:663
+msgid "Produkt nelze koupit"
+msgstr ""
+
+#: init.php:664
+msgid "Produkt lze koupit až od určeného data"
+msgstr ""
+
+#: init.php:665
+msgid "Produkt lze koupit do určitého data"
+msgstr ""
+
+#: init.php:666
+msgid "Produkt lze koupit v období od do"
+msgstr ""
+
+#: init.php:673
+msgid "Prodej zahájit v termínu"
+msgstr ""
+
+#: init.php:703
+msgid "Dlouhý popis"
+msgstr ""
+
+#: init.php:706
+msgid ""
+"Obsáhlejší popis produktu zobrazovaný v detailu produktu na záložce \"Popis"
+"\" upravíte přímo na stránce produktu pomocí vizuálního editoru."
+msgstr ""
+
+#: init.php:712
+msgid "Diskuze"
+msgstr ""
+
+#: init.php:713
+msgid "Skrýt diskuzi produktu"
+msgstr ""
+
+#: init.php:718
+msgid "Vlastní detail"
+msgstr ""
+
+#: init.php:719
+msgid "Použít jako detail vlastní stránku"
+msgstr ""
+
+#: init.php:725
+msgid "Stránka"
+msgstr ""
+
+#: init.php:729
+msgid "Vybraná stránka se bude zobrazovat jako detail tohoto produktu."
+msgstr ""
+
+#: init.php:737
+msgid "Viditelnost produktu"
+msgstr ""
+
+#: init.php:741
+msgid "Skrýt produkt z výpisu produktů"
+msgstr ""
+
+#: init.php:765 templates/single-mwproduct.php:162
+msgid "Podobné zboží"
+msgstr ""
+
+#: init.php:772
+msgid "Vytvořit vlastní výběr"
+msgstr ""
+
+#: init.php:773
+msgid "Vypisovat zboží ze stejné kategorie"
+msgstr ""
+
+#: init.php:782
+msgid "Přidat podobný produkt"
+msgstr ""
+
+#: init.php:803
+msgid "Galerie"
+msgstr ""
+
+#: init.php:807
+msgid ""
+"Jako hlavní obrázek produktu se použije náhledový obrázek, který můžete "
+"nastavit v pravém sloupci v nastavení tohoto produktu."
+msgstr ""
+
+#: init.php:836
+msgid "Typ parametru"
+msgstr ""
+
+#: init.php:840
+msgid "Text (hodnota se zadává jako text)"
+msgstr ""
+
+#: init.php:841
+msgid "Výčet (hodnota se vybírá ze sady hodnot)"
+msgstr ""
+
+#: init.php:847
+msgid "Seznam hodnot"
+msgstr ""
+
+#: init.php:851
+msgid "Přidat hodnotu"
+msgstr ""
+
+#: init.php:856
+msgid "Hodnota"
+msgstr ""
+
+#: init.php:869
+msgid "Jednotka"
+msgstr ""
+
+#: init.php:872
+msgid ""
+"Jednotka je volitelná. Ve výpisu produktu se zobrazuje za hodnotou "
+"vlastnosti."
+msgstr ""
+
+#: init.php:906 init.php:907 init.php:924
+msgid "Vzhled eshopu"
+msgstr ""
+
+#: init.php:929
+msgid "Hlavička eshopu"
+msgstr ""
+
+#: init.php:934
+msgid "Patička eshopu"
+msgstr ""
+
+#: init.php:939
+msgid "Pop-upy eshopu"
+msgstr ""
+
+#: init.php:948
+msgid ""
+"Zaškrtnutím povolte ty platební metody, které může zákazník použít k úhradě "
+"objednávky. Pro správnou funkčnost musí být zde povolené platební metody "
+"povoleny i v používaném platebním/fakturačním systému."
+msgstr ""
+
+#: init.php:961
+msgid "Platební metody"
+msgstr ""
+
+#: init.php:971
+msgid "Základní nastavení eshopu"
+msgstr ""
+
+#: init.php:976
+msgid "Úvodní stránka obchodu"
+msgstr ""
+
+#: init.php:979
+msgid ""
+"Stránka slouží k zobrazení katalogu produktů. Umožňuje uživateli zobrazit "
+"vaši nabídku produktů v přehledném seznamu."
+msgstr ""
+
+#: init.php:984
+msgid "Stránka košíku"
+msgstr ""
+
+#: init.php:987
+msgid ""
+"Stránka zobrazuje obsahu nákupního košíku. Umožňuje uživateli odebrat "
+"položky z košíku a změnit množství produktů v košíku."
+msgstr ""
+
+#: init.php:992
+msgid "Stránka s obchodními podmínkami"
+msgstr ""
+
+#: init.php:994
+msgid ""
+"Vyberte stránku, která obsahuje vaše obchodní podmínky. Podmínky jsou "
+"zobrazeny zákazníkovi před vlastním objednáním. Objednáním vyjadřuje souhlas "
+"s obchodními podmínkami. "
+msgstr ""
+
+#: init.php:1001
+msgid "Měna"
+msgstr ""
+
+#: init.php:1008
+msgid "Převodní kurz (CZK na EUR)"
+msgstr ""
+
+#: init.php:1020
+msgid "Převodní kurz (EUR na CZK)"
+msgstr ""
+
+#: init.php:1032
+msgid "Nastavení zobrazení"
+msgstr ""
+
+#: init.php:1035
+msgid "Skrýt diskuze u produktů"
+msgstr ""
+
+#: init.php:1036
+msgid "Skrýt podobné produkty"
+msgstr ""
+
+#: init.php:1037
+msgid "Skrýt kategorie eshopu"
+msgstr ""
+
+#: init.php:1038
+msgid "Skrýt vyhledávání v eshopu"
+msgstr ""
+
+#: init.php:1039
+msgid "Skrýt sociální tlačítka v detailu produktu"
+msgstr ""
+
+#: init.php:1040
+msgid "Skrýt dostupnost u produktů"
+msgstr ""
+
+#: init.php:1045
+msgid "Viditelnost nedostupných produktů"
+msgstr ""
+
+#: init.php:1048
+msgid "Zobrazovat nedostupné produkty v seznamu produktů"
+msgstr ""
+
+#: init.php:1049
+msgid "Zobrazovat nedostupné varianty ve výběru varianty"
+msgstr ""
+
+#: init.php:1051
+msgid ""
+"Týká se těch produktů a jejich variant, které mají \"omezení prodeje\" "
+"nastaveno na \"Produkt nelze koupit\" anebo byly vyčerpány jejich skladové "
+"zásoby bez možnosti nákupu i po vyčerpání skladu."
+msgstr ""
+
+#: init.php:1072
+msgid "Nastavení DPH"
+msgstr ""
+
+#: init.php:1076
+msgid "Účtování DPH"
+msgstr ""
+
+#: init.php:1080
+msgid "Neplátce DPH"
+msgstr ""
+
+#: init.php:1081
+msgid "Identifikovaná osoba"
+msgstr ""
+
+#: init.php:1082
+msgid "Plátce DPH"
+msgstr ""
+
+#: init.php:1088
+msgid ""
+"Zadejte až 5 sazeb DPH. Nechcete-li některou sazbu DPH používat, vymažte "
+"její hodnotu. Změna hodnoty DPH u jednotlivé sazby se projeví u všech "
+"produktů, které tuto sazbu používají. \"Sazba 1\" slouží jako výchozí sazba "
+"a bude použita u produktů, které nemají žádnou sazbu přiřazenou. "
+msgstr ""
+
+#: init.php:1112
+msgid "Ostatní nastavení"
+msgstr ""
+
+#: init.php:1116
+msgid "Obsah pod výpisem zboží v košíku"
+msgstr ""
+
+#: init.php:1121 init.php:1136
+msgid " - Bez obsahu - "
+msgstr ""
+
+#: init.php:1122 init.php:1137
+msgid "Upravit vybraný obsah"
+msgstr ""
+
+#: init.php:1123 init.php:1138
+msgid "Duplikovat vybraný obsah"
+msgstr ""
+
+#: init.php:1124 init.php:1139
+msgid "Vytvořit nový obsah"
+msgstr ""
+
+#: init.php:1125 init.php:1140
+msgid "Smazat vybraný obsah"
+msgstr ""
+
+#: init.php:1131
+msgid "Obsah na děkovací stránce objednávky"
+msgstr ""
+
+#: init.php:1150
+msgid "Platby a fakturace"
+msgstr ""
+
+#: init.php:1154
+msgid "Faktury a platby zpracovávat pomocí"
+msgstr ""
+
+#: init.php:1179 init.php:1183
+msgid "Klasický pop-up"
+msgstr ""
+
+#: init.php:1186
+msgid ""
+"Tento pop-up se zobrazí po načtení stránky nebo při splnění zadané podmínky "
+"v pokročilém nastavení."
+msgstr ""
+
+#: init.php:1190
+msgid "Zobrazit pop-up"
+msgstr ""
+
+#: init.php:1194
+msgid "Po načtení stránky"
+msgstr ""
+
+#: init.php:1195
+msgid "Pokročilé nastavení"
+msgstr ""
+
+#: init.php:1200
+msgid "Zobrazit po x sekundách"
+msgstr ""
+
+#: init.php:1203
+msgid "Pop-up se zobrazí po x sekundách od načtení stránky."
+msgstr ""
+
+#: init.php:1208
+msgid "Zobrazit po odskrolování"
+msgstr ""
+
+#: init.php:1215
+msgid "Pop-up se zobrazí po odskrolování zadané části stránky (v % nebo v px)."
+msgstr ""
+
+#: init.php:1220
+msgid "Zobrazit po naskrolování na prvek s CSS selektorem"
+msgstr ""
+
+#: init.php:1223
+msgid ".class nebo #id"
+msgstr ""
+
+#: init.php:1224
+msgid ""
+"Pop-up se zobrazí po naskrolování na prvek stránky se zadaným CSS selektorem."
+msgstr ""
+
+#: init.php:1229 init.php:1233
+msgid "Exit pop-up"
+msgstr ""
+
+#: init.php:1236
+msgid ""
+"Tento pop-up se zobrazí v momentě, kdy uživatel vyjede myší do horní části "
+"prohlížeče."
+msgstr ""
+
+#: init.php:1242
+msgid "Skripty v hlavičce"
+msgstr ""
+
+#: init.php:1247
+msgid "Skripty v patičce"
+msgstr ""
+
+#: init.php:1252
+msgid "Konverzní kód eshopu"
+msgstr ""
+
+#: init.php:1255
+msgid ""
+"Konverzní kód se vypíše na děkovací stránce eshopu po dokončení objednávky."
+msgstr ""
+
+#: init.php:1258
+msgid "Vlastní css styly (platné pro eshop)"
+msgstr ""
+
+#: init.php:1267
+msgid "Základní nastavení vzhledu"
+msgstr ""
+
+#: init.php:1271
+msgid "Barva"
+msgstr ""
+
+#: init.php:1275
+msgid "Tato barva se použije pro obarvení základních prvků jako jsou tlačítka."
+msgstr ""
+
+#: init.php:1279
+msgid "Zobrazení produktových obrázků"
+msgstr ""
+
+#: init.php:1282
+msgid "Použít obrázky v poměru 4:3"
+msgstr ""
+
+#: init.php:1283
+msgid "Zachovávat původní poměry stran obrázků"
+msgstr ""
+
+#: init.php:1288
+msgid "Pozadí eshopu"
+msgstr ""
+
+#: init.php:1298
+msgid "Obrázek na pozadí"
+msgstr ""
+
+#: init.php:1311
+msgid "Zobrazení výpisu produktů"
+msgstr ""
+
+#: init.php:1315
+msgid "Vzhled výpisu produktů"
+msgstr ""
+
+#: init.php:1340
+msgid "Počet produktů na stránku"
+msgstr ""
+
+#: init.php:1346
+msgid "Maximální počet slov popisku ve výpisu"
+msgstr ""
+
+#: init.php:1356
+msgid "Ostatní zobrazení"
+msgstr ""
+
+#: init.php:1361
+msgid "Zobrazení košíku v hlavičce"
+msgstr ""
+
+#: init.php:1364
+msgid "Zobrazit košík v hlavičce webu"
+msgstr ""
+
+#: init.php:1365
+msgid "Zobrazit košík v hlavičce blogu"
+msgstr ""
+
+#: init.php:1366
+msgid "Zobrazit košík v hlavičce členských sekcí"
+msgstr ""
+
+#: init.php:1375 init.php:1396
+msgid "Použít"
+msgstr ""
+
+#: init.php:1380
+msgid "Patičku webu"
+msgstr ""
+
+#: init.php:1381
+msgid "Vlastní patičku"
+msgstr ""
+
+#: init.php:1401
+msgid "Hlavičku webu"
+msgstr ""
+
+#: init.php:1402
+msgid "Vlastní hlavičku"
+msgstr ""
+
+#: libs/wp-background-processing-master/classes/wp-background-process.php:395
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: shop_class.php:111
+msgid "MioShop requires at least PHP 5.3 with autoload support enabled."
+msgstr ""
+
+#: shop_class.php:112
+msgid "MioShop error"
+msgstr ""
+
+#: shop_class.php:356
+msgid ""
+"Požadovaná synchronizace platebních bran nebude provedena, neboť je zakázána "
+"nastavením."
+msgstr ""
+
+#: shop_class.php:477
+msgid "Náhledový obrázek"
+msgstr ""
+
+#: shop_class.php:734
+msgid "eshop"
+msgstr ""
+
+#: shop_class.php:818
+msgid "ÚVODNÍ STRÁNKA VAŠEHO NOVÉHO E-SHOPU"
+msgstr ""
+
+#: shop_class.php:891
+msgid "Košík"
+msgstr ""
+
+#: shop_class.php:892
+msgid "kosik"
+msgstr ""
+
+#: shop_class.php:911
+msgid "Osobní odběr"
+msgstr ""
+
+#: shop_class.php:912
+msgid "osobni-odber"
+msgstr ""
+
+#: shop_class.php:914
+msgid "Zboží si můžete vyzvednout na naší prodejně."
+msgstr ""
+
+#: shop_class.php:927
+msgid "Poštou"
+msgstr ""
+
+#: shop_class.php:928
+msgid "postou"
+msgstr ""
+
+#: shop_class.php:930
+msgid "Zboží Vám bude doručeno jako balík Českou poštou."
+msgstr ""
+
+#: shop_class.php:1125
+#, php-format
+msgid ""
+"Provedené změny způsobu doručení \"%s\" [%d] vyžadují synchronizaci do "
+"platební brány."
+msgstr ""
+
+#: shop_class.php:1147
+#, php-format
+msgid "Uložen produkt \"%s\" [%d]."
+msgstr ""
+
+#: shop_class.php:1165
+#, php-format
+msgid ""
+"Provedené změny produktu \"%s\" [%d] vyžadují synchronizaci do platební "
+"brány."
+msgstr ""
+
+#: shop_class.php:1215
+#, php-format
+msgid "Varianta produktu \"%s\" [%d] aktualizována."
+msgstr ""
+
+#: shop_class.php:1218
+#, php-format
+msgid "Variantu produktu \"%s\" se nepodařilo aktualizovat. %s"
+msgstr ""
+
+#: shop_class.php:1220
+msgid "Variantu se nepodařilo aktualizovat."
+msgstr ""
+
+#: shop_class.php:1228
+#, php-format
+msgid "Varianta produktu \"%s\" [%d] vytvořena."
+msgstr ""
+
+#: shop_class.php:1234
+#, php-format
+msgid "Variantu produktu \"%s\" se nepodařilo vytvmořit."
+msgstr ""
+
+#: shop_class.php:1235 shop_class.php:1240
+msgid "Variantu se nepodařilo vytvořit."
+msgstr ""
+
+#: shop_class.php:1238
+#, php-format
+msgid "Variantu produktu \"%s\" se nepodařilo vytvořit. %s"
+msgstr ""
+
+#: shop_class.php:1245
+#, php-format
+msgid "Došlo k chybě při zpracování definice varianty \"%d\" produktu [%d]."
+msgstr ""
+
+#: shop_class.php:1248
+#, php-format
+msgid "Definici varianty \"%d\" se nepodařilo zpracovat."
+msgstr ""
+
+#: shop_class.php:1258
+#, php-format
+msgid "Nepodařilo se aktualizovat náhled varianty \"%s\"."
+msgstr ""
+
+#: shop_class.php:1262
+msgid "Nepodařilo se aktualizovat náhled."
+msgstr ""
+
+#: shop_class.php:1284
+#, php-format
+msgid "Varianta produktu \"%s\" [%d] odebrána."
+msgstr ""
+
+#: shop_class.php:1642
+msgid "Seznam produktů"
+msgstr ""
+
+#: shop_class.php:1652 shop_class.php:1656
+msgid "Vytvořit eshop"
+msgstr ""
+
+#: shop_class.php:1736 templates/parts/cart-loop.php:10
+msgid "Košík je prázdný"
+msgstr ""
+
+#: shop_class.php:1746
+msgid "Do košíku"
+msgstr ""
+
+#: shop_class.php:1842 shop_class.php:1843
+msgid "Editovat produkt"
+msgstr ""
+
+#: shop_class.php:1874 shop_class.php:1884
+msgid "Vše"
+msgstr ""
+
+#: templates/eshop-order.php:117
+msgid "Zpět k nákupu"
+msgstr ""
+
+#: templates/eshop-order.php:123
+msgid "Pokračovat"
+msgstr ""
+
+#: templates/eshop-order.php:126 templates/eshop-order.php:834
+msgid "Přepočítat"
+msgstr ""
+
+#: templates/eshop-order.php:172
+msgid "E-mail"
+msgstr ""
+
+#: templates/eshop-order.php:255
+msgid "Ulice a číslo popisné"
+msgstr ""
+
+#: templates/eshop-order.php:377 templates/eshop-order.php:598
+#: templates/eshop-order.php:818
+msgid "Zpět"
+msgstr ""
+
+#: templates/eshop-order.php:379 templates/eshop-order.php:600
+msgid "Uložit a pokračovat"
+msgstr ""
+
+#: templates/eshop-order.php:459
+msgid "Zvolte způsob platby"
+msgstr ""
+
+#: templates/eshop-order.php:493
+msgid ""
+"Není definován žádný způsob platby. Možné způsoby platby lze povolit v horní "
+"liště v Eshop -> Nastavení eshopu -> Platební metody."
+msgstr ""
+
+#: templates/eshop-order.php:500
+msgid "(proveďte výběr)"
+msgstr ""
+
+#: templates/eshop-order.php:501
+msgid "(zvolte jiný způsob platby)"
+msgstr ""
+
+#: templates/eshop-order.php:594
+msgid "Cena dopravy"
+msgstr ""
+
+#: templates/eshop-order.php:637
+msgid ""
+"Vaše objednávka obsahuje následující nesrovnalosti. Vraťte se zpět a "
+"potřebné údaje upravte."
+msgstr ""
+
+#: templates/eshop-order.php:644
+msgid ""
+"Při kontrole objednávky došlo k blíže neurčené chybě. Zkontrolujte prosím, "
+"zda váš košík není prázdný a jsou korektně vyplněné kontaktní a platební "
+"údaje."
+msgstr ""
+
+#: templates/eshop-order.php:654
+msgid ""
+"Omlouváme se, nepodařilo se spočítat cenu objednávky. Proveďte přepočítání."
+msgstr ""
+
+#: templates/eshop-order.php:657
+#, php-format
+msgid "Upravte obsah <a href=\"%s\">košíku</a>."
+msgstr ""
+
+#: templates/eshop-order.php:659 templates/parts/cart-loop.php:20
+msgid "Technický popis chyby:"
+msgstr ""
+
+#: templates/eshop-order.php:663
+msgid "Prosíme o pečlivou kontrolu vaší objednávky"
+msgstr ""
+
+#: templates/eshop-order.php:667
+msgid "Vaše objednávka"
+msgstr ""
+
+#: templates/eshop-order.php:691
+msgid "doprava či platba nebyla určena"
+msgstr ""
+
+#: templates/eshop-order.php:697
+msgid "(platba při převzetí)"
+msgstr ""
+
+#: templates/eshop-order.php:702
+msgid "neznámá"
+msgstr ""
+
+#: templates/eshop-order.php:706
+msgid "Celková cena"
+msgstr ""
+
+#: templates/eshop-order.php:714 templates/parts/cart-items-footer.php:21
+msgid "(nutno přepočítat)"
+msgstr ""
+
+#: templates/eshop-order.php:738
+msgid "Zjednodušený doklad"
+msgstr ""
+
+#: templates/eshop-order.php:745
+#, php-format
+msgid ""
+"Použití zjednodušeného dokladu není povoleno. Je potřeba <a href=\"%s"
+"\">vyplnit fakturační údaje</a>."
+msgstr ""
+
+#: templates/eshop-order.php:751
+#, php-format
+msgid ""
+"Použití zjendodušeného dokladu není přípustné pro vaši objednávku. <br />Je "
+"potřeba <a href=\"%s\">vyplnit fakturační údaje</a>"
+msgstr ""
+
+#: templates/eshop-order.php:761
+msgid "Země:"
+msgstr ""
+
+#: templates/eshop-order.php:774
+#, php-format
+msgid ""
+"Objednáváte zboží, které vyžaduje fyzické doručení. <br />Je potřeba <a href="
+"\"%s\">vyplnit fakturační anebo doručovací adresu</a>."
+msgstr ""
+
+#: templates/eshop-order.php:803
+msgid "Odesláním objednávky zároveň souhlasíte s"
+msgstr ""
+
+#: templates/eshop-order.php:805
+msgid "obchodními podmínkami"
+msgstr ""
+
+#: templates/eshop-order.php:812
+#, php-format
+msgid ""
+"Ještě vám chybí nastavit si stránku s obchodními podmínkami. Stránku lze "
+"nastavit %s v základním nastavení eshopu."
+msgstr ""
+
+#: templates/eshop-order.php:812 templates/eshop-order.php:894
+msgid "zde"
+msgstr ""
+
+#: templates/eshop-order.php:827
+msgid "Závazně objednat"
+msgstr ""
+
+#: templates/eshop-order.php:829
+msgid "S poviností platby"
+msgstr ""
+
+#: templates/eshop-order.php:854
+msgid ""
+"Při zpracování vaší objednávky došlo k chybě. Vraťte se prosím o krok zpět a "
+"pokus zopakujte. Omlouváme se za nepříjemnosti."
+msgstr ""
+
+#: templates/eshop-order.php:857
+#, php-format
+msgid "V případě trvajících potíží můžete %s."
+msgstr ""
+
+#: templates/eshop-order.php:858
+msgid "kontaktovat naši podporu"
+msgstr ""
+
+#: templates/eshop-order.php:867
+msgid ""
+"Děkujeme za vaši objednávku, váš nákup byl v pořádku uložen a odeslán ke "
+"zpracování."
+msgstr ""
+
+#: templates/eshop-order.php:869
+msgid ""
+"Vaši objednávku jsme přijali ke zpracování v pořádku, ale během úhrady "
+"objednávky došlo k chybě. "
+msgstr ""
+
+#: templates/eshop-order.php:876
+msgid "Na váš e-mail bylo zasláno potvrzení s upřesňujícími informacemi."
+msgstr ""
+
+#: templates/eshop-order.php:891
+msgid "Pokud jste tak ještě neučinili, můžete cenu uhradit online"
+msgstr ""
+
+#: templates/eshop-order.php:893
+msgid "Objednávku můžete uhradit online "
+msgstr ""
+
+#: templates/eshop-order.php:897
+msgid "Platbu za objednávku jsme přijali v pořádku. Děkujeme."
+msgstr ""
+
+#: templates/eshop-order.php:904
+msgid "Číslo vaší objednávky:"
+msgstr ""
+
+#: templates/eshop-order.php:919
+msgid "Vrátit se zpět do obchodu"
+msgstr ""
+
+#: templates/parts/cart-action-add.php:14
+#: templates/parts/cart-action-remove.php:14
+msgid "Košík není nakonfigurován."
+msgstr ""
+
+#: templates/parts/cart-action-add.php:32
+msgid "Vložit zboží do košíku"
+msgstr ""
+
+#: templates/parts/cart-action-add.php:119
+msgid "Zboží není dostupné"
+msgstr ""
+
+#: templates/parts/cart-action-remove.php:20
+msgid "Odebrat zboží z košíku"
+msgstr ""
+
+#: templates/parts/cart-items-footer.php:12
+msgid "Celkem"
+msgstr ""
+
+#: templates/parts/cart-items-line.php:16
+#, php-format
+msgid "Produkt [%d] se nepodařilo nalézt v naší nabídce."
+msgstr ""
+
+#: templates/parts/cart-items-line.php:64
+msgid "(neznámo)"
+msgstr ""
+
+#: templates/parts/cart-loop.php:15
+msgid "Omlouváme se, nepodařilo se spočítat cenu košíku. Proveďte přepočítání."
+msgstr ""
+
+#: templates/parts/cart-loop.php:18
+msgid "Upravte obsah košíku."
+msgstr ""
+
+#: templates/parts/categories.php:21
+msgid "Vyhledávání "
+msgstr ""
+
+#: templates/parts/categories.php:35
+msgid "Výsledek hledání pro slovo"
+msgstr ""
+
+#: templates/parts/categories.php:36
+msgid "Zrušit vyhledávání"
+msgstr ""
+
+#: templates/parts/product-loop.php:56
+msgid "Hledanému řetězci neodpovídá žádný produkt."
+msgstr ""
+
+#: templates/parts/product-loop.php:60
+msgid "V této kategorii se nenachází žádný produkt."
+msgstr ""
+
+#: templates/single-mwproduct.php:37
+msgid "Diskuse"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MioShop"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://mioweb.com/shop"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "E-commerce extension with automatic selling support. Sell with ease."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MioWeb team"
+msgstr ""
+
+#~ msgid "Faktura č. %s"
+#~ msgstr "Faktúra č. %s"
+
+#~ msgid "Obsah patičky"
+#~ msgstr "Obsah päty"
+
+#~ msgid "Koncovka patičky"
+#~ msgstr "Koncovka päty"
+
+#~ msgid "Skrýt koncovku patičky"
+#~ msgstr "Skryť koncovku päty"
+
+#~ msgid "Typ koncovky patičky"
+#~ msgstr "Typ koncovky päty"
+
+#~ msgid "Copyrightový text"
+#~ msgstr "Copyrightový text"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Pozadí koncovky patičky"
+#~ msgstr "Pozadie koncovky päty"
+
+#~ msgid "Obrázek na pozadí koncovky patičky"
+#~ msgstr "Obrázok na pozadí koncovky päty"
+
+#~ msgid "Font"
+#~ msgstr "Font"
+
+#~ msgid "Pokročilé nastavení patičky"
+#~ msgstr "Pokročilé nastavenie päty"
+
+#~ msgid "Šířka patičky"
+#~ msgstr "Šírka päty"
+
+#~ msgid "Zboží vám bude doručeno jako balík Českou poštou."
+#~ msgstr "Tovar Vám bude doručený ako balík Slovenskou poštou."
+
+#~ msgid "Nejsou vytvořeny žádné parametry."
+#~ msgstr "Neboli vytvorené žiadne parametre."
+
+#~ msgid ""
+#~ "Vybraný produkt není v našem obchodě k dispozici. Přejete si zobrazit "
+#~ "naši nabídku?"
+#~ msgstr ""
+#~ "Vybratý produkt nie je v našom obchode k dispozícii. Želáte si zobraziť "
+#~ "našu ponuku?"
+
+#~ msgid "Pro zadání desetinné ceny použijte tečku, např \"123.45\"."
+#~ msgstr "Na zadanie desatinnej ceny použite bodku, napr. \"123.45\"."
+
+#~ msgid ""
+#~ "Zadáním \"Ceny po slevě\" zapnete u produktu zobrazování se slevou. "
+#~ "Zákazníkům se bude produkt nabízet za cenu po slevě. Výše slevy bude "
+#~ "zobrazena v nabídce."
+#~ msgstr ""
+#~ "Zadaním \"Ceny po zľave\" zapnete pri produkte zobrazovanie so zľavou. "
+#~ "Zákazníkom sa bude produkt ponúkať za cenu po zľave. Výška zľavy bude "
+#~ "zobrazená v ponuke."
+
+#~ msgid "Fyzické (doručení klasické)"
+#~ msgstr "Fyzické (doručenie klasické)"
+
+#~ msgid "Elektronické/virtuální (elektronické doručení)"
+#~ msgstr "Elektronické/virtuálne (elektronické doručenie)"
+
+#~ msgid "Ostatní (bez doručení)"
+#~ msgstr "Ostatné (bez doručenia)"
+
+#~ msgid "Popis produktu"
+#~ msgstr "Popis produktu"
+
+#~ msgid ""
+#~ "Popis, který se zobrazuje v záložce \"Popis\" na stránce produktu a je "
+#~ "vytvářet pomocí vizuálního editoru přímo na stránce produktu."
+#~ msgstr ""
+#~ "Popis, ktorý sa zobrazuje pod záložkou \"Popis\" na stránke produktu a "
+#~ "vytvára sa pomocou vizuálneho editoru priamo na stránke produktu."
+
+#~ msgid "Skrýt vyhledávání eshopu"
+#~ msgstr "Skryť vyhľadávanie e-shopu"
+
+#~ msgid ""
+#~ "Omlouváme se, nepodařilo se spočítat cenu objednávky. Zkuste spustit "
+#~ "přepočítání objednávky."
+#~ msgstr ""
+#~ "Ospravedlňujeme sa, nepodarilo sa spočítať cenu objednávky. Skúste "
+#~ "spustiť prepočítanie objednávky."
+
+#~ msgid "Platbu za objednávku jsme přijali v pořádku."
+#~ msgstr "Platbu za objednávku sme prijali v poriadku."
+
+#~ msgid "Platba za vaši objednávku byla přijata v pořádku. Děkujeme."
+#~ msgstr "Platba za vašu objednávku bola prijatá v poriadku. Ďakujeme."
+
+#~ msgid "Vlastní text který se vypíše na tomto místě můžete nastavit %s."
+#~ msgstr ""
+#~ "Vlastný text, ktorý sa vypíše na tomto mieste, si môžete nastaviť %s."
+
+#~ msgid "Přidání zboží do košíku"
+#~ msgstr "Pridanie tovaru do košíka"
+
+#~ msgid ""
+#~ "Omlouváme se, nepodařilo se spočítat cenu košíku. Zkuste spustit "
+#~ "přepočítání košíku."
+#~ msgstr ""
+#~ "Ospravedlňujeme sa, nepodarilo sa spočítať cenu košíka. Skúste spustiť "
+#~ "prepočítanie košíka."
+
+#~ msgid "Vzhled ceny"
+#~ msgstr "Vzhľad ceny"
+
+#~ msgid "FAPI formulář"
+#~ msgstr "FAPI formulár"
+
+#~ msgid ""
+#~ "Zaškrtnutím povolte ty platební metody, které budou nabízeny zákazníkům. "
+#~ "Zde povolené platební metody musí být aktivní ve zvolené platební bráně."
+#~ msgstr ""
+#~ "Označením povoľte tie platobné metódy, ktoré sa budú ponúkať zákazníkom. "
+#~ "Platobné metódy povolené tu musia byť aktívne vo vybratej platobnej bráne."
+
+#~ msgid "Používat platební bránu"
+#~ msgstr "Používať platobnú bránu"
+
+#~ msgid "Používat FAPI"
+#~ msgstr "Používať FAPI"

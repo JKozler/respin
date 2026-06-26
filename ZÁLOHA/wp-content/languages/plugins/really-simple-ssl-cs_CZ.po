@@ -1,0 +1,2461 @@
+# Translation of Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-13 09:38:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Really Simple Security &#8211; Simple and Performant Security (formerly Really Simple SSL) - Stable (latest release)\n"
+
+#: settings/config/menu.php:365
+msgid "Password security"
+msgstr "Zabezpečení heslem"
+
+#: settings/config/menu.php:498 settings/config/menu.php:518
+#: settings/config/menu.php:590 settings/config/menu.php:591
+msgid "Regions"
+msgstr "Oblasti"
+
+#: settings/config/menu.php:482 settings/config/menu.php:692
+msgid "Warnings"
+msgstr "Upozornění"
+
+#: settings/config/menu.php:510 settings/config/menu.php:604
+msgid "Continents"
+msgstr "Kontinenty"
+
+#: settings/config/fields/limit-login-attempts.php:58
+#: settings/config/fields/limit-login-attempts.php:82
+#: settings/config/fields/two-fa.php:75
+msgid "%s day"
+msgstr "%s den"
+
+#: settings/config/fields/limit-login-attempts.php:57
+#: settings/config/fields/limit-login-attempts.php:81
+msgid "%s hours"
+msgstr "%s hodin"
+
+#: settings/config/fields/limit-login-attempts.php:56
+#: settings/config/fields/limit-login-attempts.php:80
+msgid "%s hour"
+msgstr "%s hod"
+
+#: settings/config/fields/limit-login-attempts.php:54
+#: settings/config/fields/limit-login-attempts.php:55
+#: settings/config/fields/limit-login-attempts.php:78
+#: settings/config/fields/limit-login-attempts.php:79
+msgid "%s minutes"
+msgstr "%s minut"
+
+#: settings/config/fields/access-control.php:63
+msgid "Change passwords every"
+msgstr "Měňte hesla každý"
+
+#: settings/config/fields/access-control.php:61
+msgid "2 years"
+msgstr "2 roky"
+
+#: settings/config/fields/access-control.php:60
+msgid "1 year"
+msgstr "rok"
+
+#: settings/config/fields/access-control.php:59
+msgid "6 months"
+msgstr "6 měsíců"
+
+#: settings/config/menu.php:69
+msgid "Let's Encrypt."
+msgstr "Let's Encrypt."
+
+#: settings/config/menu.php:239
+msgid "Basic"
+msgstr "Základní"
+
+#: settings/config/menu.php:76
+msgid "Redirection"
+msgstr "Přesměrování"
+
+#: settings/config/menu.php:273 modal/build/index.d4bca8705bbc6e3e5777.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:86
+msgid "Login Protection"
+msgstr "Ochrana přihlášení"
+
+#: settings/config/menu.php:245
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: security/sync-settings.php:34
+msgid "Debug.log"
+msgstr "Debug.log"
+
+#: mailer/class-mail.php:118
+msgid "Verify email"
+msgstr "Ověřit e-mail"
+
+#: mailer/class-mail.php:116
+msgid "Please verify your email"
+msgstr "Prosím, ověřte svůj e-mail"
+
+#: settings/config/fields/firewall.php:299
+#: settings/config/fields/limit-login-attempts.php:331
+msgid "Event"
+msgstr "Událost"
+
+#: settings/config/fields/limit-login-attempts.php:315
+msgid "User"
+msgstr "Uživatel"
+
+#: settings/config/fields/firewall.php:268
+#: settings/config/fields/limit-login-attempts.php:292
+msgid "IP address overview"
+msgstr "Přehled IP adres"
+
+#: settings/config/fields/firewall.php:241
+#: settings/config/fields/limit-login-attempts.php:259
+msgid "Continent"
+msgstr "Kontinent"
+
+#: settings/config/fields/firewall.php:234
+#: settings/config/fields/firewall.php:279
+#: settings/config/fields/limit-login-attempts.php:251
+#: settings/config/fields/limit-login-attempts.php:303
+msgid "Country"
+msgstr "Stát"
+
+#: settings/config/fields/firewall.php:215
+#: settings/config/fields/limit-login-attempts.php:141
+#: settings/config/fields/limit-login-attempts.php:186
+#: settings/config/fields/limit-login-attempts.php:232
+#: settings/config/menu.php:417 settings/config/menu.php:452
+msgid "Trusted"
+msgstr "Důvěryhodný"
+
+#: settings/config/fields/firewall.php:214
+#: settings/config/fields/limit-login-attempts.php:140
+#: settings/config/fields/limit-login-attempts.php:185
+#: settings/config/fields/limit-login-attempts.php:231
+msgid "Locked-out"
+msgstr "Uzamčen"
+
+#: settings/config/fields/limit-login-attempts.php:52
+msgid "Interval"
+msgstr "Interval"
+
+#: settings/config/fields/limit-login-attempts.php:31
+#: settings/config/fields/limit-login-attempts.php:32
+#: settings/config/fields/limit-login-attempts.php:33
+#: settings/config/fields/limit-login-attempts.php:34
+msgid "attempts"
+msgstr "pokusy"
+
+#: settings/config/fields/limit-login-attempts.php:29
+msgid "Login attempts"
+msgstr "Pokusy o přihlášení"
+
+#: settings/config/disable-fields-filter.php:95
+msgid "Email validation completed"
+msgstr "Ověření e-mailu dokončeno"
+
+#: mailer/class-mail.php:204 settings/config/disable-fields-filter.php:106
+#: settings/config/fields/general.php:90
+msgid "Email validation"
+msgstr "Ověření e-mailu"
+
+#: settings/config/fields/two-fa.php:143 settings/config/menu.php:331
+#: settings/config/menu.php:405 settings/config/menu.php:425
+msgid "Users"
+msgstr "Uživatelé"
+
+#: security/wordpress/two-fa/class-rsssl-passkey-list-table.php:78
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:297
+msgid "Remove"
+msgstr "Odstranit"
+
+#: settings/config/fields/hardening-extended.php:46
+msgid "Restrict creation of administrator roles"
+msgstr "Omezit vytváření administrátorských rolí"
+
+#: security/wordpress/vulnerabilities.php:372
+msgid "Please take appropriate action."
+msgstr "Proveďte prosím příslušné kroky."
+
+#: security/wordpress/vulnerabilities.php:1588
+msgid "You have %s critical vulnerability"
+msgid_plural "You have %s critical vulnerabilities"
+msgstr[0] "Máte %s kritickou zranitelnost"
+msgstr[1] "Máte %s kritické zranitelnosti"
+msgstr[2] "Máte %s kritických zranitelností"
+
+#: security/wordpress/vulnerabilities.php:330
+msgid "View vulnerabilities"
+msgstr "Zobrazit zranitelnosti"
+
+#: security/wordpress/vulnerabilities.php:316
+msgid "Vulnerabilities detected"
+msgstr "Byly zjištěny zranitelnosti"
+
+#: security/wordpress/vulnerabilities.php:296
+#: security/wordpress/vulnerabilities.php:304
+msgid "No known vulnerabilities detected"
+msgstr "Nebyly zjištěny žádné známé zranitelnosti"
+
+#: settings/config/fields/firewall.php:42
+#: settings/config/fields/firewall.php:293
+#: settings/config/fields/limit-login-attempts.php:166
+#: settings/config/fields/limit-login-attempts.php:212
+#: settings/config/fields/limit-login-attempts.php:309
+#: settings/config/fields/vulnerability-detection.php:165
+msgid "Date"
+msgstr "Datum"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-settings.php:640
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:563
+#: settings/config/fields/vulnerability-detection.php:108
+#: settings/config/menu.php:35
+msgid "Email"
+msgstr "E-mail"
+
+#: settings/config/fields/vulnerability-detection.php:106
+msgid "Critical (default)"
+msgstr "Kritické (výchozí)"
+
+#: settings/config/fields/vulnerability-detection.php:103
+#: settings/config/fields/vulnerability-detection.php:194
+msgid "Low-risk"
+msgstr "Nízké riziko"
+
+#: settings/config/fields/vulnerability-detection.php:83
+msgid "High-risk (default)"
+msgstr "Vysoké riziko (výchozí)"
+
+#: security/wordpress/two-fa/class-rsssl-two-factor-settings.php:644
+#: security/wordpress/two-fa/class-rsssl-two-factor-settings.php:662
+#: settings/config/fields/vulnerability-detection.php:58
+#: settings/config/fields/vulnerability-detection.php:80
+#: settings/config/fields/vulnerability-detection.php:102
+#: settings/config/fields/vulnerability-detection.php:193
+msgid "None"
+msgstr "Žádný"
+
+#: settings/config/fields/vulnerability-detection.php:41
+msgid "Feedback in plugin overview"
+msgstr "Zpětná vazba v přehledu pluginu"
+
+#: settings/config/menu.php:220
+msgid "Measures"
+msgstr "Opatření"
+
+#: settings/config/fields/vulnerability-detection.php:172
+#: settings/config/fields/vulnerability-detection.php:215
+msgid "Risk"
+msgstr "Riziko"
+
+#: settings/config/fields/vulnerability-detection.php:157
+msgid "Component"
+msgstr "Komponenty"
+
+#: settings/config/fields/vulnerability-detection.php:62
+#: settings/config/fields/vulnerability-detection.php:84
+#: settings/config/fields/vulnerability-detection.php:197
+msgid "Critical"
+msgstr "Kritické"
+
+#: settings/config/fields/vulnerability-detection.php:81
+msgid "Low-risk "
+msgstr "Nízké riziko "
+
+#: settings/config/fields/vulnerability-detection.php:61
+#: settings/config/fields/vulnerability-detection.php:105
+#: settings/config/fields/vulnerability-detection.php:196
+msgid "High-risk"
+msgstr "Vysoké riziko"
+
+#: settings/config/fields/vulnerability-detection.php:60
+#: settings/config/fields/vulnerability-detection.php:82
+#: settings/config/fields/vulnerability-detection.php:104
+#: settings/config/fields/vulnerability-detection.php:195
+msgid "Medium-risk"
+msgstr "Střední riziko"
+
+#: settings/config/fields/vulnerability-detection.php:59
+msgid "Low-risk (default)"
+msgstr "Nízké riziko (výchozí)"
+
+#: settings/config/fields/vulnerability-detection.php:127
+#: settings/config/fields/vulnerability-detection.php:131
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:63
+msgid "Test notifications"
+msgstr "Testovací oznámení"
+
+#: security/wordpress/vulnerabilities.php:640
+msgid "Force update"
+msgstr "Vynutit aktualizaci"
+
+#: security/wordpress/vulnerabilities.php:625 settings/config/menu.php:182
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "Zranitelnosti"
+
+#: security/wordpress/vulnerabilities.php:423
+msgid "Dashboard - Test Notification"
+msgstr "Nástěnka - Test oznámení"
+
+#: security/hardening.php:21 security/wordpress/vulnerabilities.php:87
+msgid "critical"
+msgstr "kritický"
+
+#: security/hardening.php:20 security/wordpress/vulnerabilities.php:86
+msgid "high-risk"
+msgstr "vysoké riziko"
+
+#: security/hardening.php:19 security/wordpress/vulnerabilities.php:85
+msgid "medium-risk"
+msgstr "střední riziko"
+
+#: security/hardening.php:18 security/wordpress/vulnerabilities.php:84
+msgid "low-risk"
+msgstr "nízké riziko"
+
+#: security/cron.php:104
+msgid "Every three hours"
+msgstr "Každé tři hodiny"
+
+#: mailer/class-mail.php:141
+msgid "Email could not be sent. No message or subject set."
+msgstr "E-mail se nepodařilo odeslat. Není nastavena zpráva ani předmět."
+
+#: mailer/class-mail.php:38
+msgid "Why did I receive this email?"
+msgstr "Proč jsem dostal tento e-mail?"
+
+#: settings/config/fields/vulnerability-detection.php:21
+msgid "About Vulnerabilities"
+msgstr "O zranitelnostech"
+
+#: security/wordpress/vulnerabilities.php:1187
+msgid "Vulnerability: %s"
+msgstr "Zranitelnost: %s"
+
+#: security/wordpress/vulnerabilities.php:1533
+msgid "Vulnerability Alert: %s"
+msgstr "Upozornení na zranitelnost: %s"
+
+#: security/wordpress/vulnerabilities.php:646
+msgid "Quarantine"
+msgstr "Karanténa"
+
+#: security/wordpress/vulnerabilities.php:732
+#: security/wordpress/vulnerabilities.php:1204
+msgid "Quarantined"
+msgstr "V karanténě"
+
+#: security/wordpress/vulnerabilities.php:1534
+msgid "%s: %s vulnerability found"
+msgid_plural "%s: %s vulnerabilities found"
+msgstr[0] "%s: %s zranitelnost nalezena"
+msgstr[1] "%s: %s zranitelnosti nalezeny"
+msgstr[2] "%s: %s zranitelností nalezeno"
+
+#: onboarding/class-onboarding.php:289
+#: settings/build/995.7a0675fe0519b06656b3.js:1
+#: settings/src/Settings/Settings.js:153
+msgid "Save and continue"
+msgstr "Uložit a pokračovat"
+
+#: assets/templates/two_fa/onboarding.php:140
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Onboarding/OnboardingControls.js:201
+msgid "Skip"
+msgstr "Přeskočit"
+
+#: settings/config/fields/encryption.php:27
+msgid "Settings update: .htaccess redirect"
+msgstr "Aktualizace nastavení: přesměrování .htaccess"
+
+#: security/wordpress/two-fa/providers/class-rsssl-two-factor-email.php:561
+#: settings/config/fields/firewall.php:101
+#: settings/config/fields/firewall.php:106
+#: settings/config/fields/security-headers.php:14
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:167
+#: settings/src/Settings/DynamicDataTable/DynamicDataTable.js:168
+#: settings/src/Settings/EventLog/EventLogDataTable.js:232
+#: settings/src/Settings/firewall/UserAgentTable.js:273
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:362
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:520
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:415
+#: settings/src/Settings/LearningMode/LearningMode.js:386
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:454
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:319
+#: settings/src/Settings/LimitLoginAttempts/UserDatatable.js:281
+#: settings/src/Settings/PermissionsPolicy.js:205
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesOverview.js:134
+#: settings/src/Settings/RolesDropDown.js:94
+#: settings/src/Settings/TwoFA/TwoFaDataTable.js:315
+#: settings/src/Settings/TwoFA/TwoFaEnabledDropDown.js:133
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: settings/config/fields/hardening-extended.php:109
+msgid "Custom login URL"
+msgstr "Vlastní URL pro přihlášení"
+
+#: mailer/class-mail.php:36
+msgid "This email was sent to"
+msgstr "Tento e-mail byl odeslán na"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1627
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "Toto je konfigurace pro více míst se subdoménami. Měli byste vygenerovat zástupný certifikát v kořenové doméně."
+
+#: settings/config/fields/encryption.php:28
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "Na vašem webu bylo povoleno přesměrování .htaccess. Pokud je konfigurace serveru nestandardní, může to způsobit problémy. Zkontrolujte, zda všechny stránky na vašem webu fungují správně. ."
+
+#: settings/config/disable-fields-filter.php:29
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr ".htaccess zapněte pouze pokud víte jak znovu získat přístup v případě potíží."
+
+#: settings/config/disable-fields-filter.php:24
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "Na Apache můžete použít přesměrování .htaccess, které je obvykle rychlejší, ale může způsobit problémy v některých konfiguracích. Nejprve si přečtěte pokyny na postranním panelu."
+
+#: settings/config/fields/hardening-extended.php:17
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "Od této chvíle nebude debug.log veřejně přístupný, kdykoli bude povoleno ladění wp. Debug log bude uložen v náhodně pojmenované složce v /wp-content/. Tím se zabrání možnému úniku citlivých ladicích informací."
+
+#: settings/config/fields/hardening-extended.php:16
+msgid "Settings update: Debug.log file relocated"
+msgstr "Aktualizace nastavení: Soubor Debug.log byl přemístěn"
+
+#: settings/config/fields/hardening-extended.php:14
+msgid "A debug.log is publicly accessibile and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "Debug.log je veřejně přístupný a má standardní umístění. Toto změní umístění na náhodně pojmenovanou složku ve složce /wp-content/"
+
+#: settings/config/fields/hardening-extended.php:69
+#: settings/config/fields/hardening-extended.php:70
+msgid "This will permanently change your database prefixes and you can NOT rollback this feature. Please make sure you have a back-up."
+msgstr "Tím se trvale změní vaše databázové předpony a tuto funkci NEMŮŽETE vrátit zpět. Ujistěte se, že máte zálohu."
+
+#: settings/config/fields/hardening-extended.php:66
+msgid "Security through obscurity. Your site is no longer using the default wp_ prefix for database tables. The process has been designed to only complete and replace the tables after all wp_ tables are successfully renamed. In the unlikely event that this does lead to database issues on your site, please navigate to our troubleshooting article."
+msgstr "Zabezpečení skrze temnotu. Váš web již nepoužívá výchozí předponu wp_ pro databázové tabulky. Proces byl navržen tak, aby dokončil a nahradil tabulky pouze po úspěšném přejmenování všech tabulek wp_. V nepravděpodobném případě, že to povede k problémům s databází na vašem webu, přejděte prosím na náš článek o odstraňování problémů."
+
+#: settings/config/fields/hardening-extended.php:65
+msgid "Settings update: Database prefix changed"
+msgstr "Aktualizace nastavení: Změněna předpony databáze"
+
+#: settings/config/fields/hardening-extended.php:55
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "Tím omezíte nebo úplně zakážete požadavky HTTP, které nejsou potřeba, ale mohly by být použity se zlými úmysly."
+
+#: settings/config/fields/hardening-basic.php:108
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "Pokud uživatelské jméno 'admin' aktuálně existuje, můžete jej přejmenovat zde. Vezměte prosím na vědomí, že toto uživatelské jméno již nemůžete používat a měli byste použít nové uživatelské jméno nebo e-mailovou adresu"
+
+#: settings/config/fields/hardening-basic.php:104
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "Jako bezpečnostní opatření bylo na %s změněno uživatelské jméno „admin“. Od této chvíle se můžete přihlásit pomocí '%s' nebo e-mailové adresy."
+
+#: mailer/class-mail.php:67
+msgid "About notifications"
+msgstr "O oznámeních"
+
+#: settings/config/fields/general.php:99
+msgid "Notifications by email"
+msgstr "Oznámení e-mailem"
+
+#: settings/config/fields/general.php:50
+msgid "Dismiss all notifications"
+msgstr "Skrýt všechna oznámení"
+
+#: mailer/class-mail.php:68
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "E-mailová oznámení jsou zasílána jen při důležitých aktualizacích, bezpečnostních upozorněních nebo když jsou aktivovány vybrané funkcionality."
+
+#: settings/config/fields/hardening-basic.php:103
+msgid "Settings update: Username 'admin' renamed"
+msgstr "Aktualizace nastavení: Uživatelské jméno 'admin' přejmenováno"
+
+#: settings/config/fields/hardening-basic.php:101
+msgid "Block the username 'admin'"
+msgstr "Blokovat uživatelské jméno 'admin'"
+
+#: settings/config/fields/hardening-basic.php:60
+msgid "Prevent login feedback"
+msgstr "Zabránit zpětné vazbě na přihlášení"
+
+#: settings/config/fields/hardening-basic.php:59
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "Ve výchozím nastavení WordPress zobrazuje, zda existuje uživatelské jméno nebo e-mailová adresa, když se přihlášení nezdaří. Tím se změní na obecnou zpětnou vazbu."
+
+#: settings/config/fields/general.php:100
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "Získejte upozornění na důležité změny, aktualizace a nastavení. Doporučeno při používání bezpečnostních funkcí."
+
+#: settings/config/disable-fields-filter.php:29
+#: settings/config/fields/encryption.php:24
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "Přesměruje váš web na https s přesměrováním 301 přátelským pro SEO, pokud je požadováno přes http."
+
+#: settings/config/fields/encryption.php:19
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "301 přesměrování .htaccess (nejprve si přečtěte pokyny)"
+
+#: settings/config/fields/encryption.php:13
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "Změnu metod přesměrování je třeba provádět opatrně. Ujistěte se, že jste si předem přečetli naše pokyny na pravé straně."
+
+#: mailer/class-mail.php:35
+msgid "Learn more about our features!"
+msgstr "Zjistěte více o našich funkcích!"
+
+#: mailer/class-mail.php:212 upgrade/upgrade-to-pro.php:338
+#: upgrade/upgrade-to-pro.php:339
+msgid "An error occurred:"
+msgstr "Vyskytla se chyba:"
+
+#: mailer/class-mail.php:210
+msgid "Email could not be sent."
+msgstr "E-mail se nepodařilo odeslat."
+
+#: mailer/class-mail.php:205
+msgid "Email sent! Please check your mail"
+msgstr "E-mail odeslán! Zkontrolujte si prosím poštu"
+
+#: mailer/class-mail.php:64
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "Tento e-mail je potvrzením, že do vaší doručené pošty pravděpodobně dorazí jakákoli bezpečnostní upozornění."
+
+#: mailer/class-mail.php:60 mailer/class-mail.php:99 mailer/class-mail.php:145
+msgid "Email address not valid"
+msgstr "E-mailová adresa není platná"
+
+#: class-admin.php:2352
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "Zkontrolujte, zda se vaše REST API načítá správně. Váš web aktuálně používá k načtení nastavení pomalejší záložní metodu Ajax."
+
+#: mailer/class-mail.php:41
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "Aktivovali jste funkci na %s. Myslíme si, že je důležité, abychom vás o této funkci informovali trochu více, abyste ji mohli bez obav používat."
+
+#: settings/config/fields/security-headers.php:15
+msgid "(recommended)"
+msgstr "(doporučeno)"
+
+#: class-admin.php:2068
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "SSL je nyní aktivováno. Podle tří kroků v tomto článku zkontrolujte, zda je váš web bezpečný."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:113
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "Přihlašovací údaje jsou nesprávné. Zkontrolujte prosím přihlašovací údaje do cPanelu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:869
+msgid "Failed retrieving account."
+msgstr "Nepodařilo se načíst účet."
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "Konstanta DISALLOW_FILE_EDIT je definována a nastavena na hodnotu false. Můžete jej odstranit z vašeho wp-config.php."
+
+#: security/notices.php:94
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "Přejmenování administrátora povoleno: Vyberte prosím nové uživatelské jméno o délce alespoň 3 znaků, které se ještě nepoužívá."
+
+#: upgrade/upgrade-to-pro.php:425
+msgid "Could not rename folder!"
+msgstr "Nepodařilo se přejmenovat složku!"
+
+#: settings/config/fields/hardening-basic.php:118
+msgid "Choose new username to replace 'admin'"
+msgstr "Vyberte nové uživatelské jméno, které nahradí „admin“"
+
+#: settings/config/fields/general.php:88
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/Support.js:45
+msgid "Send"
+msgstr "Odeslat"
+
+#: class-admin.php:665 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Dashboard/TaskElement.js:72
+#: settings/src/Dashboard/TaskElement.js:76
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:80
+msgid "View"
+msgstr "Zobrazit"
+
+#: settings/config/fields/firewall.php:168
+#: settings/config/fields/firewall.php:213
+#: settings/config/fields/limit-login-attempts.php:139
+#: settings/config/fields/limit-login-attempts.php:184
+#: settings/config/fields/limit-login-attempts.php:230
+#: settings/config/menu.php:506 settings/config/menu.php:574
+#: settings/config/menu.php:600 settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:149
+msgid "Blocked"
+msgstr "Blokováno"
+
+#: settings/config/menu.php:514 settings/config/menu.php:608
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:148
+msgid "Allowed"
+msgstr "Povoleno"
+
+#: settings/config/menu.php:339 settings/config/menu.php:486
+#: settings/config/menu.php:651 settings/config/menu.php:688
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/DataTable/DataTableWrapper.js:151
+#: settings/src/Settings/EventLog/EventLogDataTable.js:213
+#: settings/src/Settings/firewall/UserAgentTable.js:257
+#: settings/src/Settings/GeoBlockList/BlockListDatatable.js:345
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:502
+#: settings/src/Settings/GeoBlockList/WhiteListDatatable.js:398
+#: settings/src/Settings/LearningMode/LearningMode.js:147
+#: settings/src/Settings/LearningMode/LearningMode.js:320
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:435
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:298
+msgid "All"
+msgstr "Vše"
+
+#: settings/config/fields/security-headers.php:303
+msgid "Enable Permissions Policy"
+msgstr "Povolit Zásady oprávnění"
+
+#: settings/config/fields/security-headers.php:225
+msgid "Feature"
+msgstr "Vlastnosti"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:335
+#: settings/src/Settings/LearningMode/LearningMode.js:343
+#: settings/src/Settings/PermissionsPolicy.js:200
+msgid "Disable"
+msgstr "Zakázat"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:278
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:295
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:473
+#: settings/src/Settings/GeoBlockList/GeoDatatable.js:484
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+#: settings/src/Settings/LearningMode/LearningMode.js:276
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:310
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:321
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:330
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:401
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:412
+msgid "Allow"
+msgstr "Povolit"
+
+#: settings/config/fields/encryption.php:107
+#: settings/config/fields/security-headers.php:386
+msgid "Location"
+msgstr "Umístění"
+
+#: settings/config/fields/encryption.php:101
+#: settings/config/fields/vulnerability-detection.php:221
+msgid "Description"
+msgstr "Popisek"
+
+#: settings/config/fields/encryption.php:94
+msgid "Type"
+msgstr "Typ"
+
+#: settings/config/fields/security-headers.php:214
+#: settings/config/fields/security-headers.php:336
+msgid "Self (Default)"
+msgstr "Vlastní (výchozí)"
+
+#: settings/config/fields/vulnerability-detection.php:209
+msgid "Action"
+msgstr "Akce"
+
+#: settings/config/fields/hardening-xml.php:61
+msgid "Count"
+msgstr "Počet"
+
+#: settings/config/fields/hardening-xml.php:48
+#: settings/config/fields/two-fa.php:171
+msgid "Method"
+msgstr "Metoda"
+
+#: settings/config/fields/hardening-extended.php:29
+msgid "Disable application passwords"
+msgstr "Zakázat hesla aplikací"
+
+#: settings/config/fields/hardening-xml.php:55
+msgid "Login status"
+msgstr "Stav přihlášení"
+
+#: settings/config/fields/hardening-basic.php:70
+msgid "Disable directory browsing"
+msgstr "Zakázat procházení adresářů"
+
+#: settings/config/fields/firewall.php:248
+#: settings/config/fields/limit-login-attempts.php:160
+#: settings/config/fields/limit-login-attempts.php:206
+#: settings/config/fields/limit-login-attempts.php:266
+#: settings/config/fields/two-fa.php:179
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/SslLabs/SslLabsHeader.js:5
+msgid "Status"
+msgstr "Stav"
+
+#: settings/config/fields/security-headers.php:400
+msgid "Source"
+msgstr "Zdroj"
+
+#: settings/config/fields/security-headers.php:393
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LearningMode/ManualCspAdditionModal.js:156
+msgid "Directive"
+msgstr "Směrnice"
+
+#: settings/config/fields/security-headers.php:347
+msgid "Add additional domains which can embed your website, if needed. Comma seperated."
+msgstr "V případě potřeby přidejte další domény, do kterých lze vložit váš web. Odděleno čárkou."
+
+#: settings/config/fields/security-headers.php:338
+msgid "Allow your domain to be embedded"
+msgstr "Povolte vložení vaší domény"
+
+#: settings/config/fields/security-headers.php:143
+msgid "One year"
+msgstr "Jeden rok"
+
+#: settings/config/fields/security-headers.php:142
+msgid "One day (for testing only)"
+msgstr "Jeden den (pouze pro testování)"
+
+#: settings/config/fields/security-headers.php:126
+msgid "Include subdomains"
+msgstr "Zahrnout subdomény"
+
+#: settings/config/fields/security-headers.php:44
+#: settings/config/fields/security-headers.php:59
+#: settings/config/fields/security-headers.php:162
+#: settings/config/fields/security-headers.php:184
+#: settings/config/fields/security-headers.php:199
+msgid "Off"
+msgstr "Vypnuto"
+
+#: lets-encrypt/config/fields.php:8 settings/config/fields/general.php:61
+#: settings/config/menu.php:717
+msgid "System status"
+msgstr "Stav systému"
+
+#: settings/config/fields/security-headers.php:101
+msgid "Include preload"
+msgstr "Zahrnout předběžné načtení"
+
+#: settings/config/fields/security-headers.php:144
+msgid "Two years (required for preload)"
+msgstr "Dva roky (vyžadováno pro předběžné načtení)"
+
+#: settings/config/fields/security-headers.php:60
+msgid "recommended"
+msgstr "doporučeno"
+
+#: settings/config/fields/hardening-extended.php:56
+msgid "Disable HTTP methods"
+msgstr "Zakázat metody HTTP"
+
+#: settings/config/fields/hardening-basic.php:151
+msgid "Block user registrations when login and display name are the same"
+msgstr "Blokovat registrace uživatelů, pokud jsou přihlašovací a přihlašovací jméno stejné"
+
+#: settings/config/fields/hardening-basic.php:142
+msgid "Disable XML-RPC"
+msgstr "Zakázat XML-RPC"
+
+#: settings/config/fields/general.php:70
+msgid "Delete all data on plugin deletion"
+msgstr "Smažte všechna data při smazání pluginu"
+
+#: settings/config/fields/encryption.php:17
+msgid "No redirect"
+msgstr "Žádné přesměrování"
+
+#: lets-encrypt/config/fields.php:21 settings/config/menu.php:740
+msgid "DNS verification"
+msgstr "DNS verifikace"
+
+#: settings/config/fields/hardening-basic.php:49
+msgid "Hide your WordPress version"
+msgstr "Skrýt verzi WordPressu"
+
+#: class-admin.php:2206 class-admin.php:2212
+msgid "301 .htaccess redirect"
+msgstr "301 .htaccess přesměrování"
+
+#: settings/config/fields/encryption.php:18
+msgid "301 PHP redirect"
+msgstr "301 PHP přesměrování"
+
+#: settings/config/disable-fields-filter.php:28
+#: settings/config/fields/encryption.php:14
+#: settings/config/fields/encryption.php:23
+msgid "Redirect method"
+msgstr "Způsob přesměrování"
+
+#: settings/config/fields/encryption.php:85
+msgid "Mixed content scan"
+msgstr "Kontrola smíšeného obsahu"
+
+#: settings/config/fields/encryption.php:89
+msgid "About the Mixed Content Scan"
+msgstr "O kontrole smíšeného obsahu"
+
+#: settings/config/fields/hardening-extended.php:20
+msgid "Change debug.log file location"
+msgstr "Změnit umístění souboru debug.log"
+
+#: settings/config/fields/hardening-basic.php:19
+msgid "About Hardening"
+msgstr "O zvýšení bezpečnosti"
+
+#: settings/config/fields/hardening-basic.php:80
+msgid "Disable user enumeration"
+msgstr "Zakázat výčet uživatelů"
+
+#: settings/config/fields/security-headers.php:319
+msgid "The content security policy has many options, so we always recommend starting in ‘learning mode’ to see what files and scripts are loaded."
+msgstr "Zásady zabezpečení obsahu mají mnoho možností, takže vždy doporučujeme začít v „režimu učení“, abyste viděli, jaké soubory a skripty se načítají."
+
+#: settings/config/fields/security-headers.php:318
+msgid "About the Content Security Policy"
+msgstr "O zásadách zabezpečení obsahu"
+
+#: settings/config/fields/security-headers.php:312
+msgid "Serve encrypted and authenticated responses"
+msgstr "Poskytujte zašifrované a ověřené odpovědi"
+
+#: settings/config/fields/access-control.php:20
+#: settings/config/fields/security-headers.php:221
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "Mohou být zneužity, pokud prohlížeči aktivně neřeknete, aby tyto funkce deaktivoval."
+
+#: settings/config/fields/security-headers.php:221
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "Funkce prohlížení je spousta, ale většina z nich není na vašem webu potřeba."
+
+#: settings/config/fields/security-headers.php:220
+msgid "About the Permission Policy"
+msgstr "O zásadách povolení"
+
+#: settings/config/fields/security-headers.php:86
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "Využití vašeho SSL certifikátu s HSTS je základem každého webu. Vynuťte svůj web přes protokol SSL, čímž snížíte rizika škodlivých padělaných webů vaším jménem."
+
+#: settings/config/fields/security-headers.php:25
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "Tyto bezpečnostní hlavičky jsou základními bezpečnostními opatřeními k ochraně návštěvníků vašeho webu při návštěvě vašeho webu."
+
+#: settings/config/fields/security-headers.php:171
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "Jednou z nejvýkonnějších funkcí, a proto nejsložitější, jsou hlavičky Cross-Origin, které dokážou izolovat váš web, aby se minimalizovaly úniky dat."
+
+#: settings/config/fields/security-headers.php:204
+msgid "Cross Origin Embedder Policy"
+msgstr "Zásady Cross Origin Embedder"
+
+#: settings/config/fields/security-headers.php:102
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "Po povolení této funkce můžete odeslat svůj web na %shstspreload.org%s"
+
+#: settings/config/fields/security-headers.php:85
+msgid "About HTTP Strict Transport Security"
+msgstr "O HTTP Strict Transport Security"
+
+#: settings/config/fields/hardening-extended.php:72
+msgid "Rename and randomize your database prefix"
+msgstr "Přejmenujte a náhodně změňte předponu databáze"
+
+#: settings/config/fields/hardening-basic.php:39
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "Zabraňte spuštění kódu ve veřejné složce „Nahrané soubory“."
+
+#: settings/config/fields/hardening-basic.php:29
+msgid "Disable the built-in file editors"
+msgstr "Zakažte vestavěné editory souborů"
+
+#: settings/config/fields/hardening-basic.php:20
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "Funkce zpevnění omezují možnost potenciálních slabin a zranitelností, které lze zneužít."
+
+#: settings/config/fields/hardening-basic.php:13
+msgid "Disable \"anyone can register\""
+msgstr "Zakázat „registrovat se může kdokoli“"
+
+#: settings/config/fields/encryption.php:55
+msgid "Mixed content fixer - init hook"
+msgstr "Ustalovač smíšeného obsahu - init hook"
+
+#: settings/config/fields/encryption.php:73
+msgid "Mixed content fixer - back-end"
+msgstr "Ustalovač smíšeného obsahu - back-end"
+
+#: settings/config/menu.php:11
+msgid "Dashboard"
+msgstr "Ovládací panel"
+
+#: security/notices.php:93 settings/config/fields/limit-login-attempts.php:153
+#: settings/config/fields/two-fa.php:155
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:60
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "Nebylo možné najít spouštěcí kód testovacího souboru."
+
+#: onboarding/class-onboarding.php:522 onboarding/class-onboarding.php:563
+#: security/firewall-manager.php:626 security/firewall-manager.php:632
+#: security/firewall-manager.php:648 settings/config/menu.php:529
+#: settings/config/menu.php:547 modal/build/index.d4bca8705bbc6e3e5777.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:71
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:44
+#: settings/src/Dashboard/Progress/ProgressFooter.js:48
+msgid "Firewall"
+msgstr "Firewall"
+
+#: placeholders/class-placeholder.php:431
+msgid "Widget area"
+msgstr "Oblast pro widget"
+
+#: placeholders/class-placeholder.php:410
+msgid "Mixed content in the postmeta table"
+msgstr "Smíšený obsah v tabulce postmeta"
+
+#: placeholders/class-placeholder.php:331
+#: placeholders/class-placeholder.php:348
+#: placeholders/class-placeholder.php:372
+#: placeholders/class-placeholder.php:389
+#: placeholders/class-placeholder.php:415
+#: placeholders/class-placeholder.php:440
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:90
+#: settings/src/Settings/RiskConfiguration/RiskData.js:115
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: placeholders/class-placeholder.php:357
+#: placeholders/class-placeholder.php:398
+#: placeholders/class-placeholder.php:424
+#: placeholders/class-placeholder.php:449
+msgid "Copyright warning!"
+msgstr "Upozornění na autorská práva!"
+
+#: onboarding/class-onboarding.php:305 settings/config/menu.php:755
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Onboarding/OnboardingControls.js:192
+#: settings/src/Settings/License/License.js:49
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: lets-encrypt/class-le-restapi.php:166 lets-encrypt/class-le-restapi.php:227
+msgid "Permission denied."
+msgstr "Povolení odepřeno."
+
+#: lets-encrypt/config/fields.php:12 settings/config/menu.php:725
+msgid "General Settings"
+msgstr "Hlavní nastavení"
+
+#: settings/config/menu.php:68 settings/build/index.a4cc556db77e3384994b.js:1
+#: settings/src/Header.js:32
+msgid "Let's Encrypt"
+msgstr "Pojďme šifrovat"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "Nesprávné přihlašovací údaje."
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "Nelze zkopírovat spouštěcí kód testovacího souboru."
+
+#: placeholders/class-placeholder.php:356
+#: placeholders/class-placeholder.php:397
+#: placeholders/class-placeholder.php:423
+#: placeholders/class-placeholder.php:448
+msgid "Import and insert file"
+msgstr "Importujte a vložte soubor"
+
+#: lets-encrypt/config/notices.php:169 lets-encrypt/config/notices.php:172
+msgid "Renew certificate"
+msgstr "Obnovit certifikát"
+
+#: lets-encrypt/config/notices.php:166
+msgid "Renew installation"
+msgstr "Obnovit instalaci"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "Zahrnout alias"
+
+#: lets-encrypt/class-le-restapi.php:235
+msgid "Test not found."
+msgstr "Test nenalezen."
+
+#: settings/config/menu.php:264
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: security/notices.php:40
+msgid ".htaccess does not exist"
+msgstr ".htaccess neexistuje"
+
+#: security/notices.php:32
+msgid ".htaccess not writable"
+msgstr ".htaccess není zapisovatelný"
+
+#: placeholders/class-placeholder.php:343
+msgid "Mixed content in %s"
+msgstr "Smíšený obsah v %s"
+
+#: settings/config/menu.php:88 settings/config/menu.php:90
+msgid "Mixed Content Scan"
+msgstr "Kontrola smíšeného obsahu"
+
+#. translators: Accessibility text.
+#: class-site-health.php:197 class-site-health.php:227
+#: class-site-health.php:257
+msgid "(opens in a new tab)"
+msgstr "(otevře se na nové záložce)"
+
+#: placeholders/class-placeholder.php:436
+msgid "Widget with mixed content"
+msgstr "Widget se smíšeným obsahem"
+
+#: lets-encrypt/config/fields.php:332
+msgid "Plesk admin URL"
+msgstr "Plesk admin URL"
+
+#: lets-encrypt/config/fields.php:231
+msgid "Direct Admin URL"
+msgstr "Direct Admin URL"
+
+#: lets-encrypt/config/fields.php:356
+msgid "Plesk username and password"
+msgstr "Jméno a heslo do Plesku"
+
+#: class-admin.php:3351 settings/config/menu.php:254
+msgid "Advanced Hardening"
+msgstr "Pokročilé zvýšení bezpečnosti"
+
+#: settings/config/menu.php:233 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "Zvýšení bezpečnosti"
+
+#: placeholders/class-placeholder.php:368
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr "Smíšený obsah v CSS/JS souboru z jiné domény"
+
+#: placeholders/class-placeholder.php:327
+msgid "Mixed content in PHP file in %s"
+msgstr "Smíšený obsah v PHP souboru v %s"
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "Do složky k ukládání souborů nelze zapisovat."
+
+#: lets-encrypt/config/fields.php:307 lets-encrypt/config/fields.php:312
+msgid "CloudWays API key"
+msgstr "Klíč API CloudWays"
+
+#: lets-encrypt/config/fields.php:396
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "Chcete uložit tyto přihlašovací údaje pro účely obnovení?"
+
+#: security/notices.php:79
+msgid "We have detected administrator roles where the login and display names are the same."
+msgstr "Zjistili jsme administrátorské role, kde jsou přihlašovací a zobrazované jméno stejné."
+
+#: security/notices.php:60
+msgid "An option that requires the .htaccess file in the uploads directory is enabled, but the file is not writable."
+msgstr "Možnost, která vyžaduje soubor .htaccess v adresáři uploads, je povolena, ale do souboru nelze zapisovat."
+
+#: security/notices.php:59
+msgid ".htaccess in uploads not writable"
+msgstr ".htaccess v uploads nelze zapisovat"
+
+#: security/notices.php:41
+msgid "An option that requires the .htaccess file is enabled, but the file does not exist."
+msgstr "Možnost, která vyžaduje soubor .htaccess, je povolena, ale soubor neexistuje."
+
+#: security/notices.php:33 security/notices.php:41 security/notices.php:60
+msgid "Please add the following lines to your .htaccess, or set it to writable:"
+msgstr "Přidejte prosím do svého .htaccess následující řádky nebo jej nastavte na zapisovatelný:"
+
+#: security/notices.php:33
+msgid "An option that requires the .htaccess file is enabled, but the file is not writable."
+msgstr "Možnost, která vyžaduje soubor .htaccess, je povolena, ale do souboru nelze zapisovat."
+
+#: class-site-health.php:225
+msgid "Read more about security concerns with debug display enabled"
+msgstr "Přečtěte si další informace o bezpečnostních problémech s povoleným zobrazením ladění"
+
+#: class-site-health.php:219
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "Hodnota, WP_DEBUG_DISPLAY, byla buď povolena pomocí WP_DEBUG nebo přidána do vašeho konfiguračního souboru. Chyby se tak budou zobrazovat na přední straně vašeho webu."
+
+#: class-site-health.php:211
+msgid "Your site is set to display errors on your website"
+msgstr "Váš web je nastaven tak, aby na vašem webu zobrazoval chyby"
+
+#: class-site-health.php:189
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "Hodnota WP_DEBUG_LOG byla přidána do konfiguračního souboru tohoto webu. To znamená, že jakékoli chyby na webu budou zapsány do souboru, který je potenciálně dostupný všem uživatelům."
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "Souhlasím s podmínkami společnosti Let's Encrypt."
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "Uživatelské jméno 'admin' bylo změněno na %s"
+
+#: security/wordpress/block-code-execution-uploads.php:37
+msgid "The code to block code execution in the uploads folder cannot be added automatically on nginx. Add the following code to your nginx.conf file:"
+msgstr "Kód pro blokování spuštění kódu ve složce pro nahrávání nelze na nginx přidat automaticky. Přidejte následující kód do svého souboru nginx.conf:"
+
+#: security/sync-settings.php:35
+msgid "Changed debug.log location to:"
+msgstr "Umístění debug.log změněno na:"
+
+#: rlrsssl-really-simple-ssl.php:187
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Aktualizace Really Simple SSL Pro: Aby byl plugin kompatibilní, musí být aktualizován na nejnovější verzi."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:108
+#: lets-encrypt/integrations/cpanel/cpanel.php:192
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "IP adresa vašeho webu je zablokována. Přidejte prosím IP adresu vaší domény do bezpečnostních zásad v CPanel"
+
+#: lets-encrypt/config/fields.php:123 lets-encrypt/config/fields.php:126
+msgid "Disable OCSP stapling"
+msgstr "Zakázat OCSP stapling"
+
+#: settings/config/menu.php:52
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "Při odeslání tohoto formuláře jsou připojeny následující informace: licenční klíč, výsledky skenování, vaše doména, soubor .htaccess, protokol ladění a seznam aktivních pluginů."
+
+#: security/firewall-manager.php:633
+msgid "Please set the wp-content folder to writable:"
+msgstr "Nastavte složku wp-content na zapisovatelnou:"
+
+#: security/firewall-manager.php:633
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "Bylo povoleno pravidlo brány firewall, ale do složky /wp-content/ nelze zapisovat."
+
+#: security/firewall-manager.php:627
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "Nastavte prosím wp-config.php na zapisovatelný, dokud nebude pravidlo zapsáno."
+
+#: security/firewall-manager.php:627
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "Bylo povoleno pravidlo brány firewall, ale soubor wp-config.php nelze zapisovat."
+
+#: rlrsssl-really-simple-ssl.php:189
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "Navštivte přehled pluginů nebo si %sobnovte licenci%s."
+
+#: settings/config/fields/security-headers.php:215
+msgid "Permissions Policy"
+msgstr "Zásady oprávnění"
+
+#: placeholders/class-placeholder.php:385
+msgid "Mixed content in post: %s"
+msgstr "Smíšený obsah v příspěvku: %s"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "zakázáno - číslo ve jménu autora není povoleno = %s"
+
+#: class-multisite.php:110
+msgid "SSL activation in progress"
+msgstr "Probíhá aktivace SSL"
+
+#: class-multisite.php:83
+msgid "SSL is not enabled on your network"
+msgstr "SSL není ve vaší síti povoleno"
+
+#: class-admin.php:1949 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: class-site-health.php:181
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "Váš web je nastaven tak, aby protokoloval chyby do potenciálně veřejného souboru"
+
+#: class-multisite.php:111
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "Proces aktivace SSL v celé síti byl zahájen, ale nebyl dokončen. Přejděte na stránku nastavení SSL a dokončete proces."
+
+#: class-admin.php:168
+msgid "Improve security - Upgrade"
+msgstr "Zlepšení zabezpečení – Upgrade"
+
+#: class-admin.php:2267
+msgid "See which recommended security headers are not present on your website."
+msgstr "Podívejte se, která doporučená bezpečnostní záhlaví na vašem webu nejsou."
+
+#: class-admin.php:2016
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "Chcete-li bezpečně povolit SSL na konfiguraci vašeho serveru, měli byste do souboru wp-config.php přidat následující řádek kódu."
+
+#: upgrade/upgrade-to-pro.php:554
+msgid "Your license key has reached its activation limit."
+msgstr "Licenční klíč dosáhl svého aktivačního limitu."
+
+#: upgrade/upgrade-to-pro.php:551
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Zdá se, že se jedná o neplatný licenční klíč pro tento plugin."
+
+#: upgrade/upgrade-to-pro.php:548
+msgid "Your license is not active for this URL."
+msgstr "Vaše licence není aktivní pro toto URL."
+
+#: upgrade/upgrade-to-pro.php:545
+msgid "Invalid license."
+msgstr "Neplatná licence."
+
+#: upgrade/upgrade-to-pro.php:542
+msgid "Missing license."
+msgstr "Chybějící licence."
+
+#: upgrade/upgrade-to-pro.php:539
+msgid "Your license key has been disabled."
+msgstr "Váš licenční klíč byl deaktivován."
+
+#: upgrade/upgrade-to-pro.php:533
+msgid "Your license key expired on %s."
+msgstr "Váš licenční klíč vypršel dne %s."
+
+#: upgrade/upgrade-to-pro.php:525 upgrade/upgrade-to-pro.php:557
+msgid "An error occurred, please try again."
+msgstr "Vyskytla se chyba, prosím zkuste to znovu."
+
+#: upgrade/upgrade-to-pro.php:339
+msgid "Check your %slicense%s."
+msgstr "Zkontrolujte svou %slicenci%s."
+
+#: upgrade/upgrade-to-pro.php:338
+msgid "Install %sManually%s."
+msgstr "Nainstalovat %smanuálně%s."
+
+#: upgrade/upgrade-to-pro.php:333
+msgid "Visit Dashboard"
+msgstr "Přejít na Nástěnku"
+
+#: upgrade/upgrade-to-pro.php:322
+msgid "Installing"
+msgstr "Instaluji"
+
+#: upgrade/upgrade-to-pro.php:297
+msgid "Recommended by Really Simple Plugins"
+msgstr "Really Simple Plugins doporučuje"
+
+#: upgrade/upgrade-to-pro.php:199
+msgid "Installation finished"
+msgstr "Instalace dokončena"
+
+#: upgrade/upgrade-to-pro.php:143
+msgid "One click SSL optimization"
+msgstr "Optimalizace SSL jedním kliknutím"
+
+#: upgrade/upgrade-to-pro.php:130
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "GDPR/CCPA Privacy Suite"
+
+#: upgrade/upgrade-to-pro.php:107
+msgid "Failed to activate plugin"
+msgstr "Aktivace doplňku se nezdařila"
+
+#: upgrade/upgrade-to-pro.php:106
+msgid "Plugin activated"
+msgstr "Plugin byl aktivován"
+
+#: upgrade/upgrade-to-pro.php:105
+msgid "Activating plugin..."
+msgstr "Aktivace pluginu..."
+
+#: upgrade/upgrade-to-pro.php:100
+msgid "Failed to install plugin"
+msgstr "Instalace pluginu se nezdařila"
+
+#: upgrade/upgrade-to-pro.php:99
+msgid "Plugin installed"
+msgstr "Plugin nainstalován"
+
+#: upgrade/upgrade-to-pro.php:98
+msgid "Installing plugin..."
+msgstr "Instaluji plugin..."
+
+#: upgrade/upgrade-to-pro.php:93
+msgid "Failed to gather package information"
+msgstr "Nepodařilo se získat informace o balíčku"
+
+#: upgrade/upgrade-to-pro.php:92
+msgid "Package information retrieved"
+msgstr "Informace o balíčku získány"
+
+#: upgrade/upgrade-to-pro.php:91
+msgid "Retrieving package information..."
+msgstr "Načítám informace o balíčku..."
+
+#: upgrade/upgrade-to-pro.php:86
+msgid "License invalid"
+msgstr "Neplatná licence"
+
+#: upgrade/upgrade-to-pro.php:85
+msgid "License valid"
+msgstr "Platná licence"
+
+#: upgrade/upgrade-to-pro.php:84
+msgid "Validating license..."
+msgstr "Ověřování licence..."
+
+#: upgrade/upgrade-to-pro.php:79
+msgid "Destination folder already exists"
+msgstr "Cílový adresář již existuje"
+
+#: upgrade/upgrade-to-pro.php:78
+msgid "Able to create destination folder"
+msgstr "Vytvořit cílovou složku"
+
+#: upgrade/upgrade-to-pro.php:77
+msgid "Checking if plugin folder exists..."
+msgstr "Kontrola existence adresáře pluginu.."
+
+#: upgrade/upgrade-to-pro.php:134
+msgid "Configure your Cookie Notice, Consent Management and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "Nakonfigurujte si oznámení o souborech cookie, správu souhlasů a zásady používání souborů cookie pomocí našeho průvodce a funkce skenování souborů cookie. Podporuje GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA a PIPEDA."
+
+#: class-admin.php:2121
+msgid "Check manually"
+msgstr "Zkontrolovat ručně"
+
+#: class-admin.php:2116 onboarding/class-onboarding.php:389
+msgid "Could not test certificate"
+msgstr "Certifikát se nepodařilo otestovat"
+
+#: class-admin.php:2117 onboarding/class-onboarding.php:389
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "Automatická detekce certifikátu na vašem serveru není možná."
+
+#: lets-encrypt/config/fields.php:422
+msgid "Checking host..."
+msgstr "Kontrola hostitele..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1190
+msgid "We have not detected any known hosting limitations."
+msgstr "Nezjistili jsme žádná známá omezení hostování."
+
+#: class-admin.php:2101
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "Do souboru wp-config.php nelze zapisovat a je třeba jej upravit. Nastavte prosím tento soubor jako zapisovatelný."
+
+#: class-multisite.php:239 class-multisite.php:240 class-site-health.php:100
+#: class-site-health.php:131 class-site-health.php:162
+#: class-site-health.php:184 class-site-health.php:214
+#: class-site-health.php:244 class-site-health.php:275
+#: class-site-health.php:315 security/wordpress/vulnerabilities.php:299
+#: security/wordpress/vulnerabilities.php:319 settings/settings.php:192
+#: settings/settings.php:193 settings/settings.php:225
+msgid "Security"
+msgstr "Zabezpečení"
+
+#: class-admin.php:2276
+msgid "Recommended security headers enabled."
+msgstr "Doporučené bezpečnostní hlavičky zapnuty."
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "Chcete-li získat další informace, přečtěte si toto %sarticle%s"
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "Ve výchozím nastavení je sešívání OCSP nakonfigurováno jako povolené. Tuto možnost můžete zakázat, pokud to váš poskytovatel hostingu nepodporuje."
+
+#: lets-encrypt/config/fields.php:506
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "Kontrola, zda jsou přijaty smluvní podmínky..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1045
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "Podmínky užití odmítnuty. Přijměte je prosím v obecných nastaveních."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1041
+msgid "Terms & Conditions are accepted."
+msgstr "Podmínky užití byli akceptovány."
+
+#. translators: %s is replaced with the plugin name.
+#: class-admin.php:2323
+msgid "We have detected the %s plugin on your website."
+msgstr "Na vašich webových stránkách jsme zjistili zásuvný modul %s."
+
+#: onboarding/class-onboarding.php:395
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "Prosím %sobnovte detekci%s, pokud byl certifikát nainstalován nedávno."
+
+#: onboarding/class-onboarding.php:395
+msgid "No SSL certificate has been detected."
+msgstr "Nebyl zjištěn žádný certifikát SSL."
+
+#: lets-encrypt/config/notices.php:128
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "Váš server poskytuje funkci shellu, která nabízí další metody instalace protokolu SSL. Pokud není možné nainstalovat protokol SSL pomocí výchozích metod, můžete nainstalovat doplněk shellu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:478
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "Pokud jste záznamy DNS zadali dříve, je třeba je změnit."
+
+#: lets-encrypt/class-letsencrypt-handler.php:475
+msgid "Order ID mismatch, regenerate order."
+msgstr "Neshoda ID objednávky, přegenerujte objednávku."
+
+#: settings/config/fields/general.php:60
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "Stáhnout"
+
+#: settings/config/menu.php:213 settings/build/995.7a0675fe0519b06656b3.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: lets-encrypt/config/notices.php:28
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "Adresáře klíčů a certifikátů nejsou řádně chráněny."
+
+#: lets-encrypt/config/notices.php:111
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "Váš certifikát bude automaticky obnoven a nainstalován."
+
+#: lets-encrypt/config/notices.php:75
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "Platnost vašeho certifikátu vyprší dne %s. Můžete jej obnovit za %shere%s."
+
+#: lets-encrypt/config/notices.php:71
+msgid "Your certificate is valid until: %s"
+msgstr "Váš certifikát je platný do: %s"
+
+#: lets-encrypt/config/notices.php:43
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Verze www vašeho webu neodkazuje na tento web. To se doporučuje, protože vám to umožní přidat ji i do certifikátu."
+
+#: lets-encrypt/config/notices.php:41
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Verze vašeho webu, která není www, neodkazuje na tento web. To se doporučuje, protože vám to umožní přidat ji i do certifikátu."
+
+#: lets-encrypt/config/fields.php:532
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "Hledání odkazu na stránku pro instalaci SSL na vašem serveru..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:750
+msgid "Installation"
+msgstr "Instalace"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:745
+msgid "Generation"
+msgstr "Kadence - Téma nové generace"
+
+#: lets-encrypt/config/fields.php:480
+msgid "Retrieving DNS verification token..."
+msgstr "Získání ověřovacího tokenu DNS..."
+
+#: lets-encrypt/config/fields.php:474 lets-encrypt/config/fields.php:512
+msgid "Creating account..."
+msgstr "Vytvááření účtu…"
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking challenge directory reachable over http..."
+msgstr "Kontrola adresáře challenge dosažitelného přes http..."
+
+#: lets-encrypt/config/fields.php:446
+msgid "Checking permissions..."
+msgstr "Kontrola oprávnění..."
+
+#: lets-encrypt/config/fields.php:440
+msgid "Checking certs directory..."
+msgstr "Kontrola adresáře certifikátů..."
+
+#: lets-encrypt/config/fields.php:434
+msgid "Checking key directory..."
+msgstr "Kontrola klíčového adresáře..."
+
+#: lets-encrypt/config/fields.php:428
+msgid "Checking challenge directory..."
+msgstr "Kontrola adresáře výzev..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:735
+msgid "Directories"
+msgstr "Adresáře"
+
+#: lets-encrypt/config/notices.php:104
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "Automatické obnovení certifikátu nebylo možné. Certifikát SSL je třeba %srenewed%s obnovit ručně."
+
+#: lets-encrypt/config/notices.php:97
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "Certifikát SSL byl obnoven a vyžaduje ruční zadání %sinstallation%s v ovládacím panelu hostingu."
+
+#: lets-encrypt/config/notices.php:90
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "Automatická instalace certifikátu se nezdařila. Zkontrolujte prosím své údaje a zkuste %sinstallation%s znovu."
+
+#: settings/config/menu.php:729
+msgid "Hosting"
+msgstr "Hosting"
+
+#: settings/config/menu.php:718
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG)."
+msgstr "Letʼs Encrypt je bezplatná, automatizovaná a otevřená certifikační autorita, kterou vám přináší nezisková organizace Internet Security Research Group (ISRG)."
+
+#: settings/config/menu.php:708
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "Snažili jsme se, aby byl náš Průvodce co nejjednodušší a nejrychlejší. Přestože jsou všechny tyto otázky nezbytné, pokud si myslíte, že můžeme plugin nějak vylepšit, dejte nám prosím %sknow%s vědět!"
+
+#: settings/config/menu.php:710
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr " Vezměte prosím na vědomí, že průvodce můžete kdykoli uložit a dokončit později, použít naše %sdocumentation%s dodatečné informace nebo v případě potřeby naší pomoci přihlásit %ssupport ticket%s."
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "Kontrola konfigurace webových stránek..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "Kontrola domény aliasu..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "Kontrola softwaru serveru..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "Kontrola dostupnosti CURL..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "Kontrola certifikátu SSL..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "Zjištěný stav nastavení."
+
+#: lets-encrypt/config/fields.php:400
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "Uložit pro účely obnovy. Pokud není uloženo, může být nutné obnovení provést ručně."
+
+#: lets-encrypt/config/fields.php:377
+msgid "Plesk password"
+msgstr "Heslo systému Plesk"
+
+#: lets-encrypt/config/fields.php:357
+msgid "You can find your Plesk username and password in %s"
+msgstr "Uživatelské jméno a heslo k systému Plesk najdete v %s"
+
+#: lets-encrypt/config/fields.php:353
+msgid "Plesk username"
+msgstr "Uživatelské jméno systému Plesk"
+
+#: lets-encrypt/config/fields.php:333
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "Adresa URL, kterou používáte pro přístup k ovládacímu panelu služby Plesk. Končí na :8443."
+
+#: lets-encrypt/config/fields.php:329
+msgid "Plesk host"
+msgstr "Hostitel systému Plesk"
+
+#: lets-encrypt/config/fields.php:313
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "Svůj klíč api najdete %shere%s (ujistěte se, že jste přihlášeni pod svým hlavním účtem)."
+
+#: lets-encrypt/config/fields.php:291
+msgid "CloudWays user email"
+msgstr "E-mail uživatele CloudWays"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin password"
+msgstr "Heslo DirectAdmin"
+
+#: lets-encrypt/config/fields.php:252
+msgid "DirectAdmin username"
+msgstr "Uživatelské jméno DirectAdmin"
+
+#: lets-encrypt/config/fields.php:232
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "Adresa URL, kterou používáte pro přístup k ovládacímu panelu DirectAdmin. Končí na :2222."
+
+#: lets-encrypt/config/fields.php:228
+msgid "DirectAdmin host"
+msgstr "Hostitel DirectAdmin"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel password"
+msgstr "Heslo panelu CPanel"
+
+#: lets-encrypt/config/fields.php:190
+msgid "CPanel username"
+msgstr "Uživatelské jméno CPanel"
+
+#: lets-encrypt/config/fields.php:170
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "Adresa URL, kterou používáte pro přístup k ovládacímu panelu cPanel. Končí na :2083."
+
+#: lets-encrypt/config/fields.php:166 lets-encrypt/config/fields.php:169
+msgid "CPanel host"
+msgstr "Hostitel CPanel"
+
+#: settings/config/fields/general.php:32
+msgid "Hosting provider"
+msgstr "Poskytovatel hostingu"
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "Doména www by měla směřovat na stejnou webovou stránku jako doména newww."
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "To bude zahrnovat jak www., tak newww. verzi vaší domény."
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:51
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/LetsEncrypt/DnsVerification.js:62
+msgid "Domain"
+msgstr "Doména"
+
+#: settings/settings.php:589
+msgid "Terms and Conditions"
+msgstr "Všeobecné obchodní podmínky"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/fields/general.php:78
+msgid "Email address"
+msgstr "Emailová adresa"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "Tato e-mailová adresa bude použita k vytvoření účtu Let's Encrypt. Na tuto adresu budete také dostávat oznámení o obnovení."
+
+#: lets-encrypt/config/class-hosts.php:788
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "Nevím, nebo není uveden, pokračujte v instalaci"
+
+#: lets-encrypt/config/fields.php:550
+msgid "Checking for subdomain setup..."
+msgstr "Kontrola nastavení subdomény..."
+
+#: lets-encrypt/config/fields.php:518
+msgid "Generating SSL certificate..."
+msgstr "Generování certifikátu SSL..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:90
+msgid "Successfully installed SSL"
+msgstr "Úspěšná instalace protokolu SSL"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "Instalace certifikátu SSL pomocí rozhraní PLESK API..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "Pokus o instalaci certifikátu..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "Pokus o nastavení txt záznamu DNS..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "Pokus o instalaci certifikátu pomocí AutoSSL..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "Systém ještě není připraven na ověření DNS. Spusťte průvodce znovu."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:310
+#: lets-encrypt/integrations/cpanel/cpanel.php:329
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "Nepodařilo se automaticky přidat záznam TXT. Postupujte prosím ručně podle níže uvedených kroků."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:306
+#: lets-encrypt/integrations/cpanel/cpanel.php:325
+msgid "Successfully added TXT record."
+msgstr "Úspěšně přidán záznam TXT."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:298
+msgid "Login credentials incorrect"
+msgstr "Nesprávné přihlašovací údaje"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:294
+msgid "Unable to connect to cPanel"
+msgstr "Nelze se připojit k cPanelu"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:128
+#: lets-encrypt/integrations/cpanel/cpanel.php:207
+msgid "Errors were reported during installation."
+msgstr "Při instalaci byly hlášeny chyby."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:123
+#: lets-encrypt/integrations/directadmin/directadmin.php:124
+msgid "SSL successfully installed on %s"
+msgstr "Protokol SSL byl úspěšně nainstalován na %s"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:66
+#: lets-encrypt/integrations/directadmin/directadmin.php:66
+msgid "No valid list of domains."
+msgstr "Žádný platný seznam domén."
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "Povolení automatického obnovení..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "Instalace certifikátu SSL..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "Získání dat serveru Cloudways..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:252
+msgid "Could not retrieve server list"
+msgstr "Nepodařilo se načíst seznam serverů"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:212
+#: lets-encrypt/integrations/cloudways/cloudways.php:245
+msgid "Successfully retrieved server id and app id"
+msgstr "Úspěšné načtení id serveru a id aplikace"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:196
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Chyba při povolení automatického obnovení pro Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:181
+#: lets-encrypt/integrations/cloudways/cloudways.php:187
+msgid "Successfully installed Let's Encrypt"
+msgstr "Úspěšná instalace aplikace Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:161
+msgid "Failed retrieving access token"
+msgstr "Neúspěšné načtení přístupového tokenu"
+
+#: lets-encrypt/functions.php:404
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "Vaše hostingové prostředí neumožňuje automatickou instalaci protokolu SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1197
+#: lets-encrypt/functions.php:401
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other then their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "Podle našich informací váš poskytovatel hostingu neumožňuje instalaci žádného druhu SSL, kromě vlastního placeného certifikátu. Alternativního poskytovatele hostingu s SSL naleznete v tomto %sarticle%sdělení."
+
+#: lets-encrypt/functions.php:395
+msgid "You already have free SSL on your hosting environment."
+msgstr "V hostitelském prostředí již máte bezplatný protokol SSL."
+
+#: lets-encrypt/functions.php:393 lets-encrypt/functions.php:397
+#: lets-encrypt/functions.php:407
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "Po dokončení instalace můžete pokračovat dalším krokem a dokončit konfiguraci."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1204
+#: lets-encrypt/functions.php:391
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "Podle našich informací váš poskytovatel hostingu standardně dodává k vašemu účtu certifikát SSL. Pokud tomu tak není, obraťte se prosím na %shostingovou podporu%s."
+
+#: lets-encrypt/functions.php:386
+msgid "Go to installation"
+msgstr "Přejít na instalaci"
+
+#: lets-encrypt/functions.php:385
+msgid "Go to activation"
+msgstr "Přejít k aktivaci"
+
+#: lets-encrypt/functions.php:384
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "Aktivujte ji prosím na svém ovládacím panelu %smanually%s"
+
+#: lets-encrypt/functions.php:383
+msgid "Please complete %smanually%s"
+msgstr "Vyplňte prosím %smanually%s"
+
+#: lets-encrypt/functions.php:381
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "Aktivujte ji prosím ručně na ovládacím panelu hostingu."
+
+#: lets-encrypt/functions.php:380
+msgid "Please complete manually in your hosting dashboard."
+msgstr "Vyplňte prosím ručně v řídicím panelu hostingu."
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "Chybějící soubor. Zopakujte prosím předchozí kroky."
+
+#: security/cron.php:96
+msgid "Once every 5 minutes"
+msgstr "Jednou za 5 minut"
+
+#: security/cron.php:100
+msgid "Once every day"
+msgstr "Jednou denně"
+
+#: security/cron.php:108
+msgid "Once every week"
+msgstr "Jednou týdně"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1851
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "Systém ještě není připraven k instalaci. Spusťte průvodce znovu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1846
+msgid "Installation failed."
+msgstr "Instalace se nezdařila."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1841
+msgid "Not recognized server."
+msgstr "Server nebyl rozpoznán."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1811
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "Instalace certifikátu byla omezena sazbou. Zkuste to prosím později."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1349
+#: lets-encrypt/class-letsencrypt-handler.php:1353
+#: lets-encrypt/class-letsencrypt-handler.php:1732
+msgid "Error code %s"
+msgstr "Kód chyby %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1715
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "Vytvořte prosím složku 'rsssl' v adresáři uploads s oprávněním 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1714
+msgid "Could not create test folder and file."
+msgstr "Nepodařilo se vytvořit testovací složku a soubor."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1685
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "Pokud tomu tak není, tento alias do certifikátu nepřidávejte."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1685
+msgid "Could not verify alias domain."
+msgstr "Nepodařilo se ověřit doménu aliasu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1683
+msgid "Please check if the www version of your site also points to this website."
+msgstr "Zkontrolujte prosím, zda www verze vašich stránek také odkazuje na tyto stránky."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1681
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "Zkontrolujte prosím, zda verze vašeho webu, která není www, také odkazuje na tento web."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1662
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "Kontrola domény aliasu není pro subdoménu relevantní"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1632
+msgid "No subdomain setup detected."
+msgstr "Nebylo zjištěno žádné nastavení subdomény."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1360
+#: lets-encrypt/class-letsencrypt-handler.php:1692
+#: lets-encrypt/class-letsencrypt-handler.php:1743
+msgid "Successfully verified alias domain."
+msgstr "Úspěšně ověřena doména aliasu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1335
+msgid "Challenge directory not writable."
+msgstr "Adresář challenge není zapisovatelný."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1329
+msgid "Could not reach challenge directory over %s."
+msgstr "Nepodařilo se dosáhnout adresáře výzvy přes %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1325
+#: lets-encrypt/class-letsencrypt-handler.php:1669
+msgid "no response"
+msgstr "Neočekávaná odpověď rozhraní API."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1267
+msgid "The certs directory was successfully created."
+msgstr "Adresář certs byl úspěšně vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1263
+msgid "The certs directory is not created yet."
+msgstr "Adresář certs ještě není vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1249
+msgid "The key directory was successfully created."
+msgstr "Adresář s klíčem byl úspěšně vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1241
+msgid "Trying to create directory in root of website."
+msgstr "Pokus o vytvoření adresáře v kořenovém adresáři webu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1237
+msgid "The key directory is not created yet."
+msgstr "Adresář s klíčem ještě není vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1224
+msgid "The challenge directory was successfully created."
+msgstr "Adresář výzvy byl úspěšně vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1220
+msgid "The challenge directory is not created yet."
+msgstr "Adresář výzev ještě není vytvořen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1177
+msgid "The required directories have the necessary writing permissions."
+msgstr "Požadované adresáře mají potřebná práva pro zápis."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1170
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "Nastavte oprávnění na hodnotu 644, aby bylo povoleno generování protokolu SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1170
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "Následující adresáře nemají potřebná práva pro zápis."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1154
+msgid "Please complete the following step(s) first: %s"
+msgstr "Nejprve proveďte následující krok (kroky): %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:894
+msgid "Order successfully retrieved."
+msgstr "Objednávka byla úspěšně načtena."
+
+#: lets-encrypt/class-letsencrypt-handler.php:878
+msgid "Order successfully created."
+msgstr "Objednávka byla úspěšně vytvořena."
+
+#: lets-encrypt/class-letsencrypt-handler.php:788
+msgid "Bundle not available yet..."
+msgstr "Balíček zatím není k dispozici..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:704
+#: lets-encrypt/class-letsencrypt-handler.php:780
+msgid "Files not created yet..."
+msgstr "Soubory ještě nebyly vytvořeny..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:774
+msgid "Successfully generated certificate."
+msgstr "Certifikát byl úspěšně vygenerován."
+
+#: lets-encrypt/class-letsencrypt-handler.php:760
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP není podporováno, certifikát bude vygenerován bez OCSP."
+
+#: lets-encrypt/class-letsencrypt-handler.php:752
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "Vzhledem k tomu, že se vaše objednávka přegeneruje, je třeba aktualizovat textové záznamy DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:471
+#: lets-encrypt/class-letsencrypt-handler.php:749
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "Objednávka je neplatná, pravděpodobně z důvodu příliš mnoha neúspěšných pokusů o autorizaci. Začněte prosím od předchozího kroku."
+
+#: lets-encrypt/class-letsencrypt-handler.php:728
+msgid "Authorization not completed yet."
+msgstr "Autorizace dosud nebyla dokončena."
+
+#: lets-encrypt/class-letsencrypt-handler.php:698
+msgid "Certificate already generated. It was renewed if required."
+msgstr "Certifikát již byl vygenerován. V případě potřeby byl obnoven."
+
+#: lets-encrypt/class-letsencrypt-handler.php:659
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "Záznamy DNS zatím nebyly ověřeny. Dokončete prosím předchozí krok."
+
+#: lets-encrypt/class-letsencrypt-handler.php:645
+msgid "Please double check your DNS txt record."
+msgstr "Překontrolujte prosím svůj txt záznam DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:582
+msgid "Could not verify TXT record for domain %s"
+msgstr "Nepodařilo se ověřit záznam TXT pro doménu %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:572
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "Odpověď DNS pro %s byla %s, zatímco by měla být %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:562
+msgid "Successfully verified DNS records"
+msgstr "Úspěšně ověřené záznamy DNS"
+
+#: lets-encrypt/class-letsencrypt-handler.php:548
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "Token nebyl vygenerován. Dokončete prosím předchozí krok."
+
+#: lets-encrypt/class-letsencrypt-handler.php:506
+msgid "Configured for HTTP challenge"
+msgstr "Konfigurace pro výzvu HTTP"
+
+#: lets-encrypt/class-letsencrypt-handler.php:456
+msgid "Token not received yet."
+msgstr "Token ještě nebyl přijat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:403
+msgid "The email address was not set. Please set the email address"
+msgstr "E-mailová adresa nebyla nastavena. Nastavte prosím e-mailovou adresu"
+
+#: lets-encrypt/class-letsencrypt-handler.php:394
+msgid "The used domain for your email address is not allowed."
+msgstr "Použitá doména pro vaši e-mailovou adresu není povolena."
+
+#: lets-encrypt/class-letsencrypt-handler.php:387
+msgid "Successfully retrieved account"
+msgstr "Úspěšně načtený účet"
+
+#: lets-encrypt/class-letsencrypt-handler.php:367
+msgid "The PHP function CURL has successfully been detected."
+msgstr "Funkce PHP CURL byla úspěšně detekována."
+
+#: lets-encrypt/class-letsencrypt-handler.php:363
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "Na vašem serveru není k dispozici funkce PHP CURL, která je vyžadována. Obraťte se prosím na svého poskytovatele hostingu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:347
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "DirectAdmin rozpoznán. Je možné, že se certifikát nainstaluje automaticky."
+
+#: lets-encrypt/class-letsencrypt-handler.php:344
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "Plesk rozpoznal. Je možné, že se certifikát nainstaluje automaticky."
+
+#: lets-encrypt/class-letsencrypt-handler.php:341
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "CPanel rozpoznán. Je možné, že se certifikát nainstaluje automaticky."
+
+#: lets-encrypt/class-letsencrypt-handler.php:337
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "Software hostitelského panelu nebyl rozpoznán. V závislosti na poskytovateli hostingu může být nutné vygenerovaný certifikát nainstalovat ručně."
+
+#: lets-encrypt/functions.php:406
+msgid "You can follow these %sinstructions%s."
+msgstr "Můžete sledovat tyto %sinstructions%s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:395
+msgid "Please change your email address %shere%s and try again."
+msgstr "Změňte prosím svou e-mailovou adresu %shere%s a zkuste to znovu."
+
+#: lets-encrypt/class-letsencrypt-handler.php:306
+msgid "SSL certificate should be generated and installed."
+msgstr "Měl by být vygenerován a nainstalován certifikát SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:300
+msgid "You already have a valid SSL certificate."
+msgstr "Platný certifikát SSL již máte."
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Continue to renew."
+msgstr "Pokračujte v obnově."
+
+#: lets-encrypt/class-letsencrypt-handler.php:296
+msgid "Your certificate will expire on %s."
+msgstr "Platnost vašeho certifikátu vyprší dne %s."
+
+#: class-admin.php:2005 lets-encrypt/class-letsencrypt-handler.php:290
+msgid "(unknown)"
+msgstr "(neznámý)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:226
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "Vaše doména splňuje požadavky pro službu Let's Encrypt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:208
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "V prostředí localhost není možné Let's Encrypt nainstalovat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:218
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "Let's Encrypt není možné nainstalovat do konfigurace podsložky."
+
+#: lets-encrypt/class-letsencrypt-handler.php:213
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "Službu Let's Encrypt není možné nainstalovat na dílčí stránky. Přejděte prosím na hlavní stránku svého webu."
+
+#: class-admin.php:2136 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Dashboard/TaskElement.js:66
+msgid "Re-check"
+msgstr "Znovu zkontrolujte"
+
+#. translators: %s is replaced with date.
+#: class-admin.php:2129
+msgid "SSL certificate will expire on %s."
+msgstr "Platnost certifikátu SSL vyprší dne %s."
+
+#: class-admin.php:2126
+msgid "Your SSL certificate will expire soon."
+msgstr "Platnost vašeho certifikátu SSL brzy vyprší."
+
+#: class-admin.php:2106
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "Nebylo zjištěno žádné SSL. Pomocí tlačítka opakovat kontrolu proveďte znovu."
+
+#: class-admin.php:2110 class-admin.php:2120 class-admin.php:2135
+msgid "Install SSL certificate"
+msgstr "Instalace certifikátu SSL"
+
+#: class-admin.php:2111
+msgid "Retry"
+msgstr "Zkusit znovu"
+
+#: onboarding/class-onboarding.php:383
+msgid "An SSL certificate has been detected"
+msgstr "Byl zjištěn certifikát SSL"
+
+#: class-site-health.php:31
+msgid "SSL Status Test"
+msgstr "Test stavu SSL"
+
+#: class-site-health.php:36
+msgid "Security Headers Test"
+msgstr "Test záhlaví zabezpečení"
+
+#: class-admin.php:2105 class-site-health.php:344
+msgid "No SSL detected"
+msgstr "Nebylo zjištěno žádné SSL"
+
+#: class-site-health.php:361
+msgid "Enable 301 redirect"
+msgstr "Povolit přesměrování 301"
+
+#: class-site-health.php:353
+msgid "No 301 redirect to SSL enabled."
+msgstr "Není povoleno přesměrování 301 na SSL."
+
+#: class-site-health.php:356
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "Chcete-li zajistit, aby veškerý provoz procházel protokolem SSL, povolte přesměrování 301."
+
+#: class-site-health.php:329
+msgid "SSL is not enabled."
+msgstr "Protokol SSL není povolen."
+
+#: class-admin.php:1947 settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "Varování"
+
+#: class-admin.php:1946
+msgid "Completed"
+msgstr "Dokončeno"
+
+#: class-admin.php:1948
+msgid "Open"
+msgstr "Otevřít"
+
+#: upgrade/upgrade-to-pro.php:156 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "Nainstalováno"
+
+#: onboarding/class-onboarding.php:313 onboarding/class-onboarding.php:320
+#: upgrade/upgrade-to-pro.php:132 upgrade/upgrade-to-pro.php:145
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "Instalovat"
+
+#: class-admin.php:2256
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "Váš web používá Divi. To může vyžadovat několik dalších kroků před získáním zabezpečeného zámku."
+
+#: class-admin.php:2242
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "Váš web používá Elementor. To může vyžadovat několik dalších kroků před získáním zabezpečeného zámku."
+
+#: class-admin.php:2227
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "Pravidla přesměrování .htaccess vybraná tímto zásuvným modulem v testu selhala. Nastavte ručně nebo odmítněte ponechat na WordPress přesměrování."
+
+#: class-admin.php:2213
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "WordPress 301 přesměrování povoleno. Doporučujeme povolit přesměrování 301 .htaccess."
+
+#: class-site-health.php:340 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/OnboardingControls.js:168
+msgid "Activate SSL"
+msgstr "Aktivovat SSL"
+
+#: class-site-health.php:107 class-site-health.php:138
+#: class-site-health.php:169 class-site-health.php:255
+#: class-site-health.php:297
+#: settings/config/fields/vulnerability-detection.php:234
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:320
+#: settings/src/LetsEncrypt/DnsVerification.js:57
+msgid "Read more"
+msgstr "Přečíst více"
+
+#: class-admin.php:2167
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "Není povolen fixátor smíšeného obsahu. Povolte možnost opravy smíšeného obsahu na webu."
+
+#: class-admin.php:2156
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "Opravovač smíšeného obsahu je aktivní, ale na titulní stránce nebyl zjištěn."
+
+#: class-admin.php:2084
+msgid "SSL is not enabled yet."
+msgstr "Protokol SSL zatím není povolen."
+
+#: class-admin.php:1990
+msgid "No recommended redirect rules detected."
+msgstr "Nebyla zjištěna žádná doporučená pravidla přesměrování."
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:386
+msgid "General"
+msgstr "Obecné"
+
+#: class-admin.php:163 settings/build/index.a4cc556db77e3384994b.js:1
+#: settings/src/Header.js:45
+msgid "Support"
+msgstr "Podpora"
+
+#: class-multisite.php:79
+msgid "SSL is enabled networkwide."
+msgstr "Protokol SSL je povolen v celé síti."
+
+#: progress/class-progress.php:93
+msgid "SSL is not yet enabled on this site."
+msgstr "Na tomto webu zatím není povolena technologie SSL."
+
+#: settings/config/menu.php:82
+msgid "Mixed content"
+msgstr "Smíšený obsah"
+
+#: class-admin.php:1792
+msgid "Don't show again"
+msgstr "Znovu nezobrazovat"
+
+#. translators: %s is replaced with the error description.
+#: class-admin.php:2174
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "Opravovač smíšeného obsahu se nepodařilo detekovat kvůli chybě cURL: %s. Chyby cURL jsou často způsobeny zastaralou verzí PHP nebo cURL a nemají vliv na front-end vašeho webu. Obraťte se na poskytovatele hostingu a požádejte o opravu."
+
+#: class-admin.php:2161
+msgid "Error occurred when retrieving the webpage."
+msgstr "Při načítání webové stránky došlo k chybě."
+
+#: class-site-health.php:368
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "Přesměrování 301 .htaccess je nejrychlejší a nejspolehlivější možností přesměrování."
+
+#: class-site-health.php:365
+msgid "301 .htaccess redirect is not enabled."
+msgstr "Přesměrování 301 .htaccess není povoleno."
+
+#: class-site-health.php:320
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "Nastavili jste přesměrování 301 na SSL. To je důležité pro účely SEO"
+
+#: class-site-health.php:312
+msgid "301 SSL redirect enabled"
+msgstr "Povoleno přesměrování 301 SSL"
+
+#: onboarding/class-onboarding.php:296
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "Zapnout"
+
+#: class-admin.php:661
+msgid "Dismiss"
+msgstr "Skrýt"
+
+#: class-admin.php:2051
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "Soubor 'force-deactivate.php' je třeba přejmenovat na .txt. Jinak může vaše ssl deaktivovat kdokoli na internetu."
+
+#: class-admin.php:1787
+msgid "Maybe later"
+msgstr "Možná později"
+
+#: class-admin.php:1783
+msgid "Leave a review"
+msgstr "Zanechat ohodnocení"
+
+#: class-multisite.php:128
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Aktivujte protokol SSL pro každý web nebo nainstalujte certifikát se zástupnými znaky, abyste to vyřešili."
+
+#: class-multisite.php:127
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "To vede k problémům při aktivaci SSL v celé síti, protože subdomény budou nuceny používat SSL i v případě, že nemají platný certifikát."
+
+#: class-multisite.php:126
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Provozujete instalaci Multisite se subdoménami, ale váš web nemá certifikát s náhradní kartou."
+
+#: upgrade/upgrade-to-pro.php:336 modal/build/433.ef6236b038b45328e4c7.js:1
+#: modal/src/components/Modal/RssslModal.js:68
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Settings/firewall/UserAgentModal.js:151
+#: settings/src/Settings/GeoBlockList/TrustIpAddressModal.js:140
+#: settings/src/Settings/LearningMode/ManualCspAdditionModal.js:190
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:110
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:90
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: class-admin.php:665 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/build/995.7a0675fe0519b06656b3.js:1
+#: settings/src/Dashboard/TaskElement.js:65 settings/src/Settings/Help.js:24
+msgid "More info"
+msgstr "Více informací"
+
+#. Author URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "Zjistit více"
+
+#: settings/config/fields/encryption.php:59
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "Pokud je tato volba nastavena na true, oprava smíšeného obsahu se spustí při háčku init namísto háčku template_redirect. Tuto volbu použijte pouze v případě, že máte problémy s opravou smíšeného obsahu.\""
+
+#: class-site-health.php:373
+msgid "Enable 301 .htaccess redirect"
+msgstr "Aktivovat 301 .htaccess přesměrování"
+
+#: class-admin.php:2191
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Není nastaveno žádné přesměrování 301. Povolte v nastavení WordPressu přesměrování 301, abyste získali trvalé přesměrování 301."
+
+#: class-admin.php:2220
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "V nastavení povolte přesměrování .htaccess nebo WordPress redirect a vytvořte přesměrování 301."
+
+#: class-admin.php:2187
+msgid "301 redirect to https set."
+msgstr "Nastavení přesměrování 301 na https."
+
+#: class-admin.php:2225
+msgid ".htaccess redirect."
+msgstr ".htaccess přesměrování."
+
+#: class-multisite.php:112
+msgid "View settings page"
+msgstr "Zobrazit nastavení"
+
+#: settings/config/fields/general.php:210 settings/config/menu.php:51
+msgid "Premium Support"
+msgstr "Prémiová podpora"
+
+#: lets-encrypt/functions.php:376 lets-encrypt/functions.php:377
+#: settings/build/995.7a0675fe0519b06656b3.js:1
+#: settings/src/Settings/SettingsGroup.js:100
+msgid "Instructions"
+msgstr "Pokyny"
+
+#: class-admin.php:2080
+msgid "SSL is enabled on your site."
+msgstr "SSL je na vašem webu povoleno."
+
+#: class-admin.php:2014
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "Váš soubor wp-config.php musí být upraven, ale není zapisovatelný."
+
+#: class-admin.php:2015 class-admin.php:2036
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "Nastavte soubor wp-config.php na hodnotu %swritable%s a znovu načtěte tuto stránku."
+
+#: class-admin.php:2036
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "Ve vašem souboru wp-config.php byla nalezena definice siteurl nebo homeurl, ale soubor není zapisovatelný."
+
+#: onboarding/class-onboarding.php:15 security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s je jednotná třída a nemůžete vytvořit druhou."
+
+#. Plugin URI of the plugin
+#: rlrsssl-really-simple-ssl.php
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#: settings/config/fields/general.php:220
+msgid "Stop editing the .htaccess file"
+msgstr "Přestat upravovat soubor .htaccess"
+
+#: settings/config/menu.php:208
+msgid "Configuration"
+msgstr "Nastavení"
+
+#: class-admin.php:156 class-admin.php:158 settings/config/menu.php:17
+#: settings/config/menu.php:394 settings/build/366.79830113ad25eba9fb57.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "Konfigurace"
+
+#: settings/config/fields/encryption.php:46
+msgid "Mixed content fixer"
+msgstr "Fixátor smíšeného obsahu"
+
+#: class-admin.php:2052 settings/build/485.47f7474dc2a61c04262b.js:1
+#: settings/build/829.0d69f68a1345874307b1.js:1
+#: settings/src/Onboarding/Items/ListItem.js:46
+msgid "Check again"
+msgstr "Znovu zkontrolovat"
+
+#: class-multisite.php:98
+msgid "Activate networkwide to fix this."
+msgstr "Aktivujte celou síť, abyste to opravili."
+
+#: class-multisite.php:97
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Protože proměnná $_SERVER[\"HTTPS\"] není nastavena, může na vašich webových stránkách docházet k přesměrování."
+
+#: class-multisite.php:96
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Provozujete instalaci Multisite s podsložkami, což tomuto pluginu brání opravit chybějící proměnnou serveru v souboru wp-config.php."

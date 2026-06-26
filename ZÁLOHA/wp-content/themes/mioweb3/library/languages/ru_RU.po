@@ -1,0 +1,1782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2018-05-04 19:49+0200\n"
+"PO-Revision-Date: 2018-05-04 19:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: library\n"
+"X-Poedit-SearchPath-1: skin/comments.php\n"
+
+#: library/admin/js_texts.php:8
+msgid "Odstranit obrázek"
+msgstr "Удалить изображение"
+
+#: library/admin/js_texts.php:9
+msgid "Upravit obrázek"
+msgstr "Отредактировать изображение"
+
+#: library/admin/js_texts.php:10
+msgid "Upravit informace o obrázku"
+msgstr "Отредактировать информацию об изображении"
+
+#: library/admin/js_texts.php:11
+msgid "Opravdu chcete tuto položku smazat?"
+msgstr "Действительно хотите удалить этот пункт?"
+
+#: library/admin/js_texts.php:17
+msgid "Uložit"
+msgstr "Сохранить"
+
+#: library/admin/js_texts.php:18
+msgid "Zpět"
+msgstr "Назад"
+
+#: library/admin/js_texts.php:19 library/main/functions.php:574
+msgid "Storno"
+msgstr "Отменить"
+
+#: library/admin/js_texts.php:20
+msgid ""
+"Opravdu chcete zavřít editor? Vaše poslední úpravy nejsou uloženy a mohou "
+"být ztraceny."
+msgstr ""
+"Действительно хотите выйти из редактора?Последние изменения не сохранены и "
+"могут быть потеряны."
+
+#: library/admin/js_texts.php:21
+msgid "Musíte vyplnit všechny povinné údaje."
+msgstr "Необходимо заполнить всю обязательную информацию."
+
+#: library/admin/js_texts.php:27
+msgid "Zavřít"
+msgstr "Закрыть"
+
+#: library/admin/js_texts.php:28
+msgid "Dříve"
+msgstr "Ранее"
+
+#: library/admin/js_texts.php:29
+msgid "Později"
+msgstr "Позже"
+
+#: library/admin/js_texts.php:30
+msgid "Nyní"
+msgstr "Сейчас"
+
+#: library/admin/js_texts.php:32
+msgid "leden"
+msgstr "январь"
+
+#: library/admin/js_texts.php:33
+msgid "únor"
+msgstr "февраль"
+
+#: library/admin/js_texts.php:34
+msgid "březen"
+msgstr "март"
+
+#: library/admin/js_texts.php:35
+msgid "duben"
+msgstr "апрель"
+
+#: library/admin/js_texts.php:36
+msgid "květen"
+msgstr "май"
+
+#: library/admin/js_texts.php:37
+msgid "červen"
+msgstr "июнь"
+
+#: library/admin/js_texts.php:38
+msgid "červenec"
+msgstr "июль"
+
+#: library/admin/js_texts.php:39
+msgid "srpen"
+msgstr "август"
+
+#: library/admin/js_texts.php:40
+msgid "září"
+msgstr "сентябрь"
+
+#: library/admin/js_texts.php:41
+msgid "říjen"
+msgstr "октябрь"
+
+#: library/admin/js_texts.php:42
+msgid "listopad"
+msgstr "ноябрь"
+
+#: library/admin/js_texts.php:43
+msgid "prosinec"
+msgstr "декабрь"
+
+#: library/admin/js_texts.php:45
+msgid "led"
+msgstr "янв"
+
+#: library/admin/js_texts.php:46
+msgid "úno"
+msgstr "фев"
+
+#: library/admin/js_texts.php:47
+msgid "bře"
+msgstr "мар"
+
+#: library/admin/js_texts.php:48
+msgid "dub"
+msgstr "апр"
+
+#: library/admin/js_texts.php:49
+msgid "kvě"
+msgstr "май"
+
+#: library/admin/js_texts.php:50
+msgid "čer"
+msgstr "июн"
+
+#: library/admin/js_texts.php:51
+msgid "čvc"
+msgstr "июл"
+
+#: library/admin/js_texts.php:52
+msgid "srp"
+msgstr "авг"
+
+#: library/admin/js_texts.php:53
+msgid "zář"
+msgstr "сент"
+
+#: library/admin/js_texts.php:54
+msgid "říj"
+msgstr "окт"
+
+#: library/admin/js_texts.php:55
+msgid "lis"
+msgstr "нояб"
+
+#: library/admin/js_texts.php:56
+msgid "pro"
+msgstr "дек"
+
+#: library/admin/js_texts.php:58
+msgid "neděle"
+msgstr "воскресенье"
+
+#: library/admin/js_texts.php:59
+msgid "pondělí"
+msgstr "понедельник"
+
+#: library/admin/js_texts.php:60
+msgid "úterý"
+msgstr "вторник"
+
+#: library/admin/js_texts.php:61
+msgid "středa"
+msgstr "среда"
+
+#: library/admin/js_texts.php:62
+msgid "čtvrtek"
+msgstr "четверг"
+
+#: library/admin/js_texts.php:63
+msgid "pátek"
+msgstr "пятница"
+
+#: library/admin/js_texts.php:64
+msgid "sobota"
+msgstr "суббота"
+
+#: library/admin/js_texts.php:66
+msgid "ne"
+msgstr "вс"
+
+#: library/admin/js_texts.php:67
+msgid "po"
+msgstr "пн"
+
+#: library/admin/js_texts.php:68
+msgid "út"
+msgstr "вт"
+
+#: library/admin/js_texts.php:69
+msgid "st"
+msgstr "ср"
+
+#: library/admin/js_texts.php:70
+msgid "čt"
+msgstr "чт"
+
+#: library/admin/js_texts.php:71
+msgid "pá"
+msgstr "пт"
+
+#: library/admin/js_texts.php:72
+msgid "so"
+msgstr "сб"
+
+#: library/admin/js_texts.php:74
+msgid "Týd"
+msgstr "Нед"
+
+#: library/admin/js_texts.php:75
+msgid "dd.mm.yy"
+msgstr "дд.мм.гг"
+
+#: library/api/api_class.php:105
+msgid ""
+"Nejdříve je nutné propojit tento systém s MioWebem. Zadejte, prosím, údaje "
+"pro přístup do API."
+msgstr ""
+"Сперва необходимо связать эту структуру с MioWeb. Выполните, пожалуйста, "
+"данные для доступа в API."
+
+#: library/api/api_class.php:106
+msgid ""
+"Nepodařilo se přihlásit. Zkontrolujte, zda jste zadali přihlašovací údaje "
+"správně."
+msgstr ""
+"Регистрация сорвалась.Проверьте, пожалуйста, если все данные были выполнены "
+"правильно."
+
+#: library/api/api_class.php:111 library/api/fapi/fapi.php:113
+msgid "Uložit přístupy"
+msgstr "Сохранить доступы"
+
+#: library/api/api_class.php:209
+msgid "Získat formulář z"
+msgstr "Получить форму из"
+
+#: library/api/api_class.php:210
+msgid "Seznam formulářů"
+msgstr "Список форм"
+
+#: library/api/api_class.php:212
+msgid "Získat seznamy z"
+msgstr "Получить список из"
+
+#: library/api/api_class.php:213
+msgid "Seznamy"
+msgstr "Списки"
+
+#: library/api/api_class.php:257
+msgid "Služba je dočasně nedostupná. Prosím, zkuste to později znovu."
+msgstr "Служба временно недоступна.Повторите чуть позже, пожалуйста."
+
+#: library/api/api_class.php:383
+msgid "Připojeno"
+msgstr "Подключено"
+
+#: library/api/api_class.php:385
+msgid "Nepřipojeno"
+msgstr "Неподключено"
+
+#: library/api/api_class.php:397
+msgid "Vygenerovat autorizační kód."
+msgstr "Сгенерировать код авторизации."
+
+#: library/api/api_class.php:533
+msgid "Funkce pro získání kontaktů ze seznamu není implementována."
+msgstr "Функция поиска контактов из списка не применяется."
+
+#: library/api/api_class.php:550
+msgid "Funkce pro získání údaju kontaktu není implementována."
+msgstr "Функция поиска информации о контакте не применяется."
+
+#: library/api/api_class.php:561
+msgid "Funkce pro získání definice uživatelských polí není implementována."
+msgstr "Функция поиска описаний пользовательских полей не применяется."
+
+#: library/api/aweber/class.php:59
+msgid "No authorization code has been provided."
+msgstr "Нет доступа к кодам авторизации."
+
+#: library/api/aweber/class.php:78 library/api/aweber/class.php:84
+msgid "Access tokens could not be retrieved."
+msgstr "Не удалось получить токены доступа."
+
+#: library/api/aweber/class.php:117
+msgid "API key is not valid or open auth validation has not been finished."
+msgstr "API ключ недействителен или проверка подлинности не завершена."
+
+#: library/api/aweber/class.php:285
+msgid "(inactive form)"
+msgstr "(неактивная форма)"
+
+#: library/api/fapi/fapi.php:101
+msgid "Seznam formulářů z FAPI se nepodařilo načíst. Opakujte pokus později."
+msgstr "Список форм с FAPI неудалось загрузить.Повторите,пожалуйста,позже."
+
+#: library/api/fapi/fapi.php:107
+msgid ""
+"Pro vypsání seznamu formulářů jen nutné níže zadat vaše přihlašovací údaje "
+"do FAPI. Tuto akci provedete pouze jednou."
+msgstr ""
+"Для отображения списка форм ниже необходимо заполнить ваши данные в FAPI.Это "
+"действие выполните толко один раз."
+
+#: library/api/fapi/fapi.php:108
+msgid ""
+"Nepodařilo se přihlásit do FAPI. Zkontrolujte, zda jste zadali přihlašovací "
+"údaje správně."
+msgstr ""
+"Не удалось  авторизоваться в FAPI.Проверьте, пожалуйста, если все данные "
+"были введены правильно."
+
+#: library/api/fapi/fapi.php:150
+msgid "Spojení s FAPI bylo úspěšné"
+msgstr "Соединение с FAPI прошло успешно"
+
+#: library/api/fapi/fapi.php:156
+msgid ""
+"Zadané přihlašovací jméno a api klíč nejsou správné. Nepodařilo se spojit s "
+"FAPI"
+msgstr "Регистрационный логин и api ключ неверны.Не удалось соединиться с FAPI"
+
+#: library/api/mailchimp/class.php:181
+msgid "Email Address"
+msgstr "Е-меил адрес"
+
+#: library/api/mailchimp/class.php:231 library/api/mailchimp/class.php:261
+msgid "(signup form)"
+msgstr "(форма регистрации)"
+
+#: library/api/mailchimp/class.php:295
+msgid "Subscribe to list"
+msgstr "Подписаться на список"
+
+#: library/api/se/class.php:203
+msgid "neznámá chyba při komunikaci"
+msgstr "неизвестная ошибка при связи"
+
+#: library/init_set.php:412
+msgid "Nastavení"
+msgstr "Настройки"
+
+#: library/init_set.php:421
+msgid "SEO stránky"
+msgstr "SEO страницы"
+
+#: library/init_set.php:424
+msgid "Meta Title"
+msgstr "Мета Заголовок"
+
+#: library/init_set.php:427
+msgid ""
+"Maximální doporučená délka pro titulek je 70 znaků. Pokud necháte toto pole "
+"prázdné, bude tag <code>title</code> obsahovat název stránky."
+msgstr ""
+"Максимальная рекомендуемая длинна для заголовка - 70 символов.Если оставите "
+"это поле пустым, то тег <code>title</code>  будет содержать название "
+"страницы."
+
+#: library/init_set.php:428
+msgid ""
+"Tag <code>title</code> je druhým nejdůležitějším prvkem, který ovlivňuje on-"
+"page SEO. Jeho obsah se zároveň zobrazuje v záhlaví prohlížeče a jako název "
+"stránky při vyhledávání."
+msgstr ""
+"Тег <code>title</code>  это вторая важнейшая настройка, которая влияет на on-"
+"page SEO.Содержание этого тега отображается в заголовке браузера поисковика "
+"как название страницы."
+
+#: library/init_set.php:431
+msgid "Meta Description"
+msgstr "Meta Описание"
+
+#: library/init_set.php:434
+msgid "Maximální doporučená délka je 150 znaků."
+msgstr "Максимальная рекомендуемая длина - 150 символов."
+
+#: library/init_set.php:435
+msgid ""
+"Meta tag <code>description</code> slouží jako krátký popis obsahu stránky. "
+"Některé vyhledávače tento tag používají pro zobrazení popisku stránky ve "
+"výsledku vyhledávání. Obsah by měl být tvořen souvislými větami s vhodně "
+"zvolenými klíčovými slovy."
+msgstr ""
+"Мета тег <code>description</code>  служит для краткого описания содержания "
+"страницы.Некоторые поисковики используют этот тег для описания сайта при "
+"отображении в результате поиска. Описание должно содержать в себе "
+"соответствующие предложения и ключевые слова."
+
+#: library/init_set.php:438
+msgid "Meta Keywords"
+msgstr "Ключевые слова мета"
+
+#: library/init_set.php:441
+msgid ""
+"Vyplnění meta tag <code>keywords</code> je další možností, jak zvýšit on-"
+"page SEO stránky. Napište zde několik klíčových slov, které souvisejí s "
+"obsahem stránky. Nepřehánějte to ale s jejich množstvím."
+msgstr ""
+"Заполнение мета тега <code>keywords</code>  также поможет улучшить on-page "
+"SEO страницы. Напишите здесь несколько ключевых слов, соответствующие "
+"содержанию страницы, но не пишите слишком много."
+
+#: library/init_set.php:444
+msgid "Meta Robots"
+msgstr "Мета робот"
+
+#: library/init_set.php:448
+msgid "<code>noindex</code> pro tuto stránku"
+msgstr "<code>noindex</code> эту страницу"
+
+#: library/init_set.php:449
+msgid "<code>nofollow</code> pro tuto stránku"
+msgstr "<code>nofollow</code> на эту страницу"
+
+#: library/init_set.php:450
+msgid "<code>noarchive</code> pro tuto stránku"
+msgstr "<code>noarchive</code> эту страницу"
+
+#: library/init_set.php:452
+msgid ""
+"Meta tag <code>robots</code> umožňuje zakázat robotům indexování obsahu "
+"(noindex), sledování odkazů (nofollow) a ukládání casch kopií webu "
+"(noarchive)."
+msgstr ""
+"Мета тег <code>robots</code>  помогает защитить страницу от индексирования "
+"роботами(неиндексироват), следования по ссылкам (неследовать) и сохранение "
+"кэш копий сайта(неархивировать)."
+
+#: library/init_set.php:460
+msgid "Facebook atributy"
+msgstr "Фейсбук атрибутика"
+
+#: library/init_set.php:461
+msgid ""
+"Facebook atributy definují, jak se bude stránka zobrazovat na Facebooku při "
+"jejím sdílení."
+msgstr ""
+"Фейсбук атрибуты определяют отображение страницы при ее распространении в "
+"социальной сети."
+
+#: library/init_set.php:467
+msgid ""
+"Pro kontrolu zobrazení na Facebooku můžete použít <a target=\"_blank\" href="
+"\"https://developers.facebook.com/tools/debug/\">Ladící nástroj pro sdílení</"
+"a>, kde stačí zadat URL stránky, kterou chcete zkontrolovat."
+msgstr ""
+"Для настройки отображения на Фейсбуке можете использовать  <a "
+"target=«_blank» href=«https://developers.facebook.com/tools/debug/«> "
+"редактор для распространения на социальных сетях, где достаточно лишь ввести "
+"URL страницы, которую хотите настроить."
+
+#: library/init_set.php:470
+msgid "Facebook titulek"
+msgstr "Заголовок в Фейсбуке"
+
+#: library/init_set.php:473
+msgid ""
+"Meta tag <code>og:title</code> určuje nadpis stránky při jejím sdílení na "
+"Facebooku. Pokud jej nenastavíte, použije se název stránky."
+msgstr ""
+"Мета тег  <code>og:title</code>  определяет надпись страницы при публикации "
+"на Фейсбуке.Если ее ненастроить, то будет использоваться название страницы."
+
+#: library/init_set.php:476
+msgid "Facebook popis"
+msgstr "Фейсбук описание"
+
+#: library/init_set.php:479
+msgid ""
+"Meta tag <code>og:description</code> určuje popis stránky při jejím sdílení "
+"na Facebooku."
+msgstr ""
+"Мета тег <code>og:description</code> определяет описание страницы при ее "
+"распространении в Фейсбуке."
+
+#: library/init_set.php:482
+msgid "Facebook obrázek (og:image)"
+msgstr "Изображение на Фейсбуке (og:image)"
+
+#: library/init_set.php:485
+msgid ""
+"Pomocí meta tagu <code>og:image</code> můžete Facebooku přikázat, jaký "
+"obrázek má použít při sdílení této stránky."
+msgstr ""
+"С помощью  <code>og:image</code>  можете настроить изображение используемое "
+"при распространении ссылки на сайт на Фейсбуке."
+
+#: library/init_set.php:486
+msgid ""
+"Pokud obrázek nezadáte, použije se náhledový obrázek. Pokud není zadán ani "
+"náhledový obrázek, použije se defaultní facebookový obrázek, který můžete "
+"zadat v nastavení webu. Minimální šířka obrázku by měla být 470 px."
+msgstr ""
+"Если не настроить изображение, то будет использоваться основное изображение."
+"В случае, если не задано основное изображение, будет использоваться исходное "
+"изображение Фейсбука, которое можете выбрать в настройках веба. Минимальный "
+"размер изображения должно быть 470 пикселей."
+
+#: library/init_set.php:494
+msgid "Vlastní kódy"
+msgstr "Собственные коды"
+
+#: library/init_set.php:497
+msgid "Konverzní kód"
+msgstr "Конверсионный код"
+
+#: library/init_set.php:500
+#, php-format
+msgid ""
+"Zde můžete umístit konverzní kód platný pouze pro tuto stránku. Pokud chcete "
+"do kódu dynamicky umístit hodnotu z URL adresy, vložte do kódu na místo, kde "
+"chcete hodnotu vypsat, řetězec ve tvaru: %%nazev_promenne%%. Pokud tedy "
+"budete chtít do kódu vložit například e-mailovou adresu z atributu e-mail "
+"(URL adresa bude obsahovat řetězec ve tvaru email=jmeno@poskytovatel.cz), "
+"vložte do kódu proměnnou %%email%%. V případě konverzního kódu AFFILBOXU, "
+"můžete nechat v konverzním kódu proměnné CENA a ID_TRANSAKCE. CENA se "
+"nahradí cenou staženou z faktury FAPI (pokud máte zadané propojení s FAPI) a "
+"ID_TRANSAKCE se nahradí variabilním symbolem objednávky nebo emailovou "
+"adresou (pokud je v url zadaná)."
+msgstr ""
+
+#: library/init_set.php:503
+msgid "Kódy v hlavičce"
+msgstr "Код в заглавии"
+
+#: library/init_set.php:506
+msgid ""
+"Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/head&gt;"
+"</code> a které chcete, aby byly platné pouze pro tuto stránku."
+msgstr ""
+"Здесь можете ввести коды, которые хотите разместить перед тегом <code>&lt;/"
+"head&gt;</code> а которые хотите отобразить только на этой странице."
+
+#: library/init_set.php:509
+msgid "Kódy v patičce"
+msgstr "Код в основании"
+
+#: library/init_set.php:512
+msgid ""
+"Zde můžete vložit kódy, které je potřeba umístit před tag <code>&lt;/body&gt;"
+"</code> a které chcete, aby byly platné pouze pro tuto stránku."
+msgstr ""
+"Здесь можете разместить коды, которые хотите разместить перед тегом "
+"<code>&lt;/body&gt;</code>,а которые хотите использовать только лишь для "
+"этой страницы."
+
+#: library/init_set.php:515
+msgid "Vlastní CSS styly"
+msgstr "Собственный CSS стиль"
+
+#: library/init_set.php:518
+msgid ""
+"Zde můžete vložit vlastní CSS styly, které budou platit pouze pro tuto "
+"stránku."
+msgstr ""
+"Здесь можете загрузить собственные CSS стили, которые будут применены только "
+"на этой странце."
+
+#: library/init_set.php:527
+msgid "Přesměrovat stránku"
+msgstr "Перейти со страницы"
+
+#: library/init_set.php:530
+msgid "Přesměrovat na"
+msgstr "Перейти на"
+
+#: library/init_set.php:534
+msgid ""
+"Zde můžete zadat URL adresu, na kterou chcete, aby byl uživatel přesměrován. "
+"Budou přesměrováni všichni uživatelé na všech zařízeních."
+msgstr ""
+"Здесь можете ввести URL адрес на которую хотите перевести пользователя далее."
+"Каждый пользователь будет перенаправлен с любого используемого девайса."
+
+#: library/init_set.php:537
+msgid "Druh přesměrování"
+msgstr "Тип перенаправления"
+
+#: library/init_set.php:542
+msgid "Dočasné přesměrování"
+msgstr ""
+
+#: library/init_set.php:543
+msgid "Trvalé přesměrování"
+msgstr ""
+
+#: library/init_set.php:545
+msgid ""
+"Informace zda jde o dočasné nebo trvalé přesměrování je důležitá pro SEO."
+msgstr ""
+"Информация о том, если перенаправление является временным или постоянное "
+"очень важна для SEO."
+
+#: library/init_set.php:549
+msgid "Přesměrovávat ode dne"
+msgstr "Перенаправлять от даты"
+
+#: library/init_set.php:552
+msgid ""
+"Pokud zadáte datum, bude přesměrování stránky platné až od tohoto data a "
+"času."
+msgstr ""
+"При указании даты,перенаправление со страницы будет работать от уведенного  "
+"дня и часа."
+
+#: library/init_set.php:557
+msgid "Přesměrovávat po půlnoci po X dnech od vstupu do kampaně."
+msgstr "Перенаправлять после полуночи на Х дней од наступлениям в кампанию."
+
+#: library/init_set.php:560
+msgid ""
+"Zde můžete zadat číslo odpovídající počtu dní, které určí, po kolika dnech "
+"od vstupu do kampaně se má začít uživatel přesměrovávat z této stránky. Lze "
+"použít například, když chcete po X dnech v evergreenové kampani zakázat "
+"uživateli přístup k nějaké stránce. Například k objednávce. Stránka, ze "
+"které chcete přesměrovávat, musí být zařazena do kampaně jako stránka s "
+"obsahem zdarma."
+msgstr ""
+"Здесь можете ввести число соответствующее количеству дней  от начала "
+"кампании, через которое хотите начать переадресацию пользователей с этой "
+"страницы. Можно использовать, например, в случае если хотите через Х дней от "
+"начала определенной кампании ограничить доступ к определенной странице. "
+"Например к странице заказов. Страница к которой хотите ограничить доступ "
+"должна быть создана в основной кампанией в виде страницы с бесплатным "
+"содержанием."
+
+#: library/init_set.php:565
+msgid "Přesměrování mobilního zařízení"
+msgstr "Перенавправление с мобильных устройств"
+
+#: library/init_set.php:569
+msgid "Přesměrovat mobilní zařízení na"
+msgstr "Перенаправлять мобильные устройства на"
+
+#: library/init_set.php:573
+msgid ""
+"Zde můžete zadat URL adresu, na kterou chcete, aby byl uživatel na mobilním "
+"zařízení přesměrován. Návštěvníci, kteří na stránku přistupují pomocí "
+"notebooků a klasických stolních počítačů, nebudou přesměrováni. Toto "
+"nastavení je vhodné použít, například když chcete místo této stránky na "
+"mobilních zařízeních zobrazit jinou stránku."
+msgstr ""
+"Здесь можете задать URL адрес на который хотите перенаправить пользователей "
+"мобильных устройств.Посетители сайта использующие компьютеры или "
+"классические настольные компьютеры не будут перенаправлены. Эта настройка "
+"помогает отображать на мобильных устройствах другой вид страницы."
+
+#: library/init_set.php:585 library/init_set.php:586
+msgid "Nastavení webu"
+msgstr "Настройки веба"
+
+#: library/init_set.php:594 library/init_set.php:595
+msgid "Základní nastavení webu"
+msgstr "Основные настройки веба"
+
+#: library/init_set.php:602 library/init_set.php:935
+msgid "Základní nastavení"
+msgstr "Основные настройки"
+
+#: library/init_set.php:607
+msgid "Kódy"
+msgstr "Коды"
+
+#: library/init_set.php:612
+msgid "Licence"
+msgstr "Лицензия"
+
+#: library/init_set.php:617
+msgid "Affiliate"
+msgstr "Партнерские соглашения"
+
+#: library/init_set.php:622
+msgid "E-mail (SMTP)"
+msgstr "Е-меил (SMTP)"
+
+#: library/init_set.php:627
+msgid "Cookie info"
+msgstr "Cookie информация"
+
+#: library/init_set.php:632
+msgid "Vlastní fonty"
+msgstr "Собственные шрифты"
+
+#: library/init_set.php:637
+msgid "Název webu"
+msgstr "Название веба"
+
+#: library/init_set.php:643
+msgid "Popisek webu"
+msgstr "Описание веба"
+
+#: library/init_set.php:649
+msgid "Zástupce webu (favicon)"
+msgstr ""
+
+#: library/init_set.php:652
+msgid "Nahrajte ikonu ve formátu .png, ideálně ve velikosti 180 ×180 px."
+msgstr ""
+
+#: library/init_set.php:653
+msgid ""
+"Favicon je ikona webu zobrazující se vedle URL adresy nebo v záložce "
+"prohlížeče vedle názvu stránky."
+msgstr ""
+"Favicon значок это небольшое изображение возле URL адреса или в закладках "
+"браузера рядом с названием страницы."
+
+#: library/init_set.php:656
+msgid "Google Site verification kód"
+msgstr "Код подтверждения Google Site"
+
+#: library/init_set.php:659
+msgid ""
+"Jedna z možností jak ověřit u googlu že jste vlastníkem tohoto webu, "
+"například pro napojení na google analytics, je pomocí google site "
+"verification kódů. Tento kód, který vám vygeneruje google, zadejte do tohoto "
+"pole. <a href=\"http://napoveda.mioweb.cz/article/227-jak-vlozit-overovaci-"
+"kod-google\" target=\"_blank\">Návod na získání a vložení site verification "
+"kódu</a>"
+msgstr ""
+
+#: library/init_set.php:662
+msgid "Vlastní chybová stránka (404)"
+msgstr "Сoбственная страница ошибки (404)"
+
+#: library/init_set.php:665
+msgid ""
+"Tato stránka se zobrazí v případě že uživatel zadá adresu stránky, která "
+"neexistuje. Pokud žádnou stránku nevyberete bude se zobrazovat defaultní "
+"stránka."
+msgstr ""
+"Эта страница отобразиться в случае, когда пользователь задаст адрес "
+"несуществующей страницы.Если ненастраивать эту страницу, то отображаться "
+"будет страница по умолчанию."
+
+#: library/init_set.php:671
+msgid "Google Analytics kód"
+msgstr "Код Google Analytics"
+
+#: library/init_set.php:674
+msgid ""
+"Vložením Google Analytics měřicího kódu na vaše stránky získáte podrobné "
+"statistiky návštěvnosti."
+msgstr ""
+"Если добавите на вашу страницу Google Analytics  измеряющий код - будут "
+"отображаться статистика посещаемости."
+
+#: library/init_set.php:677
+msgid "Skripty v hlavičce"
+msgstr "Скрипт в заглавии"
+
+#: library/init_set.php:680
+msgid ""
+"Zde vložte všechny kódy, které se mají vypisovat v hlavičce webu před tagem "
+"<code>&lt;/head&gt;</code>. Tyto kódy se budou vypisovat na všech stránkách "
+"webu."
+msgstr ""
+"Здесь впишите все коды, которые хотите выписать в заголовки веба перед тегом "
+"<code>&lt;/head&gt;</code>. Эти коды будут отображаться на каждой странице "
+"веб сайта."
+
+#: library/init_set.php:683
+msgid "Skripty v patičce"
+msgstr "Скрипты в основании"
+
+#: library/init_set.php:686
+msgid ""
+"Zde vložte všechny kódy, které se mají vypisovat v patičce webu před tagem "
+"<code>&lt;/body&gt;</code>. Tyto kódy se budou vypisovat na všech stránkách "
+"webu."
+msgstr ""
+"Здесь впишите все коды, которые хотите выписать в основании веба перед тегом "
+"<code>&lt;/body&gt;</code>. Эти коды будут отображаться на каждой странице "
+"веб сайта."
+
+#: library/init_set.php:689
+msgid "Vlastní CSS styly (platné pro celý web)"
+msgstr "Собственные CSS стили (применяется на весь веб)"
+
+#: library/init_set.php:692
+msgid "Vložením vlastních CSS (kaskádových) stylů můžete ovlivnit vzhled webu."
+msgstr ""
+"Вкладывая собственные CSS(каскадные) стилей можете повлиять на внешний вид."
+
+#: library/init_set.php:697
+msgid "Vaše licenční číslo"
+msgstr "Число вашей лицензии"
+
+#: library/init_set.php:704
+msgid "Váš affiliate odkaz"
+msgstr "Ссылка от вашего партнера"
+
+#: library/init_set.php:707
+msgid "http://mioweb.cz"
+msgstr "http://mioweb.cz"
+
+#: library/init_set.php:708
+msgid ""
+"Zde vložte odkaz na http://mioweb.cz s vaším affiliate kódem. Odkaz se "
+"zobrazí v patičce webu, a pokaždé, když se přes něj někdo proklikne na náš "
+"web a koupí MioWeb, dostanete z prodeje provizi. Pokud necháte pole prázdné, "
+"text v patičce zmizí. Jako affiliate partner se můžete registrovat v <a "
+"target=\"_blank\" href=\"https://partneri.proaffil.cz/smartselling\">našem "
+"partnerském programu</a>."
+msgstr ""
+"Здесь вставтье  ссылку на http://mioweb.cz с вашим партнерским кодом. Ссылка "
+"отобразиться в основании веба и , каждый раз когда через нее кто-либо "
+"перейдет на наш веб и купит MioWeb, вы будете получать комиссию. Если поле "
+"останется невыполненным, текст в основании исчезнет.На партнерские программы "
+"можете зарегестрироваться  здесь  <a target=«_blank» href=«https://partneri."
+"proaffil.cz/smartselling»> в нашем партнерском соглашении  </a>."
+
+#: library/init_set.php:717
+msgid "Použít k zasílání e-mailů vlastní SMTP server."
+msgstr "Использовать к отправке е-маилов собственный SMTP сервер."
+
+#: library/init_set.php:720
+msgid "E-mailová adresa"
+msgstr "Е-маил адрес"
+
+#: library/init_set.php:724
+msgid "Zadejte adresu, ze které chcete, aby byly e-maily posílány."
+msgstr "Введите адрес, с которого хотите отправлять е-маилы."
+
+#: library/init_set.php:729
+msgid "Jméno"
+msgstr "Имя"
+
+#: library/init_set.php:733
+msgid "Zadejte jméno, které se má zobrazovat v kolonce „Od:“."
+msgstr "Введите имя, которое хотите отображать в колонке «от»."
+
+#: library/init_set.php:738
+msgid "SMTP host"
+msgstr "SMTP хост"
+
+#: library/init_set.php:746
+msgid "SMTP zabezpečení"
+msgstr "SMTP надежность"
+
+#: library/init_set.php:750
+msgid "Nezabezpečené"
+msgstr "Ненадежный"
+
+#: library/init_set.php:751
+msgid "SSL"
+msgstr "SSL"
+
+#: library/init_set.php:752
+msgid "TLS"
+msgstr "SSL"
+
+#: library/init_set.php:759
+msgid "SMTP port"
+msgstr "SMTP порт"
+
+#: library/init_set.php:767
+msgid "SMTP autentikace"
+msgstr "SMTP  аутентификация"
+
+#: library/init_set.php:771
+msgid "Ano"
+msgstr "Да"
+
+#: library/init_set.php:772
+msgid "Ne"
+msgstr "Нет"
+
+#: library/init_set.php:779
+msgid "Přihlašovací jméno"
+msgstr "Регистрационное имя"
+
+#: library/init_set.php:787
+msgid "Heslo"
+msgstr "Пароль"
+
+#: library/init_set.php:800
+msgid ""
+"U samotného MioWebu není potřeba mít tuto možnost aktivní. MioWeb používá "
+"cookie pouze v administraci webu a při A/B testování a do cookie neukládá "
+"žádné osobní údaje. Některé skripty (například reklamy) nebo pluginy ale "
+"mohou pracovat s osobními údaji v cookie a podle evropského práva je nutné o "
+"tomto uživatele informovat."
+msgstr ""
+"В самой системе MioWeb не нужно активировать эту функцию.MioWeb использует "
+"cookie только в администрации веба и при А/В тестировании, не сохраняя при "
+"этом какие-либо данные в cookie . Некоторые скрипты (на пример, реклама) или "
+"плагины могут использовать личные данные в cookie , но, в соответствии с "
+"Европейским законом, пользователи должны быть проинформированы."
+
+#: library/init_set.php:807
+msgid "Informovat uživatele o používání cookie na tomto webu"
+msgstr "Информировать пользователей об использовании cookie  на этом вебсайте"
+
+#: library/init_set.php:814
+msgid "Text"
+msgstr "Текст"
+
+#: library/init_set.php:817
+msgid ""
+"Při poskytování našich služeb nám pomáhají soubory cookie. Využíváním našich "
+"služeb s jejich používáním souhlasíte."
+msgstr ""
+"В работе наших служеб нам помогают cookie.Используя наш сервис,  вы также "
+"соглашаетесь с этим условием."
+
+#: library/init_set.php:820 library/main/field_types.php:1482
+#: library/main/field_types.php:1485 library/main/field_types.php:1498
+msgid "Text tlačítka"
+msgstr "Текст кнопки"
+
+#: library/init_set.php:823
+msgid "Rozumím"
+msgstr "Понятно"
+
+#: library/init_set.php:826
+msgid "URL stránky s podmínkami užití"
+msgstr "URL страницы с условиями использования"
+
+#: library/init_set.php:830
+msgid ""
+"Zde vložte odkaz na vaše obchodní podmínky nebo podmínky užití, které by "
+"měly obsahovat také podrobnosti o užití souborů cookie na vašem webu."
+msgstr ""
+"Здесь вставьте ссылку на ваши условия или условия использования, которые "
+"должны также содержать сведения об использования cookie на вашем сайте."
+
+#: library/init_set.php:841
+msgid ""
+"Vložte kódy vlastních google fontů. Kódy můžete získat zde: <a href="
+"\"https://fonts.google.com/\" target=\"_blank\">fonts.google.com</a>. Po "
+"přidání se tyto fonty objeví ve výběru fontů v nastavení a editaci elementů."
+msgstr ""
+"Вставьте коды собственных google шрифтов. Коды можете также найти по "
+"ссылке   <a href=\"https://fonts.google.com/\" target=\"_blank\">fonts."
+"google.com</a>.  После введения эти шрифты отобразятся в списке шрифтов при "
+"настройке и исправлении елементов сайта."
+
+#: library/init_set.php:847
+msgid "Přidat font"
+msgstr "Добавить шрифт"
+
+#: library/init_set.php:852
+msgid "Název fontu"
+msgstr "Название шрифта"
+
+#: library/init_set.php:857
+msgid "Kód fontu"
+msgstr "Код шрифта"
+
+#: library/init_set.php:865 library/init_set.php:866
+msgid "SEO webu"
+msgstr "SEO вебсайта"
+
+#: library/init_set.php:872 library/init_set.php:873
+msgid "Sociální sítě"
+msgstr "Социальные сети"
+
+#: library/init_set.php:880
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: library/init_set.php:885
+msgid "Google+"
+msgstr "Google+"
+
+#: library/init_set.php:894
+msgid "Vypnout Facebook atributy MioWeb šablony"
+msgstr "Выключить Фейсбук атрибуты MioWeb шаблонов"
+
+#: library/init_set.php:895
+msgid ""
+"Vypnout Facebook atributy šablony je vhodné, pokud chcete pro nastavení "
+"Facebook atributů webu nebo stránek používat některý z Wordpress pluginů."
+msgstr ""
+"Выключение Фейсбук атрибутики используется в случае, если хотите настроить "
+"Фейсбук атрибуты с помощью некоторых плагинов из Wordpress."
+
+#: library/init_set.php:902
+msgid "Defaultní Facebook obrázek (og:image)"
+msgstr "Исходное Фейсбук изображение (og:image)"
+
+#: library/init_set.php:905
+msgid ""
+"Tento obrázek se bude zobrazovat na Facebooku při sdílení jakékoli stránky "
+"vašeho webu. V nastavení každé stránky ale můžete nastavit jiný obrázek, "
+"který bude jedinečný právě pro danou stránku. Minimální šířka obrázku by "
+"měla být 470 px."
+msgstr ""
+"Это изображение будет отображаться на Фейсбуке при публикации в социальной "
+"сети какой-либо страницы вашего сайта.Еще в настройках каждой страницы "
+"можете настроить для каждой из страниц отдельное прикрепленное изображение."
+"Минимальный размер изображения - 470 пикселей."
+
+#: library/init_set.php:908
+msgid "Facebook Application ID"
+msgstr "ID приложения Фейсбук"
+
+#: library/init_set.php:913
+msgid "Administrator ID"
+msgstr "Администратор ID"
+
+#: library/init_set.php:916
+msgid ""
+"Zde zadejte ID Facebook uživatele, který bude mít oprávnění moderovat "
+"Facebook komentáře. Svoje ID získáte například tak, že se v prohlížeči "
+"přepnete na svůj facebookový profil. V URL pak změňte řetězec „www“ na "
+"„graph“. Zobrazí se seznam údajů, kdy první z nich je ID."
+msgstr ""
+"Здесь введите ID Фейсбук пользователя, которому хотите разрешить "
+"контролировать комментарии в соц. сети. Свой ID определите и тем способом, "
+"когда в браузере войдете в свой Фейсбук профиль.В URL вместо „www“  введите "
+"„graph“. После этого появиться список данных, первый пункт которого и будет "
+"ID."
+
+#: library/init_set.php:925
+msgid "URL vašeho Google+ profilu"
+msgstr "URL вашего профиля в  Google+"
+
+#: library/init_set.php:928
+msgid ""
+"Zadejte URL adresu svého profilu na Google+. Po zadání se bude ve výsledcích "
+"vyhledávání na Googlu zobrazovat zadaný profil jako autor webu."
+msgstr ""
+"Введите URL адрес вашего профиля в Google+ для того чтобы в  Google поиске "
+"введеный профиль отображался как автор вебсайта."
+
+#: library/init_set.php:939
+msgid "SEO šablony"
+msgstr "SEO шаблоны"
+
+#: library/init_set.php:942
+msgid "Vypnout SEO MioWeb šablony"
+msgstr "Выключить шаблоны SEO MioWeb "
+
+#: library/init_set.php:943
+msgid ""
+"Vypnout SEO šablony je vhodné pokud chcete pro nastavení SEO atributů webu "
+"nebo stránek používat některý z Wordpress pluginů."
+msgstr ""
+"Выключение SEO  шаблонов используется в случае, если для настроек SEO  "
+"атрибутов веба или страниц будут использоваться плагины из Wordpress."
+
+#: library/main/field_types.php:116
+msgid "Datum"
+msgstr "Дата"
+
+#: library/main/field_types.php:118
+msgid "Hodin"
+msgstr "Часов"
+
+#: library/main/field_types.php:124
+msgid "Minut"
+msgstr "Минут"
+
+#: library/main/field_types.php:249 library/main/field_types.php:284
+msgid "Otevřít v novém okně"
+msgstr "Открыть в новом окне"
+
+#: library/main/field_types.php:280
+msgid "Zadejte URL včetně http://"
+msgstr "Введите URL начиная с http://"
+
+#: library/main/field_types.php:283
+msgid "Zadat vlastní URL"
+msgstr "Ввести собственный URL"
+
+#: library/main/field_types.php:297
+msgid "Náhled URL"
+msgstr "Вид URL"
+
+#: library/main/field_types.php:473 library/main/field_types.php:747
+#: library/main/field_types.php:1621
+msgid "Ikona"
+msgstr "Иконка"
+
+#: library/main/field_types.php:477
+msgid "Pozadí ikony"
+msgstr "Фон иконки"
+
+#: library/main/field_types.php:482 library/main/field_types.php:1552
+msgid "Hover"
+msgstr "Hover"
+
+#: library/main/field_types.php:495
+msgid "Barva ikony"
+msgstr "Цвет иконки"
+
+#: library/main/field_types.php:499
+msgid "Velikost ikony"
+msgstr "Размер иконки"
+
+#: library/main/field_types.php:524
+msgid "Barva pozadí ikony"
+msgstr "Фоновый цвет иконки"
+
+#: library/main/field_types.php:530 library/main/field_types.php:1580
+msgid "Zakulacení rohů"
+msgstr "Округление углов"
+
+#: library/main/field_types.php:544
+msgid "Odsazení pozadí"
+msgstr "Отступ фона"
+
+#: library/main/field_types.php:561 library/main/field_types.php:1631
+msgid "Barva ohraničení"
+msgstr "Цвет границы"
+
+#: library/main/field_types.php:567
+msgid "Tloušťka ohraničení"
+msgstr "Ширина границы"
+
+#: library/main/field_types.php:584 library/main/field_types.php:1695
+msgid "Barva ikony po najetí myši"
+msgstr "Цвет иконки при наведении мыши"
+
+#: library/main/field_types.php:590
+msgid "Barva pozadí po najetí myši"
+msgstr "Цвет фона при наведении мыши"
+
+#: library/main/field_types.php:597 library/main/field_types.php:1687
+msgid "Barva ohraničení po najetí myši"
+msgstr "Цвет границы при наведении мыши"
+
+#: library/main/field_types.php:748
+msgid "Vlastní obrázek"
+msgstr "Собственное изображение"
+
+#: library/main/field_types.php:784 library/main/field_types.php:975
+#: library/main/field_types.php:1017 library/main/field_types.php:1039
+msgid "Nahrát obrázek"
+msgstr "Загрузить изображение"
+
+#: library/main/field_types.php:785 library/main/field_types.php:1018
+#: library/main/field_types.php:1040
+msgid "Smazat obrázek"
+msgstr "Удалить изображение"
+
+#: library/main/field_types.php:906
+msgid "Zobrazení"
+msgstr ""
+
+#: library/main/field_types.php:907
+msgid "Roztáhnout obrázek přes celou plochu"
+msgstr "Растянуть изображение по площади"
+
+#: library/main/field_types.php:912
+msgid "Fixní pozadí"
+msgstr "Фиксированное изображение"
+
+#: library/main/field_types.php:916
+msgid "Barevný filtr"
+msgstr ""
+
+#: library/main/field_types.php:917
+msgid "Použít barevný filtr"
+msgstr "Использовать цветовой фильтр"
+
+#: library/main/field_types.php:946
+msgid "Zarovnání obrázku"
+msgstr ""
+
+#: library/main/field_types.php:948
+msgid "Umístit doprostřed"
+msgstr "Разместить посередине"
+
+#: library/main/field_types.php:949
+msgid "Umístit nahoru doleva"
+msgstr "Разместить сверху слева"
+
+#: library/main/field_types.php:950
+msgid "Umístit nahoru doprostřed"
+msgstr "Разместить сверху посередине"
+
+#: library/main/field_types.php:951
+msgid "Umístit nahoru doprava"
+msgstr "Разместить сверху справа"
+
+#: library/main/field_types.php:952
+msgid "Umístit doprostřed doleva"
+msgstr "Разместить посередине слева"
+
+#: library/main/field_types.php:953
+msgid "Umístit doprostřed doprava"
+msgstr "Разместить посередине справа"
+
+#: library/main/field_types.php:954
+msgid "Umístit dolů doleva"
+msgstr "Разместить снизу слева"
+
+#: library/main/field_types.php:955
+msgid "Umístit dolů doprostřed"
+msgstr "Разместить снизу посередине"
+
+#: library/main/field_types.php:956
+msgid "Umístit dolů doprava"
+msgstr "Разместить снизу справа"
+
+#: library/main/field_types.php:959
+msgid "Opakovaní obrázku"
+msgstr ""
+
+#: library/main/field_types.php:961
+msgid "Neopakovat"
+msgstr "Неповторять"
+
+#: library/main/field_types.php:962
+msgid "Opakovat všemi směry"
+msgstr "Повторять во всех направлениях"
+
+#: library/main/field_types.php:963
+msgid "Opakovat po ose X"
+msgstr "Повторять по осе Х"
+
+#: library/main/field_types.php:964
+msgid "Opakovat po ose Y"
+msgstr "Повторять по осе Y"
+
+#: library/main/field_types.php:967
+msgid "Pro mobilní zařízení"
+msgstr ""
+
+#: library/main/field_types.php:968
+msgid "Skrýt na mobilních zařízeních"
+msgstr "Скрыть на мобильных устройствах"
+
+#: library/main/field_types.php:977
+msgid "Použít vzorek"
+msgstr "Использовать пример"
+
+#: library/main/field_types.php:979
+msgid "Smazat pozadí"
+msgstr "Удалить  фон"
+
+#: library/main/field_types.php:1082
+msgid "Přidat obrázky"
+msgstr "Добавить изображение"
+
+#: library/main/field_types.php:1100
+msgid "Vložit soubor"
+msgstr "Вложить файл"
+
+#: library/main/field_types.php:1101 library/main/functions.php:388
+#: library/main/main_classes.php:831
+msgid "Smazat"
+msgstr "Удалить"
+
+#: library/main/field_types.php:1116
+msgid "Bez menu"
+msgstr "Без меню"
+
+#: library/main/field_types.php:1124
+msgid "Upravit menu"
+msgstr "Исправить меню"
+
+#: library/main/field_types.php:1125
+msgid "Smazat menu"
+msgstr "Удалить меню"
+
+#: library/main/field_types.php:1127
+msgid "Vytvořit nové menu"
+msgstr "Создать новое меню"
+
+#: library/main/field_types.php:1150 library/main/field_types.php:1573
+#: library/main/field_types.php:1670
+msgid "Počáteční barva pozadí"
+msgstr "Изначальный цвет фона"
+
+#: library/main/field_types.php:1151 library/main/field_types.php:1574
+#: library/main/field_types.php:1671
+msgid "Koncová barva pozadí"
+msgstr "Исходный цвет фона"
+
+#: library/main/field_types.php:1155
+msgid "Průhlednost pozadí"
+msgstr "Прозрачность фона"
+
+#: library/main/field_types.php:1178
+msgid "Nahoře"
+msgstr "Сверху"
+
+#: library/main/field_types.php:1179
+msgid "Dole"
+msgstr "Снизу"
+
+#: library/main/field_types.php:1180 library/main/field_types.php:1381
+msgid "Vlevo"
+msgstr "Влево"
+
+#: library/main/field_types.php:1181 library/main/field_types.php:1382
+msgid "Vpravo"
+msgstr "Вправо"
+
+#: library/main/field_types.php:1191
+msgid "Horizontální posunutí"
+msgstr "Горизонтальное  передвижение"
+
+#: library/main/field_types.php:1192
+msgid "Vertikální posunutí"
+msgstr "Вертикальное передвижение"
+
+#: library/main/field_types.php:1193
+msgid "Velikost stínu"
+msgstr "Размер тени"
+
+#: library/main/field_types.php:1196
+msgid "Průhlednost stínu"
+msgstr "Прозрачность тени"
+
+#: library/main/field_types.php:1246
+msgid "Velikost"
+msgstr "Размер"
+
+#: library/main/field_types.php:1255 library/main/field_types.php:1273
+#: library/main/field_types.php:1293
+msgid "Normal"
+msgstr "Нормальный"
+
+#: library/main/field_types.php:1255 library/main/field_types.php:1273
+#: library/main/field_types.php:1293
+msgid "Bold"
+msgstr "Широкий"
+
+#: library/main/field_types.php:1257
+msgid "Písmo"
+msgstr "Почерк"
+
+#: library/main/field_types.php:1260 library/main/field_types.php:1264
+msgid "Defaultní"
+msgstr "Исходный"
+
+#: library/main/field_types.php:1269
+msgid "Naposledy používané fonty"
+msgstr "Последние использованные шрифты"
+
+#: library/main/field_types.php:1289
+msgid "Základní fonty"
+msgstr "Основные шрифты"
+
+#: library/main/field_types.php:1308
+msgid "Vlastní google fonty"
+msgstr "Собственные google  шрифты"
+
+#: library/main/field_types.php:1322
+msgid "Google fonty"
+msgstr "Google шрифты"
+
+#: library/main/field_types.php:1341
+msgid "Tloušťka"
+msgstr "Ширина"
+
+#: library/main/field_types.php:1352
+msgid "Velikost řádků"
+msgstr "Ширина строк"
+
+#: library/main/field_types.php:1362
+msgid "Mezery"
+msgstr ""
+
+#: library/main/field_types.php:1378
+msgid "Zarovnání"
+msgstr "Выровнять"
+
+#: library/main/field_types.php:1380
+msgid "Na střed"
+msgstr "Посередине"
+
+#: library/main/field_types.php:1388 library/main/field_types.php:1434
+msgid "Barva"
+msgstr "Цвет"
+
+#: library/main/field_types.php:1395
+msgid "Stín"
+msgstr "Тень"
+
+#: library/main/field_types.php:1397
+msgid "Žádný"
+msgstr "Нет"
+
+#: library/main/field_types.php:1398
+msgid "Tmavý"
+msgstr "Темный"
+
+#: library/main/field_types.php:1399
+msgid "Světlý"
+msgstr "Светлый"
+
+#: library/main/field_types.php:1414
+msgid "Tloušťka čáry"
+msgstr "Ширина линий"
+
+#: library/main/field_types.php:1425
+msgid "Styl ohraničení"
+msgstr "Стиль границ"
+
+#: library/main/field_types.php:1427
+msgid "Plná čára"
+msgstr "Беспрерывная линия"
+
+#: library/main/field_types.php:1428
+msgid "Čárkovaná čára"
+msgstr "Пунктирная линия"
+
+#: library/main/field_types.php:1429
+msgid "Tečkovaná čára"
+msgstr "Линия из точек"
+
+#: library/main/field_types.php:1493
+msgid "Změnit styl tlačítka"
+msgstr "Изменить стил кнопки"
+
+#: library/main/field_types.php:1507
+msgid "Použít styl i nastavení naposledy vytvořeného tlačítka"
+msgstr "Использовать стили из настроек последней созданной кнопки"
+
+#: library/main/field_types.php:1535 library/main/field_types.php:1549
+msgid "Tlačítko"
+msgstr "Кнопка"
+
+#: library/main/field_types.php:1557
+msgid "Font textu tlačítka"
+msgstr "Шрифт текста кнопки"
+
+#: library/main/field_types.php:1563
+msgid "Font podtextu tlačítka"
+msgstr "Шрифт подтекста кнопки"
+
+#: library/main/field_types.php:1570
+msgid "Pozadí tlačítka"
+msgstr "Фон кнопки"
+
+#: library/main/field_types.php:1594
+msgid "Výška"
+msgstr "Длинна"
+
+#: library/main/field_types.php:1603
+msgid "Šířka"
+msgstr "Ширина"
+
+#: library/main/field_types.php:1652
+msgid "Efekt po najetí myši"
+msgstr "Еффект прни наведении мыши"
+
+#: library/main/field_types.php:1656
+msgid "Zesvětlení"
+msgstr "Высветлить"
+
+#: library/main/field_types.php:1657
+msgid "Zvětšení"
+msgstr "Увеличение"
+
+#: library/main/field_types.php:1658
+msgid "Ztmavení"
+msgstr "Затемнение"
+
+#: library/main/field_types.php:1659
+msgid "Vlastní"
+msgstr "Собственный"
+
+#: library/main/field_types.php:1667
+msgid "Pozadí po najetí myši"
+msgstr "Фон при наведении мыши"
+
+#: library/main/field_types.php:1678
+msgid "Barva písma po najetí myši"
+msgstr "Цыет надписи при наведении мыши"
+
+#: library/main/field_types.php:1727
+msgid "Použití google map vyžaduje API klíč"
+msgstr ""
+
+#: library/main/field_types.php:1728
+msgid "Vygenerujte si svůj api klíč (zdarma)."
+msgstr ""
+
+#: library/main/field_types.php:1729
+msgid "Zadejte svůj API klíč do formuláře níže a klikněte na Uložit API klíč"
+msgstr ""
+
+#: library/main/field_types.php:1731
+msgid "Zde vložte svůj API klíč."
+msgstr ""
+
+#: library/main/field_types.php:1732
+msgid "Uložit API klíč"
+msgstr ""
+
+#: library/main/field_types.php:1748
+msgid "Adresa"
+msgstr ""
+
+#: library/main/field_types.php:1750
+msgid "Zadejte adresu, kterou chcete na mapě vyznačit."
+msgstr ""
+
+#: library/main/field_types.php:1761
+msgid "Zoom mapy"
+msgstr ""
+
+#: library/main/field_types.php:1785
+msgid "Přidat novou akci"
+msgstr ""
+
+#: library/main/field_types.php:1802 library/main/field_types.php:1820
+msgid "Upravit"
+msgstr ""
+
+#: library/main/field_types.php:1808
+msgid "Již proběhlé akce"
+msgstr ""
+
+#: library/main/field_types.php:1827
+msgid ""
+"Nejsou vytvořené žádné akce, klikněte na tlačítko \"Přidat novou akci\" a "
+"vytvořte první akci. Správa kalendáře akcí se nachází v administraci "
+"wordpressu."
+msgstr ""
+
+#: library/main/functions.php:415
+msgid "Defaultní šablona"
+msgstr "Исходный шаблон"
+
+#: library/main/functions.php:514
+msgid "Nastavení bylo uloženo"
+msgstr "Настройки были сохранены"
+
+#: library/main/functions.php:567
+msgid "API key"
+msgstr "API ключ"
+
+#: library/main/functions.php:572
+msgid "Zadejte název nové členské sekce"
+msgstr "Введите название новой членской секции"
+
+#: library/main/functions.php:573
+msgid "Vytvořit členskou sekci"
+msgstr "Создать членскую секцию"
+
+#: library/main/functions.php:578
+msgid ""
+"Nejsou vytvořeny žádné členské sekce. Členské sekce lze vytvářet na webu v "
+"nastavení členských sekcí"
+msgstr ""
+"Членские секции небыли созданы. Их можно создать на странице веба в "
+"настройках членских секций"
+
+#: library/main/functions.php:594 library/main/functions.php:685
+#: library/main/functions.php:699
+msgid "ULOŽIT ZMĚNY"
+msgstr "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+
+#: library/main/functions.php:714
+msgid ""
+"Nastavení není dostupné, protože není zadáno vaše licenční číslo. Prosím, "
+"zadejte jej k ověření. Po zadání platného licenčního čísla se nastavení "
+"zpřístupní. Tuto akci provedete jen jednou."
+msgstr ""
+"Настройки недоступны, потому что небыло введено номер лицензии. Введите ее "
+"для подтверждения, пожалуйста. После введения рабочего номера лицензии "
+"откроется доступ.Ввод достаточно выполнить только один раз."
+
+#: library/main/functions.php:720
+msgid "Uložit licenční číslo"
+msgstr "Сохранить лицензионный номер"
+
+#: library/main/functions.php:853
+msgid "Licenční číslo je platné."
+msgstr "Номер лицензии действителен."
+
+#: library/main/functions.php:857
+msgid "Neplatné licenční číslo."
+msgstr "Номер лицензии недействителен."
+
+#: library/main/functions.php:861
+msgid ""
+"Platnost této zkušební licence již vypršela. Pokud se vám šablona líbí a "
+"chcete v tvorbě webu pokračovat, <strong><a target=\\\"_blank\\\" href=\\"
+"\"http://www.mioweb.cz/objednavka/\\\">kupte si plnou verzi MioWeb šablony "
+"zde.</a></strong>."
+msgstr ""
+"Срок пробной версии лицензионного номера закончился. Если вам понравился "
+"шаблон создания веба можете продолжить работу с веб страницей при покупке "
+"полной версии MioWeb <strong><a target=\\\"_blank\\\" href=\\\"http://www."
+"mioweb.cz/objednavka/\\\">  здесь по адресу.  </a></strong>."
+
+#: library/main/functions.php:865
+msgid ""
+"Zadané licenční číslo je již rezervováno pro jinou doménu. Zkuste zadat jiné "
+"nebo toto licenční číslo uvolněte."
+msgstr ""
+
+#: library/main/functions.php:869
+msgid "Pro tuto doménu je již aktivovaná jiná licence. Prosím uvolněte ji."
+msgstr ""
+
+#: library/main/functions.php:873
+msgid "Neplatný klíč pro tento hosting."
+msgstr ""
+
+#: library/main/functions.php:877
+msgid ""
+"Hosting pro toto licenční číslo byl již smazán. Licenční číslo je neplatné."
+msgstr ""
+
+#: library/main/functions.php:881
+msgid "Pro tento hosting je už nastavena jiná doživotní licence."
+msgstr ""
+
+#: library/main/functions.php:885
+msgid ""
+"Nedaří se spojit s licenčním serverem. Pravděpodobně došlo k jeho dočasnému "
+"výpadku. Zkuste se, prosím, přihlásit později. Webové stránky fungují pro "
+"vaše návštěvníky samozřejmě dále."
+msgstr ""
+"Неполучилось связаться с сервером лицензии. Вероятно случилось временное "
+"отсоединение. Повторите, пожалуйста позже.Для ваших посетителей веб остается "
+"рабочим."
+
+#: library/main/functions.php:889
+msgid "Nastala neznámá chyba:"
+msgstr "Произошла неизвестная ошибка:"
+
+#: library/main/main_classes.php:435
+msgid "(bez názvu)"
+msgstr "(без названия)"
+
+#: library/main/main_classes.php:435
+msgid "(koncept)"
+msgstr "(концепт)"
+
+#: library/main/main_classes.php:592
+#, php-format
+msgid "Strana %s"
+msgstr "Страница %s"
+
+#: library/main/main_classes.php:809
+msgid "Vytvořit nový sidebar"
+msgstr "Создать новую боковую панель"
+
+#: library/main/main_classes.php:813
+msgid "Musíte vyplnit název sidebaru."
+msgstr "Выполните, пожалуйста, название боковой панели."
+
+#: library/main/main_classes.php:814
+msgid "Sidebar nebyl vytvořen, nepodařilo se ověřit oprávnění akce."
+msgstr "Боковая панель небыла создана, неполучилось открыть заданное действие."
+
+#: library/main/main_classes.php:815
+msgid "Sidebar s tímto názvem již existuje. Zkuste jiný název."
+msgstr ""
+"Боковая панель с таким названием уже существует.Попробуйте переименовать."
+
+#: library/main/main_classes.php:820
+msgid "Sidebar byl vytvořen."
+msgstr "Боковая панель была создана."
+
+#: library/main/main_classes.php:823
+msgid "Název nového sidebaru"
+msgstr "Название новой боковой панели"
+
+#: library/main/main_classes.php:826
+msgid "Vytvořit sidebar"
+msgstr "Создать боковую панель"
+
+#: library/main/main_classes.php:831
+msgid "Opravdu chcete tento sidebar smazat?"
+msgstr "Действительно хотите удалить данную боковую панель?"
+
+#: library/update.php:60
+#, php-format
+msgid ""
+"K dispozici je nová verze <a class=\\\"thickbox\\\" href=\\\"#TB_inline?"
+"width=600&height=550&inlineId=cms_changelog\\\">MioWeb šablony %s</a>."
+msgstr ""
+"Новая версия готова к использованию  <a class=\\\"thickbox\\\" href=\\"
+"\"#TB_inline?width=600&height=550&inlineId=cms_changelog\\\">MioWeb шаблоны "
+"%s</a>."
+
+#: library/update.php:61
+msgid "Doporučujeme"
+msgstr "Рекомендуем"
+
+#: library/update.php:61
+msgid "Provést aktualizaci"
+msgstr "Обновить"
+
+#: skin/comments.php:18
+msgid "Odpovědět"
+msgstr "ответ"
+
+#: skin/comments.php:32
+msgid "Předchozí"
+msgstr "предыдущий"
+
+#: skin/comments.php:33
+msgid "Další"
+msgstr "другой"
+
+#: skin/comments.php:49
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: skin/comments.php:61
+msgid "Vložit komentář"
+msgstr "Вставить комментарий"
+
+#: skin/comments.php:62
+msgid "Zrušit odpověď"
+msgstr "Отменить ответ"
+
+#: skin/comments.php:63
+msgid "Přidat komentář"
+msgstr "Добавить комментарий"
+
+#~ msgid ""
+#~ "Zde můžete umístit konverzní kód platný pouze pro tuto stránku. Pokud "
+#~ "chcete do kódu dynamicky umístit hodnotu z URL adresy, vložte do kódu na "
+#~ "místo, kde chcete hodnotu vypsat, řetězec ve tvaru: %%nazev_promenne%%. "
+#~ "Pokud tedy budete chtít do kódu vložit například e-mailovou adresu z "
+#~ "atributu e-mail (URL adresa bude obsahovat řetězec ve tvaru e-"
+#~ "mail=jmeno@poskytovatel.cz), vložte do kódu proměnnou %%email%%. V "
+#~ "případě konverzního kódu AFFILBOXU, můžete nechat v konverzním kódu "
+#~ "proměnné CENA a ID_TRANSAKCE. CENA se nahradí cenou staženou z faktury "
+#~ "FAPI (pokud máte zadané propojení s FAPI) a ID_TRANSAKCE se nahradí e-"
+#~ "mailovou adresou z URL z atributu e-mail."
+#~ msgstr ""
+#~ "Здесь можете разместить конверсионный код который будет применяться "
+#~ "только для этой страницы.Если хотите разместить в коде направление на URL "
+#~ "адрес, задайте в код, на место где в итоге хотите получить эту надпись, "
+#~ "последовательность в виде%%выбранное_название%%.Если же нужно будет "
+#~ "вставить в код емайл адрес с символом емаила(URL адрес будет содержать в "
+#~ "себе последователность в виде e-mail=имя@web.ru). вставьте в код "
+#~ "переменную %%е-маил%%. В случае переменного кода AFFILBOX можете оставить "
+#~ "переменную ЦЕНА и ID_ТРАНСАКЦИЯ. ЦЕНА заменится на цену из FAPI "
+#~ "формы(если связь с FAPI была введена перед этим) а ID_ТРАНСАКЦИЯ "
+#~ "замениться емайл адресом."
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon значок"
+
+#~ msgid "Nahrajte ikonu ve formátu .png, ideálně ve velikosti 16 ×16 px."
+#~ msgstr "Загрузите иконку в формате .png, в размере 16х16 пикс."
+
+#~ msgid ""
+#~ "Neplatné licenční číslo. Zadané licenční číslo je již rezervováno pro "
+#~ "jinou doménu. Zkuste zadat jiné. Nebo toto licenční číslo uvolněte pro "
+#~ "tuto doménu."
+#~ msgstr ""
+#~ "Недействительный номер лицензии. Введеный номер зарезервирован другим "
+#~ "доменом. Попробуйте ввести другое число. Или освободите этот лицензионный "
+#~ "номер для домена."
+
+#~ msgid ""
+#~ "Zadejte URL adresu včetně <code>http://</code> nebo <code>https://</code>."
+#~ msgstr ""
+#~ "Insert URL address including <code>http://</code> or <code>https://</"
+#~ "code>."

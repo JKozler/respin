@@ -1,0 +1,165 @@
+
+.cms_campaign_pages {
+	padding-top: 50px !important;
+}
+
+.campaign_set_box_container {
+	float: left;
+	width: 50%;
+}
+
+.campaign_set_box_info {
+	float: right;
+	width: 45%;
+}
+
+.campaign_set_box {
+	background-color: #fff;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.campaign_set_box_page {
+	margin-bottom: 34px;
+}
+
+.mioweb_delete_campaign_page {
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	display: none;
+}
+
+.campaign_set_box:hover .mioweb_delete_campaign_page {
+	display: block;
+}
+
+.campaign_set_box:hover .mioweb_delete_campaign_page svg {
+	width: 20px;
+	height: 20px;
+	fill: #888;
+}
+
+.campaign_set_box .mioweb_delete_campaign_page:hover svg {
+	fill: #b70a0a;
+}
+
+.campaign_set_box_squeeze {
+	margin: 0 30px;
+}
+
+.campaign_set_box .mw_select_page {
+	width: 100%;
+}
+
+.campaign_set_box_label {
+	padding: 10px 15px 20px;
+	display: block;
+	text-align: center;
+	color: #888;
+}
+
+.campaign_set_box_content {
+	padding: 0 30px 30px;
+	position: relative;
+}
+.campaign_set_box_content .mw_item_selector {
+	width: 100%;
+}
+
+.campaign_set_box_container_arrow svg,
+.campaign_set_box_arrow svg {
+	width: 25px;
+	height: 25px;
+	fill: #c8c8c8;
+}
+
+.campaign_set_box_container_arrow {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.campaign_set_box_arrow {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -34px;
+	text-align: center;
+	padding: 5px 0 4px;
+	height: 25px;
+}
+
+.campaign_page_set {
+	display: none;
+	border-top: 1px solid #eee;
+	padding: 20px 30px 30px;
+}
+
+.campaign_page_set .mw_switch_container {
+	padding-bottom: 10px;
+}
+
+.campaign_page_set .set_form_subrow {
+	padding-top: 12px;
+}
+
+.campaign_page_set .label {
+	font-size: 13px !important;
+}
+
+.campaign_page_set .sublabel {
+	color: #888;
+	font-size: 12px;
+}
+
+.campaign_page_set_image_container .mw_image_uploader {
+	width: 45%;
+}
+
+.campaign_set_box_info h3 {
+	margin: 0 0 5px;
+	font-size: 13px;
+	color: #666;
+}
+
+.campaign_set_box_info p {
+	margin: 5px 0;
+	color: #666;
+}
+
+.campaign_set_button_container {
+	text-align: center;
+}
+
+.campaign_set_button_container .miocms_loading {
+	background-size: 25px 25px !important;
+	margin: 20px auto 10px;
+}
+
+.mioweb_campaign .miocms_loading {
+	background-size: 25px 25px !important;
+	margin-top: 30px;
+}
+
+.campaign_set_page_url {
+	padding-top: 3px;
+	color: #888;
+	font-size: 12px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+	.campaign_set_box_info {
+		display: none;
+	}
+
+	.campaign_set_box_container {
+		float: none;
+		width: 100%;
+	}
+}

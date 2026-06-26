@@ -1,0 +1,1627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2023-07-19 10:06+0200\n"
+"PO-Revision-Date: 2023-07-19 10:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../blog/install.php:3
+msgid "Jednoduchý blog"
+msgstr ""
+
+#: ../blog/install.php:4
+msgid ""
+"Tato šablona je dobrý začátek pro vytvoření vašeho blogu. Začněte "
+"jednoduchým blogem a postupně ho doplňujte o další funkcionalitu."
+msgstr ""
+
+#: ../blog/install.php:15 ../blog/pages/about.php:225
+msgid "O mně"
+msgstr ""
+
+#: ../blog/install.php:18 ../blog/pages/contact.php:531
+msgid "Kontakt"
+msgstr ""
+
+#: ../blog/install.php:21 ../blog/install.php:31
+msgid "Blog"
+msgstr ""
+
+#: ../blog/install.php:27
+msgid "Hlavní menu"
+msgstr ""
+
+#: ../blog/install.php:61
+msgid "Hlavní"
+msgstr ""
+
+#: ../blog/install.php:65
+msgid "Nadpis formuláře"
+msgstr ""
+
+#: ../blog/install.php:66
+msgid "Text formuláře"
+msgstr ""
+
+#: ../blog/install.php:77
+msgid "Hledat"
+msgstr ""
+
+#: ../blog/install.php:78
+msgid "Kategorie"
+msgstr ""
+
+#: ../blog/pages/about.php:163
+msgid "Pavel Blogger"
+msgstr ""
+
+#: ../blog/pages/about.php:226
+msgid "o-mne"
+msgstr ""
+
+#: ../blog/pages/blog.php:184
+msgid "Nadpis blogu"
+msgstr ""
+
+#: ../blog/pages/contact.php:185
+msgid "Kontaktujte mě"
+msgstr ""
+
+#: ../blog/pages/contact.php:216 ../templates/squeeze/2/config.php:620
+msgid "Sem patří podnadpis"
+msgstr ""
+
+#: ../blog/pages/contact.php:355
+msgid ""
+"Máte námět na nějaký článek nebo mi jen chcete nechat vzkaz? Budu rád, když "
+"mi napíšete."
+msgstr ""
+
+#: ../blog/pages/contact.php:376
+msgid "email@email.cz"
+msgstr ""
+
+#: ../blog/pages/contact.php:428
+msgid "+420 111 222 333"
+msgstr ""
+
+#: ../blog/pages/contact.php:474
+msgid "facebook"
+msgstr ""
+
+#: ../blog/pages/contact.php:480
+msgid "www.facebook.com"
+msgstr ""
+
+#: ../blog/pages/contact.php:532
+msgid "kontakt"
+msgstr ""
+
+#: ../elements.php:9 ../funnels_class.php:718 ../init.php:27 ../init.php:66
+msgid "Cesty zákazníka"
+msgstr ""
+
+#: ../elements.php:16
+msgid "Nastavit odpočet"
+msgstr ""
+
+#: ../elements.php:19
+msgid "Na konkrétní datum"
+msgstr ""
+
+#: ../elements.php:20
+msgid "Od vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:21
+msgid "Od vstupu na stránku"
+msgstr ""
+
+#: ../elements.php:33
+msgid "Nastavit odpočet na (od vstupu)"
+msgstr ""
+
+#: ../elements.php:40
+msgid "Dní"
+msgstr ""
+
+#: ../elements.php:48
+msgid "Hodin"
+msgstr ""
+
+#: ../elements.php:56
+msgid "Minut"
+msgstr ""
+
+#: ../elements.php:68
+msgid "Začít odpočet od"
+msgstr ""
+
+#: ../elements.php:71
+msgid "Půlnoci dne vstupu"
+msgstr ""
+
+#: ../elements.php:72
+msgid "Začátku dne vstupu"
+msgstr ""
+
+#: ../elements.php:73
+msgid "Času vstupu"
+msgstr ""
+
+#: ../elements.php:87
+msgid "Navigace cesty zákazníka"
+msgstr ""
+
+#: ../elements.php:89
+msgid ""
+"Vypíše seznam stránek s obsahem zdarma vybrané kampaně. Slouží jako navigace "
+"mezi těmito stránkami."
+msgstr ""
+
+#: ../elements.php:93 ../elements.php:187 ../elements.php:305
+msgid "Obsah"
+msgstr ""
+
+#: ../elements.php:97
+msgid "Zobrazit info o zveřejnění"
+msgstr ""
+
+#: ../elements.php:105
+msgid "Zobrazit ikonu Play"
+msgstr ""
+
+#: ../elements.php:115 ../elements.php:273
+msgid "Vzhled"
+msgstr ""
+
+#: ../elements.php:119
+msgid "Vzhled navigace"
+msgstr ""
+
+#: ../elements.php:137
+msgid "Barva pozadí menu"
+msgstr ""
+
+#: ../elements.php:150
+msgid "Barva aktivní položky"
+msgstr ""
+
+#: ../elements.php:162
+msgid "Font navigace"
+msgstr ""
+
+#: ../elements.php:181
+msgid "Počet stažení / koupení"
+msgstr ""
+
+#: ../elements.php:183
+msgid ""
+"Vypíše kontakty z vybraného seznamu ze SmartEmailingu. Můžete tak vypsat "
+"informaci o tom, kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+"(pokud je ukládáte do SmartEmailingu)."
+msgstr ""
+
+#: ../elements.php:195
+msgid "Načíst počet ze seznamu"
+msgstr ""
+
+#: ../elements.php:206
+msgid "Započítat i smazané kontakty"
+msgstr ""
+
+#: ../elements.php:219
+msgid "Text před číslem"
+msgstr ""
+
+#: ../elements.php:221
+msgid "Tento ebook si stáhlo již"
+msgstr ""
+
+#: ../elements.php:229
+msgid "Text za číslem"
+msgstr ""
+
+#: ../elements.php:231
+msgid "lidí"
+msgstr ""
+
+#: ../elements.php:245
+msgid "Odečítat počet kontaktů od čísla"
+msgstr ""
+
+#: ../elements.php:247
+msgid ""
+"Počet kontaktů z vybraného seznamu se bude odečítat od tohoto čísla. Pokud "
+"zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se vypíše "
+"číslice 80. Pokud zde žádné číslo nezadáte, bude se zobrazovat klasicky "
+"počet kontaktů ze seznamu."
+msgstr ""
+
+#: ../elements.php:254
+msgid "Korekce výsledného čísla"
+msgstr ""
+
+#: ../elements.php:256
+msgid ""
+"Zadejte číslo, které chcete přičíst k počtu kontaktů v seznamu. Když zadáte "
+"záporné číslo, bude se odečítat."
+msgstr ""
+
+#: ../elements.php:263
+msgid "Po vynulování přesměrovat na"
+msgstr ""
+
+#: ../elements.php:277 ../elements.php:336
+msgid "Písmo"
+msgstr ""
+
+#: ../elements.php:299
+msgid "Proměnlivé datum"
+msgstr ""
+
+#: ../elements.php:301
+msgid "Vypíše datum závislé na vstupu do kampaně."
+msgstr ""
+
+#: ../elements.php:309
+msgid "Vypsat datum posunuté o x dní od vstupu do kampaně"
+msgstr ""
+
+#: ../elements.php:318
+msgid "Čas (ve formátu hh:mm)"
+msgstr ""
+
+#: ../elements.php:320
+msgid "20:00"
+msgstr ""
+
+#: ../elements.php:329
+msgid "Skrýt rok"
+msgstr ""
+
+#: ../elements_print.php:126
+msgid "Zatím nedostupné"
+msgstr ""
+
+#: ../elements_print.php:128
+msgid "Dostupné od"
+msgstr ""
+
+#: ../elements_print.php:137
+msgid ""
+"Vybraná kampaň neobsahuje žádné stránky s obsahem zdarma. Nastavte je ve "
+"správě kampaní, jinak se nebude menu zobrazovat."
+msgstr ""
+
+#: ../elements_print.php:140
+msgid ""
+"Tato stránka není zařazena do žádné cesty zákazníka. Tento element může být "
+"umístěn jen na stránku zařazenou do cesty zákazníka."
+msgstr ""
+
+#: ../elements_print.php:205
+msgid "Není vybrán žádný seznam, ze kterého se má načíst počet stažení/koupení"
+msgstr ""
+
+#: ../elements_print.php:244
+msgid "v"
+msgstr "o"
+
+#: ../elements_print.php:249
+msgid ""
+"Pokud není datum umístěno na stránce zařazené do kampaně, nebude se odvíjet "
+"od vstupu do kampaně ale od času načtení stránky."
+msgstr ""
+
+#: ../functions.php:35
+msgid "Upsell produkt"
+msgstr ""
+
+#: ../functions.php:37
+msgid ""
+"Pokud nastavíte upsell produkt, bude se ve statistikách počítat kolikrát byl "
+"upsell produkt zakoupen."
+msgstr ""
+
+#: ../functions.php:40
+msgid "Miniupsell(bump) produkt"
+msgstr ""
+
+#: ../functions.php:42
+msgid ""
+"Pokud nastavíte miniupsell produkt, bude se ve statistikách počítat kolikrát "
+"byl miniupsell produkt zakoupen."
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:4
+msgid "Klasická kampaň"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:5
+msgid "Získejte důvěru obsahem zdarma a prodávejte nejen své online kurzy."
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:9
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:573
+#: ../funnel_templates/get_contacts/install.php:9
+#: ../funnel_templates/product_campaign/install.php:9
+#: ../funnel_templates/webinar_sale/install.php:9 ../funnels_class.php:1896
+msgid "Vstupní stránka"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:14
+#: ../funnel_templates/classic_campaign/pages/content1.php:1001
+msgid "Obsah 1"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:21
+#: ../funnel_templates/classic_campaign/pages/content2.php:1001
+msgid "Obsah 2"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:28
+#: ../funnel_templates/classic_campaign/pages/content3.php:1001
+msgid "Obsah 3"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:35
+#: ../funnel_templates/classic_campaign/pages/order.php:191
+#: ../funnel_templates/classic_campaign/pages/order.php:865
+#: ../funnel_templates/product_campaign/install.php:14
+#: ../funnel_templates/product_campaign/pages/order.php:191
+#: ../funnel_templates/product_campaign/pages/order.php:902
+#: ../funnel_templates/webinar_sale/install.php:28
+#: ../funnel_templates/webinar_sale/pages/order.php:190
+#: ../funnel_templates/webinar_sale/pages/order.php:864
+#: ../funnels_class.php:2100
+msgid "Objednávka"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:42
+#: ../funnel_templates/classic_campaign/pages/sale.php:1500
+#: ../funnel_templates/product_campaign/install.php:21
+#: ../funnel_templates/product_campaign/pages/sale.php:1352
+#: ../funnel_templates/webinar_sale/install.php:35
+#: ../funnel_templates/webinar_sale/pages/sale.php:1351
+#: ../funnels_class.php:2012
+msgid "Prodejní stránka"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/install.php:49
+#: ../funnel_templates/product_campaign/install.php:36
+#: ../funnel_templates/product_campaign/pages/order_thanks.php:311
+#: ../funnel_templates/webinar_sale/install.php:43
+#: ../funnel_templates/webinar_sale/pages/order_thanks.php:390
+msgid "Poděkování po nákupu"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:213
+#: ../funnel_templates/classic_campaign/pages/content2.php:213
+#: ../funnel_templates/classic_campaign/pages/content3.php:213
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:280
+#: ../funnel_templates/webinar_sale/pages/webinar.php:340
+#: ../templates/funnel/1/config.php:190 ../templates/funnel/2/config.php:204
+#: ../templates/funnel/3/config.php:214 ../templates/squeeze/1/config.php:301
+#: ../templates/squeeze/2/config.php:170
+msgid "Spustit video"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:256
+#: ../funnel_templates/classic_campaign/pages/content2.php:256
+#: ../funnel_templates/classic_campaign/pages/content3.php:256
+#: ../templates/funnel/3/config.php:256
+msgid "Nadpis lekce"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:325
+#: ../funnel_templates/classic_campaign/pages/content2.php:325
+#: ../funnel_templates/classic_campaign/pages/content3.php:325
+#: ../funnel_templates/get_contacts/pages/squeeze.php:368
+#: ../funnel_templates/product_campaign/pages/squeeze.php:368
+#: ../templates/funnel/3/config.php:325
+msgid "Stáhnout ebook"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:336
+#: ../funnel_templates/classic_campaign/pages/content2.php:336
+#: ../funnel_templates/classic_campaign/pages/content3.php:336
+#: ../templates/funnel/3/config.php:334
+msgid "Stáhnout mp3"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:389
+#: ../funnel_templates/classic_campaign/pages/content2.php:389
+#: ../funnel_templates/classic_campaign/pages/content3.php:389
+#: ../templates/funnel/2/config.php:216 ../templates/funnel/3/config.php:384
+msgid "Sdílet na Facebooku"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:694
+#: ../funnel_templates/classic_campaign/pages/content2.php:694
+#: ../funnel_templates/classic_campaign/pages/content3.php:694
+#: ../templates/funnel/1/config.php:447 ../templates/funnel/2/config.php:467
+msgid "Přidejte se do diskuze"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:877
+#: ../funnel_templates/classic_campaign/pages/content2.php:877
+#: ../funnel_templates/classic_campaign/pages/content3.php:877
+#: ../funnel_templates/classic_campaign/pages/order.php:451
+#: ../funnel_templates/classic_campaign/pages/sale.php:986
+#: ../funnel_templates/get_contacts/pages/squeeze.php:507
+#: ../funnel_templates/product_campaign/pages/order.php:451
+#: ../funnel_templates/product_campaign/pages/sale.php:957
+#: ../funnel_templates/product_campaign/pages/squeeze.php:507
+#: ../funnel_templates/webinar_sale/pages/order.php:450
+#: ../funnel_templates/webinar_sale/pages/sale.php:956
+#: ../templates/funnel/1/config.php:500 ../templates/funnel/3/config.php:628
+msgid "Jméno Příjmení"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:878
+#: ../funnel_templates/classic_campaign/pages/content2.php:878
+#: ../funnel_templates/classic_campaign/pages/content3.php:878
+#: ../templates/funnel/1/config.php:501 ../templates/funnel/3/config.php:629
+msgid "Autor projektu"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:1002
+msgid "obsah1"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content1.php:1015
+#: ../funnel_templates/classic_campaign/pages/content2.php:1015
+#: ../funnel_templates/classic_campaign/pages/content3.php:1015
+#: ../funnel_templates/classic_campaign/pages/order.php:879
+#: ../funnel_templates/classic_campaign/pages/sale.php:1514
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:587
+msgid "Název webu"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content2.php:1002
+msgid "obsah2"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/content3.php:1002
+msgid "obsah3"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:450
+#: ../funnel_templates/get_contacts/pages/squeeze.php:506
+#: ../funnel_templates/product_campaign/pages/order.php:450
+#: ../funnel_templates/product_campaign/pages/squeeze.php:506
+#: ../funnel_templates/webinar_sale/pages/order.php:449
+msgid "NÁZEV KNIHY"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:547
+#: ../funnel_templates/product_campaign/pages/order.php:547
+#: ../funnel_templates/webinar_sale/pages/order.php:546
+msgid "30 dní garance vrácení peněz"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:596
+#: ../funnel_templates/classic_campaign/pages/order.php:606
+#: ../funnel_templates/product_campaign/pages/order.php:596
+#: ../funnel_templates/product_campaign/pages/order.php:606
+#: ../funnel_templates/webinar_sale/pages/order.php:595
+#: ../funnel_templates/webinar_sale/pages/order.php:605
+msgid "Jan Novák"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:829
+#: ../funnel_templates/product_campaign/pages/order.php:850
+#: ../funnel_templates/webinar_sale/pages/order.php:828
+msgid "Potřebujete pomoc?"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:848
+#: ../funnel_templates/product_campaign/pages/order.php:885
+#: ../funnel_templates/webinar_sale/pages/order.php:847
+msgid ""
+"Napište mi na <a href=\"\">mujmail@seznam.cz</a> nebo volejte na 123 456 789."
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/order.php:866
+#: ../funnel_templates/product_campaign/pages/order.php:903
+#: ../funnel_templates/webinar_sale/pages/order.php:865
+msgid "objednavka"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:191
+#: ../funnel_templates/product_campaign/pages/sale.php:191
+#: ../funnel_templates/webinar_sale/pages/sale.php:190
+msgid "Nadpis nabídky"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:236
+#: ../funnel_templates/product_campaign/pages/sale.php:236
+#: ../funnel_templates/webinar_sale/pages/sale.php:235
+msgid "Popis nabídky a co přináší zákazníkovi"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:338
+#: ../funnel_templates/classic_campaign/pages/sale.php:1415
+#: ../funnel_templates/get_contacts/pages/thanks.php:319
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:320
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:758
+#: ../funnel_templates/product_campaign/pages/sale.php:338
+#: ../funnel_templates/product_campaign/pages/sale.php:1267
+#: ../funnel_templates/webinar_sale/pages/sale.php:337
+#: ../funnel_templates/webinar_sale/pages/sale.php:1266
+msgid "Text tlačítka"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:605
+#: ../funnel_templates/product_campaign/pages/sale.php:576
+#: ../funnel_templates/webinar_sale/pages/sale.php:575
+msgid "Přínosy nabídky"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:692
+#: ../funnel_templates/product_campaign/pages/sale.php:663
+#: ../funnel_templates/webinar_sale/pages/sale.php:662
+msgid "Přínos 1"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:694
+#: ../funnel_templates/classic_campaign/pages/sale.php:714
+#: ../funnel_templates/classic_campaign/pages/sale.php:734
+#: ../funnel_templates/product_campaign/pages/sale.php:665
+#: ../funnel_templates/product_campaign/pages/sale.php:685
+#: ../funnel_templates/product_campaign/pages/sale.php:705
+#: ../funnel_templates/webinar_sale/pages/landing.php:792
+#: ../funnel_templates/webinar_sale/pages/landing.php:812
+#: ../funnel_templates/webinar_sale/pages/landing.php:832
+#: ../funnel_templates/webinar_sale/pages/sale.php:664
+#: ../funnel_templates/webinar_sale/pages/sale.php:684
+#: ../funnel_templates/webinar_sale/pages/sale.php:704
+#: ../templates/squeeze/2/config.php:651 ../templates/squeeze/2/config.php:671
+#: ../templates/squeeze/2/config.php:691 ../templates/squeeze/2/config.php:711
+#: ../templates/squeeze/2/config.php:731 ../templates/squeeze/2/config.php:751
+msgid "Více informací →"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:712
+#: ../funnel_templates/product_campaign/pages/sale.php:683
+#: ../funnel_templates/webinar_sale/pages/sale.php:682
+msgid "Přínos 2"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:732
+#: ../funnel_templates/product_campaign/pages/sale.php:703
+#: ../funnel_templates/webinar_sale/pages/sale.php:702
+msgid "Přínos 3"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:987
+#: ../funnel_templates/product_campaign/pages/sale.php:958
+#: ../funnel_templates/webinar_sale/pages/sale.php:957
+msgid "Pozice"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:1231
+#: ../funnel_templates/product_campaign/pages/sale.php:1083
+#: ../funnel_templates/webinar_sale/pages/sale.php:1082
+msgid "Shrnutí nabídky"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:1334
+#: ../funnel_templates/product_campaign/pages/sale.php:1186
+#: ../funnel_templates/webinar_sale/pages/sale.php:1185
+msgid "[cena nabídky]"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/sale.php:1501
+#: ../funnel_templates/product_campaign/pages/sale.php:1353
+#: ../funnel_templates/webinar_sale/pages/sale.php:1352
+msgid "prodej"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:180
+msgid "Podívejte se na 3 dílný video kurz"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:237
+msgid "Jak nastavit facebook reklamu"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:493
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:704
+#: ../templates/squeeze/1/config.php:383 ../templates/squeeze/2/config.php:349
+#: ../templates/squeeze/2/config.php:1097
+#| msgid "Chci vědět víc"
+msgid "Chci vědět více"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:531
+#: ../funnel_templates/get_contacts/pages/squeeze.php:406
+#: ../funnel_templates/product_campaign/pages/squeeze.php:406
+#: ../funnel_templates/webinar_sale/pages/landing.php:475
+#: ../funnel_templates/webinar_sale/pages/landing.php:1877
+#: ../templates/squeeze/1/config.php:389 ../templates/squeeze/2/config.php:355
+#: ../templates/squeeze/2/config.php:1103 ../templates/squeeze/4/config.php:384
+#: ../templates/squeeze/5/config.php:374
+msgid "Registrovat se"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:537
+#: ../funnel_templates/webinar_sale/pages/landing.php:481
+#: ../funnel_templates/webinar_sale/pages/landing.php:1883
+#: ../templates/squeeze/1/config.php:375 ../templates/squeeze/2/config.php:341
+#: ../templates/squeeze/2/config.php:1089 ../templates/squeeze/4/config.php:390
+#: ../templates/squeeze/5/config.php:360
+#| msgid "Zadejte svůj email a registrujte se"
+msgid "Zadejte svůj e-mail a registrujte se."
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/squeeze.php:574
+#: ../funnel_templates/get_contacts/pages/squeeze.php:810
+#: ../funnel_templates/product_campaign/pages/squeeze.php:810
+#: ../funnel_templates/webinar_sale/pages/landing.php:1919
+msgid "vstup"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/thanks.php:278
+#: ../funnel_templates/get_contacts/pages/thanks.php:411
+#: ../funnel_templates/product_campaign/pages/order_thanks.php:278
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:412
+#: ../funnel_templates/webinar_sale/pages/order_thanks.php:357
+msgid "Je něco v nepořádku? <a href=\"\">Kontaktujte nás</a>."
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/thanks.php:311
+msgid "Poděkování"
+msgstr ""
+
+#: ../funnel_templates/classic_campaign/pages/thanks.php:312
+#: ../funnel_templates/get_contacts/pages/thanks.php:445
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:843
+#: ../funnel_templates/webinar_sale/pages/reg_thanks.php:318
+msgid "dekuji"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/install.php:4
+msgid "Získávání kontaktů"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/install.php:5
+msgid ""
+"Získejte nové prodejní příležitosti díky rozšiřování své e-mailové databáze."
+msgstr ""
+
+#: ../funnel_templates/get_contacts/install.php:14 ../funnels_class.php:2263
+msgid "Děkovací stránka"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:238
+#: ../funnel_templates/product_campaign/pages/squeeze.php:238
+msgid "Název magnetu ke stažení zdarma"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:311
+#: ../funnel_templates/product_campaign/pages/squeeze.php:311
+msgid "Stáhnout"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:412
+#: ../funnel_templates/product_campaign/pages/squeeze.php:412
+#| msgid "Zadejte svůj email a stáhněte si návod zdarma"
+msgid "Zadejte svůj e-mail a stáhněte si e-book."
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:738
+#: ../funnel_templates/product_campaign/pages/squeeze.php:738
+#: ../funnel_templates/webinar_sale/pages/landing.php:1445
+msgid "Petra"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:739
+#: ../funnel_templates/product_campaign/pages/squeeze.php:739
+#: ../funnel_templates/webinar_sale/pages/landing.php:1446
+msgid "Finanční poradce"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:748
+#: ../funnel_templates/product_campaign/pages/squeeze.php:748
+#: ../funnel_templates/webinar_sale/pages/landing.php:1455
+msgid "Honza"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:749
+#: ../funnel_templates/product_campaign/pages/squeeze.php:749
+#: ../funnel_templates/webinar_sale/pages/landing.php:1456
+msgid "Informatik"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/squeeze.php:809
+#: ../funnel_templates/product_campaign/pages/squeeze.php:809
+#: ../funnel_templates/webinar_sale/pages/landing.php:1918 ../init.php:31
+msgid "Vstupní"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/thanks.php:265
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:266
+msgid "Stáhnout e-book!"
+msgstr ""
+
+#: ../funnel_templates/get_contacts/pages/thanks.php:444
+msgid "Děkuji"
+msgstr ""
+
+#: ../funnel_templates/product_campaign/install.php:4
+msgid "Produktová kampaň"
+msgstr ""
+
+#: ../funnel_templates/product_campaign/install.php:5
+msgid ""
+"Prodávejte efektivně a&nbsp;automatizovaně své fyzické i&nbsp;digitální "
+"produkty."
+msgstr ""
+
+#: ../funnel_templates/product_campaign/install.php:28
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:842
+#: ../funnel_templates/webinar_sale/install.php:14
+#: ../funnel_templates/webinar_sale/pages/reg_thanks.php:317
+msgid "Poděkování po registraci"
+msgstr ""
+
+#: ../funnel_templates/product_campaign/pages/order_thanks.php:312
+#: ../funnel_templates/webinar_sale/pages/order_thanks.php:391
+msgid "dekuji2"
+msgstr ""
+
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:192
+msgid "Krok 1: Stáhněte si svůj e-book"
+msgstr ""
+
+#: ../funnel_templates/product_campaign/pages/reg_thanks.php:630
+msgid "Krok 2: Začněte budovat své publikum"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/install.php:4
+msgid "Webinářový prodej"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/install.php:5
+msgid ""
+"Získejte nové kontakty a&nbsp;prodávejte díky živým i&nbsp;evergreen "
+"webinářům."
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/install.php:21
+#: ../funnel_templates/webinar_sale/pages/webinar.php:736
+msgid "Vysílání webináře"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:246
+msgid "Tajemství cesty zákazníka"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:292
+msgid "3 tipy jak postavit cestu zákazníka, která bude vydělávat"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:437
+#: ../funnel_templates/webinar_sale/pages/landing.php:1839
+msgid "Registrovat si místo"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:703
+msgid "Co se na webináři dozvíte?"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1034
+msgid "Informace o webináři"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1067
+msgid "Webinářem vás provede"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1121
+msgid "Začátek"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1175
+msgid "Přibližná délka"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1415
+msgid "Názory klientů"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/landing.php:1701
+msgid "Rezervujte si včas své místo na webináři"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/reg_thanks.php:191
+msgid "Gratulujeme! Rezervovali jste si místo na webináři"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/reg_thanks.php:237
+msgid ""
+"Pokud jste u nás zatím neregistrovali, odešlo vám na email potvrzení. Prosím "
+"klikněte na něj, abychom věděli, že je to váš email. Dokončíte tak "
+"registraci na webinář."
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/reg_thanks.php:284
+msgid ""
+"<strong>Zapište si prosím do diáře čas vysílání - úterý 17.5. od 12 hodin.</"
+"strong> Odkaz vám ještě jednou připomenu emailem v den vysílání, ať ho "
+"nemusíte nikde hledat. Těším se!"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/webinar.php:246
+msgid "Tajemství cesty zákakazníka"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/webinar.php:287
+msgid "Vysílání začíná za"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/webinar.php:594
+msgid "Své otázky a komentáře pište zde:"
+msgstr ""
+
+#: ../funnel_templates/webinar_sale/pages/webinar.php:737
+msgid "webinar"
+msgstr ""
+
+#: ../funnels_class.php:385 ../funnels_class.php:442 ../funnels_class.php:556
+#: ../funnels_class.php:579
+msgid "Unikátních návštěvníků"
+msgstr ""
+
+#: ../funnels_class.php:386 ../funnels_class.php:557
+msgid "Kolik procent unikátních návštěvníků bylo v tomto kroku"
+msgstr ""
+
+#: ../funnels_class.php:431 ../funnels_class.php:568
+msgid "Stránka je smazaná"
+msgstr ""
+
+#: ../funnels_class.php:436 ../funnels_class.php:573
+msgid "Stránka je v koši"
+msgstr ""
+
+#: ../funnels_class.php:448 ../funnels_class.php:585
+msgid "Není nastavena stránka"
+msgstr ""
+
+#: ../funnels_class.php:464 ../funnels_class.php:601 ../funnels_class.php:1754
+#: ../funnels_class.php:1776
+msgid "Upravit stránku"
+msgstr ""
+
+#: ../funnels_class.php:507
+msgid "Počet návštěv z tohoto zdroje"
+msgstr ""
+
+#: ../funnels_class.php:624
+msgid ""
+"Úspěšnost stránky. Procentuální vyjádření podílu návštěvníků stránky a "
+"návštěvníku, kteří přešli do dalšího kroku cesty zákazníka."
+msgstr ""
+
+#: ../funnels_class.php:627
+msgid "Počet návštěvníků, kteří přešli do dalšího kroku"
+msgstr ""
+
+#: ../funnels_class.php:640
+msgid "Přesunout"
+msgstr ""
+
+#: ../funnels_class.php:646 ../funnels_class.php:842
+msgid "Nastavení"
+msgstr ""
+
+#: ../funnels_class.php:650
+msgid "Smazat"
+msgstr ""
+
+#: ../funnels_class.php:660
+msgid "Úspěšnost originální stránky v A/B testu"
+msgstr ""
+
+#: ../funnels_class.php:663
+msgid "Úspěšnost testované varianty stránky v A/B testu"
+msgstr ""
+
+#: ../funnels_class.php:667
+msgid "A/B test"
+msgstr ""
+
+#: ../funnels_class.php:677
+msgid "Zkopírovat URL adresu do schránky"
+msgstr ""
+
+#: ../funnels_class.php:706
+msgid "Celkové statistiky"
+msgstr ""
+
+#: ../funnels_class.php:720 ../funnels_class.php:921
+msgid "Přidat"
+msgstr ""
+
+#: ../funnels_class.php:748 ../funnels_class.php:779 ../funnels_class.php:1589
+msgid "Nastavení se nepodařilo uložit."
+msgstr ""
+
+#: ../funnels_class.php:770
+msgid "Statistiky byly vynulovány."
+msgstr ""
+
+#: ../funnels_class.php:805 ../funnels_class.php:1174
+msgid "Tržby celkem"
+msgstr ""
+
+#: ../funnels_class.php:810
+msgid "Kontaktů celkem"
+msgstr ""
+
+#: ../funnels_class.php:815
+msgid "Návštěv celkem"
+msgstr ""
+
+#: ../funnels_class.php:837 ../funnels_class.php:1419
+msgid "Cesta zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:868
+msgid "Zdroje návštěvnosti"
+msgstr ""
+
+#: ../funnels_class.php:869
+msgid "- Vyberte zdroj návštěvnosti -"
+msgstr ""
+
+#: ../funnels_class.php:875
+msgid "nebo"
+msgstr ""
+
+#: ../funnels_class.php:880 ../funnels_class.php:1117 ../funnels_class.php:1864
+msgid "UTM source"
+msgstr ""
+
+#: ../funnels_class.php:885 ../funnels_class.php:1119 ../funnels_class.php:1869
+msgid "UTM medium"
+msgstr ""
+
+#: ../funnels_class.php:890 ../funnels_class.php:1121 ../funnels_class.php:1123
+#: ../funnels_class.php:1125 ../funnels_class.php:1874
+msgid "UTM campaign"
+msgstr ""
+
+#: ../funnels_class.php:895 ../funnels_class.php:1879
+msgid "UTM term"
+msgstr ""
+
+#: ../funnels_class.php:900 ../funnels_class.php:1884
+msgid "UTM content"
+msgstr ""
+
+#: ../funnels_class.php:934
+msgid "Upravit"
+msgstr ""
+
+#: ../funnels_class.php:946
+msgid "Hotovo"
+msgstr ""
+
+#: ../funnels_class.php:966
+msgid "Základní nastavení"
+msgstr ""
+
+#: ../funnels_class.php:970 ../funnels_class.php:2380
+msgid "Název cesty zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:980
+msgid "Nastavení statistik"
+msgstr ""
+
+#: ../funnels_class.php:984
+msgid "Zobrazení tržeb"
+msgstr ""
+
+#: ../funnels_class.php:985
+msgid "Zobrazovat tržby ve statistikách"
+msgstr ""
+
+#: ../funnels_class.php:991
+msgid "Prodejní nástroj"
+msgstr ""
+
+#: ../funnels_class.php:1014
+msgid "Zobrazení kontaktů"
+msgstr ""
+
+#: ../funnels_class.php:1015
+msgid "Zobrazovat počet získaných kontaktů ve statistikách"
+msgstr ""
+
+#: ../funnels_class.php:1022 ../funnels_class.php:1026
+msgid "Vynulovat statistiky"
+msgstr ""
+
+#: ../funnels_class.php:1035
+msgid "Pokročilé nastavení"
+msgstr ""
+
+#: ../funnels_class.php:1039
+msgid "Přístupový kód"
+msgstr ""
+
+#: ../funnels_class.php:1043
+msgid ""
+"Přístupový kód k neveřejným stránkám cesty zákazníka. Tento kód budete "
+"používat jako hodnotu atributu \"setuser\" v URL adrese stránek, na které "
+"chcete umožnit vstup pouze registrovaným uživatelům (zadali vám v rámci "
+"cesty zákazníka e-mailovou adresu). Přístupový kód musí být jedinečný pro "
+"každou cestu zákazníka. Maximální délka kódu je 10 znaků a může obsahovat "
+"pouze čísla a znaky bez diakritiky a bez mezer."
+msgstr ""
+
+#: ../funnels_class.php:1047
+msgid "Délka platnosti přístupu"
+msgstr ""
+
+#: ../funnels_class.php:1050
+msgid ""
+"Doba od registrace, po kterou může uživatel vstoupit na neveřejné stránky "
+"cesty zákazníka. Po jejím vypršení se uživateli přístup znemožní. Při "
+"vytvoření nového přístupu se uživateli vynulují všechny odpočty a bude "
+"cestou zákazníka procházet opět od začátku. Pokud nic nevyplníte, platnost "
+"přístupu se nastaví na jeden rok."
+msgstr ""
+
+#: ../funnels_class.php:1054
+msgid "Přesměrování ze vstupní stránky"
+msgstr ""
+
+#: ../funnels_class.php:1055
+msgid ""
+"Automaticky přesměrovávat registrované uživatele ze vstupní stránky na první "
+"obsahovou stránku"
+msgstr ""
+
+#: ../funnels_class.php:1057
+msgid ""
+"Pokud už je uživatel registrovaný v rámci vaší cesty zákazníka a znovu se "
+"pokouší o přístup na stránku s registrací, můžete ho místo toho nasměrovat "
+"rovnou na první stránku s obsahem."
+msgstr ""
+
+#: ../funnels_class.php:1061
+msgid "Evergreen"
+msgstr ""
+
+#: ../funnels_class.php:1062
+msgid "Aktivovat evergreen mód"
+msgstr ""
+
+#: ../funnels_class.php:1064
+msgid ""
+"Aktivní evergreen mód zpřístupní registrovaným uživatelům pouze ty stránky, "
+"na které je přímo odkážete (za použití výše nastaveného přístupového kódu v "
+"URL např. při odkazování z vaší e-mailové kampaně navázané na cestu "
+"zákazníka). Pokud jsme u stránek nastavili čas zveřejnění, toto nastavení se "
+"při aktivním evegreen módu nebere v úvahu. Při neaktivním evergreen módu "
+"budou stránky cesty zákazníka přístupné ihned, případně v čas nastavený u "
+"konkrétní stránky cesty zákazníka."
+msgstr ""
+
+#: ../funnels_class.php:1092
+msgid "Uložit změny"
+msgstr ""
+
+#: ../funnels_class.php:1110
+msgid "Statistiky jsou filtrovány podle "
+msgstr ""
+
+#: ../funnels_class.php:1112
+msgid "zdroje návštěvnosti"
+msgstr ""
+
+#: ../funnels_class.php:1135
+msgid "Zrušit filtr"
+msgstr ""
+
+#: ../funnels_class.php:1152
+msgid ""
+"V cestě zákazníka nemáte žádné stránky. Klikněte na tlačítko Přidat stránky "
+"do cesty zákazníka a poté přidejte stránky."
+msgstr ""
+
+#: ../funnels_class.php:1154
+msgid "Přidat stránky do cesty zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:1178 ../funnels_class.php:1202 ../lib/MwFunnel.php:635
+msgid "Kontaktů"
+msgstr ""
+
+#: ../funnels_class.php:1187
+msgid "Počet unikátních návštěvníků v cestě zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:1190
+msgid "Návštěvníků"
+msgstr ""
+
+#: ../funnels_class.php:1199
+msgid "Počet získaných e-mailových kontaktů"
+msgstr ""
+
+#: ../funnels_class.php:1213
+msgid "Počet prodejů"
+msgstr ""
+
+#: ../funnels_class.php:1216
+msgid "Prodejů"
+msgstr ""
+
+#: ../funnels_class.php:1226
+msgid "Počet prodaných upsellů"
+msgstr ""
+
+#: ../funnels_class.php:1230
+msgid "Upsellů"
+msgstr ""
+
+#: ../funnels_class.php:1240
+msgid "Počet prodaných miniupsellů"
+msgstr ""
+
+#: ../funnels_class.php:1244
+msgid "Miniupsellů (bump)"
+msgstr ""
+
+#: ../funnels_class.php:1256
+msgid "Průměrná objednávka"
+msgstr ""
+
+#: ../funnels_class.php:1262
+msgid "Výnos/návštěva"
+msgstr ""
+
+#: ../funnels_class.php:1268
+msgid "Výnos/kontakt"
+msgstr ""
+
+#: ../funnels_class.php:1396 ../funnels_class.php:2330
+msgid "Cestu zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:1459
+#, php-format
+msgid ""
+"Cesta zákazníka nesmí obsahovat stránky, které jsou zařazeny už v jiné cestě "
+"zákazníka. Stránka \"%s\" v kroku \"%s\" je již použita v jiné cestě "
+"zákazníka."
+msgstr ""
+
+#: ../funnels_class.php:1564
+msgid ""
+"Nastavení se nepodařilo uložit. Přistůpový kód má špatný formát. Maximální "
+"délka kódu je 10 znaků a může obsahovat pouze čísla a znaky bez diakritiky a "
+"bez mezer."
+msgstr ""
+
+#: ../funnels_class.php:1753
+#| msgid "Úvodní stránka / Squeeze page"
+msgid "Původní stránka"
+msgstr ""
+
+#: ../funnels_class.php:1768 ../funnels_class.php:1790
+msgid "Zvolit vítězem"
+msgstr ""
+
+#: ../funnels_class.php:1775
+msgid "Varianta"
+msgstr ""
+
+#: ../funnels_class.php:1795
+msgid "probíhá A/B test"
+msgstr ""
+
+#: ../funnels_class.php:1823
+msgid "Zdroj návštěvnosti"
+msgstr ""
+
+#: ../funnels_class.php:1832 ../funnels_class.php:1894
+#: ../funnels_class.php:1918 ../funnels_class.php:2010
+#: ../funnels_class.php:2098 ../funnels_class.php:2186
+#: ../funnels_class.php:2261 ../lib/MwFunnel.php:629
+msgid "Název"
+msgstr ""
+
+#: ../funnels_class.php:1834
+msgid "Zdroj"
+msgstr ""
+
+#: ../funnels_class.php:1841
+msgid "Ikona"
+msgstr ""
+
+#: ../funnels_class.php:1853
+msgid "Barva"
+msgstr ""
+
+#: ../funnels_class.php:1890
+msgid "Vstupní stránku"
+msgstr ""
+
+#: ../funnels_class.php:1903 ../funnels_class.php:1927
+#: ../funnels_class.php:2019 ../funnels_class.php:2107
+#: ../funnels_class.php:2195 ../funnels_class.php:2270
+msgid "Stránka"
+msgstr ""
+
+#: ../funnels_class.php:1909
+msgid "Obsahovou stránku"
+msgstr ""
+
+#: ../funnels_class.php:1920
+msgid "Obsahová stránka"
+msgstr ""
+
+#: ../funnels_class.php:1938 ../funnels_class.php:2030
+#: ../funnels_class.php:2118 ../funnels_class.php:2206
+#: ../funnels_class.php:2281
+msgid "Omezený přístup"
+msgstr ""
+
+#: ../funnels_class.php:1939 ../funnels_class.php:2031
+#: ../funnels_class.php:2119 ../funnels_class.php:2207
+#: ../funnels_class.php:2282
+msgid ""
+"Povolit přístup jen těm, kteří se registrovali na vstupní stránce cesty "
+"zákazníka."
+msgstr ""
+
+#: ../funnels_class.php:1951 ../funnels_class.php:2043
+#: ../funnels_class.php:2131
+msgid "Datum zveřejnění"
+msgstr ""
+
+#: ../funnels_class.php:1960 ../funnels_class.php:2052
+#: ../funnels_class.php:2140 ../funnels_class.php:2214
+#: ../funnels_class.php:2289
+msgid "Nezobrazovat v navigaci"
+msgstr ""
+
+#: ../funnels_class.php:1961 ../funnels_class.php:2053
+#: ../funnels_class.php:2141 ../funnels_class.php:2215
+#: ../funnels_class.php:2290
+msgid ""
+"Nezobrazovat stránku v navigaci, vytvořené pomocí elementu <i>Navigace cesty "
+"zákazníka</i>."
+msgstr ""
+
+#: ../funnels_class.php:1968
+msgid "Název stránky v navigaci"
+msgstr ""
+
+#: ../funnels_class.php:1969 ../funnels_class.php:1978
+msgid "Pokud nic nezadáte, použije se název stránky."
+msgstr ""
+
+#: ../funnels_class.php:1976 ../funnels_class.php:2067
+#: ../funnels_class.php:2155 ../funnels_class.php:2229
+#: ../funnels_class.php:2304
+msgid "Název v navigaci před zveřejněním"
+msgstr ""
+
+#: ../funnels_class.php:1984 ../funnels_class.php:2074
+#: ../funnels_class.php:2162 ../funnels_class.php:2236
+#: ../funnels_class.php:2311
+msgid "Obrázek náhledu"
+msgstr ""
+
+#: ../funnels_class.php:1986
+msgid ""
+"Zobrazí se v navigaci, pokud v editaci webu zvolíte variantu navigace s "
+"obrázky."
+msgstr ""
+
+#: ../funnels_class.php:1992 ../funnels_class.php:2081
+#: ../funnels_class.php:2169 ../funnels_class.php:2243
+#: ../funnels_class.php:2318
+msgid "Obrázek náhledu před zveřejněním"
+msgstr ""
+
+#: ../funnels_class.php:1994
+msgid ""
+"Zobrazí se v navigaci před zveřejněním stránky, pokud v editaci webu zvolíte "
+"variantu navigace s obrázky."
+msgstr ""
+
+#: ../funnels_class.php:2001
+msgid "Prodejní stránku"
+msgstr ""
+
+#: ../funnels_class.php:2060 ../funnels_class.php:2148
+#: ../funnels_class.php:2222 ../funnels_class.php:2297
+msgid "Název v navigaci"
+msgstr ""
+
+#: ../funnels_class.php:2089
+msgid "Objednávku"
+msgstr ""
+
+#: ../funnels_class.php:2177
+msgid "Upsell stránku"
+msgstr ""
+
+#: ../funnels_class.php:2188
+msgid "Upsell"
+msgstr ""
+
+#: ../funnels_class.php:2251
+msgid "Děkovací stránku"
+msgstr ""
+
+#: ../funnels_class.php:2252
+msgid "Děkovací"
+msgstr ""
+
+#: ../funnels_class.php:2343 ../lib/MwFunnel.php:605
+msgid "Přidat cestu zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:2347
+msgid "Vyberte typ cesty zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:2351
+msgid "vytvořit vlastní cestu zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:2376
+msgid "Zadejte název cesty zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:2379
+msgid "Vytvořit cestu zákazníka"
+msgstr ""
+
+#: ../funnels_class.php:2381
+msgid "Název můžete kdykoli změnit."
+msgstr ""
+
+#: ../funnels_class.php:2388
+msgid "Vytvořit A/B test"
+msgstr ""
+
+#: ../funnels_class.php:2393
+msgid "Vytvořit stránku pro A/B test"
+msgstr ""
+
+#: ../funnels_class.php:2398
+msgid "Vyber šablonu stránky"
+msgstr ""
+
+#: ../init.php:36
+msgid "Základní typy vstupních stránek"
+msgstr ""
+
+#: ../init.php:42
+msgid "Kampaňové"
+msgstr ""
+
+#: ../init.php:47
+msgid "Video stránky"
+msgstr ""
+
+#: ../init.php:74
+msgid "Přehled"
+msgstr ""
+
+#: ../lib/FunnelPage.php:102
+msgid "Stránka cesty zákazníka"
+msgstr ""
+
+#: ../lib/MwFunnel.php:604
+msgid "Cesty zákazníků"
+msgstr ""
+
+#: ../lib/MwFunnel.php:606
+msgid "Upravit cestu zákazníka"
+msgstr ""
+
+#: ../lib/MwFunnel.php:607
+msgid "Nová cesta zákazníka"
+msgstr ""
+
+#: ../lib/MwFunnel.php:608
+msgid "Smazat cestu zákazníka"
+msgstr ""
+
+#: ../lib/MwFunnel.php:609
+msgid ""
+"Není vytvořena žádná cesta zákazníka.<br><a "
+"class=\"mw_open_funnel_installator\" href=\"#\">Vytvořit první cestu "
+"zákazníka</a>"
+msgstr ""
+
+#: ../lib/MwFunnel.php:610
+msgid "Cesta zákazníka nebyla nalezena"
+msgstr ""
+
+#: ../lib/MwFunnel.php:632
+msgid "Návštěv"
+msgstr ""
+
+#: ../lib/MwFunnel.php:638
+msgid "Tržby"
+msgstr ""
+
+#: ../lib/MwFunnel.php:641
+msgid "Akce"
+msgstr ""
+
+#: ../templates/funnel/1/template.php:6
+msgid "Dvousloupcová video stránka"
+msgstr ""
+
+#: ../templates/funnel/1/template.php:7 ../templates/funnel/3/template.php:7
+msgid "Video stránka s dvousloupcovým obsahem a s menu vedle videa."
+msgstr ""
+
+#: ../templates/funnel/2/template.php:6
+msgid "Jednoduchá video stránka"
+msgstr ""
+
+#: ../templates/funnel/2/template.php:7
+msgid "Video stránka s menu nad videem."
+msgstr ""
+
+#: ../templates/funnel/3/template.php:6
+msgid "Video stránka s menu nahoře"
+msgstr ""
+
+#: ../templates/squeeze/1/template.php:6
+msgid "Jednoduchá vstupní stránka s videem"
+msgstr ""
+
+#: ../templates/squeeze/1/template.php:7 ../templates/squeeze/4/template.php:7
+msgid "Vstupní stránka s obsahem na středu obrazovky a s obrázkem na pozadí."
+msgstr ""
+
+#: ../templates/squeeze/2/config.php:578
+#| msgid "Co se v programu dozvíte"
+msgid "Co se v programu naučíte?"
+msgstr ""
+
+#: ../templates/squeeze/2/template.php:6
+msgid "Vstupní stránka s videem 2"
+msgstr ""
+
+#: ../templates/squeeze/2/template.php:7
+msgid ""
+"Vstupní stránka s videem, formulářem a popisem obsahu nabízeného produktu."
+msgstr ""
+
+#: ../templates/squeeze/4/template.php:6
+msgid "Textová vstupní stránka"
+msgstr ""
+
+#: ../templates/squeeze/5/config.php:307
+#| msgid ""
+#| "Stáhněte si jednoduchý návod jak si během chvilky vytvořit web, který "
+#| "bude opravdu prodávat."
+msgid ""
+"Stáhněte si jednoduchý návod, jak si během chvilky vytvořit web, který bude "
+"opravdu prodávat."
+msgstr ""
+
+#: ../templates/squeeze/5/config.php:368
+msgid "Stáhnout návod zdarma"
+msgstr ""
+
+#: ../templates/squeeze/5/template.php:6
+msgid "Jednoduchá textová vstupní stránka"
+msgstr ""
+
+#: ../templates/squeeze/5/template.php:7
+msgid ""
+"Jednoduchá textová vstupní stránka obsahující pouze text a tlačítko s "
+"formulářem."
+msgstr ""
+
+#~ msgid "Nastavit odpočet na půlnoc x dní od vstupu návštěvníka do kampaně"
+#~ msgstr "Set time limit to midnight x days since user's entry into campaign"
+
+#~ msgid "Odpočet musí být umístěn na stránce kampaně."
+#~ msgstr "Time limit must be placed on campaign page."
+
+#~ msgid "Nastavit odpočet na půlnoc X dní od vstupu návštěvníka do kampaně"
+#~ msgstr "Nastavit odpočet na půlnoc x dní od vstupu návštěvníka do kampaně"
+
+#~ msgid ""
+#~ "Vypíše kontaktů z vybraného seznamu z SmartEmailingu. Můžete tak vypsat "
+#~ "informaci o tom kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+#~ "(pokud je ukládáte do SmartEmailingu)."
+#~ msgstr ""
+#~ "Vypíše kontakty z vybraného seznamu ze SmartEmailingu. Můžete tak vypsat "
+#~ "informaci o tom, kolik lidí si stáhlo váš ebook nebo koupilo váš produkt "
+#~ "(pokud je ukládáte do SmartEmailingu)."
+
+#~ msgid "Vyberte seznam, pro který chcete vypsat počet kontaktů"
+#~ msgstr "Vyberte seznam, pro který chcete vypsat počet kontaktů."
+
+#~ msgid ""
+#~ "Počet kontatů z vybraného seznamu se bude odečítat od tohoto čísla. Pokud "
+#~ "zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se "
+#~ "vypíše číslice 80. Pokud zde žádné číslo nezadáte bude se zobrazovat "
+#~ "klasicky počet kontaktů ze seznamu."
+#~ msgstr ""
+#~ "Počet kontaktů z vybraného seznamu se bude odečítat od tohoto čísla. "
+#~ "Pokud zde zadáte například číslo 100 a v seznamu bude 20 kontaktů, tak se "
+#~ "vypíše číslice 80. Pokud zde žádné číslo nezadáte, bude se zobrazovat "
+#~ "klasicky počet kontaktů ze seznamu."
+
+#~ msgid ""
+#~ "Není vybrán žádný SmartEmailing seznam. Element proto nelze správně "
+#~ "zobrazit."
+#~ msgstr ""
+#~ "Není vybrán žádný SmartEmailingový seznam. Element proto nelze správně "
+#~ "zobrazit."
+
+#~ msgid ""
+#~ "Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v "
+#~ "záložce kampaně"
+#~ msgstr ""
+#~ "Není vytvořena žádná kampaň. Kampaň lze vytvořit v nastavení webu v "
+#~ "záložce kampaně."
+
+#~ msgid ""
+#~ "Tento kód budete používat jako hodnotu atributu setuser v url adrese na "
+#~ "kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+#~ "uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+#~ "musí být jedinečný pro každou kampaň."
+#~ msgstr ""
+#~ "Tento kód budete používat jako hodnotu atributu setuser v URL adrese, na "
+#~ "kterou budete směrovat registrované návštěvníky. Díky tomuto kódu se jim "
+#~ "uloží cookies a umožní se jim přístup na stránky kampaně. Přístupový kód "
+#~ "musí být jedinečný pro každou kampaň."
+
+#~ msgid ""
+#~ "Pokud je evergreen mód u kampaně aktivní, znamená to že každému novému "
+#~ "návštěvníkovi, který se registruje budou zpřístupněny pouze ty stránky, "
+#~ "na které ho přímo odkážete (za použití výše nastaveného přístupového kódu "
+#~ "v url). Můžete tak stránky kampaně zpřístupňovat postupně například "
+#~ "pomocí emailové kampaně, s emaily odkazujícími na jednotlivé stránky. "
+#~ "Pokud je evergreen mód aktivní deaktivuje se nastavení data zveřejnění u "
+#~ "všech stránek kampaně."
+#~ msgstr ""
+#~ "Pokud je evergreen mód u kampaně aktivní, znamená to, že každému novému "
+#~ "návštěvníkovi, který se registruje, budou zpřístupněny pouze ty stránky, "
+#~ "na které ho přímo odkážete (za použití výše nastaveného přístupového kódu "
+#~ "v URL). Můžete tak stránky kampaně zpřístupňovat postupně například "
+#~ "pomocí e-mailové kampaně, s e-maily odkazujícími na jednotlivé stránky. "
+#~ "Pokud je evergreen mód aktivní, deaktivuje se nastavení data zveřejnění u "
+#~ "všech stránek kampaně."
+
+#~ msgid "Vytvořit Kampaň"
+#~ msgstr "Vytvořit kampaň"
+
+#~ msgid ""
+#~ "Zobrazení komentářů lze nastavit v <a target=\"_blank\" "
+#~ "href=\"%s\">nastavení blogu</a>"
+#~ msgstr "Comments <a target=\"_blank\" href=\"%s\">setting blogu</a>"

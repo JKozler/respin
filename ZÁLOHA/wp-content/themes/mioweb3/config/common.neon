@@ -1,0 +1,9 @@
+licenseServer: https://admin.smartcluster.net/public/
+
+hstsAge: 2629743 # 1 month (TODO 1 year)
+
+headers:
+		X-XSS-Protection: '1; mode=block'
+		X-Content-Type-Options: 'nosniff'
+#		Referrer-Policy: 'same-origin'
+		X-Powered-By: 'Mioweb'

@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: vi\n"
+
+msgid "Jméno"
+msgstr "tên"
+
+msgid "E-mail (povinný)"
+msgstr "e-mail (bắt buộc)"
+
+msgid "Telefon"
+msgstr "Số điện thoại"
+
+msgid "Zpráva"
+msgstr "thông tin"
+
+msgid "dní"
+msgstr "ngày"
+
+msgid "hodin"
+msgstr "giờ"
+
+msgid "minut"
+msgstr "phút"
+
+msgid "sekund"
+msgstr "giây"
+
+msgid "Musíte vyplnit všechny povinné údaje."
+msgstr "Vui lòng điền những thông tin bắt buộc"
+
+msgid "Emailová adresa není platná. Zkontrolujte prosím zda je vyplněna správně."
+msgstr "Địa chỉ email không hợp lệ. Xin vui lòng kiểm tra và điền lại."
+
+msgid "Zpráva byla úspěšně odeslána."
+msgstr "thông tin đã được gửi thành công."
+
+msgid "Zpráva se nepodařila odeslat."
+msgstr "thông tin không thể gửi đi được"
+
+msgid "Dotaz z webu"
+msgstr "câu hỏi từ trang web"

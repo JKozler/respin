@@ -9,6 +9,9 @@ use Nette\Utils\FileSystem;
 use Nette\Utils\Image;
 use Nette\Utils\Random;
 use Nette\Http\FileUpload;
+use Nette\Security\Passwords;
+use Nette\Mail\Message;
+use Nette\Mail\SmtpMailer;
 
 final class AdminPresenter extends Nette\Application\UI\Presenter
 {
@@ -28,15 +31,60 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
         }
     }
 
+    private const RESET_TOKEN_TTL_HOURS = 2;
+
     protected function startup()
     {
         parent::startup();
-        
-        // Základní ochrana - můžete nahradit vlastní autentifikací
+
+        $this->ensureAdminSchema();
+        $this->ensureDefaultAdmin();
+
+        $publicActions = ['login', 'forgotPassword', 'resetPassword'];
         $session = $this->getSession('admin');
-        if (!$session->logged && $this->action !== 'login') {
+        if (!$session->logged && !in_array($this->action, $publicActions, true)) {
             $this->redirect('Admin:login');
         }
+    }
+
+    /**
+     * Ověří, že tabulka admins má sloupce pro reset hesla, a pokud chybí, doplní je.
+     * Umožňuje nasazení na produkci bez nutnosti manuální DB migrace.
+     */
+    private function ensureAdminSchema(): void
+    {
+        $existingColumns = $this->database->query(
+            'SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ?',
+            'admins'
+        )->fetchPairs('COLUMN_NAME', 'COLUMN_NAME');
+
+        if (!isset($existingColumns['reset_token'])) {
+            $this->database->query('ALTER TABLE admins ADD COLUMN reset_token VARCHAR(64) NULL');
+        }
+
+        if (!isset($existingColumns['reset_expires'])) {
+            $this->database->query('ALTER TABLE admins ADD COLUMN reset_expires DATETIME NULL');
+        }
+    }
+
+    /**
+     * Pokud v tabulce admins není žádný aktivní účet (např. čerstvá DB na produkci),
+     * vytvoří výchozí účet 'admin' se známým heslem, ať přihlášení nikdy nespadne na prázdné tabulce.
+     */
+    private function ensureDefaultAdmin(): void
+    {
+        $activeCount = $this->database->table('admins')->where('active', 1)->count();
+        if ($activeCount > 0) {
+            return;
+        }
+
+        $passwords = new Passwords();
+        $this->database->table('admins')->insert([
+            'username' => 'admin',
+            'password' => $passwords->hash('yYj63Ng7GxkuEH'),
+            'email' => 'vyroba@respinteam.cz',
+            'active' => 1,
+        ]);
     }
 
     // LOGIN FUNKCE
@@ -50,23 +98,33 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
         $form = new Form;
         $form->addText('username', 'Uživatelské jméno:')
             ->setRequired('Zadejte uživatelské jméno');
-        
+
         $form->addPassword('password', 'Heslo:')
             ->setRequired('Zadejte heslo');
-        
+
         $form->addSubmit('login', 'Přihlásit');
-        
+
         $form->onSuccess[] = [$this, 'loginSucceeded'];
         return $form;
     }
 
     public function loginSucceeded(Form $form, \stdClass $values)
     {
-        // Jednoduché přihlášení - nahraďte vlastní logikou
-        if ($values->username === 'admin' && $values->password === 'heslo123') {
+        $admin = $this->database->table('admins')
+            ->where('username', $values->username)
+            ->where('active', 1)
+            ->fetch();
+
+        $passwords = new Passwords();
+
+        if ($admin && $passwords->verify($values->password, $admin->password)) {
+            if ($passwords->needsRehash($admin->password)) {
+                $admin->update(['password' => $passwords->hash($values->password)]);
+            }
+
             $session = $this->getSession('admin');
             $session->logged = true;
-            $session->user = $values->username;
+            $session->user = $admin->username;
             $this->redirect('Admin:default');
         } else {
             $this->flashMessage('Nesprávné přihlašovací údaje', 'error');
@@ -77,6 +135,123 @@ final class AdminPresenter extends Nette\Application\UI\Presenter
     {
         $session = $this->getSession('admin');
         $session->remove();
+        $this->redirect('Admin:login');
+    }
+
+    // ZAPOMENUTÉ HESLO
+    public function renderForgotPassword()
+    {
+        $this->setLayout('layoutLogin');
+    }
+
+    protected function createComponentForgotPasswordForm(): Form
+    {
+        $form = new Form;
+        $form->addEmail('email', 'Registrační e-mail:')
+            ->setRequired('Zadejte e-mail');
+
+        $form->addSubmit('send', 'Odeslat odkaz pro obnovu');
+        $form->onSuccess[] = [$this, 'forgotPasswordSucceeded'];
+        return $form;
+    }
+
+    public function forgotPasswordSucceeded(Form $form, \stdClass $values): void
+    {
+        $admin = $this->database->table('admins')
+            ->where('email', $values->email)
+            ->where('active', 1)
+            ->fetch();
+
+        // Stejná odpověď bez ohledu na výsledek - nepotvrzujeme existenci e-mailu útočníkovi
+        if ($admin) {
+            $token = Random::generate(40);
+            $admin->update([
+                'reset_token' => $token,
+                'reset_expires' => (new \DateTime())->modify('+' . self::RESET_TOKEN_TTL_HOURS . ' hours'),
+            ]);
+
+            $resetUrl = $this->link('//Admin:resetPassword', ['token' => $token]);
+
+            $mail = new Message;
+            $mail->setFrom('Obchod <obchod@respinteam.cz>')
+                ->addTo($admin->email)
+                ->setSubject('Obnova hesla do administrace ReSpin Team')
+                ->setHTMLBody(
+                    "Dobrý den,<br><br>byla vyžádána obnova hesla do administrace webu ReSpin Team.<br>"
+                    . "Pro nastavení nového hesla klikněte na odkaz níže (platnost " . self::RESET_TOKEN_TTL_HOURS . " hodiny):<br><br>"
+                    . "<a href='{$resetUrl}'>{$resetUrl}</a><br><br>"
+                    . "Pokud jste o obnovu nežádali, tento e-mail ignorujte."
+                );
+
+            try {
+                $mailer = new SmtpMailer('smtp.seznam.cz', 'obchod@respinteam.cz', 'so14votpavel', 587, 'tls');
+                $mailer->send($mail);
+            } catch (\Throwable $e) {
+                // Mlčíme i v případě chyby odeslání - admin uvidí stejnou obecnou zprávu
+            }
+        }
+
+        $this->flashMessage('Pokud e-mail existuje v systému, byl na něj odeslán odkaz pro obnovu hesla.', 'success');
+        $this->redirect('Admin:login');
+    }
+
+    // RESET HESLA
+    public function renderResetPassword(string $token)
+    {
+        $this->setLayout('layoutLogin');
+
+        $admin = $this->database->table('admins')
+            ->where('reset_token', $token)
+            ->where('reset_expires > ?', new \DateTime())
+            ->fetch();
+
+        if (!$admin) {
+            $this->flashMessage('Odkaz pro obnovu hesla je neplatný nebo již vypršel.', 'error');
+            $this->redirect('Admin:login');
+        }
+
+        $this->template->token = $token;
+        $this->getComponent('resetPasswordForm')->setDefaults(['token' => $token]);
+    }
+
+    protected function createComponentResetPasswordForm(): Form
+    {
+        $form = new Form;
+        $form->addHidden('token');
+
+        $form->addPassword('password', 'Nové heslo:')
+            ->setRequired('Zadejte nové heslo')
+            ->addRule($form::MIN_LENGTH, 'Heslo musí mít alespoň %d znaků', 8);
+
+        $form->addPassword('passwordVerify', 'Potvrzení hesla:')
+            ->setRequired('Potvrďte nové heslo')
+            ->addRule($form::EQUAL, 'Hesla se neshodují', $form['password']);
+
+        $form->addSubmit('save', 'Nastavit nové heslo');
+        $form->onSuccess[] = [$this, 'resetPasswordSucceeded'];
+        return $form;
+    }
+
+    public function resetPasswordSucceeded(Form $form, \stdClass $values): void
+    {
+        $admin = $this->database->table('admins')
+            ->where('reset_token', $values->token)
+            ->where('reset_expires > ?', new \DateTime())
+            ->fetch();
+
+        if (!$admin) {
+            $this->flashMessage('Odkaz pro obnovu hesla je neplatný nebo již vypršel.', 'error');
+            $this->redirect('Admin:login');
+        }
+
+        $passwords = new Passwords();
+        $admin->update([
+            'password' => $passwords->hash($values->password),
+            'reset_token' => null,
+            'reset_expires' => null,
+        ]);
+
+        $this->flashMessage('Heslo bylo úspěšně změněno, nyní se můžete přihlásit.', 'success');
         $this->redirect('Admin:login');
     }
 

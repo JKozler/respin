@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-02-15 10:43-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Kategorie:"
+msgstr "Catégorie:"
+
+msgid "Autor: "
+msgstr "Auteur: "
+
+msgid "Autor"
+msgstr "Auteur"
+
+msgid "Komentář"
+msgstr "Commentaire"
+
+msgid "Komentáře"
+msgstr "Commentaires"
+
+msgid "Komentářů"
+msgstr "Commentaires"
+
+msgid "Webová stránka"
+msgstr "Site Web"
+
+msgid "Tagy:"
+msgstr "Balises:"
+
+msgid "Štítek: "
+msgstr "Marques: "
+
+msgid "Výsledek vyhledávání"
+msgstr "Résultat de la recherche"
+
+msgid "Zadanému řetězci neodpovídá žádný článek."
+msgstr "Aucun article n'a été trouvé."
+
+msgid "V této kategorii se nenachází žádný článek."
+msgstr "Aucun article n'a été trouvé dans la catégorie."
+
+msgid "Archív dne: %s"
+msgstr "Archiver par jour: %s"
+
+msgid "Archív měsíce: %s"
+msgstr "Archiver par mois: %s"
+
+msgid "Archív roku: %s"
+msgstr "Archiver par année: %s"
+
+msgid "O autorovi"
+msgstr "Sur l'auteur"
+
+msgid "Starší příspěvky"
+msgstr "Ancien articles"
+
+msgid "Novější příspěvky"
+msgstr "Nouveau articles"
+
+msgid "Podobné články"
+msgstr "Similaire articles"

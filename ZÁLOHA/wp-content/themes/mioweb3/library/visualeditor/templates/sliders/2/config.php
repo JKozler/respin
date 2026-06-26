@@ -1,0 +1,198 @@
+<?php
+$temp_layer = [
+	'0' => [
+		'type' => 'slide',
+		'class' => '',
+		'style' => [
+			'background_color' => [
+				'color1' => '',
+				'transparency1' => '100',
+				'rgba1' => '',
+				'color2' => '',
+				'transparency2' => '100',
+				'rgba2' => '',
+			],
+			'background_image' => [
+				'position' => 'center center',
+				'image' => MW_IMAGE_LIBRARY . 'bg/rocks.jpeg',
+				'imageid' => '',
+				'pattern' => '',
+				'tablet' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+					'pattern' => '',
+				],
+				'mobile' => [
+					'position' => '',
+					'image' => '',
+					'imageid' => '',
+					'pattern' => '',
+				],
+				'cover' => '1',
+				'color_filter' => '1',
+				'overlay_color' => [
+					'color' => '#000000',
+					'transparency' => '0.21',
+					'rgba' => 'rgba(0, 0, 0, 0.21)',
+				],
+				'repeat' => 'no-repeat',
+				'efect' => '',
+			],
+			'text' => 'auto',
+			'font' => [
+				'font-family' => '',
+				'weight' => '',
+				'font-size' => '',
+				'color' => '',
+			],
+			'link_color' => '',
+			'content_align' => 'center',
+			'row_padding' => 'custom',
+			'margin_top' => '',
+			'margin_bottom' => '',
+			'row_height' => 'full',
+		],
+		'content' => [
+			'0' => [
+				'type' => 'col-two',
+				'class' => '',
+				'content' => [],
+			],
+			'1' => [
+				'type' => 'col-two',
+				'class' => '',
+				'content' => [
+					'0' => [
+						'type' => 'title',
+						'style' => [
+							'font' => [
+								'font-size' => '50',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '1.1',
+								'color' => '',
+								'text-shadow' => 'none',
+							],
+							'style' => '1',
+							'border' => [
+								'size' => '1',
+								'color' => '#d5d5d5',
+							],
+							'background-color' => [
+								'color1' => '#efefef',
+								'color2' => '',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(239, 239, 239, 1)',
+							],
+							'decoration-color' => '#158ebf',
+							'align' => 'center',
+							'content' => '<p>' . __('Nadpis slidu', 'cms_ve') . '</p>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '20',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'1' => [
+						'type' => 'text',
+						'style' => [
+							'font' => [
+								'font-size' => '18',
+								'font-family' => '',
+								'weight' => '',
+								'line-height' => '',
+								'color' => '',
+							],
+							'li' => '',
+							'style' => '1',
+							'p-background-color' => [
+								'color1' => '#e8e8e8',
+								'color2' => '',
+								'color' => '#e8e8e8',
+								'rgba' => 'rgba(232, 232, 232, 1)',
+								'transparency1' => '1',
+								'rgba1' => 'rgba(232, 232, 232, 1)',
+							],
+							'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget arcu id lacus laoree. </p>',
+							'mw30' => '1',
+						],
+						'config' => [
+							'max_width' => '',
+							'margin_top' => '0',
+							'margin_bottom' => '40',
+							'delay' => '',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+						],
+					],
+					'2' => [
+						'type' => 'button',
+						'style' => [
+							'content' => __('Text tlačítka', 'cms_ve'),
+							'button_style' => [
+								'style' => 'basic',
+								'button_size' => 'medium',
+								'custom_size' => '18',
+							],
+							'show' => 'url',
+							'link' => [
+								'page' => '',
+								'link' => '',
+							],
+							'popup' => '',
+							'align' => 'left',
+							'text2' => __('Text tlačítka', 'cms_ve'),
+							'button_style2' => [
+								'style' => 'basic',
+								'button_size' => 'medium',
+								'custom_size' => '18',
+							],
+							'show2' => 'url',
+							'link2' => [
+								'page' => '',
+								'link' => '',
+							],
+							'popup2' => '',
+							'mw30' => '1',
+						],
+						'config' => [
+							'margin_top' => '0',
+							'tablet' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'mobile' => [
+								'margin_top' => '',
+								'margin_bottom' => '',
+								'max_width' => '',
+							],
+							'margin_bottom' => '',
+							'max_width' => '',
+							'element_align' => 'center',
+							'animate' => '',
+							'id' => '',
+							'class' => '',
+							'delay' => '',
+						],
+					],
+				],
+			],
+		],
+	],
+];
+
+
+$config['layer'] = base64_encode(serialize($temp_layer));
+$config['config'] = [
+	'hide_rows' => true,
+	'row_setting' => 'mw_slider',
+];
